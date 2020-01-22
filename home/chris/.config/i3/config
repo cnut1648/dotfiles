@@ -28,9 +28,14 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # config brightness by custom script
 exec --no-startup-id bri 0.2
+# exec --no-startup-id redshift
+
 
 # enable wallpaper
-exec --no-startup-id feh --bg-scale /usr/share/plasma/look-and-feel/org.manjaro.andromeda.desktop/contents/components/artwork/background.png
+# andromeda default
+# exec --no-startup-id feh --bg-scale /usr/share/plasma/look-and-feel/org.manjaro.andromeda.desktop/contents/components/artwork/background.png
+exec --no-startup-id feh --bg-scale /home/chris/Pictures/wallpaper/vFhqP3g.jpg 
+
 
 # enable transparency
 exec_always --no-startup-id picom
@@ -66,15 +71,15 @@ gaps inner 6
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 # use rofi
-bindsym $mod+d exec --no-startup-id "rofi -show drun -font \\"DejaVu 9\\" -run-shell-command '{terminal} -e \\" {cmd}; read -n 1 -s\\"'"
+bindsym $mod+d exec --no-startup-id "rofi -show drun -font \\"DejaVu 25\\" -run-shell-command '{terminal} -e \\" {cmd}; read -n 1 -s\\"'"
 
 
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+semicolon focus right
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -83,10 +88,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+semicolon move right
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+j move down
+bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
@@ -95,7 +100,7 @@ bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
 
 # split in horizontal orientation
-bindsym $mod+h split h
+bindsym $mod+g split h
 
 # split in vertical orientation
 bindsym $mod+v split v
@@ -173,10 +178,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym semicolon resize grow width 10 px or 10 ppt
+        bindsym l resize shrink width 10 px or 10 ppt
+        bindsym j resize grow height 10 px or 10 ppt
+        bindsym k resize shrink height 10 px or 10 ppt
+        bindsym h resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
@@ -191,6 +196,24 @@ mode "resize" {
 }
 
 bindsym $mod+r mode "resize"
+
+mode "one-quick"{
+	bindsym g exec xdg-open "http://www.google.com/search?q=$(xclip -out -selection primary)"
+	bindsym b exec xdg-open "http://www.baidu.com/s?wd=$(xclip -out -selection primary)"
+	bindsym z exec xdg-open "http://www.zhihu.com/search?q=$(xclip -out -selection primary)"
+	bindsym d exec xdg-open "http://www.douban.com/search?q=$(xclip -out -selection primary)"
+	bindsym l exec xdg-open "http://www.bilibili.com/search?keyword=$(xclip -out -selection primary)"
+
+	bindsym Return mode "default"
+	bindsym Escape mode "default"
+	bindsym $mod+r mode "one-quick"
+}
+
+bindsym $mod+c mode "one-quick"
+
+bindsym $mod+Shift+minus move scratchpad
+bindsym $mod+minus scratchpad show
+
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
