@@ -17,7 +17,7 @@ BASH = [
     '~/.profile', # not loaded when bash_profile present
     '~/.bash_profile',
     ]
-software = ['~/.config/i3/'
+software = ['~/.config/i3/config'
         '/etc/xdg/termite/config'
 
         ]
