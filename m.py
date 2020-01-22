@@ -19,7 +19,6 @@ BASH = [
     ]
 software = ['~/.config/i3/config'
         '/etc/xdg/termite/config'
-
         ]
 
 directory = [scripts, X, ZSH, BASH, software]
@@ -27,4 +26,4 @@ directory = [scripts, X, ZSH, BASH, software]
 
 for d in directory:
     for f in d:
-        os.system(f'cp -r --parent {f} .')
+        shutil.copytree(Path(f),'.')
