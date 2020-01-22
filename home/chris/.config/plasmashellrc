@@ -1,0 +1,118 @@
+[DownloadDialog Settings]
+Height 2160=851
+Width 3840=1220
+Window-Maximized 2160x3840=true
+
+[KPropertiesDialog]
+Height 2160=682
+Width 3840=760
+
+[PlasmaRunnerManager]
+LaunchCounts=2 services_redshift-gtk.desktop,2 services_nixnote2.desktop,1 services_bluedeviladapters.desktop,2 services_khotkeys.desktop,1 services_cantata.desktop,2 services_org.kde.elisa.desktop,1 services_fcitx.desktop,1 services_org.zealdocs.Zeal.desktop,2 services_fcitx-configtool.desktop,1 services_google-chrome.desktop,1 services_pycharm-professional.desktop,1 services_kcm_plasmasearch.desktop,2 services_org.kde.filelight.desktop,1 services_nvidia-settings.desktop,1 services_cache.desktop,1 services_org.kde.yakuake.desktop,1 services_com.github.lainsce.notejot.desktop,1 services_org.freedesktop.IBus.Setup.desktop,1 services_org.manjaro.pamac.manager.desktop,2 services_timeshift-gtk.desktop,1 services_autokey-gtk.desktop,2 services_thunderbird.desktop,1 services_about-distro.desktop
+pluginWhiteList=Dictionary,services,shell,org.kde.windowedwidgets,org.kde.datetime,baloosearch,locations,unitconverter
+
+[PlasmaViews][Panel 1]
+panelVisibility=0
+
+[PlasmaViews][Panel 1][Defaults]
+thickness=90
+
+[PlasmaViews][Panel 1][Horizontal1024]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1152]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1200]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1280]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1366]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1440]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1600]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1680]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1900]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1916]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal1920]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal2048]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal3840]
+thickness=90
+
+[PlasmaViews][Panel 1][Horizontal640]
+thickness=90
+
+[PlasmaViews][Panel 1][Horizontal800]
+thickness=45
+
+[PlasmaViews][Panel 1][Horizontal864]
+thickness=45
+
+[PlasmaViews][Panel 2][Defaults]
+thickness=76
+
+[PlasmaViews][Panel 2][Horizontal3840]
+thickness=76
+
+[PlasmaViews][Panel 46][Defaults]
+maxLength=3581
+minLength=3581
+thickness=57
+
+[PlasmaViews][Panel 46][Horizontal3840]
+maxLength=3581
+minLength=3581
+thickness=57
+
+[PlasmaViews][Panel 48][Defaults]
+thickness=76
+
+[PlasmaViews][Panel 48][Vertical2160]
+thickness=76
+
+[PlasmaViews][Panel 66][Defaults]
+thickness=76
+
+[PlasmaViews][Panel 66][Vertical2160]
+thickness=76
+
+[PlasmaViews][Panel 84][Defaults]
+thickness=76
+
+[PlasmaViews][Panel 84][Horizontal3840]
+thickness=76
+
+[PlasmaViews][Panel 85][Defaults]
+thickness=76
+
+[PlasmaViews][Panel 85][Horizontal3840]
+thickness=76
+
+[PlasmaViews][Panel 86][Defaults]
+thickness=76
+
+[PlasmaViews][Panel 86][Horizontal3840]
+thickness=76
+
+[ScreenConnectors]
+0=eDP1
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js

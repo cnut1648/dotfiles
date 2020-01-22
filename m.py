@@ -17,9 +17,13 @@ BASH = [
     '~/.profile', # not loaded when bash_profile present
     '~/.bash_profile',
     ]
-I3 = ['~/.config/i3/']
+software = ['~/.config/i3/'
+        '/etc/xdg/termite/config'
 
-directory = [scripts, X, ZSH, BASH, I3]
+        ]
+
+directory = [scripts, X, ZSH, BASH, software]
+
 
 for d in directory:
     for f in d:

@@ -20,3 +20,12 @@
 `~/.bash_profile`
 # I3 
 `~/.config/i3`
+
+
+
+# Plasma
+
+`~/.config/plasma-org.kde.plasma.desktop-appletsrc`
+
+`~/.config/plasmashellrc`
+
