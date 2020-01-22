@@ -9,7 +9,7 @@ Width 3840=760
 
 [PlasmaRunnerManager]
 LaunchCounts=2 services_redshift-gtk.desktop,2 services_nixnote2.desktop,1 services_bluedeviladapters.desktop,2 services_khotkeys.desktop,1 services_cantata.desktop,2 services_org.kde.elisa.desktop,1 services_fcitx.desktop,1 services_org.zealdocs.Zeal.desktop,2 services_fcitx-configtool.desktop,1 services_google-chrome.desktop,1 services_pycharm-professional.desktop,1 services_kcm_plasmasearch.desktop,2 services_org.kde.filelight.desktop,1 services_nvidia-settings.desktop,1 services_cache.desktop,1 services_org.kde.yakuake.desktop,1 services_com.github.lainsce.notejot.desktop,1 services_org.freedesktop.IBus.Setup.desktop,1 services_org.manjaro.pamac.manager.desktop,2 services_timeshift-gtk.desktop,1 services_autokey-gtk.desktop,2 services_thunderbird.desktop,1 services_about-distro.desktop
-pluginWhiteList=Dictionary,services,shell,org.kde.windowedwidgets,org.kde.datetime,baloosearch,locations,unitconverter
+pluginWhiteList=desktopsessions,services,places,PowerDevil,calculator,unitconverter,shell,bookmarks,recentdocuments,locations,baloosearch
 
 [PlasmaViews][Panel 1]
 panelVisibility=0

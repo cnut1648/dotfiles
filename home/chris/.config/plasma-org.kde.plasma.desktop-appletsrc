@@ -21,7 +21,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][1][Applets][124][Configuration]
-PreloadWeight=30
+PreloadWeight=0
 
 [Containments][1][Applets][124][Configuration][ConfigDialog]
 DialogHeight=1140
@@ -46,7 +46,7 @@ immutability=1
 plugin=org.kde.plasma.eventcalendar
 
 [Containments][1][Applets][131][Configuration]
-PreloadWeight=34
+PreloadWeight=12
 
 [Containments][1][Applets][131][Configuration][ConfigDialog]
 DialogHeight=1140
@@ -71,14 +71,14 @@ immutability=1
 plugin=com.github.zren.todolist
 
 [Containments][1][Applets][132][Configuration]
-PreloadWeight=53
+PreloadWeight=26
 
 [Containments][1][Applets][135]
 immutability=1
 plugin=com.github.configurable_button
 
 [Containments][1][Applets][135][Configuration]
-PreloadWeight=42
+PreloadWeight=10
 
 [Containments][1][Applets][135][Configuration][ConfigDialog]
 DialogHeight=1140
@@ -93,7 +93,7 @@ immutability=1
 plugin=com.github.zren.tiledmenu
 
 [Containments][1][Applets][138][Configuration]
-PreloadWeight=92
+PreloadWeight=80
 
 [Containments][1][Applets][138][Configuration][General]
 tileModel=W10=
@@ -103,7 +103,7 @@ immutability=1
 plugin=org.kde.plasma.umenu
 
 [Containments][1][Applets][139][Configuration]
-PreloadWeight=92
+PreloadWeight=60
 
 [Containments][1][Applets][139][Configuration][ConfigDialog]
 DialogHeight=1140
@@ -114,12 +114,19 @@ customButtonImage=ardour
 favoritesPortedToKAstats=true
 useCustomButtonImage=true
 
+[Containments][1][Applets][140]
+immutability=1
+plugin=org.kde.plasma.pager
+
+[Containments][1][Applets][140][Configuration]
+PreloadWeight=42
+
 [Containments][1][Applets][2]
 immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][1][Applets][2][Configuration]
-PreloadWeight=89
+PreloadWeight=77
 
 [Containments][1][Applets][2][Configuration][ConfigDialog]
 DialogHeight=1140
@@ -163,7 +170,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][1][Applets][7][Configuration]
-PreloadWeight=80
+PreloadWeight=63
 SystrayContainmentId=8
 
 [Containments][1][Applets][7][Configuration][Containments][8]
@@ -175,10 +182,25 @@ DialogHeight=149
 DialogWidth=3840
 
 [Containments][1][Configuration]
-PreloadWeight=0
+PreloadWeight=2
 
 [Containments][1][General]
-AppletOrder=2;4;6;126;124;7
+AppletOrder=139;138;2;140;4;6;126;124;135;7;130;131;132
+
+[Containments][2][Applets][3][Configuration]
+PreloadWeight=92
+
+[Containments][2][Applets][5][Configuration]
+PreloadWeight=34
+
+[Containments][2][Applets][6][Configuration]
+PreloadWeight=39
+
+[Containments][2][Applets][8][Configuration]
+PreloadWeight=34
+
+[Containments][2][Configuration]
+PreloadWeight=34
 
 [Containments][35]
 ItemGeometriesHorizontal=
@@ -203,6 +225,39 @@ ToolBoxButtonX=3778
 
 [Containments][35][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/Breath/contents/images/3840x2160.png
+
+[Containments][7][Applets][10][Configuration]
+PreloadWeight=34
+
+[Containments][7][Applets][11][Configuration]
+PreloadWeight=34
+
+[Containments][7][Applets][12][Configuration]
+PreloadWeight=34
+
+[Containments][7][Applets][13][Configuration]
+PreloadWeight=34
+
+[Containments][7][Applets][14][Configuration]
+PreloadWeight=34
+
+[Containments][7][Applets][15][Configuration]
+PreloadWeight=34
+
+[Containments][7][Applets][16][Configuration]
+PreloadWeight=34
+
+[Containments][7][Applets][17][Configuration]
+PreloadWeight=34
+
+[Containments][7][Applets][18][Configuration]
+PreloadWeight=34
+
+[Containments][7][Applets][19][Configuration]
+PreloadWeight=34
+
+[Containments][7][Configuration]
+PreloadWeight=34
 
 [Containments][8]
 activityId=

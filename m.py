@@ -17,8 +17,11 @@ BASH = [
     '~/.profile', # not loaded when bash_profile present
     '~/.bash_profile',
     ]
-software = ['~/.config/i3/config'
-        '/etc/xdg/termite/config'
+software = ['~/.config/i3/',
+        '/etc/xdg/termite/',
+         # Plasma desktop widgets
+         '~/.config/plasmashellrc',
+        '~/.config/plasma-org.kde.plasma.desktop-appletsrc'
         ]
 
 directory = [scripts, X, ZSH, BASH, software]
@@ -26,4 +29,4 @@ directory = [scripts, X, ZSH, BASH, software]
 
 for d in directory:
     for f in d:
-        shutil.copytree(Path(f),'.')
+        os.system(f'cp -r --parent {f} .')
