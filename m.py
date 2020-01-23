@@ -18,7 +18,7 @@ BASH = [
     '~/.bash_profile',
     ]
 software = ['~/.config/i3/',
-        '/etc/xdg/termite/',
+        '~/.config/termite/config',
          # Plasma desktop widgets
          '~/.config/plasmashellrc',
         '~/.config/plasma-org.kde.plasma.desktop-appletsrc'
