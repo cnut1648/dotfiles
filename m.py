@@ -1,8 +1,9 @@
 import os
-from pathlib import Path
-import shutil
+#from pathlib import Path
+#import shutil
 
-scripts = ['/usr/bin/bri']
+scripts = ['/usr/bin/bri',
+        '/usr/bin/color_show']
 X = [
     '~/.Xresources',
     '~/.xprofile',

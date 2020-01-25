@@ -85,6 +85,7 @@ plugins=(git zsh-syntax-highlighting zsh-autosuggestions
     
 
 )
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=180'
 
 source $ZSH/oh-my-zsh.sh
 
