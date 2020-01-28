@@ -21,7 +21,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][1][Applets][2][Configuration]
-PreloadWeight=94
+PreloadWeight=88
 
 [Containments][1][Applets][2][Configuration][General]
 favorites=firefox.desktop,qupzilla.desktop,org.kde.dolphin.desktop,org.kde.konversation.desktop,libreoffice-writer.desktop,cantata.desktop,kde4-digikam.desktop,org.kde.konsole.desktop,octopi.desktop,systemsettings.desktop
@@ -56,7 +56,7 @@ immutability=1
 plugin=com.github.configurable_button
 
 [Containments][1][Applets][46][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][1][Applets][46][Configuration][ConfigDialog]
 DialogHeight=1140
@@ -73,7 +73,7 @@ immutability=1
 plugin=org.kde.plasma.eventcalendar
 
 [Containments][1][Applets][47][Configuration]
-PreloadWeight=40
+PreloadWeight=5
 
 [Containments][1][Applets][47][Configuration][ConfigDialog]
 DialogHeight=1140
@@ -90,7 +90,7 @@ immutability=1
 plugin=com.github.zren.todolist
 
 [Containments][1][Applets][49][Configuration]
-PreloadWeight=40
+PreloadWeight=25
 
 [Containments][1][Applets][49][Configuration][ConfigDialog]
 DialogHeight=1140
@@ -104,7 +104,7 @@ immutability=1
 plugin=com.github.zren.tiledmenu
 
 [Containments][1][Applets][50][Configuration]
-PreloadWeight=84
+PreloadWeight=54
 
 [Containments][1][Applets][50][Configuration][ConfigDialog]
 DialogHeight=1140
@@ -119,7 +119,7 @@ immutability=1
 plugin=org.kde.plasma.umenu
 
 [Containments][1][Applets][51][Configuration]
-PreloadWeight=60
+PreloadWeight=20
 
 [Containments][1][Applets][51][Configuration][ConfigDialog]
 DialogHeight=1140
@@ -135,14 +135,14 @@ immutability=1
 plugin=org.kde.plasma.systemloadviewer
 
 [Containments][1][Applets][56][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][1][Applets][57]
 immutability=1
 plugin=org.kde.plasma.timer
 
 [Containments][1][Applets][57][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][1][Applets][57][Configuration][ConfigDialog]
 DialogHeight=1140
@@ -163,7 +163,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][1][Applets][7][Configuration]
-PreloadWeight=14
+PreloadWeight=0
 SystrayContainmentId=8
 
 [Containments][1][Applets][7][Configuration][Containments][8]
@@ -194,8 +194,8 @@ wallpaperplugin=org.kde.image
 PreloadWeight=0
 
 [Containments][35][General]
-ToolBoxButtonState=topright
-ToolBoxButtonX=3792
+ToolBoxButtonState=top
+ToolBoxButtonX=3698
 
 [Containments][35][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/Breath/contents/images/3840x2160.png
@@ -249,7 +249,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][8][Applets][41][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][8][Applets][42]
 immutability=1

@@ -9,6 +9,7 @@ X = [
     '~/.xprofile',
     '~/.xinitrc',
     '~/.Xclients',
+    '/etc/sddm.conf' # sddm window dpi support hidpi
     ]
 ZSH = [
     '~/.zshrc'
