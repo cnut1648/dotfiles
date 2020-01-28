@@ -16,130 +16,16 @@ location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][1][Applets][126]
-immutability=1
-plugin=org.kde.plasma.systemloadviewer
-
-[Containments][1][Applets][126][Configuration]
-PreloadWeight=0
-
-[Containments][1][Applets][126][Configuration][ConfigDialog]
-DialogHeight=1140
-DialogWidth=1520
-
-[Containments][1][Applets][126][Configuration][General]
-cacheActivated=true
-setColorsManually=true
-
-[Containments][1][Applets][130]
-immutability=1
-plugin=org.kde.netspeedWidget
-
-[Containments][1][Applets][130][Configuration]
-PreloadWeight=0
-
-[Containments][1][Applets][131]
-immutability=1
-plugin=org.kde.plasma.eventcalendar
-
-[Containments][1][Applets][131][Configuration]
-PreloadWeight=0
-
-[Containments][1][Applets][131][Configuration][ConfigDialog]
-DialogHeight=1140
-DialogWidth=1520
-
-[Containments][1][Applets][131][Configuration][General]
-clock_line_2=true
-clock_line_2_bold=true
-clock_line_2_height_ratio=0.44
-clock_timeformat=h:mm:ss AP
-clock_timeformat_2=yyyy-M-d:ddd
-
-[Containments][1][Applets][131][Configuration][Google Calendar]
-calendar_list=W10=
-events_pollinterval=60
-
-[Containments][1][Applets][131][Configuration][Weather]
-weather_city_id=5359777
-
-[Containments][1][Applets][132]
-immutability=1
-plugin=com.github.zren.todolist
-
-[Containments][1][Applets][132][Configuration]
-PreloadWeight=15
-
-[Containments][1][Applets][135]
-immutability=1
-plugin=com.github.configurable_button
-
-[Containments][1][Applets][135][Configuration]
-PreloadWeight=0
-
-[Containments][1][Applets][135][Configuration][ConfigDialog]
-DialogHeight=1140
-DialogWidth=1520
-
-[Containments][1][Applets][135][Configuration][General]
-iconOff=redshift-status-off
-iconOn=redshift-status-on
-offScript=pkill redshift
-onScript=exec redshift
-
-[Containments][1][Applets][138]
-immutability=1
-plugin=com.github.zren.tiledmenu
-
-[Containments][1][Applets][138][Configuration]
-PreloadWeight=54
-
-[Containments][1][Applets][138][Configuration][ConfigDialog]
-DialogHeight=1140
-DialogWidth=1520
-
-[Containments][1][Applets][138][Configuration][General]
-sidebarShortcuts=xdg:DOCUMENTS,xdg:PICTURES,systemsettings.desktop
-tileModel=W10=
-
-[Containments][1][Applets][139]
-immutability=1
-plugin=org.kde.plasma.umenu
-
-[Containments][1][Applets][139][Configuration]
-PreloadWeight=4
-
-[Containments][1][Applets][139][Configuration][ConfigDialog]
-DialogHeight=1140
-DialogWidth=1520
-
-[Containments][1][Applets][139][Configuration][General]
-customButtonImage=ardour
-favoritesPortedToKAstats=true
-useCustomButtonImage=true
-
-[Containments][1][Applets][140]
-immutability=1
-plugin=org.kde.plasma.pager
-
-[Containments][1][Applets][140][Configuration]
-PreloadWeight=0
-
 [Containments][1][Applets][2]
 immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][1][Applets][2][Configuration]
-PreloadWeight=91
-
-[Containments][1][Applets][2][Configuration][ConfigDialog]
-DialogHeight=1140
-DialogWidth=1520
+PreloadWeight=94
 
 [Containments][1][Applets][2][Configuration][General]
 favorites=firefox.desktop,qupzilla.desktop,org.kde.dolphin.desktop,org.kde.konversation.desktop,libreoffice-writer.desktop,cantata.desktop,kde4-digikam.desktop,org.kde.konsole.desktop,octopi.desktop,systemsettings.desktop
 favoritesPortedToKAstats=true
-menuItems=application:t,bookmark:t,computer:t,used:t,leave:t,oftenUsed:f
 systemApplications=systemsettings.desktop,org.kde.kinfocenter.desktop
 
 [Containments][1][Applets][2][Configuration][Shortcuts]
@@ -148,6 +34,13 @@ global=Alt+F1
 [Containments][1][Applets][2][Shortcuts]
 global=Alt+F1
 
+[Containments][1][Applets][3]
+immutability=1
+plugin=org.kde.plasma.pager
+
+[Containments][1][Applets][3][Configuration]
+PreloadWeight=0
+
 [Containments][1][Applets][4]
 immutability=1
 plugin=org.kde.plasma.icontasks
@@ -155,12 +48,108 @@ plugin=org.kde.plasma.icontasks
 [Containments][1][Applets][4][Configuration]
 PreloadWeight=0
 
-[Containments][1][Applets][4][Configuration][ConfigDialog]
+[Containments][1][Applets][4][Configuration][General]
+launchers=applications:org.kde.krusader.desktop,applications:firefox.desktop
+
+[Containments][1][Applets][46]
+immutability=1
+plugin=com.github.configurable_button
+
+[Containments][1][Applets][46][Configuration]
+PreloadWeight=10
+
+[Containments][1][Applets][46][Configuration][ConfigDialog]
 DialogHeight=1140
 DialogWidth=1520
 
-[Containments][1][Applets][4][Configuration][General]
-launchers=applications:org.kde.krusader.desktop,applications:firefox.desktop
+[Containments][1][Applets][46][Configuration][General]
+iconOff=redshift-status-off
+iconOn=redshift-status-on
+offScript=pkill redshift
+onScript=redshift
+
+[Containments][1][Applets][47]
+immutability=1
+plugin=org.kde.plasma.eventcalendar
+
+[Containments][1][Applets][47][Configuration]
+PreloadWeight=40
+
+[Containments][1][Applets][47][Configuration][ConfigDialog]
+DialogHeight=1140
+DialogWidth=1520
+
+[Containments][1][Applets][47][Configuration][Google Calendar]
+events_pollinterval=60
+
+[Containments][1][Applets][47][Configuration][Weather]
+weather_city_id=5359777
+
+[Containments][1][Applets][49]
+immutability=1
+plugin=com.github.zren.todolist
+
+[Containments][1][Applets][49][Configuration]
+PreloadWeight=40
+
+[Containments][1][Applets][49][Configuration][ConfigDialog]
+DialogHeight=1140
+DialogWidth=1520
+
+[Containments][1][Applets][49][Configuration][General]
+listTitleOutline=false
+
+[Containments][1][Applets][50]
+immutability=1
+plugin=com.github.zren.tiledmenu
+
+[Containments][1][Applets][50][Configuration]
+PreloadWeight=84
+
+[Containments][1][Applets][50][Configuration][ConfigDialog]
+DialogHeight=1140
+DialogWidth=1520
+
+[Containments][1][Applets][50][Configuration][General]
+icon=darktable
+tileModel=W10=
+
+[Containments][1][Applets][51]
+immutability=1
+plugin=org.kde.plasma.umenu
+
+[Containments][1][Applets][51][Configuration]
+PreloadWeight=60
+
+[Containments][1][Applets][51][Configuration][ConfigDialog]
+DialogHeight=1140
+DialogWidth=1520
+
+[Containments][1][Applets][51][Configuration][General]
+customButtonImage=ardour
+favoritesPortedToKAstats=true
+useCustomButtonImage=true
+
+[Containments][1][Applets][56]
+immutability=1
+plugin=org.kde.plasma.systemloadviewer
+
+[Containments][1][Applets][56][Configuration]
+PreloadWeight=10
+
+[Containments][1][Applets][57]
+immutability=1
+plugin=org.kde.plasma.timer
+
+[Containments][1][Applets][57][Configuration]
+PreloadWeight=10
+
+[Containments][1][Applets][57][Configuration][ConfigDialog]
+DialogHeight=1140
+DialogWidth=1520
+
+[Containments][1][Applets][57][Configuration][General]
+savedAt=2020,1,27,11,14,49
 
 [Containments][1][Applets][6]
 immutability=1
@@ -174,7 +163,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][1][Applets][7][Configuration]
-PreloadWeight=76
+PreloadWeight=14
 SystrayContainmentId=8
 
 [Containments][1][Applets][7][Configuration][Containments][8]
@@ -182,29 +171,14 @@ formfactor=2
 location=4
 
 [Containments][1][ConfigDialog]
-DialogHeight=149
+DialogHeight=147
 DialogWidth=3840
 
 [Containments][1][Configuration]
 PreloadWeight=0
 
 [Containments][1][General]
-AppletOrder=139;138;2;140;4;6;126;135;7;130;131;132
-
-[Containments][2][Applets][3][Configuration]
-PreloadWeight=92
-
-[Containments][2][Applets][5][Configuration]
-PreloadWeight=34
-
-[Containments][2][Applets][6][Configuration]
-PreloadWeight=39
-
-[Containments][2][Applets][8][Configuration]
-PreloadWeight=34
-
-[Containments][2][Configuration]
-PreloadWeight=34
+AppletOrder=51;50;2;3;4;6;56;46;7;47;49;57
 
 [Containments][35]
 ItemGeometriesHorizontal=
@@ -216,52 +190,15 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][35][ConfigDialog]
-DialogHeight=1140
-DialogWidth=1520
-
 [Containments][35][Configuration]
 PreloadWeight=0
 
 [Containments][35][General]
 ToolBoxButtonState=topright
-ToolBoxButtonX=3778
+ToolBoxButtonX=3792
 
 [Containments][35][Wallpaper][org.kde.image][General]
 Image=file:///usr/share/wallpapers/Breath/contents/images/3840x2160.png
-
-[Containments][7][Applets][10][Configuration]
-PreloadWeight=34
-
-[Containments][7][Applets][11][Configuration]
-PreloadWeight=34
-
-[Containments][7][Applets][12][Configuration]
-PreloadWeight=34
-
-[Containments][7][Applets][13][Configuration]
-PreloadWeight=34
-
-[Containments][7][Applets][14][Configuration]
-PreloadWeight=34
-
-[Containments][7][Applets][15][Configuration]
-PreloadWeight=34
-
-[Containments][7][Applets][16][Configuration]
-PreloadWeight=34
-
-[Containments][7][Applets][17][Configuration]
-PreloadWeight=34
-
-[Containments][7][Applets][18][Configuration]
-PreloadWeight=34
-
-[Containments][7][Applets][19][Configuration]
-PreloadWeight=34
-
-[Containments][7][Configuration]
-PreloadWeight=34
 
 [Containments][8]
 activityId=
@@ -271,9 +208,6 @@ lastScreen=0
 location=4
 plugin=org.kde.plasma.private.systemtray
 wallpaperplugin=org.kde.image
-
-[Containments][8][Applets][115][Configuration]
-PreloadWeight=42
 
 [Containments][8][Applets][36]
 immutability=1
@@ -315,10 +249,14 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][8][Applets][41][Configuration]
-PreloadWeight=0
+PreloadWeight=2
+
+[Containments][8][Applets][42]
+immutability=1
+plugin=org.kde.plasma.printmanager
 
 [Containments][8][Applets][42][Configuration]
-PreloadWeight=42
+PreloadWeight=0
 
 [Containments][8][Applets][43]
 immutability=1
@@ -356,9 +294,8 @@ DialogWidth=1520
 PreloadWeight=0
 
 [Containments][8][General]
-extraItems=org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller,org.kde.plasma.clipboard,org.kde.plasma.volume,org.kde.plasma.bluetooth
+extraItems=org.kde.plasma.devicenotifier,org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller,org.kde.plasma.printmanager,org.kde.plasma.clipboard,org.kde.plasma.volume,org.kde.plasma.bluetooth
 knownItems=org.kde.plasma.devicenotifier,org.kde.kdeconnect,org.kde.plasma.battery,org.kde.plasma.notifications,org.kde.plasma.keyboardindicator,org.kde.plasma.networkmanagement,org.kde.plasma.mediacontroller,org.kde.plasma.printmanager,org.kde.plasma.clipboard,org.kde.plasma.volume,org.kde.plasma.bluetooth
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=

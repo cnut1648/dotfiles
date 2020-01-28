@@ -1,5 +1,4 @@
 ## Termite Styling Program
-## Author : Aditya Shakya
 
 [options]
 
@@ -52,7 +51,8 @@ color11=#ebcb8b
 
 # blue
 color4=#81a1c1
-color12=#81a1c1 # dir
+color12=#81a1c1
+# dir
 
 # magenta
 color5=#b48ead

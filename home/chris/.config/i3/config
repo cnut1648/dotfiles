@@ -56,7 +56,7 @@ floating_modifier $mod
 
 # start a terminal
 # use termite instead of urxvtd
-bindsym $mod+Return exec "termite -d `xcwd`"
+bindsym $mod+Return exec "termite"
 
 # kill focused window
 bindsym $mod+Shift+q kill
