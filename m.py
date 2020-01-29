@@ -23,7 +23,13 @@ software = ['~/.config/i3/',
         '~/.config/termite/config',
          # Plasma desktop widgets
          '~/.config/plasmashellrc',
-        '~/.config/plasma-org.kde.plasma.desktop-appletsrc'
+        '~/.PyCharm2019.3/config',
+        '~/.IntelliJIdea2019.3/config',
+        '~/.WebStorm2019.3/config',
+        '~/.CLion2019.3/config',
+        '~/.DataGrip2019.3/config',
+        '~/.config/ranger/rc.conf',
+        '~/.config/rofi'
         ]
 
 directory = [scripts, X, ZSH, BASH, software]

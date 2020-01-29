@@ -1,0 +1,15 @@
+<application>
+  <component name="PropertiesComponent">
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="WebStorm.disableSafeWrite" value="true" />
+    <property name="WebStorm.initialConfigurationShown" value="true" />
+    <property name="ask.about.ctrl.y.shortcut" value="true" />
+    <property name="evlsprt3.193" value="17" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/data/untitled/js" />
+    <property name="file.gist.reindex.count" value="26" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="ideavim.statistics.timestamp" value="1580184446611" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="3.7.2" />
+  </component>
+</application>

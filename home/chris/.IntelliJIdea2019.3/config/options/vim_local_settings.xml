@@ -1,0 +1,32 @@
+<application>
+  <component name="VimLocalSettings">
+    <state version="5" />
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/data/untitled/java/myapp/src/printCalender.java" timestamp="1580258753478">
+        <mark key="[" line="16" column="0" />
+        <mark key="]" line="16" column="0" />
+        <mark key="." line="16" column="46" />
+      </file>
+    </filemarks>
+    <jumps />
+    <registers>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgaWYgKGRhdGUuZ2V0RGF5T2ZNb250aCgpID09IHRvZGF5KQogICAgICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludCgiKiIpOwo=</text>
+      </register>
+      <register name="&quot;" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgaWYgKGRhdGUuZ2V0RGF5T2ZNb250aCgpID09IHRvZGF5KQogICAgICAgICAgICAgICAgU3lzdGVtLm91dC5wcmludCgiKiIpOwo=</text>
+      </register>
+    </registers>
+    <search>
+      <last-dir>0</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search />
+      <history-cmd />
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
+</application>

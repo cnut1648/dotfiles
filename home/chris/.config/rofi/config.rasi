@@ -1,0 +1,8 @@
+configuration {
+    lines: 12;
+    font: "Source Sans Pro 25";
+    show-icons: true;
+    theme: "oxide";
+    display-window: "Window";
+    display-drun: "Drun";
+}

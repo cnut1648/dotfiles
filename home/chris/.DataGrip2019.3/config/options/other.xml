@@ -1,0 +1,19 @@
+<application>
+  <component name="NotRoamableUiSettings">
+    <option name="fontScale" value="2.0" />
+    <option name="fontSize" value="14" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DBE.Default.Dialect" value="MariaDB" />
+    <property name="DBE.Init.Cfg.1" value="true" />
+    <property name="DBE.Init.DialogShown.Ide" value="true" />
+    <property name="Darcula.SavedEditorTheme" value="_@user_Darcula" />
+    <property name="Default.SavedEditorTheme" value="_@user_Default" />
+    <property name="ask.about.ctrl.y.shortcut" value="true" />
+    <property name="evlsprt3.193" value="16" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/Downloads/DDL-MySQL.sql" />
+    <property name="file.gist.reindex.count" value="1" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="lastTip" value="3" />
+  </component>
+</application>
