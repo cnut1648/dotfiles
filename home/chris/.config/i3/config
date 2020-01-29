@@ -67,7 +67,7 @@ gaps inner 6
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 # use rofi
-bindsym $mod+d exec --no-startup-id "rofi -show drun -font \\"DejaVu 25\\" -run-shell-command '{terminal} -e \\" {cmd}; read -n 1 -s\\"'"
+bindsym $mod+d exec --no-startup-id "rofi -show drun -run-shell-command '{terminal} -e \\" {cmd}; read -n 1 -s\\"'"
 
 
 

@@ -21,7 +21,7 @@ scrollback_lines = 15000
 size_hints = false
 search_wrap = true
 urgent_on_bell = true
-highlight = #30343e
+highlight=#30343e
 
 [colors]
 
