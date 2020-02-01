@@ -1,0 +1,1 @@
+keyboard.send_keys("import numpy as np")

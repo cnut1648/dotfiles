@@ -21,15 +21,17 @@ BASH = [
     ]
 software = ['~/.config/i3/',
         '~/.config/termite/config',
+        '~/.config/ranger/rc.conf',
+        '~/.config/rofi',
+        '~/.config/autokey/data/My',
          # Plasma desktop widgets
          '~/.config/plasmashellrc',
+         # jetbrains
         '~/.PyCharm2019.3/config',
         '~/.IntelliJIdea2019.3/config',
         '~/.WebStorm2019.3/config',
         '~/.CLion2019.3/config',
         '~/.DataGrip2019.3/config',
-        '~/.config/ranger/rc.conf',
-        '~/.config/rofi'
         ]
 
 directory = [scripts, X, ZSH, BASH, software]
