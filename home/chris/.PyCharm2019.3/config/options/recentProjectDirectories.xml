@@ -4,7 +4,7 @@
       <map>
         <entry key="$USER_HOME$/data/untitled/python">
           <value>
-            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1TgmrbkzwDYEDbND2EDHyY4xypw">
+            <RecentProjectMetaInfo projectWorkspaceId="1TgmrbkzwDYEDbND2EDHyY4xypw">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="PY-193.6015.41" />
               <option name="buildTimestamp" value="1579593068064" />
@@ -14,10 +14,23 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="/tmp/playlist-to-m3u8.py">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1XEIeXDu3SJd3SeOo7pXaoSXq1x">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-193.6015.41" />
+              <option name="buildTimestamp" value="1579593080979" />
+              <frame x="963" y="348" width="951" height="339" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1580604923137" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="recentPaths">
       <list>
+        <option value="/tmp/playlist-to-m3u8.py" />
         <option value="$USER_HOME$/data/untitled/python" />
       </list>
     </option>
