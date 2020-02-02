@@ -24,6 +24,7 @@ software = ['~/.config/i3/',
         '~/.config/ranger/rc.conf',
         '~/.config/rofi',
         '~/.config/autokey/data/My',
+        '~/.config/cmus/',
          # Plasma desktop widgets
          '~/.config/plasmashellrc',
          # jetbrains

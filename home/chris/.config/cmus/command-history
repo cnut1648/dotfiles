@@ -1,0 +1,10 @@
+q
+bind -f common D nop
+bind d nop
+bind D nops
+bind d nops
+bind d ops
+colorscheme gruvbox
+colorscheme dracula
+add .
+add
