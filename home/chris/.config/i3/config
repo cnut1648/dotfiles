@@ -29,6 +29,12 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 ###### autostart
 exec --no-startup-id bri 0.4
 
+# autoset-up workspace
+exec --no-startup-id i3-msg 'workspace 1; exec /usr/bin/firefox'
+exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/krusader'
+
+
+
 # enable wallpaper
 exec --no-startup-id feh --bg-scale /home/chris/Pictures/wallpaper/vFhqP3g.jpg 
 
@@ -38,6 +44,9 @@ exec_always --no-startup-id picom
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
 exec --no-startup-id nm-applet
+
+# implement spiral tiling of bspwm
+exec --no-startup-id autotiling
 
 # TO-DO
 # Use pactl to adjust volume in PulseAudio.
@@ -119,7 +128,7 @@ bindsym $mod+space focus mode_toggle
 bindsym $mod+a focus parent
 
 # focus the child container
-#bindsym $mod+d focus child
+bindsym $mod+z focus child
 
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
@@ -163,8 +172,9 @@ bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
-# bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
-bindsym $mod+Shift+e exec --no-startup-id qdbus org.kde.ksmserver /KSMServer org.kde.KSMServerInterface.logout -1 -1 -1
+bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+# bindsym $mod+Shift+e exec --no-startup-id qdbus org.kde.ksmserver /KSMServer org.kde.KSMServerInterface.logout -1 -1 -1
+# bindsym $mod+Shift+e exec --no-startup-id qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock
 
 # resize window (you can also use the mouse for that)
 mode "resize" {

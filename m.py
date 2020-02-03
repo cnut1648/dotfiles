@@ -20,6 +20,7 @@ BASH = [
     '~/.bash_profile',
     ]
 software = ['~/.config/i3/',
+        '~/.config/i3status/',
         '~/.config/termite/config',
         '~/.config/ranger/rc.conf',
         '~/.config/rofi',
