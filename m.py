@@ -35,6 +35,8 @@ software = ['~/.config/i3/',
         '~/.WebStorm2019.3/config',
         '~/.CLion2019.3/config',
         '~/.DataGrip2019.3/config',
+        # feh & neofetch
+        '~/Pictures/'
         ]
 
 directory = [scripts, X, ZSH, BASH, software]
