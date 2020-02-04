@@ -96,10 +96,12 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-syntax-highlighting zsh-autosuggestions
-    z web-search extract fasd
-)
+plugins=(git fast-syntax-highlighting zsh-autosuggestions
+	z web-search extract fasd k zsh-completions rand-quote)
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=180'
+
+# for fasd
+eval "$(fasd --init auto)"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -131,3 +133,5 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+# say a quote when starting up
+echo $(quote)
