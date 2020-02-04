@@ -1,5 +1,5 @@
 configuration {
-/*	modi: "window,run,ssh";*/
+	modi: "window,drun";
 /*	width: 50;*/
 	lines: 12;
 /*	columns: 1;*/
@@ -16,7 +16,7 @@ configuration {
 /*	ssh-command: "{terminal} -e {ssh-client} {host} [-p {port}]";*/
 /*	run-command: "{cmd}";*/
 /*	run-list-command: "";*/
-/*	run-shell-command: "{terminal} -e {cmd}";*/
+	run-shell-command: "{terminal} -e '{cmd}; read -n 1 -s'";
 /*	window-command: "wmctrl -i -R {window}";*/
 /*	window-match-fields: "all";*/
 /*	icon-theme: ;*/

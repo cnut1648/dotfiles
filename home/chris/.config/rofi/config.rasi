@@ -7,4 +7,8 @@ configuration {
     display-drun: "Drun";
     kb-row-tab: "Control+Tab";
     kb-mode-next: "Tab";
+    run-shell-command: "{terminal} -e '{cmd}; read -n 1 -s'";
+/*  modi: "window,run,ssh";  */
+/*  there are no space between modes */
+    modi: "window,drun"; 
 }

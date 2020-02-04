@@ -26,6 +26,7 @@ software = ['~/.config/i3/',
         '~/.config/rofi',
         '~/.config/autokey/data/My',
         '~/.config/cmus/',
+        '~/.config/neofetch',
          # Plasma desktop widgets
          '~/.config/plasmashellrc',
          # jetbrains

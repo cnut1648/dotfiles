@@ -30,10 +30,8 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id bri 0.4
 
 # autoset-up workspace
-exec --no-startup-id i3-msg 'workspace 1; exec /usr/bin/firefox'
-exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/krusader'
-
-
+# exec --no-startup-id i3-msg 'workspace 1; exec /usr/bin/firefox'
+# exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/krusader'
 
 # enable wallpaper
 exec --no-startup-id feh --bg-scale /home/chris/Pictures/wallpaper/vFhqP3g.jpg 
@@ -76,9 +74,8 @@ gaps inner 6
 # installed.
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 # use rofi
-bindsym $mod+d exec --no-startup-id "rofi -show drun -run-shell-command '{terminal} -e \\" {cmd}; read -n 1 -s\\"'"
-
-
+# -show drun option necesary to replace dmenu
+bindsym $mod+d exec --no-startup-id "rofi -show drun"
 
 # change focus
 bindsym $mod+h focus left
@@ -214,7 +211,7 @@ mode "one-quick"{
 	bindsym $mod+Return mode "default"
 	bindsym Escape mode "default"
 	bindsym $mod+"Escape" mode "default"
-	bindsym $mod+r mode "one-quick"
+	bindsym $mod+c mode "one-quick"
 }
 
 bindsym $mod+c mode "one-quick"
@@ -233,6 +230,24 @@ bar {
 		background #242424
 	}
 }
+
+# Defining colors
+set $bg      #282A36
+set $lg      #44475a
+set $fg      #f8f8f2
+set $cyan    #8be9fd
+set $green   #50fa7b
+set $magenta #ff79c6
+set $comment #6272a4
+set $purple  #bd93f9
+
+# Set some nice colors      border	 background text     indicator
+client.focused              $comment $comment   $fg      $comment
+client.unfocused            $bg      $bg        $cyan    $cyan
+client.focused_inactive     $bg      $bg        $green   $green
+client.urgent               $bg      $bg        $magenta $magenta
+client.placeholder          $bg      $bg        $cyan    $cyan
+
 
 # Plasma compatibility improvements
 for_window [window_role="pop-up"] floating enable
