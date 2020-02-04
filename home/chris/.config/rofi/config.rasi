@@ -10,5 +10,5 @@ configuration {
     run-shell-command: "{terminal} -e '{cmd}; read -n 1 -s'";
 /*  modi: "window,run,ssh";  */
 /*  there are no space between modes */
-    modi: "window,drun"; 
+    modi: "drun,swap:~/.config/rofi/swap.sh,window"; 
 }
