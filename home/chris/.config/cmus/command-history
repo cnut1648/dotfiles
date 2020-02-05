@@ -1,5 +1,7 @@
-wq
 q
+live-filter q
+wq
+live-filter :q
 bind -f common D nop
 bind d nop
 bind D nops

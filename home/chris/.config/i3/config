@@ -65,7 +65,7 @@ bindsym $mod+Return exec "termite"
 bindsym $mod+Shift+q kill
 
 # i3-gaps
-gaps inner 6
+gaps inner 10
 
 # start dmenu (a program launcher)
 # bindsym $mod+d exec dmenu_run
@@ -270,3 +270,5 @@ for_window [class="(?i)*nextcloud*"] floating disable
 for_window [class="plasmashell" window_type="notification"] floating enable, border none, move right 700px, move down 450px, no_focus
 
 for_window [title="Desktop — Plasma"] kill; floating enable; border none
+# for_window [class=".*"] border pixel 0
+for_window [title="Options" class="Double Commander" instance="doublecmd"] floating enable

@@ -42,7 +42,6 @@ software = ['~/.config/i3/',
 
 directory = [scripts, X, ZSH, BASH, software]
 
-
 for d in directory:
     for f in d:
         os.system(f'cp -r --parent {f} .')

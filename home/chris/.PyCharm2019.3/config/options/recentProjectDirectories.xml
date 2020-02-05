@@ -16,7 +16,7 @@
         </entry>
         <entry key="/tmp/playlist-to-m3u8.py">
           <value>
-            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1XEIeXDu3SJd3SeOo7pXaoSXq1x">
+            <RecentProjectMetaInfo projectWorkspaceId="1XEIeXDu3SJd3SeOo7pXaoSXq1x">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="PY-193.6015.41" />
               <option name="buildTimestamp" value="1579593080979" />
@@ -26,10 +26,22 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="/tmp/jupyter_notebook_config.py">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1XNLiKhjQU7QD4WfEaFkrS7pDjP">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-193.6015.41" />
+              <option name="buildTimestamp" value="1579593109925" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1580881732069" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="recentPaths">
       <list>
+        <option value="/tmp/jupyter_notebook_config.py" />
         <option value="/tmp/playlist-to-m3u8.py" />
         <option value="$USER_HOME$/data/untitled/python" />
       </list>

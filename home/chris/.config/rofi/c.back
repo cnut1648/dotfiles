@@ -9,9 +9,8 @@ configuration {
     display-drun: "Drun";
     kb-row-tab: "Control+Tab";
     kb-mode-next: "Tab";
-    run-shell-command: "{terminal} -e '{cmd}'";
+    run-shell-command: "{terminal} -e '{cmd}; read -n 1 -s'";
 /*  modi: "window,run,ssh";  */
 /*  there are no space between modes */
-/*  drun modes use Shift+Enter run shell cmd */
-    modi: "drun,window,swap:~/.config/rofi/swap.sh";
+    modi: "drun,swap:~/.config/rofi/swap.sh,window,run";
 }
