@@ -27,7 +27,7 @@ software = ['~/.config/i3/',
         '~/.config/autokey/data/My',
         '~/.config/cmus/',
         '~/.config/neofetch',
-        '~/.config/nvim/',
+        '~/.config/nvim/init.vim',
          # Plasma desktop widgets
          '~/.config/plasmashellrc',
          # jetbrains
