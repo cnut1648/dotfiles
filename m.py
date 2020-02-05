@@ -21,8 +21,8 @@ BASH = [
     ]
 software = ['~/.config/i3/',
         '~/.config/i3status/',
-        '~/.config/termite/config',
-        '~/.config/ranger/rc.conf',
+        '~/.config/termite/',
+        '~/.config/ranger/',
         '~/.config/rofi',
         '~/.config/autokey/data/My',
         '~/.config/cmus/',
