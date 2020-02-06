@@ -58,8 +58,8 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-# use termite instead of urxvtd
-bindsym $mod+Return exec "termite"
+# use kitty instead of urxvtd
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -231,8 +231,8 @@ mode "one-quick"{
 
 bindsym $mod+c mode "one-quick"
 
-bindsym $mod+Shift+minus move scratchpad
-bindsym $mod+minus scratchpad show
+bindsym $mod+Shift+x move scratchpad
+bindsym $mod+x scratchpad show
 
 
 # Start i3bar to display a workspace bar (plus the system information i3status
@@ -283,4 +283,5 @@ for_window [class="plasmashell" window_type="notification"] floating enable, bor
 
 for_window [title="Desktop — Plasma"] kill; floating enable; border none
 # for_window [class=".*"] border pixel 0
+for_window [class="flameshot" instance="flameshot"] floating enable
 for_window [title="Options" class="Double Commander" instance="doublecmd"] floating enable

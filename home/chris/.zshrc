@@ -29,6 +29,7 @@ export LESS_TERMCAP_se=$'\E[0m'        # reset reverse video
 export LESS_TERMCAP_us=$'\E[1;32m'     # begin underline
 export LESS_TERMCAP_ue=$'\E[0m'        # reset underline
 
+bindkey -r "^J"
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/chris/.oh-my-zsh"
@@ -99,7 +100,9 @@ ENABLE_CORRECTION="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git fast-syntax-highlighting zsh-autosuggestions
-	z web-search extract fasd k zsh-completions rand-quote)
+	z extract fasd k zsh-completions rand-quote
+	you-should-use fzf-fasd fz
+)
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=180'
 
 # for fasd
@@ -137,3 +140,4 @@ source $ZSH/oh-my-zsh.sh
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 # say a quote when starting up
 echo $(quote)
+

@@ -1,4 +1,7 @@
 <application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/bin/node" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ExpandBeforeRunStepsPanel" value="true" />
     <property name="ExpandRunDashboardTypesPanel" value="false" />
@@ -15,7 +18,7 @@
     <property name="file.gist.reindex.count" value="10404" />
     <property name="fileTypeChangedCounter" value="1" />
     <property name="ide.memory.adjusted" value="true" />
-    <property name="lastTip" value="5" />
+    <property name="lastTip" value="6" />
     <property name="tasks.pass.word.conversion.enforced" value="true" />
     <property name="ts.lib.d.ts.version" value="3.7.2" />
   </component>

@@ -3,7 +3,7 @@ configuration {
     font: "Source Sans Pro 25";
     show-icons: true;
     theme: "oxide";
-    terminal: "termite";
+    terminal: "kitty";
     sidebar-mode: true;
     display-window: "Window";
     display-drun: "Drun";
