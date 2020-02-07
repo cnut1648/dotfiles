@@ -4,7 +4,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mycpp/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-816">
+            <state>
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -14,11 +14,10 @@
       </file>
     </leaf>
   </component>
-  <component name="ProjectFrameBounds" x="6" y="6" width="1908" height="1023" />
+  <component name="ProjectFrameBounds" x="10" y="10" width="1900" height="502" />
   <component name="ProjectView">
     <navigator proportions="" version="1" />
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -35,15 +34,17 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="201000" />
+    <option name="totallyTimeSpent" value="345000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="6" width="1908" height="1023" extended-state="0" />
+    <frame x="10" y="10" width="1900" height="502" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25431034" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12608226" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -53,7 +54,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="CMake" order="7" />
+      <window_info anchor="bottom" id="CMake" order="7" visible="true" weight="0.32816538" />
       <window_info anchor="bottom" id="Services" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Version Control" order="10" />
@@ -72,7 +73,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mycpp/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-816">
+        <state>
           <folding>
             <element signature="e#0#19#0" expanded="true" />
           </folding>

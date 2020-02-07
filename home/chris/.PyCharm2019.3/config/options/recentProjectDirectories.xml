@@ -2,18 +2,6 @@
   <component name="RecentDirectoryProjectsManager">
     <option name="additionalInfo">
       <map>
-        <entry key="$USER_HOME$/data/untitled/python">
-          <value>
-            <RecentProjectMetaInfo projectWorkspaceId="1TgmrbkzwDYEDbND2EDHyY4xypw">
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="PY-193.6015.41" />
-              <option name="buildTimestamp" value="1579593068064" />
-              <frame x="6" y="6" width="1908" height="1023" />
-              <option name="productionCode" value="PY" />
-              <option name="projectOpenTimestamp" value="1580184266133" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
         <entry key="/tmp/playlist-to-m3u8.py">
           <value>
             <RecentProjectMetaInfo projectWorkspaceId="1XEIeXDu3SJd3SeOo7pXaoSXq1x">
@@ -39,7 +27,7 @@
         </entry>
         <entry key="/tmp/m.py">
           <value>
-            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1XRgdPIuHzJLuQfcgGTHJNCE0RR">
+            <RecentProjectMetaInfo projectWorkspaceId="1XRgdPIuHzJLuQfcgGTHJNCE0RR">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="PY-193.6015.41" />
               <option name="buildTimestamp" value="1579593065968" />
@@ -48,14 +36,26 @@
             </RecentProjectMetaInfo>
           </value>
         </entry>
+        <entry key="$USER_HOME$/data/untitled/python">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1TgmrbkzwDYEDbND2EDHyY4xypw">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="PY-193.6015.41" />
+              <option name="buildTimestamp" value="1579593079274" />
+              <frame x="10" y="10" width="1900" height="502" />
+              <option name="productionCode" value="PY" />
+              <option name="projectOpenTimestamp" value="1581036566831" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="recentPaths">
       <list>
+        <option value="$USER_HOME$/data/untitled/python" />
         <option value="/tmp/m.py" />
         <option value="/tmp/jupyter_notebook_config.py" />
         <option value="/tmp/playlist-to-m3u8.py" />
-        <option value="$USER_HOME$/data/untitled/python" />
       </list>
     </option>
   </component>

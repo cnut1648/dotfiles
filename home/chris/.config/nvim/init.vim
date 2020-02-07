@@ -2,16 +2,23 @@ set nu
 set relativenumber
 set incsearch
 set ignorecase
+
 " Toggle Relative Number
+
 nnoremap <silent> <leader>nb :set relativenumber!<CR>
 
-inoremap jk <esc>
 
-inoremap <esc> <nop>
 nnoremap <Left>  :echoe "Use h"<CR>
 nnoremap <Right> :echoe "Use l"<CR>
 nnoremap <Up>    :echoe "Use k"<CR>
 nnoremap <Down>  :echoe "Use j"<CR>
+
+nnoremap Y y$
+
+
+
+inoremap <esc> <nop>
+inoremap jk <esc>
 inoremap <C-h> <Left>
 inoremap <C-j> <Down>
 inoremap <C-l> <Right>
@@ -36,5 +43,15 @@ Plug 'vim-airline/vim-airline'
 Plug 'altercation/vim-colors-solarized'
 Plug 'scrooloose/syntastic'
 Plug 'tpope/vim-surround'
+
+Plug 'autozimu/LanguageClient-neovim', {
+    \ 'branch': 'next',
+    \ 'do': 'bash install.sh',
+    \ }
+Plug 'junegunn/fzf'
+
+Plug 'deoplete-plugins/deoplete-jedi'
+let g:python3_host_prog = '/home/chris/miniconda3/bin/python'
+
 
 call plug#end()

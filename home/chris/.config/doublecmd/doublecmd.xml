@@ -428,7 +428,7 @@
     <ActionOnDoubleClick>2</ActionOnDoubleClick>
     <OpenedTabs>
       <Left>
-        <ActiveTab>2</ActiveTab>
+        <ActiveTab>7</ActiveTab>
         <Tab>
           <FileView Type="columns">
             <History>
@@ -476,7 +476,7 @@
                   <Path Filename="..">/home/chris/data/Cent/Academic/</Path>
                   <Path Filename="books">/home/chris/data/Cent/</Path>
                   <Path Filename="cs">/home/chris/data/Cent/books/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/cs/</Path>
+                  <Path Filename="ml">/home/chris/data/Cent/books/cs/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -540,6 +540,48 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
+                  <Path Filename="scripts">/usr/lib/doublecmd/</Path>
+                  <Path Filename="..">/usr/lib/doublecmd/scripts/</Path>
+                  <Path Filename="Cent">/home/chris/data/</Path>
+                  <Path Filename="">/home/chris/data/Cent/</Path>
+                  <Path Filename="math">/home/chris/data/Cent/books/</Path>
+                  <Path Filename="">/home/chris/data/Cent/books/math/</Path>
+                  <Path Filename="Folkmar Bornemann (auth.) -  Numerical Linear Algebra_ A Concise Introduction with MATLAB and Julia-Springer International Publishing (2018).pdf">/home/chris/data/Cent/books/math/3a/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="scripts">/usr/lib/doublecmd/</Path>
+                  <Path Filename="..">/usr/lib/doublecmd/scripts/</Path>
+                  <Path Filename="Cent">/home/chris/data/</Path>
+                  <Path Filename="">/home/chris/data/Cent/</Path>
+                  <Path Filename="math">/home/chris/data/Cent/books/</Path>
+                  <Path Filename="history">/home/chris/data/Cent/books/math/</Path>
+                  <Path Filename="The Mathematics of Various Entertaining Subjects - Volume 3_ The Magic of Mathematics-PRINCETON UNIVERSITY PRESS (2019).pdf">/home/chris/data/Cent/books/math/history/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
                   <Path Filename="language">/usr/lib/doublecmd/</Path>
                   <Path Filename="..">/usr/lib/doublecmd/language/</Path>
                   <Path Filename="plugins">/usr/lib/doublecmd/</Path>
@@ -561,7 +603,7 @@
                   <Path Filename="books">/home/chris/data/Cent/</Path>
                   <Path Filename="cs">/home/chris/data/Cent/books/</Path>
                   <Path Filename="">/home/chris/data/Cent/books/cs/</Path>
-                  <Path Filename="Natarajan R. - Vim 101 Hacks, Practical Examples for Becoming Fast and Productive in Vim Editor.pdf">/home/chris/data/Cent/books/cs/cs/</Path>
+                  <Path Filename="Alan Beaulieu - Learning SQL-O'Reilly (2009).pdf">/home/chris/data/Cent/books/cs/sql/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -576,13 +618,28 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="scripts">/usr/lib/doublecmd/</Path>
-                  <Path Filename="..">/usr/lib/doublecmd/scripts/</Path>
+                  <Path Filename="language">/usr/lib/doublecmd/</Path>
+                  <Path Filename="..">/usr/lib/doublecmd/language/</Path>
+                  <Path Filename="plugins">/usr/lib/doublecmd/</Path>
+                  <Path Filename="wfx">/usr/lib/doublecmd/plugins/</Path>
+                  <Path Filename="..">/usr/lib/doublecmd/plugins/wfx/</Path>
+                  <Path Filename="C">/home/chris/data/untitled/</Path>
+                  <Path Filename="..">/home/chris/data/untitled/C/</Path>
+                  <Path Filename="arduino">/home/chris/data/untitled/</Path>
+                  <Path Filename="untitled">/home/chris/data/</Path>
+                  <Path Filename="..">/home/chris/data/untitled/</Path>
                   <Path Filename="Cent">/home/chris/data/</Path>
-                  <Path Filename="">/home/chris/data/Cent/</Path>
-                  <Path Filename="math">/home/chris/data/Cent/books/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/math/</Path>
-                  <Path Filename="Folkmar Bornemann (auth.) -  Numerical Linear Algebra_ A Concise Introduction with MATLAB and Julia-Springer International Publishing (2018).pdf">/home/chris/data/Cent/books/math/3a/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/</Path>
+                  <Path Filename="..">/home/chris/data/</Path>
+                  <Path Filename="data">/home/chris/</Path>
+                  <Path Filename="..">/home/chris/application/</Path>
+                  <Path Filename="Cent">/home/chris/data/</Path>
+                  <Path Filename="Academic">/home/chris/data/Cent/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/Academic/</Path>
+                  <Path Filename="books">/home/chris/data/Cent/</Path>
+                  <Path Filename="cs">/home/chris/data/Cent/books/</Path>
+                  <Path Filename="">/home/chris/data/Cent/books/cs/</Path>
+                  <Path Filename="Python机器学习及实践_从零开始通往KAGGLE竞赛之路.pdf">/home/chris/data/Cent/books/cs/ml/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -607,7 +664,7 @@
                   <Path Filename="app">/home/chris/data/</Path>
                   <Path Filename="..">/home/chris/data/app/</Path>
                   <Path Filename="untitled">/home/chris/data/</Path>
-                  <Path Filename="js">/home/chris/data/untitled/</Path>
+                  <Path Filename="">/home/chris/data/untitled/</Path>
                 </Paths>
               </Entry>
             </History>

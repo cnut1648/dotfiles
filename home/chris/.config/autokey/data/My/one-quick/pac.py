@@ -1,1 +1,1 @@
-keyboard.send_keys("sudo pacman")
+keyboard.send_keys("sudo pacman -")

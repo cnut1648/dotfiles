@@ -55,3 +55,22 @@ Unhandled exception: EAccessViolation: Access violation
   $00000000004EAC8F line 6243, column 19 of fmain.pas in /usr/lib/doublecmd/doublecmd
   $00007FAC3B8365C3 in /usr/lib/libQt5Core.so.5
 
+--------------- 07-02-2020, 11:05:36 ---------------
+| DC v0.9.7 beta Rev. 9235 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.14.0, libQt5Pas 5.6.1 | PID 28222
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F38A70DF1EB in /usr/lib/libQt5Pas.so.1
+  $000000000051B66D in /usr/lib/doublecmd/doublecmd
+  $00000000004BA4F6 in /usr/lib/doublecmd/doublecmd
+  $00000000004DB041 line 2188, column 6 of fmain.pas in /usr/lib/doublecmd/doublecmd
+  $00000000004AF23C line 2183, column 10 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004AF4BD line 2252, column 18 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004393EF in /usr/lib/doublecmd/doublecmd
+  $0000000000647B5D line 5405, column 13 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004ACD32 line 1469, column 12 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006EACDB line 5699, column 3 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006E53F9 line 2846, column 3 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000004EAC8F line 6235, column 1 of fmain.pas in /usr/lib/doublecmd/doublecmd
+  $00007F38A58605C3 in /usr/lib/libQt5Core.so.5
+

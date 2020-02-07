@@ -19,7 +19,11 @@ alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
 alias np='nano -w PKGBUILD'
 alias more=less
-alias ll='ls -al'
+
+alias n='nvim'
+alias diff='kitty +kitten diff'
+alias img='kitty +kitten icat'
+
 export LESS='--quit-if-one-screen --mouse --wheel-lines=3 --ignore-case --status-column --LONG-PROMPT --RAW-CONTROL-CHARS --HILITE-UNREAD --tabs=4 --no-init --window=-4'
 export LESS_TERMCAP_mb=$'\E[1;31m'     # begin bold
 export LESS_TERMCAP_md=$'\E[1;36m'     # begin blink
@@ -29,12 +33,13 @@ export LESS_TERMCAP_se=$'\E[0m'        # reset reverse video
 export LESS_TERMCAP_us=$'\E[1;32m'     # begin underline
 export LESS_TERMCAP_ue=$'\E[0m'        # reset underline
 
-alias n='nvim'
-
-
-
 # prevent neovim ctrl+j insert navigation
 bindkey -r "^J"
+# remove push-line instead use quote
+
+source /usr/share/fzf/key-bindings.zsh
+source /usr/share/fzf/completion.zsh
+
 
 # Path to your oh-my-zsh installation.
 export ZSH="/home/chris/.oh-my-zsh"
@@ -106,12 +111,15 @@ ENABLE_CORRECTION="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git fast-syntax-highlighting zsh-autosuggestions
 	z extract fasd k zsh-completions rand-quote
-	you-should-use fzf-fasd fz
+	you-should-use fzf-tab fz fzf-fasd
 )
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=180'
 
 # for fasd
 eval "$(fasd --init auto)"
+
+# you-should-use hardcore mode
+export YSU_HARDCORE=1
 
 source $ZSH/oh-my-zsh.sh
 
@@ -143,6 +151,36 @@ source $ZSH/oh-my-zsh.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-# say a quote when starting up
-echo $(quote)
 
+# kitty autocomplete
+kitty + complete setup zsh | source /dev/stdin
+
+print_quote() {echo $(quote); zle reset-prompt}
+# create new widget
+zle -N print_quote
+# bindkey to replace Ctrl+Q to quote
+bindkey "^Q" print_quote
+
+run_ranger () {
+    echo
+    ranger --choosedir=$HOME/.rangerdir < $TTY
+    LASTDIR=`cat $HOME/.rangerdir`
+    cd "$LASTDIR"
+    zle reset-prompt
+}
+zle -N run_ranger
+bindkey '^K' run_ranger
+
+
+## insert sudo {{{
+sudo-command-line() {
+    [[ -z $BUFFER ]] && zle up-history
+    [[ $BUFFER != sudo\ * ]] && BUFFER="_ $BUFFER"
+    zle end-of-line                 # move cursor to end-of-line
+}
+zle -N sudo-command-line
+bindkey "^[^[" sudo-command-line  # <ESC> <ESC>
+
+
+# say a quote when starting up
+# echo $(quote)

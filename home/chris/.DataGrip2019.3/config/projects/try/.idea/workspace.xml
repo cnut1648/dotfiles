@@ -32,24 +32,66 @@
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/DDL-MySQL.sql" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@7540e7bc" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="548" y="134" width="804" height="664" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580259392124">
+    <state x="542" y="89" width="804" height="664" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581036821293">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="548" y="134" width="804" height="664" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580259392124" />
+    <state x="542" y="89" width="804" height="664" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581036821293" />
+    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1581036824156">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1920.1080@0.0.1920.1080" timestamp="1581036824156" />
     <state x="732" y="275" width="452" height="487" key="FileChooserDialogImpl" timestamp="1580259210697">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="732" y="275" width="452" height="487" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1580259210697" />
-    <state x="-8" y="-60" width="1920" height="1083" key="SettingsEditor" timestamp="1580259264748">
+    <state width="1273" height="269" key="GridCell.Tab.0.bottom" timestamp="1581036837174">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="-8" y="-60" width="1920" height="1083" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1580259264748" />
-    <state x="346" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1580258772867">
+    <state width="1273" height="269" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1581036837174" />
+    <state width="1273" height="269" key="GridCell.Tab.0.center" timestamp="1581036837174">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="346" y="194" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580258772867" />
+    <state width="1273" height="269" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1581036837174" />
+    <state width="1273" height="269" key="GridCell.Tab.0.left" timestamp="1581036837173">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1273" height="269" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1581036837173" />
+    <state width="1273" height="269" key="GridCell.Tab.0.right" timestamp="1581036837174">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1273" height="269" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1581036837174" />
+    <state x="-10" y="-75" width="1920" height="1083" key="SettingsEditor" timestamp="1581036684887">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="-10" y="-75" width="1920" height="1083" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1581036684887" />
+    <state x="344" y="179" key="com.intellij.ide.util.TipDialog" timestamp="1581036546087">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="344" y="179" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1581036546087" />
   </component>
 </project>

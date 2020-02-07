@@ -1,4 +1,7 @@
 <application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/bin/node" />
+  </component>
   <component name="NotRoamableUiSettings">
     <option name="fontScale" value="2.0" />
     <option name="fontSize" value="14" />
@@ -7,9 +10,9 @@
     <property name="ask.about.ctrl.y.shortcut" value="true" />
     <property name="evlsprt3.193" value="15" />
     <property name="file.chooser.recent.files" value="$USER_HOME$/data/untitled/Cpp&#10;/usr/bin/gdb&#10;/usr/bin/cmake" />
-    <property name="file.gist.reindex.count" value="2" />
-    <property name="ideavim.statistics.timestamp" value="1580258336172" />
-    <property name="lastTip" value="3" />
+    <property name="file.gist.reindex.count" value="5" />
+    <property name="ideavim.statistics.timestamp" value="1581036601174" />
+    <property name="lastTip" value="4" />
     <property name="tasks.pass.word.conversion.enforced" value="true" />
     <property name="ts.lib.d.ts.version" value="3.7.2" />
   </component>

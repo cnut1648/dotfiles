@@ -2,6 +2,10 @@
 <doublecmd>
   <History>
     <Navigation>
+      <Item>/home/chris/data/Cent/books/cs/cs/</Item>
+      <Item>/home/chris/data/Cent/books/cs/</Item>
+      <Item>/home/chris/data/Cent/books/</Item>
+      <Item>/home/chris/data/Cent/books/math/history/</Item>
       <Item>/home/chris/.config/doublecmd/</Item>
       <Item>/home/chris/.config/</Item>
       <Item>/home/chris/</Item>
@@ -39,7 +43,6 @@
       <Item>/lib64/</Item>
       <Item>/</Item>
       <Item>/home/</Item>
-      <Item>/home/chris/data/Cent/books/</Item>
       <Item>/home/chris/data/Cent/books/math/</Item>
       <Item>/home/chris/application/</Item>
       <Item>/usr/lib/doublecmd/scripts/</Item>
@@ -49,10 +52,7 @@
       <Item>/run/user/1000/doc/</Item>
       <Item>/run/media/chris/Windows/</Item>
       <Item>/usr/</Item>
-      <Item>/home/chris/data/Cent/books/cs/</Item>
       <Item>/home/chris/data/Cent/books/math/algebra/</Item>
-      <Item>/home/chris/data/Cent/Academic/</Item>
-      <Item>/home/chris/data/untitled/C/</Item>
     </Navigation>
     <CommandLine/>
     <FileMask/>
