@@ -33,9 +33,6 @@ export LESS_TERMCAP_se=$'\E[0m'        # reset reverse video
 export LESS_TERMCAP_us=$'\E[1;32m'     # begin underline
 export LESS_TERMCAP_ue=$'\E[0m'        # reset underline
 
-# prevent neovim ctrl+j insert navigation
-bindkey -r "^J"
-# remove push-line instead use quote
 
 source /usr/share/fzf/key-bindings.zsh
 source /usr/share/fzf/completion.zsh
@@ -155,6 +152,9 @@ source $ZSH/oh-my-zsh.sh
 # kitty autocomplete
 kitty + complete setup zsh | source /dev/stdin
 
+# prevent neovim ctrl+j insert navigation
+bindkey -r "^J"
+
 print_quote() {echo $(quote); zle reset-prompt}
 # create new widget
 zle -N print_quote
@@ -181,6 +181,9 @@ sudo-command-line() {
 zle -N sudo-command-line
 bindkey "^[^[" sudo-command-line  # <ESC> <ESC>
 
+bindkey "^H" backward-char
+bindkey "^L" forward-char # remove clear-screen widget
+bindkey "^F" clear-screen
 
 # say a quote when starting up
 # echo $(quote)

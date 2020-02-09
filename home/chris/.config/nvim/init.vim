@@ -13,18 +13,20 @@ nnoremap <Right> :echoe "Use l"<CR>
 nnoremap <Up>    :echoe "Use k"<CR>
 nnoremap <Down>  :echoe "Use j"<CR>
 
+" consistent with D & C
 nnoremap Y y$
 
 
 
 inoremap <esc> <nop>
 inoremap jk <esc>
+inoremap JK <esc>
 inoremap <C-h> <Left>
 inoremap <C-j> <Down>
 inoremap <C-l> <Right>
 inoremap <C-k> <Up>
-
-
+inoremap <C-a> <C-o>0
+inoremap <C-e> <C-o>$
 
 
 

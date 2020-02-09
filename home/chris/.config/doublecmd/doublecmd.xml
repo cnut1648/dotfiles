@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<doublecmd DCVersion="0.9.7 beta" ConfigVersion="10">
+<doublecmd DCVersion="0.9.8 beta" ConfigVersion="10">
   <Toolbars>
     <MainToolbar>
       <Row>
@@ -476,7 +476,7 @@
                   <Path Filename="..">/home/chris/data/Cent/Academic/</Path>
                   <Path Filename="books">/home/chris/data/Cent/</Path>
                   <Path Filename="cs">/home/chris/data/Cent/books/</Path>
-                  <Path Filename="ml">/home/chris/data/Cent/books/cs/</Path>
+                  <Path Filename="">/home/chris/data/Cent/books/cs/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -499,7 +499,7 @@
                   <Path Filename="Cent">/home/chris/data/</Path>
                   <Path Filename="">/home/chris/data/Cent/</Path>
                   <Path Filename="math">/home/chris/data/Cent/books/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/books/math/</Path>
+                  <Path Filename="">/home/chris/data/Cent/books/math/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -546,7 +546,7 @@
                   <Path Filename="">/home/chris/data/Cent/</Path>
                   <Path Filename="math">/home/chris/data/Cent/books/</Path>
                   <Path Filename="">/home/chris/data/Cent/books/math/</Path>
-                  <Path Filename="Folkmar Bornemann (auth.) -  Numerical Linear Algebra_ A Concise Introduction with MATLAB and Julia-Springer International Publishing (2018).pdf">/home/chris/data/Cent/books/math/3a/</Path>
+                  <Path Filename="">/home/chris/data/Cent/books/math/3a/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -567,7 +567,7 @@
                   <Path Filename="">/home/chris/data/Cent/</Path>
                   <Path Filename="math">/home/chris/data/Cent/books/</Path>
                   <Path Filename="history">/home/chris/data/Cent/books/math/</Path>
-                  <Path Filename="The Mathematics of Various Entertaining Subjects - Volume 3_ The Magic of Mathematics-PRINCETON UNIVERSITY PRESS (2019).pdf">/home/chris/data/Cent/books/math/history/</Path>
+                  <Path Filename="">/home/chris/data/Cent/books/math/history/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -603,7 +603,7 @@
                   <Path Filename="books">/home/chris/data/Cent/</Path>
                   <Path Filename="cs">/home/chris/data/Cent/books/</Path>
                   <Path Filename="">/home/chris/data/Cent/books/cs/</Path>
-                  <Path Filename="Alan Beaulieu - Learning SQL-O'Reilly (2009).pdf">/home/chris/data/Cent/books/cs/sql/</Path>
+                  <Path Filename="">/home/chris/data/Cent/books/cs/sql/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -714,7 +714,23 @@
                   <Path Filename="Books">/home/chris/</Path>
                   <Path Filename="..">/home/chris/Books/</Path>
                   <Path Filename="test">/home/chris/</Path>
-                  <Path Filename="dad">/home/chris/test/</Path>
+                  <Path Filename="..">/home/chris/test/</Path>
+                  <Path Filename=".local">/home/chris/</Path>
+                  <Path Filename="share">/home/chris/.local/</Path>
+                  <Path Filename="baloo">/home/chris/.local/share/</Path>
+                  <Path Filename="..">/home/chris/.local/share/baloo/</Path>
+                  <Path Filename="flatpak">/home/chris/.local/share/</Path>
+                  <Path Filename="..">/home/chris/.local/share/flatpak/</Path>
+                  <Path Filename="inxi">/home/chris/.local/share/</Path>
+                  <Path Filename="..">/home/chris/.local/share/inxi/</Path>
+                  <Path Filename="JetBrains">/home/chris/.local/share/</Path>
+                  <Path Filename="..">/home/chris/.local/share/JetBrains/</Path>
+                  <Path Filename="Trash">/home/chris/.local/share/</Path>
+                  <Path Filename="info">/home/chris/.local/share/Trash/</Path>
+                  <Path Filename="..">/home/chris/.local/share/Trash/info/</Path>
+                  <Path Filename="files">/home/chris/.local/share/Trash/</Path>
+                  <Path Filename="..">/home/chris/.local/share/Trash/files/</Path>
+                  <Path Filename="files">/home/chris/.local/share/Trash/</Path>
                 </Paths>
               </Entry>
             </History>

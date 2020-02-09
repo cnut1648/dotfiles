@@ -2,14 +2,24 @@
 <doublecmd>
   <History>
     <Navigation>
+      <Item>/home/chris/Downloads/</Item>
+      <Item>/home/chris/</Item>
+      <Item>/home/chris/data/</Item>
+      <Item>/home/chris/.local/share/Trash/</Item>
+      <Item>/home/chris/.local/share/Trash/files/</Item>
+      <Item>/home/chris/.local/share/Trash/info/</Item>
+      <Item>/home/chris/.local/share/</Item>
+      <Item>/home/chris/.local/share/JetBrains/</Item>
+      <Item>/home/chris/.local/share/inxi/</Item>
+      <Item>/home/chris/.local/share/flatpak/</Item>
+      <Item>/home/chris/.local/share/baloo/</Item>
+      <Item>/home/chris/.local/</Item>
       <Item>/home/chris/data/Cent/books/cs/cs/</Item>
       <Item>/home/chris/data/Cent/books/cs/</Item>
       <Item>/home/chris/data/Cent/books/</Item>
       <Item>/home/chris/data/Cent/books/math/history/</Item>
       <Item>/home/chris/.config/doublecmd/</Item>
       <Item>/home/chris/.config/</Item>
-      <Item>/home/chris/</Item>
-      <Item>/home/chris/data/</Item>
       <Item>/home/chris/Documents/dotfiles/</Item>
       <Item>/home/chris/Documents/</Item>
       <Item>/home/chris/test/</Item>
@@ -28,7 +38,6 @@
       <Item>/home/chris/.config/kitty/</Item>
       <Item>/home/chris/.config/kitty/themes/</Item>
       <Item>/home/chris/.config/kitty/kitty-themes/</Item>
-      <Item>/home/chris/Downloads/</Item>
       <Item>/home/chris/.config/autokey/data/My/</Item>
       <Item>/home/chris/.config/autokey/data/My/one-quick/</Item>
       <Item>/home/chris/Documents/dotfiles/home/chris/.config/autokey/data/My/one-quick/</Item>
@@ -43,16 +52,6 @@
       <Item>/lib64/</Item>
       <Item>/</Item>
       <Item>/home/</Item>
-      <Item>/home/chris/data/Cent/books/math/</Item>
-      <Item>/home/chris/application/</Item>
-      <Item>/usr/lib/doublecmd/scripts/</Item>
-      <Item>/usr/lib/doublecmd/</Item>
-      <Item>/home/chris/data/Cent/books/math/3a/</Item>
-      <Item>/run/user/1000/</Item>
-      <Item>/run/user/1000/doc/</Item>
-      <Item>/run/media/chris/Windows/</Item>
-      <Item>/usr/</Item>
-      <Item>/home/chris/data/Cent/books/math/algebra/</Item>
     </Navigation>
     <CommandLine/>
     <FileMask/>
