@@ -682,11 +682,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="scripts">/usr/lib/doublecmd/</Path>
-                  <Path Filename="..">/usr/lib/doublecmd/scripts/</Path>
-                  <Path Filename="照片">/home/chris/data/</Path>
-                  <Path Filename="apps">/home/chris/application/</Path>
-                  <Path Filename="app">/home/chris/data/</Path>
                   <Path Filename="..">/home/chris/data/app/</Path>
                   <Path Filename="untitled">/home/chris/data/</Path>
                   <Path Filename="">/home/chris/data/untitled/</Path>
@@ -731,6 +726,12 @@
                   <Path Filename="files">/home/chris/.local/share/Trash/</Path>
                   <Path Filename="..">/home/chris/.local/share/Trash/files/</Path>
                   <Path Filename="files">/home/chris/.local/share/Trash/</Path>
+                  <Path Filename="Marijn Haverbeke - Eloquent JavaScript_ A Modern Introduction to Programming, 3rd Edition-No Starch Press (2019).epub">/home/chris/.local/share/Trash/files/</Path>
+                  <Path Filename=".local">/home/chris/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/cs/ml/</Path>
+                  <Path Filename="cs">/home/chris/data/Cent/books/</Path>
+                  <Path Filename="books">/home/chris/data/Cent/</Path>
+                  <Path Filename="Snipaste_2020-01-11_17-39-56.png">/home/chris/data/</Path>
                 </Paths>
               </Entry>
             </History>
