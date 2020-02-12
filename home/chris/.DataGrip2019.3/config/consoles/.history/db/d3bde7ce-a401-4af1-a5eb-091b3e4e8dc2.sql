@@ -4,3 +4,13 @@ create table classroom
 	 capacity		numeric(4,0),
 	 primary key (building, room_number)
 	);
+;-- -. . -..- - / . -. - .-. -.--
+use large;
+;-- -. . -..- - / . -. - .-. -.--
+show tables;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from SCHEMATA;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from takes;

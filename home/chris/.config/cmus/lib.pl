@@ -602,7 +602,6 @@
 /home/chris/data/songs/music/Coleman Hell - 2 Heads.mp3
 /home/chris/data/songs/music/Concrete Blonde - Joey.mp3
 /home/chris/data/songs/music/Corner Stone Cues - Requiem For A Tower Mvt. III.mp3
-/home/chris/data/songs/music/Corner Stone Cues - Requiem For A Tower Mvt. III(2).mp3
 /home/chris/data/songs/music/COSMASTLY - ☂.mp3
 /home/chris/data/songs/music/Cosmo Sheldrake - The Fly.mp3
 /home/chris/data/songs/music/Cosmo Sheldrake - The Moss.mp3

@@ -13,8 +13,8 @@
     <property name="ask.about.ctrl.y.shortcut" value="true" />
     <property name="evlsprt3.193" value="16" />
     <property name="file.chooser.recent.files" value="$USER_HOME$/Downloads/DDL-MySQL.sql" />
-    <property name="file.gist.reindex.count" value="2" />
+    <property name="file.gist.reindex.count" value="8" />
     <property name="ide.memory.adjusted" value="true" />
-    <property name="lastTip" value="4" />
+    <property name="lastTip" value="5" />
   </component>
 </application>
