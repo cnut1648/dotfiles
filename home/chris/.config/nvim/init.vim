@@ -2,9 +2,9 @@ set nu
 set relativenumber
 set incsearch
 set ignorecase
+set timeoutlen=200
 
 " Toggle Relative Number
-
 nnoremap <silent> <leader>nb :set relativenumber!<CR>
 
 
@@ -18,15 +18,40 @@ nnoremap Y y$
 
 
 
+
+" double tap to insert new line without insert mode
+nnoremap oo moo<Esc>`o
+nnoremap OO moO<Esc>`o
+
+
+
 inoremap <esc> <nop>
 inoremap jk <esc>
 inoremap JK <esc>
+
+" Emacs mimic
+inoremap <C-A> <Home>
+inoremap <C-B> <Left>
+inoremap <C-E> <End>
+inoremap <C-F> <Right>
+inoremap <C-K> <Esc>lDa
+inoremap <C-U> <Esc>d0xi
+inoremap <C-Y> <Esc>Pa
+inoremap <C-X><C-S> <Esc>:w<CR>a
 inoremap <C-h> <Left>
-inoremap <C-j> <Down>
-inoremap <C-l> <Right>
-inoremap <C-k> <Up>
-inoremap <C-a> <C-o>0
-inoremap <C-e> <C-o>$
+
+inoremap <M-x> <Esc>:
+inoremap <M-f> <Esc>lwi
+inoremap <M-b> <Esc>bi
+inoremap <M-S-f> <Esc>lWi
+inoremap <M-S-b> <Esc>Bi
+
+
+" inoremap <C-j> <Down>
+" inoremap <C-l> <Right>
+" inoremap <C-k> <Up>
+" inoremap <C-a> <C-o>0
+" inoremap <C-e> <C-o>$
 
 
 
@@ -45,6 +70,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'altercation/vim-colors-solarized'
 Plug 'scrooloose/syntastic'
 Plug 'tpope/vim-surround'
+Plug '/usr/bin/fzf'
+
 
 Plug 'autozimu/LanguageClient-neovim', {
     \ 'branch': 'next',

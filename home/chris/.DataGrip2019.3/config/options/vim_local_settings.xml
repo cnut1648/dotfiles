@@ -1,0 +1,158 @@
+<application>
+  <component name="VimLocalSettings">
+    <state version="5" />
+    <globalmarks />
+    <filemarks>
+      <file name="/large.department" timestamp="1581646793148">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/course [MariaDB - @localhost]" timestamp="1581580013825">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/large.member" timestamp="1581620689418">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/large.course" timestamp="1581580013873">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/prereq [MariaDB - @localhost]" timestamp="1581620625001">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/sql/try/try.sql" timestamp="1581646811435">
+        <mark key="[" line="1" column="15" />
+        <mark key="]" line="1" column="19" />
+        <mark key="^" line="1" column="19" />
+        <mark key="." line="1" column="19" />
+      </file>
+      <file name="/large.advisor" timestamp="1581578204911">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_1.sql" timestamp="1581620703578">
+        <mark key="[" line="17" column="19" />
+        <mark key="]" line="19" column="13" />
+        <mark key="." line="19" column="13" />
+        <mark key="^" line="19" column="13" />
+      </file>
+      <file name="/member [MariaDB - @localhost]" timestamp="1581620689411">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/borrowed [MariaDB - @localhost]" timestamp="1581620691384">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/large.instructor" timestamp="1581646804513">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/instructor [MariaDB - @localhost]" timestamp="1581646804470">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/large.prereq" timestamp="1581620625008">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/console_1" timestamp="1581646694967">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/large.section" timestamp="1581578014630">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/section [MariaDB - @localhost]" timestamp="1581578014565">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/large.borrowed" timestamp="1581620691390">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/advisor [MariaDB - @localhost]" timestamp="1581578204867">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/department [MariaDB - @localhost]" timestamp="1581646793131">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/dummy.sql" timestamp="1581646804780">
+        <mark key="[" line="0" column="0" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="6" column="0" filename="$USER_HOME$/data/untitled/sql/try/try.sql" />
+      <jump line="14" column="0" filename="$USER_HOME$/data/untitled/sql/try/try.sql" />
+      <jump line="9" column="0" filename="$USER_HOME$/data/untitled/sql/try/try.sql" />
+      <jump line="4" column="0" filename="$USER_HOME$/data/untitled/sql/try/try.sql" />
+      <jump line="0" column="13" filename="$USER_HOME$/data/untitled/sql/try/try.sql" />
+      <jump line="7" column="58" filename="$USER_HOME$/data/untitled/sql/try/try.sql" />
+      <jump line="3" column="0" filename="$USER_HOME$/data/untitled/sql/try/try.sql" />
+      <jump line="8" column="5" filename="$USER_HOME$/data/untitled/sql/try/try.sql" />
+      <jump line="16" column="0" filename="$USER_HOME$/data/untitled/sql/try/try.sql" />
+    </jumps>
+    <registers>
+      <register name="&quot;" type="4">
+        <text>,</text>
+      </register>
+      <register name="-" type="4">
+        <text>,</text>
+      </register>
+      <register name="/" type="4">
+        <text>memb_no</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">c2VsZWN0IGF2ZyhidWRnZXQpIGFzIGEKZnJvbSBkZXBhcnRtZW50Cg==</text>
+      </register>
+      <register name="1" type="2">
+        <text>select count(*)
+from  alias
+where alias.;</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">IyB3aXRoIG1lbWN0IGFzIChzZWxlY3QgY291bnQoKikgYXMgYGNgIGZyb20gbWVtYmVyKQojIHNlbGVjdCBjb3VudChtZW1iZXJfbm8pL21lbWN0CiMgZnJvbSBib3Jyb3dlZDsKIyBzZWxlY3QgMS4wICogc3VtKHRvdGFsYm9ycm93ZWQpL2NvdW50IChkaXN0aW5jdCBiLm1lbWJlcl9ubykgYXMgYXZnX3Blcl9tZW1iZXIKIyBmcm9tCiMgKHNlbGVjdCBtZW1iZXJfbm8sIGNvdW50KCopIGFzIHRvdGFsYm9ycm93ZWQKIyBmcm9tIGJvcnJvd2VkCiMgZ3JvdXAgYnkgbWVtYmVyX25vKSB0IGpvaW4gYm9ycm93ZWQgYiBvbiB0Lm1lbWJlcl9ubyA9IGIubWVtYmVyX25vOwojIHNlbGVjdCAqCiMgZnJvbSAoCiMgICAgICAgICAgKHNlbGVjdCBtZW1iZXJfbm8sIGNvdW50KGlzYm4pCiMgICAgICAgICAgZnJvbSBib3Jyb3dlZCBncm91cCBieSBtZW1iZXJfbm8pCiMgICAgICAgICB1bmlvbgojICAgICAgICAgKHNlbGVjdCBtZW1iZXJfbm8sIDAuMCBmcm9tIG1lbWJlcgojICAgICAgICAgICAgIHdoZXJlIG5vdCBleGlzdHMoc2VsZWN0IGlzYm4gZnJvbSBib3Jyb3dlZAojICAgICAgICAgICAgIHdoZXJlIG1lbWJlci5tZW1iZXJfbm89Ym9ycm93ZWQubWVtYmVyX25vKSkKIyAgICAgICAgICApIGFzIG1uY21uOwo=</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">c2VsZWN0IGF2ZyAoY250KQo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ZnJvbSAoIHNlbGVjdCBjb3VudChpc2JuKSwgbWVtYmVyX25vCg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ZnJvbSBib3Jyb3dlZAo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">Z3JvdXAgYnkgbWVtYmVyX25vCg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">dW5pb24K</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">c2VsZWN0IDAsIG1lbWJlcl9ubwo=</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ZnJvbSBtZW1iZXIK</text>
+      </register>
+      <register name=":" type="4">
+        <text encoding="base64">JzwsJz5zL21lbWJfbm8vbWVtYmVyX25v</text>
+      </register>
+    </registers>
+    <search>
+      <last-search>memb_no</last-search>
+      <last-offset>memberno/member_no</last-offset>
+      <last-pattern>memb_no</last-pattern>
+      <last-replace>member_no</last-replace>
+      <last-substitute>memb_no</last-substitute>
+      <last-dir>1</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search>
+        <entry>s</entry>
+        <entry>membno</entry>
+        <entry>memb_no</entry>
+      </history-search>
+      <history-cmd>
+        <entry>set nu</entry>
+        <entry encoding="base64">c2V0IA==</entry>
+        <entry>set relativenumber</entry>
+        <entry>wq</entry>
+        <entry>q</entry>
+        <entry encoding="base64">JzwsJz5zL21lbWJuby9tZW1iX25v</entry>
+        <entry encoding="base64">JzwsJz5zL21lbWJfbm8vbWVtYmVyX25v</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
+</application>

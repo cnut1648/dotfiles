@@ -74,3 +74,12 @@ Unhandled exception: EAccessViolation: Access violation
   $00000000004EAC8F line 6235, column 1 of fmain.pas in /usr/lib/doublecmd/doublecmd
   $00007F38A58605C3 in /usr/lib/libQt5Core.so.5
 
+--------------- 14-02-2020, 11:09:34 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.14.1, libQt5Pas 5.6.1 | PID 2535
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F8E5AFF7BD2 in /usr/lib/libQt5XcbQpa.so.5
+  $B507D05788F8AC00 in 
+  $B507D05788F8AC00 in 
+

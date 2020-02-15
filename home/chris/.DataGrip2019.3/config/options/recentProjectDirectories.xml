@@ -15,13 +15,25 @@
         </entry>
         <entry key="$APPLICATION_CONFIG_DIR$/projects/try">
           <value>
-            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1X0YZSIK18XrX7jo9Sk1im7VE64">
+            <RecentProjectMetaInfo projectWorkspaceId="1X0YZSIK18XrX7jo9Sk1im7VE64">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="DB-193.6015.44" />
-              <option name="buildTimestamp" value="1579620258992" />
-              <frame x="10" y="10" width="1900" height="1015" />
+              <option name="buildTimestamp" value="1579620277631" />
+              <frame x="965" y="10" width="945" height="1015" />
               <option name="productionCode" value="DB" />
-              <option name="projectOpenTimestamp" value="1581475940013" />
+              <option name="projectOpenTimestamp" value="1581562059019" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/data/untitled/sql/course">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1XjcvVD1XINJdXGMd4JYXgOOJDQ">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="DB-193.6494.42" />
+              <option name="buildTimestamp" value="1581498671938" />
+              <frame x="965" y="10" width="945" height="1015" />
+              <option name="productionCode" value="DB" />
+              <option name="projectOpenTimestamp" value="1581646693767" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -29,6 +41,7 @@
     </option>
     <option name="recentPaths">
       <list>
+        <option value="$USER_HOME$/data/untitled/sql/course" />
         <option value="$APPLICATION_CONFIG_DIR$/projects/try" />
         <option value="$APPLICATION_CONFIG_DIR$/projects/default" />
       </list>

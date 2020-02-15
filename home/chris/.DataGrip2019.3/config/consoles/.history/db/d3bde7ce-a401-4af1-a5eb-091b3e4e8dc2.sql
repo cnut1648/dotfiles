@@ -7,10 +7,12 @@ create table classroom
 ;-- -. . -..- - / . -. - .-. -.--
 use large;
 ;-- -. . -..- - / . -. - .-. -.--
-show tables;
-;-- -. . -..- - / . -. - .-. -.--
 select *
 from SCHEMATA;
 ;-- -. . -..- - / . -. - .-. -.--
 select *
 from takes;
+;-- -. . -..- - / . -. - .-. -.--
+use test;
+;-- -. . -..- - / . -. - .-. -.--
+show tables;

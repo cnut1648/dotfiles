@@ -4,16 +4,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d3bde7ce-a401-4af1-a5eb-091b3e4e8dc2/console_1.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            <state relative-caret-position="21">
+              <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="das://d3bde7ce-a401-4af1-a5eb-091b3e4e8dc2/schema/large/table/course">
+        <entry file="das://d3bde7ce-a401-4af1-a5eb-091b3e4e8dc2/schema/large/table/advisor">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state presentationMode="REGULAR" projectRestartId="7b93e5ca-36d9-4231-8c9a-c17dffc433f6" pageSize="500">
+            <state presentationMode="REGULAR" projectRestartId="7c3668b5-f431-44d5-b5ef-d0d0dbdc0b0e" pageSize="500">
               <filtering>
                 <filter text="" />
               </filtering>
@@ -32,16 +32,18 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" x="10" y="10" width="1900" height="1015" />
+  <component name="ProjectFrameBounds" x="965" y="10" width="945" height="1015" />
   <component name="ProjectView">
     <navigator proportions="" version="1" />
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="10" width="1900" height="1015" extended-state="0" />
-    <editor active="true" />
+    <frame x="965" y="10" width="945" height="1015" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Database" order="0" visible="true" weight="0.133658" />
+      <window_info content_ui="combo" id="Database" order="0" visible="true" weight="0.21164614" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -50,10 +52,10 @@
       <window_info anchor="bottom" id="TODO" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Services" order="7" visible="true" weight="0.6011111" />
+      <window_info anchor="bottom" id="Services" order="7" visible="true" weight="0.26666668" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Debug" order="9" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="0" visible="true" weight="0.24972005" />
       <window_info anchor="right" id="Structure" order="1" side_tool="true" weight="0.25" />
     </layout>
   </component>
@@ -81,7 +83,25 @@
     </entry>
     <entry file="das://d3bde7ce-a401-4af1-a5eb-091b3e4e8dc2/schema/large/table/course">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state presentationMode="REGULAR" projectRestartId="7b93e5ca-36d9-4231-8c9a-c17dffc433f6" pageSize="500">
+        <state presentationMode="REGULAR" projectRestartId="7c3668b5-f431-44d5-b5ef-d0d0dbdc0b0e" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d3bde7ce-a401-4af1-a5eb-091b3e4e8dc2/schema/large/table/advisor">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="7c3668b5-f431-44d5-b5ef-d0d0dbdc0b0e" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d3bde7ce-a401-4af1-a5eb-091b3e4e8dc2/schema/test/table/advertisement">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="7c3668b5-f431-44d5-b5ef-d0d0dbdc0b0e" pageSize="500">
           <filtering>
             <filter text="" />
           </filtering>
@@ -90,8 +110,8 @@
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/d3bde7ce-a401-4af1-a5eb-091b3e4e8dc2/console_1.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        <state relative-caret-position="21">
+          <caret line="1" column="11" lean-forward="true" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
         </state>
       </provider>
     </entry>

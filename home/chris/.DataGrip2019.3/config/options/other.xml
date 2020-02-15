@@ -4,17 +4,26 @@
     <option name="fontSize" value="14" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ColorChooser.RecentColors" value="62-93-150-255" />
     <property name="DBE.Default.Dialect" value="MariaDB" />
     <property name="DBE.Init.Cfg.1" value="true" />
     <property name="DBE.Init.DialogShown.Ide" value="true" />
     <property name="Darcula.SavedEditorTheme" value="_@user_Darcula" />
     <property name="Default.SavedEditorTheme" value="_@user_Default" />
+    <property name="InstalledPluginsSearchHistory" value="/tag:Keymap" />
+    <property name="KEYMAP" value="esc&#10;insert" />
+    <property name="MarketplacePluginsSearchHistory" value="/tag:Keymap&#10;vi&#10;/tag:&quot;User Interface&quot;" />
+    <property name="PluginConfigurable.selectionTab" value="1" />
     <property name="SqlStructureView.filterD.file.structure.state" value="true" />
     <property name="ask.about.ctrl.y.shortcut" value="true" />
+    <property name="com.intellij.database.actions.DdlActions$DeleteProvider2$1.previewExpanded" value="true" />
     <property name="evlsprt3.193" value="16" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/Downloads/DDL-MySQL.sql" />
-    <property name="file.gist.reindex.count" value="8" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/data/untitled/sql/try&#10;/home/chris/data/untitled/sql/course&#10;/home/chris/data/untitled/sql/course/122A/user.csv&#10;/home/chris/data/untitled/sql/course/122A/advertisement.csv&#10;/home/chris/Downloads/DDL-MySQL.sql" />
+    <property name="file.gist.reindex.count" value="93" />
     <property name="ide.memory.adjusted" value="true" />
-    <property name="lastTip" value="5" />
+    <property name="ideavim.statistics.timestamp" value="1581577002692" />
+    <property name="import_error_directory" value="$USER_HOME$" />
+    <property name="import_write_errors" value="true" />
+    <property name="lastTip" value="11" />
   </component>
 </application>

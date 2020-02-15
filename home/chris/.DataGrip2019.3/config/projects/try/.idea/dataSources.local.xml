@@ -13,6 +13,7 @@
           <node kind="schema">
             <name qname="@" />
             <name qname="large" />
+            <name qname="test" />
           </node>
         </introspection-scope>
       </schema-mapping>

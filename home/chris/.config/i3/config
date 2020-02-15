@@ -285,3 +285,5 @@ for_window [title="Desktop — Plasma"] kill; floating enable; border none
 # for_window [class=".*"] border pixel 0
 for_window [class="flameshot" instance="flameshot"] floating enable
 for_window [title="Options" class="Double Commander" instance="doublecmd"] floating enable
+for_window [title="Clementine Visualization" class="Clementine" instance="clementine"] floating enable
+

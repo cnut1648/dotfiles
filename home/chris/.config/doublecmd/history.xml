@@ -2,6 +2,7 @@
 <doublecmd>
   <History>
     <Navigation>
+      <Item>/home/chris/Downloads/./</Item>
       <Item>/home/chris/data/</Item>
       <Item>/home/chris/data/Cent/</Item>
       <Item>/home/chris/data/Cent/books/</Item>
@@ -51,8 +52,6 @@
       <Item>/home/chris/.config/autokey/data/</Item>
       <Item>/home/chris/data/Cent/39/</Item>
       <Item>/lib64/</Item>
-      <Item>/</Item>
-      <Item>/home/</Item>
     </Navigation>
     <CommandLine/>
     <FileMask/>

@@ -1,0 +1,330 @@
+<project version="4">
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../try/try.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_1.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/122A/table_create.sql" />
+        <option value="$PROJECT_DIR$/122A/data_prepare.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_1.sql" />
+        <option value="$PROJECT_DIR$/../try/try.sql" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" x="10" y="10" width="945" height="1015" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="course" type="e2918438:DataGripProjectViewPane$1$1" />
+              <item name="try" type="252d1985:DataGripProjectViewPane$1$1$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="10" y="10" width="945" height="1015" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Database" order="0" visible="true" weight="0.22396417" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3288889" />
+      <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="4" weight="0.32922733" />
+      <window_info active="true" anchor="bottom" id="Services" order="5" visible="true" weight="0.48264277" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Debug" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="0" weight="0.25419933" />
+      <window_info anchor="right" id="Structure" order="1" side_tool="true" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/122A/hobby.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1428" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/122A/user_ad.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/122A/user.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1347">
+          <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/test/table/user">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="70cbad58-eda0-4d9d-aacc-ba5ad943c6ee" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/122A/celebrity.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/test/table/celebrity">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="70cbad58-eda0-4d9d-aacc-ba5ad943c6ee" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/122A/blurt.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/collation/macce_bin">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/122A/table_create.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="82" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/122A/follow.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/122A/data_prepare.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/cb7b6245-8bd3-4bf7-882b-9948c7a5824b.SCHEMA:large">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>cb7b6245-8bd3-4bf7-882b-9948c7a5824b.SCHEMA:large</OriginalElement>
+          <nodes>
+            <node x="219.49999999999994" y="693.0">cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.teaches</node>
+            <node x="382.49999999999994" y="180.0">cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.course</node>
+            <node x="867.4166666666666" y="722.0">cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.advisor</node>
+            <node x="616.6180555555555" y="425.0">cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.instructor</node>
+            <node x="0.0" y="923.0">cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.time_slot</node>
+            <node x="428.61805555555554" y="461.0">cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.prereq</node>
+            <node x="205.86805555555554" y="386.0">cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.section</node>
+            <node x="546.4236111111111" y="670.0">cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.takes</node>
+            <node x="824.6666666666666" y="425.0">cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.student</node>
+            <node x="155.36805555555554" y="193.0">cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.classroom</node>
+            <node x="599.4236111111111" y="0.0">cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.department</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.teaches" target="cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.section">
+              <point x="-42.0" y="-81.0" />
+              <point x="261.49999999999994" y="650.0" />
+              <point x="256.36805555555554" y="650.0" />
+              <point x="-50.5" y="117.0" />
+            </edge>
+            <edge source="cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.instructor" target="cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.department">
+              <point x="0.0" y="-78.0" />
+              <point x="710.6180555555555" y="155.0" />
+              <point x="693.4236111111111" y="155.0" />
+              <point x="0.0" y="65.0" />
+            </edge>
+            <edge source="cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.prereq" target="cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.course">
+              <point x="42.0" y="-42.0" />
+              <point x="554.6180555555555" y="361.0" />
+              <point x="539.1666666666665" y="361.0" />
+              <point x="62.66666666666663" y="78.0" />
+            </edge>
+            <edge source="cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.section" target="cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.classroom">
+              <point x="-50.5" y="-117.0" />
+              <point x="0.0" y="65.0" />
+            </edge>
+            <edge source="cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.student" target="cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.department">
+              <point x="0.0" y="-78.0" />
+              <point x="918.6666666666666" y="155.0" />
+              <point x="756.0902777777776" y="155.0" />
+              <point x="62.66666666666663" y="65.0" />
+            </edge>
+            <edge source="cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.advisor" target="cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.student">
+              <point x="32.75" y="-52.0" />
+              <point x="47.0" y="78.0" />
+            </edge>
+            <edge source="cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.takes" target="cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.student">
+              <point x="42.0" y="-104.0" />
+              <point x="672.4236111111111" y="650.0" />
+              <point x="871.6666666666666" y="650.0" />
+              <point x="-47.0" y="78.0" />
+            </edge>
+            <edge source="cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.teaches" target="cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.instructor">
+              <point x="42.0" y="-81.0" />
+              <point x="345.49999999999994" y="650.0" />
+              <point x="663.6180555555555" y="650.0" />
+              <point x="-47.0" y="78.0" />
+            </edge>
+            <edge source="cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.course" target="cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.department">
+              <point x="0.0" y="-78.0" />
+              <point x="476.49999999999994" y="155.0" />
+              <point x="630.7569444444443" y="155.0" />
+              <point x="-62.66666666666663" y="65.0" />
+            </edge>
+            <edge source="cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.section" target="cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.course">
+              <point x="50.5" y="-117.0" />
+              <point x="357.36805555555554" y="361.0" />
+              <point x="413.83333333333326" y="361.0" />
+              <point x="-62.666666666666686" y="78.0" />
+            </edge>
+            <edge source="cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.advisor" target="cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.instructor">
+              <point x="-32.75" y="-52.0" />
+              <point x="900.1666666666666" y="640.0" />
+              <point x="757.6180555555555" y="640.0" />
+              <point x="47.0" y="78.0" />
+            </edge>
+            <edge source="cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.takes" target="cb7b6245-8bd3-4bf7-882b-9948c7a5824b.TABLE:large.section">
+              <point x="-42.0" y="-104.0" />
+              <point x="588.4236111111111" y="640.0" />
+              <point x="357.36805555555554" y="640.0" />
+              <point x="50.5" y="117.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0276836158192086" x="372.0" y="423.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Key columns</Category>
+            <Category>Columns</Category>
+            <Category>Virtual foreign keys</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/large/table/section">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="46b23370-cdfc-4143-a5a2-37e92fb51098" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/large/table/advisor">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="46b23370-cdfc-4143-a5a2-37e92fb51098" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/large/table/course">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="46b23370-cdfc-4143-a5a2-37e92fb51098" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/large/table/prereq">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="46b23370-cdfc-4143-a5a2-37e92fb51098" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/large/table/member">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="46b23370-cdfc-4143-a5a2-37e92fb51098" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/large/table/borrowed">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="46b23370-cdfc-4143-a5a2-37e92fb51098" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/large/table/department">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="401d49d2-5c66-414d-865b-6c9c31bb377e" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/large/table/instructor">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="401d49d2-5c66-414d-865b-6c9c31bb377e" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../try/try.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

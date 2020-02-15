@@ -13,6 +13,7 @@ fi
 export GTK_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
+export EDITOR="nvim"
 
 alias cp="cp -i"                          # confirm before overwriting something
 alias df='df -h'                          # human-readable sizes
@@ -24,6 +25,9 @@ alias n='nvim'
 alias diff='kitty +kitten diff'
 alias img='kitty +kitten icat'
 
+alias -g L='| less'
+
+
 export LESS='--quit-if-one-screen --mouse --wheel-lines=3 --ignore-case --status-column --LONG-PROMPT --RAW-CONTROL-CHARS --HILITE-UNREAD --tabs=4 --no-init --window=-4'
 export LESS_TERMCAP_mb=$'\E[1;31m'     # begin bold
 export LESS_TERMCAP_md=$'\E[1;36m'     # begin blink
@@ -32,7 +36,6 @@ export LESS_TERMCAP_so=$'\E[01;44;33m' # begin reverse video
 export LESS_TERMCAP_se=$'\E[0m'        # reset reverse video
 export LESS_TERMCAP_us=$'\E[1;32m'     # begin underline
 export LESS_TERMCAP_ue=$'\E[0m'        # reset underline
-
 
 source /usr/share/fzf/key-bindings.zsh
 source /usr/share/fzf/completion.zsh
@@ -108,8 +111,7 @@ ENABLE_CORRECTION="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git fast-syntax-highlighting zsh-autosuggestions
 	z extract fasd k zsh-completions rand-quote
-	you-should-use fzf-tab fz fzf-fasd
-)
+	you-should-use ripgrep fzf-tab fz fzf-fasd)
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=180'
 
 # for fasd
@@ -155,7 +157,7 @@ kitty + complete setup zsh | source /dev/stdin
 # prevent neovim ctrl+j insert navigation
 bindkey -r "^J"
 
-print_quote() {echo $(quote); zle reset-prompt}
+print_quote() {echo;echo $(quote); zle reset-prompt}
 # create new widget
 zle -N print_quote
 # bindkey to replace Ctrl+Q to quote
@@ -164,9 +166,10 @@ bindkey "^Q" print_quote
 run_ranger () {
     echo
     ranger --choosedir=$HOME/.rangerdir < $TTY
-    LASTDIR=`cat $HOME/.rangerdir`
+    LASTDIR=`< $HOME/.rangerdir`
     cd "$LASTDIR"
-    zle reset-prompt
+# zle reset-prompt won't refresh if using powerlevel10k theme
+    zle accept-line
 }
 zle -N run_ranger
 bindkey '^K' run_ranger
@@ -181,9 +184,28 @@ sudo-command-line() {
 zle -N sudo-command-line
 bindkey "^[^[" sudo-command-line  # <ESC> <ESC>
 
-bindkey "^H" backward-char
-bindkey "^L" forward-char # remove clear-screen widget
-bindkey "^F" clear-screen
+# bindkey "^H" backward-char
+# bindkey "^L" forward-char # remove clear-screen widget
+# bindkey "^F" clear-screen
 
-# say a quote when starting up
-# echo $(quote)
+export FZF_DEFAULT_COMMAND='rg --files --hidden --smart-case --follow -g "!.git/*" -g "!**/backup/**" -g "!**/app/**"'
+
+
+fancy-ctrl-z () {
+  if [[ $#BUFFER -eq 0 ]]; then
+    bg
+    zle redisplay
+  else
+    zle push-input
+  fi
+}
+# empty line --> run bg
+zle -N fancy-ctrl-z
+bindkey '^Z' fancy-ctrl-z
+
+setopt append_history
+setopt nomatch   # when no match print error
+setopt extended_glob
+
+autoload zmv
+alias zcp='zmv -C' zln='zmv -L'
