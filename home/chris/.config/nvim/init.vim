@@ -6,6 +6,8 @@ set timeoutlen=200
 
 " Toggle Relative Number
 nnoremap <silent> <leader>nb :set relativenumber!<CR>
+nnoremap <silent> <leader>no :set relativenumber! nu!<CR>
+
 
 
 nnoremap <Left>  :echoe "Use h"<CR>

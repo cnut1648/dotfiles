@@ -29,6 +29,8 @@ software = ['~/.config/i3/',
         '~/.config/neofetch',
         '~/.config/nvim/init.vim',
         '~/.config/doublecmd',
+        "~/.mozilla/firefox/h1c7m981.default-release/ghacks-user.js/user.js",
+        "~/.mozilla/firefox/h1c7m981.default-release/ghacks-user.js/user-overrides.js",
          # Plasma desktop widgets
          '~/.config/plasmashellrc',
          # jetbrains
