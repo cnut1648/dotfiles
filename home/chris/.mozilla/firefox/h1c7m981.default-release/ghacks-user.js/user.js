@@ -1,7 +1,7 @@
 /******
 * name: ghacks user.js
-* date: 14 February 2020
-* version 73-alpha
+* date: 15 February 2020
+* version 73-beta
 * authors: v52+ github | v51- www.ghacks.net
 * url: https://github.com/ghacksuserjs/ghacks-user.js
 * license: MIT: https://github.com/ghacksuserjs/ghacks-user.js/blob/master/LICENSE.txt
@@ -1734,3 +1734,7 @@ user_pref("privacy.resistFingerprinting.block_mozAddonManager", true);
 user_pref("extensions.webextensions.restrictedDomains", "");
 user_pref("browser.tabs.closeWindowWithLastTab", false);
 user_pref("layout.word_select.eat_space_to_next_word", true);
+user_pref("privacy.resistFingerprinting.letterboxing", false);
+user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+user_pref("security.ssl.require_safe_negotiation", false);
+user_pref("security.dialog_enable_delay", 0);

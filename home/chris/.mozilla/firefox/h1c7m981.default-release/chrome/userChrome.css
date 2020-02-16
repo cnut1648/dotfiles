@@ -1,0 +1,45 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+/* blank-context, right click on blank area */
+/*  evernote */
+
+#_e0b8c461-f8fb-49b4-8373-fe32e9252800_-menuitem-15{
+  display: none !important;
+}
+
+#plasma-browser-integration_kde_org-menuitem-_purpose_share{
+  display: none !important;
+}
+
+#extension_one-tab_com-menuitem-2{
+  display: none !important;
+}
+
+#support_lastpass_com-menuitem-1{
+  display: none !important;
+}
+
+#checkerplusforgmail_jasonsavard_com-menuitem-_sendPageLink{
+  display: none !important;
+}
+
+#context-sendpagetodevice{
+  display: none !important;
+}
+
+/* flagfox */
+#_1018e4d6-728f-4b20-ad56-37578a4de76b_-menuitem-_Flagfox:1:submenu{
+  display: none !important;
+}
+
+#context-selectall{
+  display: none !important;
+}
+
+#context-savepage, #context-sep-sendpagetodevice, #inspect-separator{
+  display: none !important;
+}
+
+#_e0b8c461-f8fb-49b4-8373-fe32e9252800_-menuitem-14{
+  display: none !important;
+}
+

@@ -31,6 +31,7 @@ software = ['~/.config/i3/',
         '~/.config/doublecmd',
         "~/.mozilla/firefox/h1c7m981.default-release/ghacks-user.js/user.js",
         "~/.mozilla/firefox/h1c7m981.default-release/ghacks-user.js/user-overrides.js",
+        "~/.mozilla/firefox/h1c7m981.default-release/chrome/userChrome.css",
          # Plasma desktop widgets
          '~/.config/plasmashellrc',
          # jetbrains

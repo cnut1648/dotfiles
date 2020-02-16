@@ -37,3 +37,7 @@ user_pref("privacy.resistFingerprinting.block_mozAddonManager", true);
 user_pref("extensions.webextensions.restrictedDomains", "");
 user_pref("browser.tabs.closeWindowWithLastTab", false);
 user_pref("layout.word_select.eat_space_to_next_word", true);
+user_pref("privacy.resistFingerprinting.letterboxing", false);
+user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
+user_pref("security.ssl.require_safe_negotiation", false);
+user_pref("security.dialog_enable_delay", 0);
