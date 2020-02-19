@@ -1159,3 +1159,7 @@ where account_id = max(account_id);
 ;-- -. . -..- - / . -. - .-. -.--
 select max(account_id)
 from account;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from employee e
+where e.emp_id in (select e2.superior_emp_id from employee e2);

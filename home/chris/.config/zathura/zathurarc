@@ -1,0 +1,5 @@
+# index
+map [index] q abort
+
+
+map H feedkeys ":exec zsh -c ~/.config/zathura/open_history.sh"
