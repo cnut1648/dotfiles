@@ -1,6 +1,6 @@
 import os
 #from pathlib import Path
-#import shutil
+# import shutil
 
 scripts = ['/usr/bin/bri',
         '/usr/bin/color_show']

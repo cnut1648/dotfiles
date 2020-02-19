@@ -51,25 +51,24 @@
       <file name="/default" timestamp="1581907018811">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/try.employee" timestamp="1581908059231">
+      <file name="/try.employee" timestamp="1582075714256">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/large.tips" timestamp="1581914800073">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_2.sql" timestamp="1582075304170">
-        <mark key="[" line="0" column="21" />
-        <mark key="]" line="0" column="21" />
-        <mark key="." line="0" column="21" />
-        <mark key="^" line="0" column="21" />
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_2.sql" timestamp="1582086871816">
+        <mark key="[" line="3" column="0" />
+        <mark key="]" line="3" column="0" />
+        <mark key="." line="3" column="0" />
       </file>
       <file name="/department [MariaDB - @localhost]" timestamp="1581646793131">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/dummy.sql" timestamp="1581914800164">
+      <file name="/dummy.sql" timestamp="1582090623871">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/employee [MariaDB - @localhost]" timestamp="1581908059207">
+      <file name="/employee [MariaDB - @localhost]" timestamp="1582075714232">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
@@ -88,10 +87,10 @@
     </jumps>
     <registers>
       <register name="&quot;" type="2">
-        <text>where account_id = max(account_id)</text>
+        <text encoding="base64">RUUK</text>
       </register>
       <register name="-" type="4">
-        <text>)</text>
+        <text encoding="base64">c29tZSA=</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">LT4=</text>
@@ -100,31 +99,31 @@
         <text encoding="base64">ZnJvbSBkZXBhcnRtZW50IG5hdHVyYWwgam9pbiBpbnN0cnVjdG9yOwo=</text>
       </register>
       <register name="1" type="2">
-        <text>where account_id = max(account_id)</text>
+        <text encoding="base64">RUUK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">c2VsZWN0IGUuZm5hbWUsIGUubG5hbWUsICdWUycsIGUyLmZuYW1lCmZyb20gZW1wbG95ZWUgZSwgZW1wbG95ZWUgZTIKd2hlcmUgZS5lbXBfaWQgPCBlMi5lbXBfaWQgYW5kIGUudGl0bGU9J1RlbGxlcicKYW5kIGUyLnRpdGxlPSdUZWxsZXInCmxpbWl0IDU7</text>
+        <text>home/chris/data/Cent/books/cs/sql/122A课本.pdf</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">bGltaXQgMTAK</text>
+        <text>where e.emp_id in (select e2.superior_emp_id from employee e2);</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">d2hlcmUgdGltZSA9ICdEaW5uZXInIGFuZCB0aXA+IDEuMCBvciBkYXkgaXMgbm90IG51bGwK</text>
+        <text encoding="base64">ZnJvbSBlbXBsb3llZSBlCg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">d2hlcmUgdGltZSA9ICdEaW5uZXInIGFuZCB0aXA+IDEuMCBvciBkYXkgaXMgbm90IG51bGwK</text>
+        <text encoding="base64">c2VsZWN0ICoK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">d2hlcmUgc2FsYXJ5IG5vdCBpbiAoCg==</text>
+        <text encoding="base64">ZnJvbSBhY2NvdW50Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIG9uIGUuZW1wX2lkID0gbWcuc3VwZXJpb3JfZW1wX2lkCg==</text>
+        <text encoding="base64">c2VsZWN0IG1heChhY2NvdW50X2lkKQo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">d2hlcmUgOwo=</text>
+        <text>where account_id = max(account_id)</text>
       </register>
       <register name="9" type="2">
-        <text>klllkl</text>
+        <text encoding="base64">c2VsZWN0IGUuZm5hbWUsIGUubG5hbWUsICdWUycsIGUyLmZuYW1lCmZyb20gZW1wbG95ZWUgZSwgZW1wbG95ZWUgZTIKd2hlcmUgZS5lbXBfaWQgPCBlMi5lbXBfaWQgYW5kIGUudGl0bGU9J1RlbGxlcicKYW5kIGUyLnRpdGxlPSdUZWxsZXInCmxpbWl0IDU7</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zLy0+Lw==</text>
