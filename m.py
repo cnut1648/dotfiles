@@ -40,6 +40,7 @@ software = ['~/.config/i3/',
         '~/.WebStorm2019.3/config',
         '~/.CLion2019.3/config',
         '~/.DataGrip2019.3/config',
+        '~/.ideavimrc',
         # feh & neofetch
         '~/Pictures/'
         ]

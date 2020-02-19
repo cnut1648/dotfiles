@@ -1,0 +1,17 @@
+inoremap <esc> <nop>
+inoremap jk <esc>
+inoremap JK <esc>
+inoremap <C-A> <Home>
+inoremap <C-B> <Left>
+inoremap <C-E> <End>
+inoremap <C-F> <Right>
+inoremap <C-K> <Esc>lDa
+inoremap <C-U> <Esc>d0xi
+inoremap <C-Y> <Esc>Pa
+inoremap <C-X><C-S> <Esc>:w<CR>a
+inoremap <C-h> <Left>
+inoremap <M-x> <Esc>:
+inoremap <M-f> <Esc>lwi
+inoremap <M-b> <Esc>bi
+inoremap <M-S-f> <Esc>lWi
+inoremap <M-S-b> <Esc>Bi
