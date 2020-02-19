@@ -68,8 +68,6 @@ select T.name, S.course id
 from instructor as T, teaches as S
 where T.ID= S.ID;
 ;-- -. . -..- - / . -. - .-. -.--
-use large;
-;-- -. . -..- - / . -. - .-. -.--
 show tables;
 ;-- -. . -..- - / . -. - .-. -.--
 select T.name, S.course_id
@@ -905,3 +903,259 @@ from department, instructor;
 ;-- -. . -..- - / . -. - .-. -.--
 select *
 from department join instructor;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from department natural join instructor;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from department inner join instructor;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from department join instructor
+    on department.dept_name = instructor.dept_name and department.dept_name='Fiance';
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from department join instructor
+    on department.dept_name = instructor.dept_name;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from department join instructor
+    on department.dept_name = instructor.dept_name
+where department.dept_name = '%inace';
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from department join instructor
+    on department.dept_name = instructor.dept_name
+where department.dept_name like '%inace';
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from department join instructor
+    on department.dept_name = instructor.dept_name
+where department.dept_name like 'F%';
+;-- -. . -..- - / . -. - .-. -.--
+show databases;
+;-- -. . -..- - / . -. - .-. -.--
+use try;
+;-- -. . -..- - / . -. - .-. -.--
+SELECT a.account_id, c.fed_id
+-> FROM account a INNER JOIN customer c
+->
+ ON a.cust_id = c.cust_id
+-> WHERE c.cust_type_cd = 'B';
+;-- -. . -..- - / . -. - .-. -.--
+SELECT a.account_id, c.fed_id
+ FROM account a INNER JOIN customer c
+
+ ON a.cust_id = c.cust_id
+ WHERE c.cust_type_cd = 'B';
+;-- -. . -..- - / . -. - .-. -.--
+SELECT a.account_id, c.fed_id
+FROM account a INNER JOIN customer c
+ON a.cust_id = c.cust_id
+WHERE c.cust_type_cd = 'B';
+;-- -. . -..- - / . -. - .-. -.--
+use large;
+;-- -. . -..- - / . -. - .-. -.--
+select salary
+from instructor
+
+(
+    select
+
+
+);
+;-- -. . -..- - / . -. - .-. -.--
+select salary
+from instructor
+);
+;-- -. . -..- - / . -. - .-. -.--
+select salary
+from instructor;
+;-- -. . -..- - / . -. - .-. -.--
+select salary
+from instructor
+except;
+;-- -. . -..- - / . -. - .-. -.--
+select salary
+from instructor
+where salary not in (
+select salary
+from instructor i1, instructor i2
+where i1.salary < i2.salary);
+;-- -. . -..- - / . -. - .-. -.--
+select instructor.salary
+from instructor
+where salary not in (
+select salary
+from instructor i1, instructor i2
+where i1.salary < i2.salary);
+;-- -. . -..- - / . -. - .-. -.--
+select i.salary
+from instructor i
+where salary not in (
+select salary
+from instructor i1, instructor i2
+where i1.salary < i2.salary);
+;-- -. . -..- - / . -. - .-. -.--
+select i.salary
+from instructor i
+where salary not in (
+select i1.salary
+from instructor i1, instructor i2
+where i1.salary < i2.salary);
+;-- -. . -..- - / . -. - .-. -.--
+desc employee;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from employee e join employee mg
+    on e.emp_id = mg.superior_emp_id;
+;-- -. . -..- - / . -. - .-. -.--
+select e.fname, e.lname, e.emp_id
+from employee e join employee mg
+    on e.emp_id = mg.superior_emp_id;
+;-- -. . -..- - / . -. - .-. -.--
+select e.fname, e.lname, 'VS', e2.fname
+from employee e, employee e2
+where e.emp_id != e2.emp_id and e.title='Teller'
+and e2.title='Teller';
+;-- -. . -..- - / . -. - .-. -.--
+select e.fname, e.lname, 'VS', e2.fname
+from employee e, employee e2
+where e.emp_id < e2.emp_id and e.title='Teller'
+and e2.title='Teller';
+;-- -. . -..- - / . -. - .-. -.--
+(select i.salary
+from instructor i)
+except;
+;-- -. . -..- - / . -. - .-. -.--
+(select i1.salary
+from instructor i1, instructor i2
+where i1.salary < i2.salary);
+;-- -. . -..- - / . -. - .-. -.--
+select max(salary)
+from instructor;
+;-- -. . -..- - / . -. - .-. -.--
+(select i.salary
+from instructor i)
+except
+(select i1.salary
+from instructor i1, instructor i2
+where i1.salary < i2.salary);
+;-- -. . -..- - / . -. - .-. -.--
+select e.fname, e.lname, 'VS', e2.fname
+from employee e, employee e2
+where e.emp_id < e2.emp_id and e.title='Teller'
+and e2.title='Teller'
+limit 5;
+;-- -. . -..- - / . -. - .-. -.--
+desc tips;
+;-- -. . -..- - / . -. - .-. -.--
+select *, total_bill/tip as rate
+from tips t
+where time = 'Dinner' and tip> 1.0 or day is not null;
+;-- -. . -..- - / . -. - .-. -.--
+select *, total_bill/tip as rate
+from tips t
+where time = 'Dinner' and tip> 1.0 or day is not null
+limit 10;
+;-- -. . -..- - / . -. - .-. -.--
+select sex, size, rate, day
+from (select *, total_bill/tip as rate from tips) as t
+where time = 'Dinner' and tip> 1.0 or day is not null
+group by sex, size
+# having
+limit 10;
+;-- -. . -..- - / . -. - .-. -.--
+select sex, size
+from (select *, total_bill/tip as rate from tips) as t
+where time = 'Dinner' and tip> 1.0 or day is not null
+group by sex, size
+# having
+limit 10;
+;-- -. . -..- - / . -. - .-. -.--
+select sex, size
+from (select *, total_bill/tip as rate from tips) as t
+where time = 'Dinner' and tip> 1.0 or day is not null
+# group by sex, size
+# having
+limit 10;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from (select *, total_bill/tip as rate from tips) as t
+where time = 'Dinner' and tip> 1.0 or day is not null
+# group by sex, size
+# having
+limit 10;
+;-- -. . -..- - / . -. - .-. -.--
+select sex, size, avg(rate), count(*)
+from (select *, total_bill/tip as rate from tips) as t
+where time = 'Dinner' and tip> 1.0 or day is not null
+group by sex, size
+# having
+limit 10;
+;-- -. . -..- - / . -. - .-. -.--
+select sex, size, avg(rate), count(*)
+from (select *, total_bill/tip as rate from tips) as t
+where time = 'Dinner' and tip> 1.0 or day is not null
+limit 10
+group by sex, size
+# having
+limit 10;
+;-- -. . -..- - / . -. - .-. -.--
+select sex, size, avg(rate), count(*)
+from (select *, total_bill/tip as rate from tips) as t
+where time = 'Dinner' and tip> 1.0 or day is not null
+limit 10
+group by sex, size;
+;-- -. . -..- - / . -. - .-. -.--
+select sex, size, avg(rate), count(*)
+from (select *, total_bill/tip as rate from tips
+      where time = 'Dinner' and tip> 1.0 or day is not null
+    limit 10
+    ) as t
+limit 10
+group by sex, size;
+;-- -. . -..- - / . -. - .-. -.--
+select sex, size, avg(rate), count(*)
+from (select *, total_bill/tip as rate from tips
+      where time = 'Dinner' and tip> 1.0 or day is not null
+    limit 10
+    ) as t;
+;-- -. . -..- - / . -. - .-. -.--
+select sex, size, avg(rate), count(*)
+from (select *, total_bill/tip as rate from tips
+      where time = 'Dinner' and tip> 1.0 or day is not null
+    limit 10
+    ) as t
+group by sex, size;
+;-- -. . -..- - / . -. - .-. -.--
+select sex, size, avg(rate) as avg, count(*)
+from (select *, total_bill/tip as rate from tips
+      where time = 'Dinner' and tip> 1.0 or day is not null
+    limit 10
+    ) as t
+group by sex, size;
+;-- -. . -..- - / . -. - .-. -.--
+select sex, size, avg(rate) as avg, count(*)
+from (select *, total_bill/tip as rate from tips
+      where time = 'Dinner' and tip> 1.0 or day is not null
+    limit 10
+    ) as t
+group by sex, size
+having avg > 10;
+;-- -. . -..- - / . -. - .-. -.--
+select sex, size, avg(rate) as avg, count(*)
+from (select *, total_bill/tip as rate from tips
+      where time = 'Dinner' and tip> 1.0 or day is not null
+    order by tip, time
+    limit 10
+    ) as t
+group by sex, size
+having avg > 10;
+;-- -. . -..- - / . -. - .-. -.--
+select account_id
+from account
+where account_id = max(account_id);
+;-- -. . -..- - / . -. - .-. -.--
+select max(account_id)
+from account;

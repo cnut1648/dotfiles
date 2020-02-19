@@ -209,19 +209,19 @@
   <Fonts>
     <Main>
       <Name>Source Code Pro Light</Name>
-      <Size>15</Size>
+      <Size>10</Size>
       <Style>0</Style>
       <Quality>0</Quality>
     </Main>
     <Editor>
       <Name>Monospace</Name>
-      <Size>14</Size>
+      <Size>9</Size>
       <Style>0</Style>
       <Quality>0</Quality>
     </Editor>
     <Viewer>
       <Name>Monospace</Name>
-      <Size>14</Size>
+      <Size>10</Size>
       <Style>0</Style>
       <Quality>0</Quality>
     </Viewer>
@@ -257,19 +257,19 @@
     </FunctionButtons>
     <Log>
       <Name>Monospace</Name>
-      <Size>12</Size>
+      <Size>10</Size>
       <Style>0</Style>
       <Quality>0</Quality>
     </Log>
     <ViewerBook>
       <Name>Source Code Pro Light</Name>
-      <Size>16</Size>
+      <Size>11</Size>
       <Style>2</Style>
       <Quality>0</Quality>
     </ViewerBook>
     <Console>
       <Name>Monospace</Name>
-      <Size>12</Size>
+      <Size>8</Size>
       <Style>0</Style>
       <Quality>0</Quality>
     </Console>
@@ -313,8 +313,8 @@
     <MainMenu>True</MainMenu>
     <ButtonBar Enabled="True">
       <FlatIcons>True</FlatIcons>
-      <ButtonHeight>54</ButtonHeight>
-      <IconSize>44</IconSize>
+      <ButtonHeight>34</ButtonHeight>
+      <IconSize>28</IconSize>
       <ReportErrorWithCommands>False</ReportErrorWithCommands>
     </ButtonBar>
     <DriveBar1>True</DriveBar1>
@@ -861,7 +861,7 @@
     <Exclude>False</Exclude>
     <ExcludeDirs/>
     <CustomIcons>0</CustomIcons>
-    <PixelsPerInch>192</PixelsPerInch>
+    <PixelsPerInch>202</PixelsPerInch>
     <ShowInMenus Enabled="False">
       <Size>16</Size>
     </ShowInMenus>
@@ -1017,7 +1017,7 @@
       <Name>Default</Name>
       <CustomView>False</CustomView>
       <FileSystem>&lt;General&gt;</FileSystem>
-      <PixelsPerInch>192</PixelsPerInch>
+      <PixelsPerInch>202</PixelsPerInch>
       <CursorBorder Enabled="True">
         <Color>-2147483635</Color>
       </CursorBorder>
@@ -1025,11 +1025,11 @@
         <Column>
           <Title>Name</Title>
           <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
-          <Width>1254</Width>
+          <Width>1319</Width>
           <Align>0</Align>
           <Font>
             <Name>Source Code Pro Light</Name>
-            <Size>15</Size>
+            <Size>10</Size>
             <Style>0</Style>
             <Quality>0</Quality>
           </Font>
@@ -1048,11 +1048,11 @@
         <Column>
           <Title>Ext</Title>
           <FuncString>[DC().GETFILEEXT{}]</FuncString>
-          <Width>100</Width>
+          <Width>105</Width>
           <Align>0</Align>
           <Font>
             <Name>Source Code Pro Light</Name>
-            <Size>15</Size>
+            <Size>10</Size>
             <Style>0</Style>
             <Quality>0</Quality>
           </Font>
@@ -1071,11 +1071,11 @@
         <Column>
           <Title>Size</Title>
           <FuncString>[DC().GETFILESIZE{}]</FuncString>
-          <Width>140</Width>
+          <Width>147</Width>
           <Align>1</Align>
           <Font>
             <Name>Source Code Pro Light</Name>
-            <Size>15</Size>
+            <Size>10</Size>
             <Style>0</Style>
             <Quality>0</Quality>
           </Font>
@@ -1094,11 +1094,11 @@
         <Column>
           <Title>Date</Title>
           <FuncString>[DC().GETFILETIME{}]</FuncString>
-          <Width>280</Width>
+          <Width>295</Width>
           <Align>1</Align>
           <Font>
             <Name>Source Code Pro Light</Name>
-            <Size>15</Size>
+            <Size>10</Size>
             <Style>0</Style>
             <Quality>0</Quality>
           </Font>
@@ -1117,11 +1117,11 @@
         <Column>
           <Title>Attr</Title>
           <FuncString>[DC().GETFILEATTR{}]</FuncString>
-          <Width>200</Width>
+          <Width>210</Width>
           <Align>0</Align>
           <Font>
             <Name>Source Code Pro Light</Name>
-            <Size>15</Size>
+            <Size>10</Size>
             <Style>0</Style>
             <Quality>0</Quality>
           </Font>

@@ -2,9 +2,63 @@
   <component name="VimLocalSettings">
     <state version="5" />
     <globalmarks />
-    <filemarks />
-    <jumps />
-    <registers />
+    <filemarks>
+      <file name="$USER_HOME$/data/untitled/Cpp/algorithm/try.cpp" timestamp="1582011401380">
+        <mark key="'" line="0" column="0" />
+        <mark key="[" line="9" column="0" />
+        <mark key="]" line="19" column="0" />
+        <mark key="." line="9" column="19" />
+        <mark key="^" line="9" column="19" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/Cpp/mycpp/main.cpp" timestamp="1582011747481">
+        <mark key="[" line="60" column="0" />
+        <mark key="]" line="60" column="9" />
+        <mark key="." line="60" column="9" />
+        <mark key="^" line="60" column="9" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/Cpp/algorithm/tryy.cpp" timestamp="1582011653114">
+        <mark key="[" line="9" column="4" />
+        <mark key="]" line="13" column="30" />
+        <mark key="^" line="13" column="30" />
+        <mark key="." line="14" column="0" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="12" column="16" filename="$USER_HOME$/data/untitled/Cpp/algorithm/try.cpp" />
+      <jump line="0" column="0" filename="$USER_HOME$/data/untitled/Cpp/algorithm/try.cpp" />
+    </jumps>
+    <registers>
+      <register name="0" type="4">
+        <text encoding="base64">ZW51bSBjbGFzcyBDIHtHVU5EQU0sIEpBUEFOfTsKICAgIEMgdmFyMSB7Qzo6R1VOREFNfTsKICAgIEMgdmFyMiB7Qzo6SkFQQU59OwogICAgaWYgKHZhcjEgPCB2YXIyKQogICAgICAgIGNvdXQgPDwgInllcyEiIDw8IGVuZGw7</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">Ly8vLyAgICBjb3V0IDw8IHMgPDwgZW5kbDsK</text>
+      </register>
+      <register name="&quot;" type="2">
+        <text encoding="base64">Ly8vLyAgICBjb3V0IDw8IHMgPDwgZW5kbDsK</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">Ly8gICAgZG91YmxlIHMgPSByZWFkX2FuZF9zdW0oMyk7Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIGVudW0gY2xhc3MgQyB7R1VOREFNLCBKQVBBTn07Cg==</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">CiAgICBDIHZhcjEge0M6OkdVTkRBTX07CiAgICBDIHZhcjIge0M6OkpBUEFOfTsKICAgIGlmICh2YXIxIDwgdmFyMikKICAgICAgICBjb3V0IDw8ICJ5ZXMhIiA8PCBlbmRsOw==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIGNvdXQgPDwgdmFyMSA8PCBlbmRsOwo=</text>
+      </register>
+      <register name="6" type="4">
+        <text encoding="base64">CmRvdWJsZSByZWFkX2FuZF9zdW0oaW50IHMpCnsKICAgIFZlY3RvciB2KHMpOyAvLyBtYWtlIGEgdmVjdG9yIG9mIHMgZWxlbWVudHMKICAgIGZvciAoaW50IGk9MDsgaSE9di5zaXplKCk7ICsraSkKICAgICAgICBjaW4+PnZbaV07IC8vIHJlYWQgaW50byBlbGVtZW50cwogICAgZG91YmxlIHN1bSA9IDA7CiAgICBmb3IgKGludCBpPTA7IGkhPXYuc2l6ZSgpOyArK2kpCiAgICAgICAgc3VtKz12W2ldOyAvLyB0YWtlIHRoZSBzdW0gb2YgdGhlIGVsZW1lbnRzCiAgICByZXR1cm4gc3VtOwp9Ow==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">bwo=</text>
+      </register>
+      <register name="-" type="4">
+        <text encoding="base64">PA==</text>
+      </register>
+    </registers>
     <search>
       <last-dir>0</last-dir>
       <show-last>false</show-last>

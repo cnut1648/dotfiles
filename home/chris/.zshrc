@@ -188,7 +188,7 @@ bindkey "^[^[" sudo-command-line  # <ESC> <ESC>
 # bindkey "^L" forward-char # remove clear-screen widget
 # bindkey "^F" clear-screen
 
-export FZF_DEFAULT_COMMAND='rg --files --hidden --smart-case --follow -g "!.git/*" -g "!**/backup/**" -g "!**/application/**"'
+export FZF_DEFAULT_COMMAND='rg --files --hidden --smart-case --follow -g "!.git/*" -g "!**/backup/**" -g "!**/application/**" -g "!**/app/**"'
 
 
 fancy-ctrl-z () {

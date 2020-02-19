@@ -18,12 +18,12 @@
     <property name="ask.about.ctrl.y.shortcut" value="true" />
     <property name="com.intellij.database.actions.DdlActions$DeleteProvider2$1.previewExpanded" value="true" />
     <property name="evlsprt3.193" value="16" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/data/untitled/sql/try&#10;/home/chris/data/untitled/sql/course&#10;/home/chris/data/untitled/sql/course/122A/user.csv&#10;/home/chris/data/untitled/sql/course/122A/advertisement.csv&#10;/home/chris/Downloads/DDL-MySQL.sql" />
-    <property name="file.gist.reindex.count" value="93" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/data/untitled/sql/try/tips.csv&#10;/home/chris/data/untitled/sql/try&#10;/home/chris/data/untitled/sql/course&#10;/home/chris/data/untitled/sql/course/122A/user.csv&#10;/home/chris/data/untitled/sql/course/122A/advertisement.csv&#10;/home/chris/Downloads/DDL-MySQL.sql" />
+    <property name="file.gist.reindex.count" value="139" />
     <property name="ide.memory.adjusted" value="true" />
-    <property name="ideavim.statistics.timestamp" value="1581577002692" />
+    <property name="ideavim.statistics.timestamp" value="1582066325906" />
     <property name="import_error_directory" value="$USER_HOME$" />
     <property name="import_write_errors" value="true" />
-    <property name="lastTip" value="11" />
+    <property name="lastTip" value="14" />
   </component>
 </application>

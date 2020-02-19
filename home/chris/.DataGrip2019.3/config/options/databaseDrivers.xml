@@ -33,7 +33,7 @@
       <artifact name="HSQLDB" use="true" />
       <option name="auto-sync" value="true" />
     </driver>
-    <driver id="mariadb" dialect="MySQL">
+    <driver id="mariadb">
       <artifact name="MariaDB Connector J" use="true" version="2.4.1" />
       <option name="auto-sync" value="true" />
       <option name="auto-commit" value="true" />

@@ -15,10 +15,10 @@
     <feature id="refactoring.pullUp" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.popup.class" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.overrideimplement" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="codeassists.parameterInfo" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="codeassists.parameterInfo" count="6" last-shown="0" last-used="1582011514235" shown-count="0" />
     <feature id="refactoring.inlineParameter" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.quickdefinition" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="editing.completion.basic" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="editing.completion.basic" count="2" last-shown="0" last-used="1582011505996" shown-count="0" />
     <feature id="refactoring.inlineConst" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="tag.name.completion" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="generate.definitions" count="0" last-shown="0" last-used="0" shown-count="0" />
@@ -42,11 +42,11 @@
     <feature id="refactoring.appCodeIntroduceVariable" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="refactoring.moveMembers" count="0" last-shown="0" last-used="0" shown-count="0" />
     <completionStatsTag>
-      <option name="sparedCharacters" value="0" />
-      <option name="invocations" value="0" />
-      <option name="startDate" value="0" />
-      <option name="dayCount" value="0" />
-      <option name="lastDate" value="0" />
+      <option name="sparedCharacters" value="10" />
+      <option name="invocations" value="2" />
+      <option name="startDate" value="1581926400000" />
+      <option name="dayCount" value="1" />
+      <option name="lastDate" value="1581926400000" />
     </completionStatsTag>
     <fixesStatsTag>
       <option name="invocations" value="0" />
