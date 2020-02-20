@@ -4,6 +4,8 @@ set relativenumber
 set incsearch
 set ignorecase
 set timeoutlen=250
+set shiftround
+set shiftwidth=2
 
 
 
@@ -74,6 +76,12 @@ inoremap <M-S-b> <Esc>Bi
 
 
 """""""""" command
+cnoremap w!! :w suda://%
+
+"""""""""" terminal
+
+
+
 
 
 
@@ -120,26 +128,30 @@ let g:ranger_map_keys = 0
 " open file in new tab
 map <leader>k :RangerNewTab<CR>
 " replace netrw
-let g:ranger_replace_netrw = 1 
+let g:ranger_replace_netrw = 1
+
+
+Plug 'lambdalisue/suda.vim'
+let g:suda_smart_edit = 1
+cnoremap w!! :w suda://%
 
 
 
 Plug 'vim-airline/vim-airline'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
+let g:airline_powerline_fonts = 1
+let g:airline_theme='wombat'
 Plug 'ryanoasis/vim-devicons'
 
 
 
 Plug 'scrooloose/syntastic'
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+let g:airline#extensions#syntastic#enabled = 1
 
 Plug 'godlygeek/tabular'
 
@@ -160,6 +172,8 @@ nnoremap <silent> <localleader> :WhichKey ','<CR>
 
 
 Plug 'tpope/vim-commentary'
+nmap <C-_> gcc
+
 
 
 Plug 'skywind3000/quickmenu.vim'
@@ -187,26 +201,20 @@ let g:gutentags_cache_dir = expand('~/.cache/tags')
 
 " change focus to quickfix window after search (optional).
 let g:gutentags_plus_switch = 1
-
-
+let g:airline#extensions#gutentags#enabled = 1
+" remove unwanted ctags info
+let g:airline_section_x = '%{airline#util#prepend("",0)}%{airline#util#prepend(airline#extensions#vista#currenttag(),0)}%{airline#util#prepend("",0)}%{airline#util#wrap(airline#parts#filetype(),0)}'
 
 
 Plug 'skywind3000/vim-preview'
 
 Plug 'liuchengxu/vista.vim'
 nmap <F8> :Vista!!<CR>
+let g:airline#extensions#vista#enabled = 1
 
-function! NearestMethodOrFunction() abort
-  return get(b:, 'vista_nearest_method_or_function', '')
-endfunction
 
-"set statusline+=%{NearestMethodOrFunction()}
 
-" By default vista.vim never run if you don't call it explicitly
-"
-" If you want to show the nearest function in your statusline automatically,
-" you can add the following line to your vimrc 
-autocmd VimEnter * call vista#RunForNearestMethodOrFunction()
+
 
 Plug 'mhinz/vim-startify'
 
