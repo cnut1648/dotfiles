@@ -210,7 +210,7 @@ setopt extended_glob
 autoload zmv
 alias zcp='zmv -C' zln='zmv -L'
 
-
+alias joplin='joplin --profile ~/.config/joplin-desktop/'
 
 alias o='a -e xdg-open'
 alias v='f -e nvim'

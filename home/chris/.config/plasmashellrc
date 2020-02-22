@@ -16,9 +16,6 @@ Number of Actions=0
 LaunchCounts=2 services_fcitx-configtool.desktop,2 services_timeshift-gtk.desktop,1 services_fcitx.desktop,1 services_systemsettings.desktop,1 services_nixnote2.desktop,1 services_nvidia-settings.desktop,3 services_org.manjaro.pamac.manager.desktop,2 services_org.kde.filelight.desktop,2 services_khotkeys.desktop,2 services_autokey-qt.desktop,1 services_org.freedesktop.IBus.Setup.desktop
 pluginWhiteList=desktopsessions,services,places,PowerDevil,calculator,unitconverter,shell,bookmarks,recentdocuments,locations,baloosearch
 
-[PlasmaTransientsConfig]
-PreloadWeight=42
-
 [PlasmaViews][Panel 1][Defaults]
 thickness=90
 
@@ -71,7 +68,7 @@ thickness=45
 thickness=45
 
 [ScreenConnectors]
-0=eDP1
+0=eDP-1-1
 
 [Updates]
 performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/move_desktop_layout_config.js

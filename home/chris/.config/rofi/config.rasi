@@ -7,8 +7,8 @@ configuration {
     sidebar-mode: true;
     display-window: "Window";
     display-drun: "Drun";
-    kb-row-tab: "Control+Tab";
-    kb-mode-next: "Tab";
+    kb-row-tab: "Tab";
+    kb-mode-next: "space";
     run-shell-command: "{terminal} -e '{cmd}'";
 /*  modi: "window,run,ssh";  */
 /*  there are no space between modes */

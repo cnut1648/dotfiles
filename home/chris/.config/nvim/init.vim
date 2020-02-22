@@ -3,9 +3,12 @@ set nu
 set relativenumber
 set incsearch
 set ignorecase
-set timeoutlen=250
+set timeoutlen=1000
 set shiftround
 set shiftwidth=2
+set hidden
+
+
 
 
 
@@ -15,21 +18,27 @@ set shiftwidth=2
 nnoremap <silent> <leader>nb :set relativenumber!<CR>
 nnoremap <silent> <leader>no :set relativenumber! nu!<CR>
 
+" edit/reload init
+nmap <silent> <leader>ev :e ~/.config/nvim/init.vim<CR>
+nmap <silent> <leader>rv :so ~/.config/nvim/init.vim<CR>
+
 
 
 " consistent with D & C
 nnoremap Y y$
 
 " window management
-nnoremap <C-w>g <C-W><C-V>
-nnoremap <C-w>v <C-W><C-S>
-nnoremap <C-w>m <C-W>T
+nnoremap <C-W>v <C-W><C-S>
+nnoremap <C-W>g <C-W><C-V>
+nnoremap <C-W>m <C-W>T
 nnoremap = <C-W>+
 nnoremap - <C-W>-
 
 " double tap to insert new line without insert mode
-nnoremap oo moo<Esc>`o
-nnoremap OO moO<Esc>`o
+nnoremap o moo<Esc>`o
+nnoremap O moO<Esc>`o
+:map G :<C-U>echo v:count<CR>
+
 
 
 " tab management
@@ -44,10 +53,9 @@ nnoremap <C-l>     :bnext<CR>
 
 
 """""""""""""   insert
-
 inoremap <esc> <nop>
 inoremap jk <esc>
-inoremap JK <esc>
+inoremap <C-Z> <esc>ui
 
 " Emacs mimic
 inoremap <C-A> <Home>
@@ -64,7 +72,7 @@ inoremap <M-x> <Esc>:
 inoremap <M-f> <Esc>lwi
 inoremap <M-b> <Esc>bi
 inoremap <M-S-f> <Esc>lWi
-inoremap <M-S-b> <Esc>Bi
+vnoremap <M-S-b> <Esc>Bi
 
 
 " inoremap <C-j> <Down>
@@ -74,12 +82,15 @@ inoremap <M-S-b> <Esc>Bi
 " inoremap <C-e> <C-o>$
 
 
+"""""""""" visual
+vnoremap jk <Esc>
+
+
 
 """""""""" command
 cnoremap w!! :w suda://%
 
 """""""""" terminal
-
 
 
 

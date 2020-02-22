@@ -1,377 +1,3 @@
-LOAD DATA LOCAL INFILE
-'user.csv'
-INTO TABLE user
-    columns terminated by ','
-    lines terminated by '\n'
-(email, password, name, date_of_birth, address, type);
-;-- -. . -..- - / . -. - .-. -.--
-create table user (
-    email varchar(40),
-    password varchar(30),
-    name varchar(20),
-    date_of_birth DATE,
-    address varchar(100),
-    type ENUM('C','R'),
-    CONSTRAINT pk_usr primary key (email),
-    );
-;-- -. . -..- - / . -. - .-. -.--
-LOAD DATA LOCAL INFILE
-'./user.csv'
-INTO TABLE user
-    columns terminated by ','
-    lines terminated by '\n';
-;-- -. . -..- - / . -. - .-. -.--
-/course/122A;
-;-- -. . -..- - / . -. - .-. -.--
-LOAD DATA LOCAL INFILE
-'~/data/untitled/sql/course/122A/user.csv'
-INTO TABLE user
-    columns terminated by ','
-    lines terminated by '\n';
-;-- -. . -..- - / . -. - .-. -.--
-LOAD DATA LOCAL INFILE
-'/home/chris/data/untitled/sql/course/122A/user.csv'
-INTO TABLE user
-    columns terminated by ','
-    lines terminated by '\n'
-(email, password, name, @custom_data, address, type)
-set date_of_birth = STR_TO_DATE(@custom_data, '%m-%d-%Y');
-;-- -. . -..- - / . -. - .-. -.--
-LOAD DATA LOCAL INFILE
-'/home/chris/data/untitled/sql/course/122A/celebrity.csv'
-INTO TABLE user
-    columns terminated by ','
-    lines terminated by '\n';
-;-- -. . -..- - / . -. - .-. -.--
-use test;
-;-- -. . -..- - / . -. - .-. -.--
-drop table if exists user;
-;-- -. . -..- - / . -. - .-. -.--
-create table user (
-    email varchar(40),
-    password varchar(30),
-    name varchar(20),
-    date_of_birth DATE,
-    address varchar(100),
-    type ENUM('C','R'),
-    CONSTRAINT pk_usr primary key (email)
-    );
-;-- -. . -..- - / . -. - .-. -.--
-create table celebrity (
-    email varchar(40),
-    website varchar(40),
-    kind varchar(20),
-    CONSTRAINT pk_celebrity primary key (email)
-    );
-;-- -. . -..- - / . -. - .-. -.--
-select T.name, S.course id
-from instructor as T, teaches as S
-where T.ID= S.ID;
-;-- -. . -..- - / . -. - .-. -.--
-show tables;
-;-- -. . -..- - / . -. - .-. -.--
-select T.name, S.course_id
-from instructor as T, teaches as S
-where T.ID= S.ID;
-;-- -. . -..- - / . -. - .-. -.--
-SELECT name
-FROM student natural join (
-      select id
-      from takes NATURAL JOIN
-          (
-          select *
-        from course where course.dept_name='Comp. Sci.'
-              )
-
-
-    );
-;-- -. . -..- - / . -. - .-. -.--
-select id
-      from takes NATURAL JOIN
-          (
-          select *
-        from course
-          where course.dept_name='Comp. Sci.'
-              );
-;-- -. . -..- - / . -. - .-. -.--
-select *
-      from takes NATURAL JOIN (
-          select *
-        from course
-          where course.dept_name='Comp. Sci.'
-              );
-;-- -. . -..- - / . -. - .-. -.--
-
-# select *
-#       from takes NATURAL JOIN
-#;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-        from course
-          where course.dept_name='Comp. Sci.';
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from takes NATURAL JOIN course c
-where c.dept_name='Comp. Sci.';
-;-- -. . -..- - / . -. - .-. -.--
-select ID
-from takes NATURAL JOIN course c
-where c.dept_name='Comp. Sci.';
-;-- -. . -..- - / . -. - .-. -.--
-select name
-from student natural join (
-select ID
-from takes NATURAL JOIN course c
-where c.dept_name='Comp. Sci.');
-;-- -. . -..- - / . -. - .-. -.--
-select name
-from student
-natural join (
-select ID
-from takes NATURAL JOIN course c
-where c.dept_name='Comp. Sci.');
-;-- -. . -..- - / . -. - .-. -.--
-select name
-from student
-natural join (
-select ID
-from takes NATURAL JOIN course c
-where c.dept_name='Comp. Sci.') as t;
-;-- -. . -..- - / . -. - .-. -.--
-select distinct name
-from student
-natural join (
-select ID
-from takes NATURAL JOIN course c
-where c.dept_name='Comp. Sci.') as t;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from student
-natural join (
-select ID
-from takes NATURAL JOIN course c
-where c.dept_name='Comp. Sci.') as t;
-;-- -. . -..- - / . -. - .-. -.--
-select name
-from student natural join takes natural join course
-where course.dept_name='Comp. Sci.';
-;-- -. . -..- - / . -. - .-. -.--
-select distinct name
-from student natural join takes natural join course
-where course.dept_name='Comp. Sci.';
-;-- -. . -..- - / . -. - .-. -.--
-SHOW TABLES;
-;-- -. . -..- - / . -. - .-. -.--
-DESC STUDENT;
-;-- -. . -..- - / . -. - .-. -.--
-DESC student;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from student takes;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from student, instructor;
-;-- -. . -..- - / . -. - .-. -.--
-select salary
-from student, instructor;
-;-- -. . -..- - / . -. - .-. -.--
-select name, course id
-from instructor, teaches
-where instructor.ID= teaches.ID;
-;-- -. . -..- - / . -. - .-. -.--
-select name, course_id
-from instructor, teaches
-where instructor.ID= teaches.ID;
-;-- -. . -..- - / . -. - .-. -.--
-select name, course_id
-from instructor natural join teaches;
-;-- -. . -..- - / . -. - .-. -.--
-select dept_name, avg (salary) as avg_salary
-from instructor
-group by dept_name
-having avg (salary) > 42000;
-;-- -. . -..- - / . -. - .-. -.--
-select dept_name, avg (salary) as avg_salary
-from instructor
-group by dept_name
-having avg (salary) > 42000
-order by avg_salary;
-;-- -. . -..- - / . -. - .-. -.--
-select dept_name, avg (salary) as avg_salary
-from instructor
-group by dept_name
-having avg (salary) > 42000
-order by avg_salary asc;
-;-- -. . -..- - / . -. - .-. -.--
-select dept_name, avg (salary) as avg_salary
-from instructor
-group by dept_name
-having avg (salary) > 42000
-order by dept_name asc, avg_salary desc;
-;-- -. . -..- - / . -. - .-. -.--
-select dept_name, avg (salary) as avg_salary
-from instructor
-group by dept_name
-having avg (salary) > 42000
-order by avg_salary desc;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from (
-select dept_name, avg (salary) as avg_salary
-from instructor
-group by dept_name)
-where avg_salary > 42000;
-;-- -. . -..- - / . -. - .-. -.--
-# select *
-# from (
-# )
-# where avg_salary > 42000
-;
-;-- -. . -..- - / . -. - .-. -.--
-select dept_name, avg (salary) as avg_salary
-from instructor
-group by dept_name;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from (
-     select dept_name, avg (salary) as avg_salary
-from instructor
-group by dept_name
-) as sub
-where sub.avg_salary > 42000;
-;-- -. . -..- - / . -. - .-. -.--
-select building, avg(budget)
-from department
-group by building;
-;-- -. . -..- - / . -. - .-. -.--
-select building, avg(budget) as a
-from department
-group by building
-having a != 80000;
-;-- -. . -..- - / . -. - .-. -.--
-select building, dept_name, avg(budget) as a
-from department
-group by building, dept_name;
-;-- -. . -..- - / . -. - .-. -.--
-select course_id
-from section
-where year = '2010';
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from section
-where year = '2010' and semester = 'Spring';
-;-- -. . -..- - / . -. - .-. -.--
-DESC section;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from section
-where year = '2010' and semester = 'Spring'
-union
-select *
-from section
-where year = '2009' and semester = 'Fall';
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from section
-where year = '2010' and semester = 'Spring'
-and
-      course_id in (select course_id
-          from section
-          where semester='Fall' and year = 2010);
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from section
-where year = '2010' and semester = 'Spring'
-and
-      course_id in (select course_id
-          from section
-          where semester='Fall' and year = 2009);
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from section
-where year = '2010' and semester = 'Spring'
-and
-      course_id in (select course_id
-          from section
-          where semester='Fall' and year = '2009');
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from section
-where year ='2010' and semester = 'Spring'
-union
-select *
-from section
-where year = '2009' and semester = 'Fall';
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from section
-where year ='2010' and semester = 'Spring'
-intersect 
-select *
-from section
-where year = '2009' and semester = 'Fall';
-;-- -. . -..- - / . -. - .-. -.--
-select course_id
-from section
-where year ='2010' and semester = 'Spring'
-intersect
-select course_id
-from section
-where year = '2009' and semester = 'Fall';
-;-- -. . -..- - / . -. - .-. -.--
-select distinct course_id
-from section
-where year = '2010' and semester = 'Spring'
-and
-      course_id in (select course_id
-          from section
-          where semester='Fall' and year = '2009');
-;-- -. . -..- - / . -. - .-. -.--
-select avg(budget) as a
-from department
-where a =all (
-select avg(budget) as a
-from department);
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from department
-where avg(budget)  =all (
-select avg(budget) as a
-from department);
-;-- -. . -..- - / . -. - .-. -.--
-select distinct S.ID, S.name
-from student as S
-where not exists ((select course_id
-from course
-where dept_name = ’Biology’)
-except
-(select T.course_id
-from takes as T
-where S.ID = T.ID));
-;-- -. . -..- - / . -. - .-. -.--
-select distinct S.ID, S.name
-from student as S
-where not exists ((select course_id
-from course
-where dept_name = 'Biology')
-except
-(select T.course_id
-from takes as T
-where S.ID = T.ID));
-;-- -. . -..- - / . -. - .-. -.--
-select * from course
-where dept_name = 'Biology';
-;-- -. . -..- - / . -. - .-. -.--
-select max (tot_salary)
-from (select dept_name, sum(salary)
-from instructor
-group by dept_name) as dept_total (dept_name, tot_salary);
-;-- -. . -..- - / . -. - .-. -.--
-select max (tot_salary)
-from (select dept_name, sum(salary)
-from instructor
-group by dept_name) as dept_total(dept_name, tot_salary);
-;-- -. . -..- - / . -. - .-. -.--
 select max(tot_salary)
 from (select dept_name, sum(salary)
 from instructor
@@ -933,8 +559,6 @@ from department join instructor
     on department.dept_name = instructor.dept_name
 where department.dept_name like 'F%';
 ;-- -. . -..- - / . -. - .-. -.--
-show databases;
-;-- -. . -..- - / . -. - .-. -.--
 use try;
 ;-- -. . -..- - / . -. - .-. -.--
 SELECT a.account_id, c.fed_id
@@ -1206,3 +830,863 @@ from account
 where (avail_balance,pending_balance) in (select a.avail_balance,a.pending_balance
     from account a inner join individual i on a.cust_id = i.cust_id
     where i.fname = 'Frank' and i.lname = 'Tucker');
+;-- -. . -..- - / . -. - .-. -.--
+show databases;
+;-- -. . -..- - / . -. - .-. -.--
+use project;
+;-- -. . -..- - / . -. - .-. -.--
+CREATE TABLE `blurts`.`blurt_analysis` (
+  `email` VARCHAR(45) NOT NULL,
+  `blurtid` INT NOT NULL,
+  `topicid` INT NOT NULL,
+  `confidence` INT NULL,
+  `sentiment` INT NULL,
+  PRIMARY KEY(`email`,`blurtid`,`topicid`),
+  FOREIGN KEY(`email`,`blurtid`) REFERENCES blurt(`email`,`blurtid`),
+  FOREIGN KEY(`topicid`) REFERENCES topic(`id`));
+;-- -. . -..- - / . -. - .-. -.--
+CREATE TABLE `blurts`.`advertisement` (
+  `id` INT NOT NULL,
+  `content` INT NULL,
+  `vendorid` INT NULL,
+  PRIMARY KEY(`id`),
+  FOREIGN KEY(`vendorid`) REFERENCES vendor(`id`));
+;-- -. . -..- - / . -. - .-. -.--
+CREATE TABLE `blurts`.`user` (
+  `email` VARCHAR(45) NOT NULL,
+  `password` VARCHAR(45) NULL,
+  `name` VARCHAR(45) NULL,
+  `data_of_birth` VARCHAR(45) NULL,
+  `address` VARCHAR(45) NULL,
+  `type` VARCHAR(45) NULL,
+  PRIMARY KEY (`email`));
+;-- -. . -..- - / . -. - .-. -.--
+CREATE TABLE `blurts`.`celebrity` (
+  `email` VARCHAR(45) NOT NULL,
+  `website` VARCHAR(45) NULL,
+  `kind` VARCHAR(45) NULL,
+  PRIMARY KEY (`email`));
+;-- -. . -..- - / . -. - .-. -.--
+CREATE TABLE `blurts`.`blurt` (
+  `blurtid` INT NOT NULL,
+  `email` VARCHAR(45) NOT NULL,
+  `text` VARCHAR(100) NULL,
+  `location` VARCHAR(45) NULL,
+  `time` VARCHAR(45) NULL,
+  PRIMARY KEY (`blurtid`,`email`),
+  FOREIGN KEY (`email`) REFERENCES user(`email`));
+;-- -. . -..- - / . -. - .-. -.--
+CREATE TABLE `blurts`.`hobby` (
+  `email` VARCHAR(45) NOT NULL,
+  `hobby` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`email`,`hobby`),
+  FOREIGN KEY (`email`) REFERENCES user(`email`));
+;-- -. . -..- - / . -. - .-. -.--
+CREATE TABLE `blurts`.`follow` (
+  `follower` VARCHAR(45) NOT NULL,
+  `followee` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`follower`,`followee`),
+  FOREIGN KEY (`follower`) REFERENCES user(`email`),
+  FOREIGN KEY (`followee`) REFERENCES user(`email`));
+;-- -. . -..- - / . -. - .-. -.--
+CREATE TABLE `blurts`.`vendor` (
+  `id` INT NOT NULL,
+  `name` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`));
+;-- -. . -..- - / . -. - .-. -.--
+CREATE TABLE `blurts`.`vendor_ambassador` (
+  `vendorid` INT NOT NULL,
+  `email` VARCHAR(45) NULL,
+  FOREIGN KEY (`email`) REFERENCES user(`email`),
+  FOREIGN KEY (`vendorid`) REFERENCES vendor(`id`));
+;-- -. . -..- - / . -. - .-. -.--
+CREATE TABLE `blurts`.`topic` (
+  `id` INT NOT NULL,
+  `description` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`id`));
+;-- -. . -..- - / . -. - .-. -.--
+CREATE TABLE `blurts`.`vendor_topics` (
+  `vendorid` INT NOT NULL,
+  `topicid` INT NOT NULL,blurt_analysis
+  PRIMARY KEY(`vendorid`,`topicid`),
+  FOREIGN KEY(`vendorid`) REFERENCES vendor(`id`),
+  FOREIGN KEY(`topicid`) REFERENCES topic(`id`));
+;-- -. . -..- - / . -. - .-. -.--
+CREATE TABLE `blurts`.`blurt_analysis` (
+  `email` VARCHAR(45) NOT NULL,
+  `blurtid` INT NOT NULL,
+  `topicid` INT NOT NULL,
+  `confidence` INT NULL,
+  `sentiment` INT NULL,
+  PRIMARY KEY(`email`,`blurtid`,`topicid`),
+  FOREIGN KEY(`email`) REFERENCES blurt(`email`),
+  FOREIGN KEY(`blurtid`) REFERENCES blurt(`blurtid`),
+  FOREIGN KEY(`topicid`) REFERENCES topic(`id`));
+;-- -. . -..- - / . -. - .-. -.--
+CREATE TABLE `blurts`.`advertisement` (
+  `id` INT NOT NULL,
+  `content` varchar(50) NULL,
+  `vendorid` INT NULL,
+  PRIMARY KEY(`id`),
+  FOREIGN KEY(`vendorid`) REFERENCES vendor(`id`));
+;-- -. . -..- - / . -. - .-. -.--
+CREATE TABLE `blurts`.`user_ad` (
+  `email` VARCHAR(45) NOT NULL,
+  `adid` INT NOT NULL,
+  PRIMARY KEY(`email`,`adid`),
+  FOREIGN KEY(`email`) REFERENCES user(`email`),
+  FOREIGN KEY(`adid`) REFERENCES advertisement(`id`));
+;-- -. . -..- - / . -. - .-. -.--
+select t.id, t.description,
+from topic t join blurt_analysis ba on t.id = ba.topicid
+group by t.id;
+;-- -. . -..- - / . -. - .-. -.--
+select t.id, t.description
+from topic t join blurt_analysis ba on t.id = ba.topicid
+group by t.id;
+;-- -. . -..- - / . -. - .-. -.--
+select t.id, t.description
+from topic t join blurt_analysis ba on t.id = ba.topicid;
+;-- -. . -..- - / . -. - .-. -.--
+select t.id, t.description, count(*)
+from topic t join blurt_analysis ba on t.id = ba.topicid
+group by t.id;
+;-- -. . -..- - / . -. - .-. -.--
+select sum(ct)
+from
+(select t.id, t.description, count(*) as ct
+from topic t join blurt_analysis ba on t.id = ba.topicid
+group by t.id);
+;-- -. . -..- - / . -. - .-. -.--
+select sum(ct)
+from
+(
+    select t.id, t.description, count(*) as ct
+from topic t join blurt_analysis ba on t.id = ba.topicid
+group by t.id
+    );
+;-- -. . -..- - / . -. - .-. -.--
+select sum(ct)
+from (
+    select t.id, t.description, count(*) as ct
+from topic t join blurt_analysis ba on t.id = ba.topicid
+group by t.id
+    );
+;-- -. . -..- - / . -. - .-. -.--
+select t.id, t.description, count(*) as ct
+from topic t join blurt_analysis ba on t.id = ba.topicid
+group by t.id;
+;-- -. . -..- - / . -. - .-. -.--
+select t.id, t.description, count(*) as ct
+from topic t join blurt_analysis ba on t.id = ba.topicid
+group by t.id
+order by ct;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from user
+where type = "C";
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from user, follow
+where type = "C";
+;-- -. . -..- - / . -. - .-. -.--
+select distinct email
+from user, follow
+where type = "C";
+;-- -. . -..- - / . -. - .-. -.--
+select followee, count(*)
+from user, follow
+where type = "C"
+group by followee;
+;-- -. . -..- - / . -. - .-. -.--
+(select email from user where type = "C");
+;-- -. . -..- - / . -. - .-. -.--
+select
+from follow, (select email celebrity from user where type = "C");
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from follow, (select email celebrity from user where type = "C");
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from follow, (select email celebrity
+    from user where type = 'C');
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from follow, (select email celebrity
+    from user where type = 'C') c;
+;-- -. . -..- - / . -. - .-. -.--
+select count()
+from user,(select email celebrity
+    from user where type = 'C') c;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from user,(select email celebrity
+    from user where type = 'C') c;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from user,(select email celebrity
+    from user where type = 'C') c
+where user.email = c.celebrity;
+;-- -. . -..- - / . -. - .-. -.--
+select followee, count(distinct follower)
+from follow
+where followee in (select email from celebrity)
+group by followee;
+;-- -. . -..- - / . -. - .-. -.--
+select sum(CT)
+    from(
+    select followee, count(distinct follower) CT
+                           from follow
+where followee in (select email from celebrity)
+group by followee
+    ) t;
+;-- -. . -..- - / . -. - .-. -.--
+select followee, count(distinct follower) CT
+                           from follow
+where followee in (select email from celebrity)
+group by followee;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from follow
+where followee = 'Brad_Pitt@pitt.com';
+;-- -. . -..- - / . -. - .-. -.--
+select distinct(follower)
+from follow
+where followee = 'Brad_Pitt@pitt.com';
+;-- -. . -..- - / . -. - .-. -.--
+select followee, count(distinct follower) CT
+                           from follow
+where followee in (select email from celebrity);
+;-- -. . -..- - / . -. - .-. -.--
+select followee
+                           from follow
+where followee in  (select email from celebrity);
+;-- -. . -..- - / . -. - .-. -.--
+select distinct followee
+                           from follow
+where followee in  (select email from celebrity);
+;-- -. . -..- - / . -. - .-. -.--
+select follower
+                           from follow
+where followee in  (select email from celebrity);
+;-- -. . -..- - / . -. - .-. -.--
+CREATE TABLE `blurts`.`vendor_topics` (
+  `vendorid` INT NOT NULL,
+  `topicid` INT NOT NULL,
+  PRIMARY KEY(`vendorid`,`topicid`),
+  FOREIGN KEY(`vendorid`) REFERENCES vendor(`id`),
+  FOREIGN KEY(`topicid`) REFERENCES topic(`id`));
+;-- -. . -..- - / . -. - .-. -.--
+select followee, count(distinct follower) CT
+    from follow
+    where followee in (select email from celebrity)
+    group by followee;
+;-- -. . -..- - / . -. - .-. -.--
+select followee, count(distinct follower) CT
+    from follow natural join user
+    where followee in (select email from celebrity)
+    group by followee;
+;-- -. . -..- - / . -. - .-. -.--
+select name, count(distinct follower) CT
+    from follow natural join user
+    where followee in (select email from celebrity)
+    group by followee;
+;-- -. . -..- - / . -. - .-. -.--
+with ct as
+    (select count(*) from member)
+select count(*) / ct
+from borrowed;
+;-- -. . -..- - / . -. - .-. -.--
+select t.id, t.description, count(*) as ct
+from topic t join blurt_analysis ba on t.id = ba.topicid
+group by t.id
+order by t.id;
+;-- -. . -..- - / . -. - .-. -.--
+select t.id, t.description, count(*) as ct
+from topic t left outer join blurt_analysis ba
+#     on t.id = ba.topicid
+group by t.id
+order by t.id;
+;-- -. . -..- - / . -. - .-. -.--
+select t.id, t.description, count(*) as ct
+from topic t left outer join blurt_analysis ba
+    on t.id = ba.topicid
+group by t.id
+order by t.id;
+;-- -. . -..- - / . -. - .-. -.--
+select t.id, t.description, count(t.id) as ct
+from topic t left outer join blurt_analysis ba
+    on t.id = ba.topicid
+group by t.id
+order by t.id;
+;-- -. . -..- - / . -. - .-. -.--
+select t.id, t.description, count(1) as ct
+from topic t left outer join blurt_analysis ba
+    on t.id = ba.topicid
+group by t.id
+order by t.id;
+;-- -. . -..- - / . -. - .-. -.--
+select followee, count(distinct follower) CT
+from follow
+where followee in (select email from celebrity)
+group by followee;
+;-- -. . -..- - / . -. - .-. -.--
+select followee, count(distinct follower) CT
+from follow
+where followee in (select email from celebrity)
+group by followee
+order by CT;
+;-- -. . -..- - / . -. - .-. -.--
+select followee, count(distinct follower) CT
+from follow, user
+where followee in (select email from celebrity)
+group by followee
+order by CT;
+;-- -. . -..- - / . -. - .-. -.--
+select user.name, count(distinct follower) CT
+from follow, user
+where followee in (select email from celebrity)
+group by followee
+order by CT;
+;-- -. . -..- - / . -. - .-. -.--
+use blurts;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from user, blurt
+where type="C" and blurt.email=user.email;
+;-- -. . -..- - / . -. - .-. -.--
+select user.email, count(*) as ct
+from user join blurt on user.email = blurt.email
+where type='C'
+group by user.email;
+;-- -. . -..- - / . -. - .-. -.--
+select user.email, count(*) as ct
+from user join blurt on user.email = blurt.email
+where type='C'
+group by user.email
+order by ct;
+;-- -. . -..- - / . -. - .-. -.--
+select user.email, count(*) as ct
+from user join blurt on user.email = blurt.email
+where type='C'
+group by user.email
+order by ct desc;
+;-- -. . -..- - / . -. - .-. -.--
+select u.name
+from celebrity c1 join user u on celebrity.email = u.email
+where not exists (
+    select c2.email
+    from celebrity c2, follow
+    where c1.email = follower
+    );
+;-- -. . -..- - / . -. - .-. -.--
+select u.name
+from celebrity c1 join user u on c1.email = u.email
+where not exists (
+    select c2.email
+    from celebrity c2, follow
+    where c1.email = follower
+    );
+;-- -. . -..- - / . -. - .-. -.--
+select u.name
+from celebrity c1 join user u on c1.email = u.email
+where not exists (
+    select follower
+#     select c2.email
+    from celebrity c2, follow
+    where c1.email = follower
+    );
+;-- -. . -..- - / . -. - .-. -.--
+select user.name, v.email, count(*) as count
+from follow, user join
+     (vendor_topics natural join vendor_ambassador) v
+                on v.email = user.email
+where followee = v.email
+group by v.email;
+;-- -. . -..- - / . -. - .-. -.--
+select user.name, v.email
+#      , count(*) as count
+from follow, user join
+     (vendor_topics natural join vendor_ambassador) v
+                on v.email = user.email
+where followee = v.email;
+;-- -. . -..- - / . -. - .-. -.--
+select user.name, v.email
+#      , count(*) as count
+from follow, user join
+     (vendor_topics natural join vendor_ambassador) v
+                on v.email = user.email;
+;-- -. . -..- - / . -. - .-. -.--
+select user.name, v.email
+#      , count(*) as count
+from follow, (user join
+     (vendor_topics natural join vendor_ambassador) v
+                on v.email = user.email);
+;-- -. . -..- - / . -. - .-. -.--
+select user.name, v.email
+#      , count(*) as count
+from follow join (user join
+     (vendor_topics natural join vendor_ambassador) v
+                on v.email = user.email);
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from vendor_ambassador natural join vendor;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from vendor_ambassador natural join vendor on vendor_ambassador.vendorid = vendor.id;
+;-- -. . -..- - / . -. - .-. -.--
+select user.name, v.email
+#      , count(*) as count
+from follow,
+     user join
+    (vendor_ambassador join vendor ve on vendor_ambassador.vendorid = ve.id) v;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+    (vendor_ambassador join vendor ve on vendor_ambassador.vendorid = ve.id) v;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+ from   (vendor_ambassador join vendor  on vendor_ambassador.vendorid = vendor.id) v;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+ from   (vendor_ambassador join vendor  on vendor_ambassador.vendorid = vendor.id) as v;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from vendor_ambassador join vendor on vendor_ambassador.vendorid = vendor.id;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from vendor_ambassador join vendor on vendor_ambassador.vendorid = vendor.id
+join user;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from vendor_ambassador join vendor on vendor_ambassador.vendorid = vendor.id
+join user on vendor_ambassador.email = user.email;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from vendor_ambassador join vendor on vendor_ambassador.vendorid = vendor.id
+join user on vendor_ambassador.email = user.email, follow;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from vendor_ambassador join vendor on vendor_ambassador.vendorid = vendor.id
+join user on vendor_ambassador.email = user.email, follow
+where followee = user.email;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from vendor_ambassador join vendor on vendor_ambassador.vendorid = vendor.id
+join user on vendor_ambassador.email = user.email, follow
+where followee = user.email
+group by followee;
+;-- -. . -..- - / . -. - .-. -.--
+select user.name, followee, count(*)
+from vendor_ambassador join vendor on vendor_ambassador.vendorid = vendor.id
+join user on vendor_ambassador.email = user.email, follow
+where followee = user.email
+group by followee;
+;-- -. . -..- - / . -. - .-. -.--
+select user.name, followee, count(*) as ct
+from vendor_ambassador join vendor on vendor_ambassador.vendorid = vendor.id
+join user on vendor_ambassador.email = user.email, follow
+where followee = user.email
+group by followee
+order by ct desc;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from blurt natural join blurt_analysis ba
+using blurtid, email;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from blurt natural join blurt_analysis ba
+using (blurtid, email);
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from blurt natural join blurt_analysis ba;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from blurt natural join blurt_analysis ba
+join topic t on ba.topicid = t.id
+group by topicid;
+;-- -. . -..- - / . -. - .-. -.--
+select t.id, t.description, location, count(*) as ct, avg(sentiment)
+from blurt natural join blurt_analysis ba
+join topic t on ba.topicid = t.id
+group by topicid, location;
+;-- -. . -..- - / . -. - .-. -.--
+select t.id, t.description, location, count(*) as ct, avg(sentiment) as avg
+from blurt natural join blurt_analysis ba
+join topic t on ba.topicid = t.id
+group by topicid, location
+having avg < 0;
+;-- -. . -..- - / . -. - .-. -.--
+select u1.name, u2.name
+from user u1, user u2
+where u1.name != u2.name
+and u2.email not in (select followee
+    from follow where follower = u1.email)
+and exists(select topicid
+        from blurt_analysis ba
+        where ba.email = u1.name
+    intersect
+        select topicid
+    from blurt_analysis ba2
+    where ba2.email = u2.name
+    );
+;-- -. . -..- - / . -. - .-. -.--
+select u1.name, u2.name
+from user u1, user u2
+where u1.name != u2.name
+and u2.email not in (select followee
+    from follow where follower = u1.email);
+;-- -. . -..- - / . -. - .-. -.--
+select u1.name, u2.name
+from user u1, user u2
+where u1.name != u2.name
+and u2.email not in (select followee
+    from follow where follower = u1.email)
+and exists(select ba.topicid
+        from blurt_analysis ba
+        where ba.email = u1.name
+    intersect
+        select ba2.topicid
+    from blurt_analysis ba2
+    where ba2.email = u2.name
+    );
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from blurt_analysis
+where email = 'Albert_Carey@msn.com';
+;-- -. . -..- - / . -. - .-. -.--
+select ba.topicid
+from blurt_analysis ba
+where email = 'Albert_Carey@msn.com'
+intersect
+select ba2.topicid
+from blurt_analysis ba2
+where email = 'Roger_Larson@yahoo.com';
+;-- -. . -..- - / . -. - .-. -.--
+select ba.topicid
+from blurt_analysis ba
+where ba.email = 'Albert_Carey@msn.com'
+intersect
+select ba2.topicid
+from blurt_analysis ba2
+where ba2.email = 'Roger_Larson@yahoo.com';
+;-- -. . -..- - / . -. - .-. -.--
+select u1.name, u2.name
+from user u1, user u2
+where u1.name != u2.name
+# and u2.email not in (select followee
+#     from follow where follower = u1.email)
+and exists ((select ba.topicid
+        from blurt_analysis ba
+        where ba.email = u1.name )
+    intersect
+        (select ba2.topicid
+    from blurt_analysis ba2
+    where ba2.email = u2.name)
+    );
+;-- -. . -..- - / . -. - .-. -.--
+select u1.name, u2.name
+from user u1, user u2
+where u1.name != u2.name
+# and u2.email not in (select followee
+#     from follow where follower = u1.email)
+and not exists ((select ba.topicid
+        from blurt_analysis ba
+        where ba.email = u1.name )
+    intersect
+        (select ba2.topicid
+    from blurt_analysis ba2
+    where ba2.email = u2.name)
+    );
+;-- -. . -..- - / . -. - .-. -.--
+select u1.name, u2.name
+from user u1, user u2
+where u1.name != u2.name
+and u2.email not in (select followee
+    from follow where follower = u1.email)
+and exists ((select ba.topicid
+        from blurt_analysis ba
+        where ba.email = u1.name )
+    intersect
+        (select ba2.topicid
+    from blurt_analysis ba2
+    where ba2.email = u2.name)
+    );
+;-- -. . -..- - / . -. - .-. -.--
+select u1.name, u2.name
+from user u1, user u2
+where u1.name != u2.name;
+;-- -. . -..- - / . -. - .-. -.--
+select u1.name, u2.name
+from user u1, user u2
+where u1.name != u2.name
+
+and u2.email not in (select followee
+    from follow where follower = u1.email)
+and exists ((select ba.topicid
+        from blurt_analysis ba
+        where ba.email = u1.email)
+    intersect
+        (select ba2.topicid
+    from blurt_analysis ba2
+    where ba2.email = u2.email)
+    );
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from user u1, user u2, user u3
+where u2.email in (
+    select followee
+    from follow
+    where follower = u1.email
+    ) and u3.email in (
+    select followee
+    from follow
+    where follower = u2.email
+    ) and u3.email not in (
+    select followee
+    from follow
+    where follower = u1.email
+
+    );
+;-- -. . -..- - / . -. - .-. -.--
+select u1.email, u2.email, u3.email
+from user u1, user u2, user u3
+where u2.email in (
+    select followee
+    from follow
+    where follower = u1.email
+    ) and u3.email in (
+    select followee
+    from follow
+    where follower = u2.email
+    ) and u3.email not in (
+    select followee
+    from follow
+    where follower = u1.email
+
+    );
+;-- -. . -..- - / . -. - .-. -.--
+select vendorid,email
+from advertisement join user_ad ua on advertisement.id = ua.adid;
+;-- -. . -..- - / . -. - .-. -.--
+select vendorid, email
+from vendor_topics join blurt_analysis ba on vendor_topics.topicid = ba.topicid
+group by vendorid;
+;-- -. . -..- - / . -. - .-. -.--
+select vendorid, email
+from vendor_topics join blurt_analysis ba on vendor_topics.topicid = ba.topicid
+       except
+select vendorid,email
+from advertisement join user_ad ua on advertisement.id = ua.adid;
+;-- -. . -..- - / . -. - .-. -.--
+select vendorid, count(*) as ct
+from (select vendorid, email
+from vendor_topics join blurt_analysis ba on vendor_topics.topicid = ba.topicid
+       except
+select vendorid,email
+from advertisement join user_ad ua on advertisement.id = ua.adid)
+group by vendorid;
+;-- -. . -..- - / . -. - .-. -.--
+select vendorid, count(*) as ct
+from (select vendorid, email
+from vendor_topics join blurt_analysis ba on vendor_topics.topicid = ba.topicid
+       except
+select vendorid,email
+from advertisement join user_ad ua on advertisement.id = ua.adid) s
+group by vendorid;
+;-- -. . -..- - / . -. - .-. -.--
+select vendorid, count(*) as ct
+from (select vendorid, email
+from vendor_topics join blurt_analysis ba on vendor_topics.topicid = ba.topicid
+       except
+select vendorid,email
+from advertisement join user_ad ua on advertisement.id = ua.adid) s
+join vendor on vendorid
+group by vendorid
+order by ct desc;
+;-- -. . -..- - / . -. - .-. -.--
+select name, count(*) as ct
+from (select vendorid, email
+from vendor_topics join blurt_analysis ba on vendor_topics.topicid = ba.topicid
+       except
+select vendorid,email
+from advertisement join user_ad ua on advertisement.id = ua.adid) s
+join vendor on vendorid
+group by vendorid
+order by ct desc;
+;-- -. . -..- - / . -. - .-. -.--
+select vendorid, count(*) as ct
+from (select vendorid, email
+from vendor_topics join blurt_analysis ba on vendor_topics.topicid = ba.topicid
+       except
+select vendorid,email
+from advertisement join user_ad ua on advertisement.id = ua.adid) s
+group by vendorid
+order by ct desc;
+;-- -. . -..- - / . -. - .-. -.--
+select name, s.ct
+from vendor join (
+select vendorid, count(*) as ct
+from (select vendorid, email
+from vendor_topics join blurt_analysis ba on vendor_topics.topicid = ba.topicid
+       except
+select vendorid,email
+from advertisement join user_ad ua on advertisement.id = ua.adid) s
+group by vendorid) s;
+;-- -. . -..- - / . -. - .-. -.--
+select name, s.ct
+from vendor join (
+select vendorid, count(*) as ct
+from (select vendorid, email
+from vendor_topics join blurt_analysis ba on vendor_topics.topicid = ba.topicid
+       except
+select vendorid,email
+from advertisement join user_ad ua on advertisement.id = ua.adid) s
+group by vendorid) s using vendorid;
+;-- -. . -..- - / . -. - .-. -.--
+select name, s.ct
+from vendor join (
+select vendorid, count(*) as ct
+from (select vendorid, email
+from vendor_topics join blurt_analysis ba on vendor_topics.topicid = ba.topicid
+       except
+select vendorid,email
+from advertisement join user_ad ua on advertisement.id = ua.adid) s
+group by vendorid) s on vendorid;
+;-- -. . -..- - / . -. - .-. -.--
+select name, s.ct
+from vendor join (
+select vendorid, count(*) as ct
+from (select vendorid, email
+from vendor_topics join blurt_analysis ba on vendor_topics.topicid = ba.topicid
+       except
+select vendorid,email
+from advertisement join user_ad ua on advertisement.id = ua.adid) s
+group by vendorid) s on vendor.id = s.vendorid;
+;-- -. . -..- - / . -. - .-. -.--
+select vendorid,name, s.ct
+from vendor join (
+select vendorid, count(*) as ct
+from (select vendorid, email
+from vendor_topics join blurt_analysis ba on vendor_topics.topicid = ba.topicid
+       except
+select vendorid,email
+from advertisement join user_ad ua on advertisement.id = ua.adid) s
+group by vendorid) s on vendor.id = s.vendorid
+order by ct desc;
+;-- -. . -..- - / . -. - .-. -.--
+select t.id, t.description, count(email) as count
+from topic t left outer join blurt_analysis ba
+    on t.id = ba.topicid
+group by t.id
+order by t.id;
+;-- -. . -..- - / . -. - .-. -.--
+select user.name, count(distinct follower) CT
+from follow, user
+where followee in (select email from celebrity)
+    and user.email = followee
+group by followee
+order by CT;
+;-- -. . -..- - / . -. - .-. -.--
+select user.name, count(distinct follower) `followers ct`
+from follow, user
+where followee in (select email from celebrity)
+    and user.email = followee
+group by followee
+order by CT;
+;-- -. . -..- - / . -. - .-. -.--
+select user.name, count(distinct follower) `followers ct`
+from follow, user
+where followee in (select email from celebrity)
+    and user.email = followee
+group by followee
+order by `followers ct`;
+;-- -. . -..- - / . -. - .-. -.--
+select user.name, count(*) as ct
+from user join blurt on user.email = blurt.email
+where type='C'
+group by user.email
+order by ct desc;
+;-- -. . -..- - / . -. - .-. -.--
+select u.name
+from celebrity c1 join user u on c1.email = u.email
+where not exists (
+    select follower
+    from  follow
+    where c1.email = follower
+    );
+;-- -. . -..- - / . -. - .-. -.--
+select user.name, followee, count(*) as ct
+from vendor_ambassador join vendor on vendor_ambassador.vendorid = vendor.id
+join user on vendor_ambassador.email = user.email, follow
+where followee = user.email
+group by followee
+order by ct;
+;-- -. . -..- - / . -. - .-. -.--
+select user.name, followee as email, count(*) as ct
+from vendor_ambassador join vendor on vendor_ambassador.vendorid = vendor.id
+join user on vendor_ambassador.email = user.email, follow
+where followee = user.email
+group by followee
+order by ct;
+;-- -. . -..- - / . -. - .-. -.--
+select name, s.ct
+from vendor join (
+select vendorid, count(*) as ct
+from (select vendorid, email
+from vendor_topics join blurt_analysis ba on vendor_topics.topicid = ba.topicid
+       except
+select vendorid,email
+from advertisement join user_ad ua on advertisement.id = ua.adid) s
+group by vendorid) s on vendor.id = s.vendorid
+order by ct desc;
+;-- -. . -..- - / . -. - .-. -.--
+select u1.name, u2.name
+from user u1, user u2
+where u1.name != u2.name
+and u2.email not in (select followee
+    from follow where follower = u1.email)
+and exists ((select ba.topicid
+        from blurt_analysis ba
+        where ba.email = u1.email)
+    intersect
+        (select ba2.topicid
+    from blurt_analysis ba2
+    where ba2.email = u2.email)
+    );
+;-- -. . -..- - / . -. - .-. -.--
+select u1.name as A, u2.name as B
+from user u1, user u2
+where u1.name != u2.name
+and u2.email not in (select followee
+    from follow where follower = u1.email)
+and exists ((select ba.topicid
+        from blurt_analysis ba
+        where ba.email = u1.email)
+    intersect
+        (select ba2.topicid
+    from blurt_analysis ba2
+    where ba2.email = u2.email)
+    );
+;-- -. . -..- - / . -. - .-. -.--
+select u1.email as A, u2.email as B, u3.email as C
+from user u1, user u2, user u3
+where u2.email in (
+    select followee
+    from follow
+    where follower = u1.email
+    ) and u3.email in (
+    select followee
+    from follow
+    where follower = u2.email
+    ) and u3.email not in (
+    select followee
+    from follow
+    where follower = u1.email
+
+    );
+;-- -. . -..- - / . -. - .-. -.--
+select t.id, t.description, location as state, count(*) as ct, avg(sentiment) as avg
+from blurt natural join blurt_analysis ba
+join topic t on ba.topicid = t.id
+group by topicid, location
+having avg < 0;
