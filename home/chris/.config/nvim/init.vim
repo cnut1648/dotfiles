@@ -11,7 +11,6 @@ set hidden
 
 
 
-
 """"""""""""""" normal
 
 " Toggle Relative Number
@@ -27,18 +26,38 @@ nmap <silent> <leader>rv :so ~/.config/nvim/init.vim<CR>
 " consistent with D & C
 nnoremap Y y$
 
+
+
 " window management
-nnoremap <C-W>v <C-W><C-S>
-nnoremap <C-W>g <C-W><C-V>
-nnoremap <C-W>m <C-W>T
-nnoremap = <C-W>+
-nnoremap - <C-W>-
+" use kitty map ctrl+shift to alt+shift
+nnoremap <M-S-V> <C-W><C-S>
+nnoremap <M-S-G> <C-W><C-V>
+" move to new tab
+nnoremap <M-S-N> <C-W>T 
+" create new window
+nnoremap <M-S-M> <C-W>n 
 
-" double tap to insert new line without insert mode
-nnoremap o moo<Esc>`o
-nnoremap O moO<Esc>`o
-:map G :<C-U>echo v:count<CR>
+nnoremap <M-S-h> <C-W>h
+nnoremap <M-S-j> <C-W>j
+nnoremap <M-S-k> <C-W>k
+nnoremap <M-S-l> <C-W>l
+nnoremap <M-S-P> <C-W>p
+nnoremap <M-S-W> <C-W>w
+nnoremap <M-S-B> <C-W>b
+nnoremap <M-S-T> <C-W>t
 
+nnoremap <M-S-Q> <C-W>q
+nnoremap <M-S-A> <C-W>o
+
+
+" use kitty send_text to map ctrl+shift+o to alt+shift+o
+" terminal cannot recognize ctrl + shift
+" nnoremap <m-s-o> O
+" nnoremap <s-o> o
+
+nnoremap <silent> <m-s-o> :<C-u>call append(line("."),   repeat([""], v:count1))<CR>
+nnoremap <silent> <s-o> :<C-u>call append(line(".")-1, repeat([""], v:count1))<CR>
+":map G :<C-U>echo v:count<CR>
 
 
 " tab management
@@ -91,7 +110,8 @@ vnoremap jk <Esc>
 cnoremap w!! :w suda://%
 
 """""""""" terminal
-
+tnoremap jk <C-\><C-N> 
+tnoremap <Esc> <C-\><C-N> 
 
 
 

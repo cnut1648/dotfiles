@@ -1744,3 +1744,4 @@ user_pref("privacy.resistFingerprinting.letterboxing", false);
 user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true);
 user_pref("security.ssl.require_safe_negotiation", false);
 user_pref("security.dialog_enable_delay", 0);
+user_pref("browser.display.use_document_fonts", 1);

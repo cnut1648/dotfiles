@@ -10,6 +10,15 @@ fi
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+setopt append_history
+setopt nomatch   # when no match print error
+setopt extended_glob
+
+autoload zmv
+alias zcp='zmv -C' zln='zmv -L'
+
+alias joplin='joplin --profile ~/.config/joplin-desktop/'
+
 export GTK_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus
 export QT_IM_MODULE=ibus
@@ -110,12 +119,17 @@ ENABLE_CORRECTION="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git fast-syntax-highlighting zsh-autosuggestions
-	z extract fasd k zsh-completions rand-quote
+      	extract fasd k zsh-completions rand-quote z.lua
 	you-should-use ripgrep fzf-tab fz fzf-fasd)
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=180'
 
 # for fasd
 eval "$(fasd --init auto)"
+# for z.lua
+eval "$(lua /home/chris/.oh-my-zsh/custom/plugins/z.lua/z.lua --init zsh enhanced)"
+function _z() { _zlua "$@"; }
+export RANGER_ZLUA='/home/chris/.oh-my-zsh/custom/plugins/z.lua/z.lua'
+export _ZL_DATA='~/.config/.zlua'
 
 # you-should-use hardcore mode
 export YSU_HARDCORE=1
@@ -165,15 +179,14 @@ bindkey "^Q" print_quote
 
 run_ranger () {
     echo
-    ranger --choosedir=$HOME/.rangerdir < $TTY
-    LASTDIR=`< $HOME/.rangerdir`
+    ranger --choosedir=$HOME/.config/.rangerdir < $TTY
+    LASTDIR=`< $HOME/.config/.rangerdir`
     cd "$LASTDIR"
 # zle reset-prompt won't refresh if using powerlevel10k theme
     zle accept-line
 }
 zle -N run_ranger
 bindkey '^K' run_ranger
-
 
 ## insert sudo {{{
 sudo-command-line() {
@@ -190,7 +203,6 @@ bindkey "^[^[" sudo-command-line  # <ESC> <ESC>
 
 export FZF_DEFAULT_COMMAND='rg --files --hidden --smart-case --follow -g "!.git/*" -g "!**/backup/**" -g "!**/application/**" -g "!**/app/**"'
 
-
 fancy-ctrl-z () {
   if [[ $#BUFFER -eq 0 ]]; then
     bg
@@ -202,15 +214,6 @@ fancy-ctrl-z () {
 # empty line --> run bg
 zle -N fancy-ctrl-z
 bindkey '^Z' fancy-ctrl-z
-
-setopt append_history
-setopt nomatch   # when no match print error
-setopt extended_glob
-
-autoload zmv
-alias zcp='zmv -C' zln='zmv -L'
-
-alias joplin='joplin --profile ~/.config/joplin-desktop/'
 
 alias o='a -e xdg-open'
 alias v='f -e nvim'
