@@ -76,7 +76,9 @@ class fzf_select(Command):
     def execute(self):
         import subprocess
         import os.path
-        fzf_default = os.environ.get("FZF_DEFAULT_COMMAND")
+        # fzf_default = os.environ.get("FZF_DEFAULT_COMMAND")
+        # fzf_default+="| fzf +m"
+        fzf_default='fzf'
         # if self.quantifier:
         #     # match only directories
         #     command="find -L . \( -path '*/\.*' -o -fstype 'dev' -o -fstype 'proc' \) -prune \
@@ -86,7 +88,7 @@ class fzf_select(Command):
         #     command="find -L . \( -path '*/\.*' -o -fstype 'dev' -o -fstype 'proc' \) -prune \
         #     -o -print 2> /dev/null | sed 1d | cut -b3- | fzf +m"
 
-        fzf = self.fm.execute_command(f"{fzf_default} +m", universal_newlines=True, stdout=subprocess.PIPE)
+        fzf = self.fm.execute_command(fzf_default, universal_newlines=True, stdout=subprocess.PIPE)
         stdout, stderr = fzf.communicate()
         if fzf.returncode == 0:
             fzf_file = os.path.abspath(stdout.rstrip('\n'))

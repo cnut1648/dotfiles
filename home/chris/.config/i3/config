@@ -34,7 +34,7 @@ exec --no-startup-id bri 0.4
 # exec --no-startup-id i3-msg 'workspace 2; exec /usr/bin/krusader'
 
 # enable wallpaper
-exec --no-startup-id feh --bg-scale /home/chris/Pictures/wallpaper/vFhqP3g.jpg 
+exec --no-startup-id feh --bg-scale /home/chris/Pictures/wallpaper/vFhqP3g.jpg
 
 # enable transparency
 exec_always --no-startup-id picom
@@ -46,7 +46,6 @@ exec --no-startup-id nm-applet
 # implement spiral tiling of bspwm
 exec --no-startup-id autotiling
 
-# TO-DO
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10% && $refresh_i3status
@@ -182,6 +181,11 @@ bindsym $mod+Shift+BackSpace move container to workspace number $ws13
 
 bindsym $mod+Tab workspace next
 bindsym $mod+Shift+Tab workspace prev
+
+# mod+i go from j to i, mod+i again go back to j
+workspace_auto_back_and_forth yes
+bindsym $mod+o workspace back_and_forth
+bindsym $mod+Shift+o move container to workspace back_and_forth
 
 # reload the configuration file
 bindsym $mod+Shift+c reload

@@ -46,8 +46,6 @@ export LESS_TERMCAP_se=$'\E[0m'        # reset reverse video
 export LESS_TERMCAP_us=$'\E[1;32m'     # begin underline
 export LESS_TERMCAP_ue=$'\E[0m'        # reset underline
 
-source /usr/share/fzf/key-bindings.zsh
-source /usr/share/fzf/completion.zsh
 
 
 # Path to your oh-my-zsh installation.
@@ -119,18 +117,20 @@ ENABLE_CORRECTION="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git fast-syntax-highlighting zsh-autosuggestions
-      	extract fasd k zsh-completions rand-quote z.lua
-	you-should-use ripgrep fzf-tab fz fzf-fasd)
+  extract fasd k zsh-completions rand-quote z.lua
+  you-should-use ripgrep fzf-tab fz)
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=180'
 
 # for fasd
 eval "$(fasd --init auto)"
 # for z.lua
 eval "$(lua /home/chris/.oh-my-zsh/custom/plugins/z.lua/z.lua --init zsh enhanced)"
+# use z.lua with fz
 function _z() { _zlua "$@"; }
 export RANGER_ZLUA='/home/chris/.oh-my-zsh/custom/plugins/z.lua/z.lua'
 export _ZL_DATA='~/.config/.zlua'
-
+# escape %- by -, z A-B instead of z A&-B to jump ../A-B
+export _ZL_HYPHEN=1
 # you-should-use hardcore mode
 export YSU_HARDCORE=1
 
@@ -201,8 +201,24 @@ bindkey "^[^[" sudo-command-line  # <ESC> <ESC>
 # bindkey "^L" forward-char # remove clear-screen widget
 # bindkey "^F" clear-screen
 
-export FZF_DEFAULT_COMMAND='rg --files --hidden --smart-case --follow -g "!.git/*" -g "!**/backup/**" -g "!**/application/**" -g "!**/app/**"'
+source /usr/share/fzf/completion.zsh
+# use fzf-tab instead of predefined keybind
+# source /usr/share/fzf/key-bindings.zsh
+export FZF_TAB_OPTS=(    
+    --ansi   # Enable ANSI color support, necessary for showing groups    
+    --expect='/' # For continuous completion     
+    '--color=hl:$(( $#headers == 0 ? 108 : 255 ))'    
+    --nth=2,3 --delimiter='\x00'  # Don't search FZF_TAB_PREFIX    
+    --layout=reverse --height=70%    
+    --tiebreak=begin -m --bind=tab:down,change:top,ctrl-space:toggle --cycle    
+    '--query=$query'   # $query will be expanded to query string at runtime.        
+    '--header-lines=$#headers' # $#headers will be expanded to lines of headers at runtime    
+    ) 
 
+# copy in zsh, since has !, zsh thinks its his expansion, setopt nobanghis to disable his expansion
+# --follow cause fzf read file with no permission, send error to null to ignore
+export RIPGREP_CONFIG_PATH='/home/chris/.config/.ripgreprc'
+export FZF_DEFAULT_COMMAND='rg --files --hidden --follow 2> /dev/null'
 fancy-ctrl-z () {
   if [[ $#BUFFER -eq 0 ]]; then
     bg
