@@ -5,8 +5,11 @@ set incsearch
 set ignorecase
 set timeoutlen=500
 set shiftround
-set shiftwidth=2
+set shiftwidth=4
+set softtabstop=4
 set hidden
+set tabstop=4
+set expandtab
 
 map <space> <leader>
 
@@ -54,10 +57,11 @@ nnoremap <M->> <C-W>>
 " terminal cannot recognize ctrl + shift
 " nnoremap <m-s-o> O
 " nnoremap <s-o> o
+nnoremap oo o
+nnoremap OO O
 
-nnoremap <silent> <m-s-o> :<C-u>call append(line("."),   repeat([""], v:count1))<CR>
-nnoremap <silent> <s-o> :<C-u>call append(line(".")-1, repeat([""], v:count1))<CR>
-
+nnoremap <silent> o :<C-u>call append(line("."),   repeat([""], v:count1))<CR>
+nnoremap <silent> O :<C-u>call append(line(".")-1, repeat([""], v:count1))<CR>
 
 " tab management
 nnoremap <C-t>     :tabnew<CR>
@@ -89,7 +93,7 @@ inoremap <M-S-b> <Esc>Bi
 inoremap <C-P> <Up>
 inoremap <C-N> <Down>
 
-inoremap <C-K> <Esc>lDa
+inoremap <C-I> <Esc>lDa
 inoremap <C-U> <Esc>d0xi
 inoremap <C-Y> <Esc>Pa
 inoremap <C-X><C-S> <Esc>:w<CR>a
@@ -112,21 +116,31 @@ inoremap <M-x> <Esc>:
 
 
 """""""""" command
-cnoremap w!! :w suda://%
+cmap <C-p> <Up>
+cmap <C-n> <Down>
+cmap <C-b> <Left>
+cmap <C-f> <Right>
+cmap <C-a> <Home>
+cmap <C-e> <End>
+cnoremap <C-h> <BS>
+
+
+
+
 
 """""""""" terminal
 " using jk in terminal slow down ranger
 " tnoremap jk <C-\><C-N>
 augroup vimrc_term
-  autocmd!
-  autocmd WinEnter term://* nohlsearch
-  autocmd WinEnter term://* startinsert
+    autocmd!
+    autocmd WinEnter term://* nohlsearch
+    autocmd WinEnter term://* startinsert
 
-  autocmd TermOpen * tnoremap <buffer> <M-S-h> <C-\><C-n><C-w>h
-  autocmd TermOpen * tnoremap <buffer> <M-S-j> <C-\><C-n><C-w>j
-  autocmd TermOpen * tnoremap <buffer> <M-S-k> <C-\><C-n><C-w>k
-  autocmd TermOpen * tnoremap <buffer> <M-S-l> <C-\><C-n><C-w>l
-  autocmd TermOpen * tnoremap <buffer> <M-S-q> <C-\><C-n>
+    autocmd TermOpen * tnoremap <buffer> <M-S-h> <C-\><C-n><C-w>h
+    autocmd TermOpen * tnoremap <buffer> <M-S-j> <C-\><C-n><C-w>j
+    autocmd TermOpen * tnoremap <buffer> <M-S-k> <C-\><C-n><C-w>k
+    autocmd TermOpen * tnoremap <buffer> <M-S-l> <C-\><C-n><C-w>l
+    autocmd TermOpen * tnoremap <buffer> <M-S-q> <C-\><C-n>
 augroup END
 
 
@@ -135,18 +149,26 @@ augroup END
 " Z - cd to recent / frequent directories
 command! -nargs=* Z :call Z(<f-args>)
 function! Z(...)
-  let cmd = 'fasd -d -e printf'
-  for arg in a:000
-    let cmd = cmd . ' ' . arg
-  endfor
-  let path = system(cmd)
-  if isdirectory(path)
-    echo path
-    exec 'cd' fnameescape(path)
-  endif
+    let cmd = 'fasd -d -e printf'
+    for arg in a:000
+        let cmd = cmd . ' ' . arg
+    endfor
+    let path = system(cmd)
+    if isdirectory(path)
+        echo path
+        exec 'cd' fnameescape(path)
+    endif
 endfunction
 
 
+" Strip trailing whitespace and newlines on save
+fun! StripTrailingWhitespace()
+    let l = line(".")
+    let c = col(".")
+    %s/\s\+$//e
+    %s/\($\n\s*\)\+\%$//e
+    call cursor(l, c)
+endfun
 
 """""""""  plug
 
@@ -175,7 +197,8 @@ Plug 'godlygeek/tabular'
 Plug 'vim-airline/vim-airline'
 Plug 'ryanoasis/vim-devicons'
 Plug 'sbdchd/neoformat'
-Plug 'mhinz/vim-startify'
+Plug 'ntpeters/vim-better-whitespace'
+Plug 'psliwka/vim-smoothie'
 
 """"""""""""""""" fuzzy search
 Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
@@ -189,10 +212,14 @@ Plug 'francoiscabrol/ranger.vim'
 " :CocInstall coc-explorer
 
 """"""""""""""""" misc
-" neovim sudo writing
+" neovim sudo :w
 Plug 'lambdalisue/suda.vim'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-commentary'
+Plug 'itchyny/calendar.vim'
+Plug 'mhinz/vim-startify'
+Plug 'terryma/vim-multiple-cursors'
+
 
 """"""""""""""""" git
 " coc-git
@@ -207,6 +234,10 @@ Plug 'junegunn/limelight.vim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
 Plug 'reedes/vim-pencil'
 Plug 'SidOfc/mkdx'
+Plug 'reedes/vim-wordy'
+Plug 'reedes/vim-lexical'
+Plug 'reedes/vim-litecorrect'
+Plug 'dbmrq/vim-ditto'
 
 """"""""""""""""" menu
 " On-demand lazy load
@@ -223,14 +254,14 @@ call plug#end()
 """"""""""""""""" lsp
 " coc.nvim
 inoremap <silent><expr> <TAB>
-      \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<TAB>" :
-      \ coc#refresh()
+            \ pumvisible() ? "\<C-n>" :
+            \ <SID>check_back_space() ? "\<TAB>" :
+            \ coc#refresh()
 inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 
 function! s:check_back_space() abort
-  let col = col('.') - 1
-  return !col || getline('.')[col - 1]  =~# '\s'
+    let col = col('.') - 1
+    return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 " skip checking to boost startup
 let g:python3_host_skip_check=1
@@ -284,6 +315,13 @@ let g:airline_theme='wombat'
 " vim-commentary
 nmap <C-_> gcc
 
+" better whitespace
+let g:better_whitespace_ctermcolor='yellow'
+let g:better_whitespace_enabled=1
+let g:strip_whitespace_on_save=1
+
+
+
 
 """"""""""""""""" fuzzy search
 " LeaderF
@@ -292,14 +330,14 @@ let g:Lf_WindowPosition = 'popup'
 let g:Lf_CommandMap = {'<C-B>': ['<C-Down>'], '<Esc>': ['<C-C>']}
 let g:Lf_IgnoreCurrentBufferName = 1
 let g:Lf_RgConfig = [
-        \ "--max-columns=150",
-        \ "--type-add web:*.{html,css,js}*",
-        \ "--glob=!git/*",
-        \ "--glob=!**/backup/*",
-        \ "--glob=!**/application/*",
-        \ "--glob=!**/app/*",
-        \ "--hidden"
-    \ ]
+            \ "--max-columns=150",
+            \ "--type-add web:*.{html,css,js}*",
+            \ "--glob=!git/*",
+            \ "--glob=!**/backup/*",
+            \ "--glob=!**/application/*",
+            \ "--glob=!**/app/*",
+            \ "--hidden"
+            \ ]
 noremap <leader>fb :<C-U><C-R>=printf("Leaderf buffer %s", "")<CR><CR>
 noremap <leader>fm :<C-U><C-R>=printf("Leaderf mru %s", "")<CR><CR>
 noremap <leader>ft :<C-U><C-R>=printf("Leaderf bufTag %s", "")<CR><CR>
@@ -344,6 +382,7 @@ let PYTHONUNBUFFERED=1
 """"""""""""""""" writing
 " goyo.vim
 let g:goyo_width = 120
+
 " limelight.vim
 " Color name (:help cterm-colors) or ANSI code
 let g:limelight_conceal_ctermfg = 'gray'
@@ -368,11 +407,11 @@ let g:limelight_eop = '\ze\n^\s'
 " Highlighting priority (default: 10)
 "   Set it to -1 not to overrule hlsearch
 let g:limelight_priority = -1
-nmap <Leader>l :Goyo<CR>
-xmap <Leader>l :Goyo<CR>
+nmap <F5> :Goyo<CR>
+xmap <F5> :Goyo<CR>
 "进入goyo模式后自动触发limelight,退出后则关闭
-autocmd! User GoyoEnter Limelight
-autocmd! User GoyoLeave Limelight!
+autocmd! User GoyoEnter Limelight | set eventignore=FocusGained
+autocmd! User GoyoLeave Limelight! | :call QuickThemeChange("") | set eventignore=
 
 "markdown-preview
 " set to 1, nvim will open the preview window after entering the markdown buffer
@@ -393,7 +432,7 @@ let g:mkdp_refresh_slow = 0
 " set to 1, the MarkdownPreview command can be use for all files,
 " by default it can be use in markdown file
 " default: 0
-let g:mkdp_command_for_global = 0
+let g:mkdp_command_for_global = 1
 
 " set to 1, preview server available to others in your network
 " by default, the server listens on localhost (127.0.0.1)
@@ -432,16 +471,16 @@ let g:mkdp_browserfunc = ''
 " hide_yaml_meta: if hide yaml metadata, default is 1
 " sequence_diagrams: js-sequence-diagrams options
 let g:mkdp_preview_options = {
-    \ 'mkit': {},
-    \ 'katex': {},
-    \ 'uml': {},
-    \ 'maid': {},
-    \ 'disable_sync_scroll': 0,
-    \ 'sync_scroll_type': 'middle',
-    \ 'hide_yaml_meta': 1,
-    \ 'sequence_diagrams': {},
-    \ 'flowchart_diagrams': {}
-    \ }
+            \ 'mkit': {},
+            \ 'katex': {},
+            \ 'uml': {},
+            \ 'maid': {},
+            \ 'disable_sync_scroll': 0,
+            \ 'sync_scroll_type': 'middle',
+            \ 'hide_yaml_meta': 1,
+            \ 'sequence_diagrams': {},
+            \ 'flowchart_diagrams': {}
+            \ }
 
 " use a custom markdown style must be absolute path
 let g:mkdp_markdown_css = ''
@@ -455,6 +494,129 @@ let g:mkdp_port = ''
 " preview page title
 " ${name} will be replace with the file name
 let g:mkdp_page_title = '「${name}」'
+
+
+" mkdx
+" :h mkdx-settings
+let g:mkdx#settings = {
+            \ 'image_extension_pattern': 'a\?png\|jpe\?g\|gif',
+            \ 'fold': { 'enable': 1  },
+            \ 'restore_visual':          1,
+            \ 'enter':                   { 'enable': 1, 'malformed': 1, 'o': 1,
+            \                              'shifto': 1, 'shift': 1 },
+            \ 'map':                     { 'prefix': '<leader>', 'enable': 1 },
+            \ 'tokens':                  { 'enter': ['-', '*', '>'],
+            \                              'bold': '**', 'italic': '*', 'strike': '',
+            \                              'list': '-', 'fence': '',
+            \                              'header': '#' },
+            \ 'checkbox':                { 'toggles': [' ', '-', 'x'],
+            \                              'update_tree': 2,
+            \                              'initial_state': ' ' },
+            \ 'toc':                     { 'text': "TOC", 'list_token': '-',
+            \                              'update_on_write': 1,
+            \                              'position': 0,
+            \                              'details': {
+            \                                 'enable': 0,
+            \                                 'summary': 'Click to expand {{toc.text}}',
+            \                                 'nesting_level': -1,
+            \                                 'child_count': 5,
+            \                                 'child_summary': 'show {{count}} items'
+            \                              }
+            \                            },
+            \ 'table':                   { 'divider': '|',
+            \                              'header_divider': '-',
+            \                              'align': {
+            \                                 'left':    [],
+            \                                 'center':  [],
+            \                                 'right':   [],
+            \                                 'default': 'center'
+            \                              }
+            \                            },
+            \ 'links':                   { 'external': {
+            \                                 'enable': 1, 'timeout': 3, 'host': '', 'relative': 1,
+            \                                 'user_agent':  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/9001.0.0000.000 vim-mkdx/1.9.1'
+            \                              },
+            \                              'fragment': {
+            \                                 'jumplist': 1,
+            \                                 'complete': 1
+            \                              }
+            \                            },
+            \ 'highlight':               { 'enable': 1 },
+            \ 'auto_update':             { 'enable': 0 },
+            \ }
+
+" pencil&lexico
+" disable spell-check by default
+" toggle builtin spell check also enable lexical
+let g:lexical#spell = 0
+let g:lexical#dictionary = ['/usr/share/dict/usa','/usr/share/dict/brtish']
+let g:lexical#thesaurus = ['/usr/share/dict/mthesaur.txt']
+
+
+" stop autoformat when editing md fence
+" whitelist override black, thus when black doesn't dominate entire line, thus
+" autoformat inline conde/links
+let g:pencil#autoformat_config = {
+        \   'markdown': {
+        \     'black': [
+        \       'htmlH[0-9]',
+        \       'markdown(Code|H[0-9]|Url|IdDeclaration|Link|Rule|Highlight[A-Za-z0-9]+)',
+        \       'markdown(FencedCodeBlock|InlineCode)',
+        \       'mkd(Code|Rule|Delimiter|Link|ListItem|IndentCode)',
+        \       'mmdTable[A-Za-z0-9]*',
+        \     ],
+        \     'white': [
+        \      'markdown(Code|Link)',
+        \     ],
+        \   },
+        \ }
+
+function s:prose()
+    call pencil#init()
+    call lexical#init({'spell':1})
+    call litecorrect#init()
+    let g:pencil#autoformat = 1
+    " manual formatting
+    " format hard wrap linebreak to multi-line
+    nnoremap <buffer> <silent> Q gqap
+    xnoremap <buffer> <silent> Q gq
+    nnoremap <buffer> <silent> <leader>Q vapJgqap
+    let g:airline_section_x = '%{PencilMode()}'
+    " conceal __markup__
+    let g:pencil#conceallevel = 3     " 0=disable, 1=one char, 2=hide char, 3=hide all (def)
+    let g:pencil#concealcursor = 'c'  " n=normal, v=visual, i=insert, c=command (def)
+    let g:pencil#mode_indicators = {'hard': 'Ъ', 'auto': 'ª', 'soft': '⤸', 'off': '',}
+
+    " common punctuation
+    iabbrev <buffer> -- –
+    iabbrev <buffer> --- —
+    iabbrev <buffer> << «
+    iabbrev <buffer> >> »
+
+endfunction
+augroup pencil
+  autocmd!
+  autocmd FileType markdown,mkd,text call s:prose()
+augroup END
+
+
+" wordy
+let g:wordy#ring = [
+  \ 'weak',
+  \ ['being', 'passive-voice', ],
+  \ 'business-jargon',
+  \ 'weasel',
+  \ 'puffery',
+  \ ['problematic', 'redundant', ],
+  \ ['colloquial', 'idiomatic', 'similies', ],
+  \ 'art-jargon',
+  \ ['contractions', 'opinion', 'vague-time', 'said-synonyms', ],
+  \ 'adjectives',
+  \ 'adverbs',
+  \ ]
+
+
+
 
 """"""""""""""""" menu
 " vim-which-key
@@ -471,44 +633,160 @@ call quickui#menu#reset()
 
 " install a 'File' menu, use [text, command] to represent an item.
 call quickui#menu#install('&File', [
-            \ [ "&New File\tCtrl+n", 'echo 0' ],
-            \ [ "&Open File\t(F3)", 'echo 1' ],
-            \ [ "&Close", 'echo 2' ],
+            \ [ "&Open File\t(F3)", 'tabe' ],
+            \ [ "&Close\t(:bd)", 'Bclose' ],
+            \ [ "&Save\t(:w)", 'write'],
             \ [ "--", '' ],
-            \ [ "&Save\tCtrl+s", 'echo 3'],
-            \ [ "Save &As", 'echo 4' ],
-            \ [ "Save All", 'echo 5' ],
+            \ [ "LeaderF &File", 'Leaderf file', 'Open file with leaderf'],
+            \ [ "LeaderF &Mru", 'Leaderf mru --regexMode', 'Open recently accessed files'],
+            \ [ "LeaderF &Buffer", 'Leaderf buffer', 'List current buffers in leaderf'],
             \ [ "--", '' ],
-            \ [ "E&xit\tAlt+x", 'echo 6' ],
+            \ [ "E&xit\t(:qa)", 'qa' ],
             \ ])
 
 " items containing tips, tips will display in the cmdline
 call quickui#menu#install('&Edit', [
-            \ [ '&Copy', 'echo 1', 'help 1' ],
-            \ [ '&Paste', 'echo 2', 'help 2' ],
-            \ [ '&Find', 'echo 3', 'help 3' ],
+            \ ['Copyright &Header', 'call feedkeys("\<esc> ec")', 'Insert copyright information at the beginning'],
+            \ ['&Trailing Space', 'call StripTrailingWhitespace()', ''],
+            \ ['Update &ModTime', 'call UpdateLastModified()', ''],
+            \ ['&Paste Mode Line', 'PasteVimModeLine', ''],
+            \ ['Format J&son', '%!python -m json.tool', ''],
+            \ ['--'],
+            \ ['&Align Table', 'Tabularize /|', ''],
+            \ ['Align &Cheatsheet', 'MyCheatSheetAlign', ''],
+            \ ])
+
+call quickui#menu#install('&Symbol',[
+            \["&GrepWord\t(InProject)",'callMenuHelp_GrepCode()','Grepkeywordincurrentproject'],
+            \["--",],
+            \["Find&Definition\t(GNUGlobal)",'callMenuHelp_Gscope("g")','GNUGlobalsearchg'],
+            \["Find&Symbol\t(GNUGlobal)",'callMenuHelp_Gscope("s")','GNUGloalsearchs'],
+            \["Find&Calledby\t(GNUGlobal)",'callMenuHelp_Gscope("d")','GNUGlobalsearchd'],
+            \["FindC&alling\t(GNUGlobal)",'callMenuHelp_Gscope("c")','GNUGlobalsearchc'],
+            \["Find&FromCtags\t(GNUGlobal)",'callMenuHelp_Gscope("z")','GNUGlobalsearchc'],
+            \["--",],
+            \["GotoD&efinition\t(YCM)",''],
+            \["Goto&References\t(YCM)",''],
+            \["GetD&oc\t(YCM)",'',],
+            \["Get&Type\t(YCM)",''],
+            \])
+
+
+call quickui#menu#install('&Move', [
+            \ ["Quickfix &First\t:cfirst", 'cfirst', 'quickfix cursor rewind'],
+            \ ["Quickfix L&ast\t:clast", 'clast', 'quickfix cursor to the end'],
+            \ ["Quickfix &Next\t:cnext", 'cnext', 'cursor next'],
+            \ ["Quickfix &Previous\t:cprev", 'cprev', 'quickfix cursor previous'],
+            \ ])
+
+call quickui#menu#install("&Build", [
+            \ ["File &Execute\tF5", 'AsyncTask file-run'],
+            \ ["File &Compile\tF9", 'AsyncTask file-build'],
+            \ ["File E&make\tF7", 'AsyncTask emake'],
+            \ ["File &Start\tF8", 'AsyncTask emake-exe'],
+            \ ['--', ''],
+            \ ["&Project Build\tShift+F9", 'AsyncTask project-build'],
+            \ ["Project &Run\tShift+F5", 'AsyncTask project-run'],
+            \ ["Project &Test\tShift+F6", 'AsyncTask project-test'],
+            \ ["Project &Init\tShift+F7", 'AsyncTask project-init'],
+            \ ['--', ''],
+            \ ['E&dit Task', 'AsyncTask -e'],
+            \ ['Edit &Global Task', 'AsyncTask -E'],
+            \ ['&Stop Building', 'AsyncStop'],
+            \ ])
+
+call quickui#menu#install("&Git", [
+            \ ['&View Diff', 'call svnhelp#svn_diff("%")'],
+            \ ['&Show Log', 'call svnhelp#svn_log("%")'],
+            \ ['File &Add', 'call svnhelp#svn_add("%")'],
+            \ ])
+
+call quickui#menu#install('&Tools', [
+            \ ['Compare &History', 'call svnhelp#compare_ask_file()', ''],
+            \ ['&Compare Buffer', 'call svnhelp#compare_ask_buffer()', ''],
+            \ ['--',''],
+            \ ['List &Buffer', 'call quickui#tools#list_buffer("FileSwitch tabe")', ],
+            \ ['List &Function', 'call quickui#tools#list_function()', ],
+            \ ['Display &Messages', 'call quickui#tools#display_messages()', ],
+            \ ['--',''],
+            \ ["&DelimitMate %{get(b:, 'delimitMate_enabled', 0)? 'Disable':'Enable'}", 'DelimitMateSwitch'],
+            \ ['Read &URL', 'call menu#ReadUrl()', 'load content from url into current buffer'],
+            \ ['&Spell %{&spell? "Disable":"Enable"}', 'set spell!', 'Toggle spell check %{&spell? "off" : "on"}'],
+            \ ['&Profile Start', 'call MonitorInit()', ''],
+            \ ['Profile S&top', 'call MonitorExit()', ''],
+            \ ["Relati&ve number %{&relativenumber? 'OFF':'ON'}", 'set relativenumber!'],
+            \ ["Proxy &Enable", 'call MenuHelp_Proxy(1)', 'setup http_proxy/https_proxy/all_proxy'],
+            \ ["Proxy D&isable", 'call MenuHelp_Proxy(0)', 'clear http_proxy/https_proxy/all_proxy'],
+            \ ])
+
+call quickui#menu#install('&Plugin', [
+            \ ["&Ranger\t<leader>k", 'Ranger', 'toggle Ranger'],
+            \ ["&CoC-explorer\t<leader>e", 'CocCommand explorer', 'toggle explorer'],
+            \ ["-"],
+            \ ["&Browse in github\trhubarb", "Gbrowse", "using tpope's rhubarb to open browse and view the file"],
+            \ ["&Startify", "Startify", "using tpope's rhubarb to open browse and view the file"],
+            \ ["&Gist", "Gist", "open gist with mattn/gist-vim"],
+            \ ["&Edit Note", "Note", "edit note with vim-notes"],
+            \ ["&Display Calendar", "Calendar", "display a calender"],
+            \ ["Toggle &Floaterm\t(F10)", 'FloatermToggle', 'floatting term'],
+            \ ["Toggle &Vista\t(F8)", 'Vista!!', 'explore tags'],
+            \ ["-"],
+            \ ["Plugin &List", "PlugStatus", "Update list"],
+            \ ["Plugin &Update", "PlugUpdate", "Update plugin"],
             \ ])
 
 " script inside %{...} will be evaluated and expanded in the string
 call quickui#menu#install("&Option", [
-      \ ['Set &Spell %{&spell? "Off":"On"}', 'set spell!'],
-      \ ['Set &Cursor Line %{&cursorline? "Off":"On"}', 'set cursorline!'],
-      \ ['Set &Paste %{&paste? "Off":"On"}', 'set paste!'],
-      \ ])
+            \ ['Set &Spell %{&spell? "Off":"On"}', 'set spell!'],
+            \ ['Set &Cursor Line %{&cursorline? "Off":"On"}', 'set cursorline!'],
+            \ ['Set &Paste %{&paste? "Off":"On"}', 'set paste!'],
+            \ ])
+
 
 " register HELP menu with weight 10000
-call quickui#menu#install('H&elp', [
-      \ ["&Cheatsheet", 'help index', ''],
-      \ ['T&ips', 'help tips', ''],
-      \ ['--',''],
-      \ ["&Tutorial", 'help tutor', ''],
-      \ ['&Quick Reference', 'help quickref', ''],
-      \ ['&Summary', 'help summary', ''],
-      \ ], 10000)
-call quickui#menu#install('&Markdown', [
-            \ [ '&Focus', 'Goyo', 'use goyo & limelight' ],
+call quickui#menu#install('Help (&?)', [
+            \ ["&Index", 'tab help index', ''],
+            \ ['Ti&ps', 'tab help tips', ''],
+            \ ['--',''],
+            \ ["&Tutorial", 'tab help tutor', ''],
+            \ ['&Quick Reference', 'tab help quickref', ''],
+            \ ['&Summary', 'tab help summary', ''],
+            \ ['--',''],
+            \ ['&Vim Script', 'tab help eval', ''],
+            \ ['&Function List', 'tab help function-list', ''],
+            \ ['&Dash Help', 'call asclib#utils#dash_ft(&ft, expand("<cword>"))'],
+            \ ], 10000)
+
+
+let g:context_menu_k = [
+            \ ["&Peek Definition\tAlt+;", 'call quickui#tools#preview_tag("")'],
+            \ ["S&earch in Project\t\\cx", 'exec "silent! GrepCode! " . expand("<cword>")'],
+            \ [ "--", ],
+            \ [ "Find &Definition\t\\cg", 'call MenuHelp_Fscope("g")', 'GNU Global search g'],
+            \ [ "Find &Symbol\t\\cs", 'call MenuHelp_Fscope("s")', 'GNU Gloal search s'],
+            \ [ "Find &Called by\t\\cd", 'call MenuHelp_Fscope("d")', 'GNU Global search d'],
+            \ [ "Find C&alling\t\\cc", 'call MenuHelp_Fscope("c")', 'GNU Global search c'],
+            \ [ "Find &From Ctags\t\\cz", 'call MenuHelp_Fscope("z")', 'GNU Global search c'],
+            \ [ "--", ],
+            \ [ "Goto D&efinition\t(YCM)", 'YcmCompleter GoToDefinitionElseDeclaration'],
+            \ [ "Goto &References\t(YCM)", 'YcmCompleter GoToReferences'],
+            \ [ "Get D&oc\t(YCM)", 'YcmCompleter GetDoc'],
+            \ [ "Get &Type\t(YCM)", 'YcmCompleter GetTypeImprecise'],
+            \ [ "--", ],
+            \ ['Dash &Help', 'call asclib#utils#dash_ft(&ft, expand("<cword>"))'],
+            \ ['Cpp&man', 'exec "Cppman " . expand("<cword>")', '', 'c,cpp'],
+            \ ]
+
+call quickui#menu#install('&Writing', [
+            \ [ "&Focus\t(F5)", 'Goyo', 'use goyo & limelight' ],
             \ [ '&Preview', 'MarkdownPreview' ],
-            \ ], '<auto>', 'md,markdown')
+            \ [ "--", ],
+            \ ['&Next Wordy', 'NextWordy'],
+            \ ['No &Wordy', 'NoWordy'],
+            \ [ "--", ],
+            \ ['&Ditto', 'Ditto'],
+            \ ], '<auto>', 'text,md,markdown')
+
 
 " enable to display tips in the cmdline
 let g:quickui_show_tip = 1
@@ -516,13 +794,14 @@ let g:quickui_show_tip = 1
 " hit space twice to open menu
 noremap <space><space> :call quickui#menu#open()<cr>
 
+nnoremap <silent>K :call quickui#tools#clever_context('k', g:context_menu_k, {})<cr>
 
-""""""""""""""""" menu
+""""""""""""""""" terminal
 
 let g:floaterm_keymap_toggle = '<F10>'
 function s:floatermSettings()
-  hi FloatermNF guibg=black
-  hi FloatermBorderNF guibg=gray guifg=blue
+    hi FloatermNF guibg=black
+    hi FloatermBorderNF guibg=gray guifg=blue
 endfunction
 
 let g:floaterm_width = 0.6
