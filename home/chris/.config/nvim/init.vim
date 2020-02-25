@@ -10,6 +10,7 @@ set softtabstop=4
 set hidden
 set tabstop=4
 set expandtab
+set termguicolors
 
 map <space> <leader>
 
@@ -48,7 +49,7 @@ nnoremap <M-S-T> <C-W>t
 nnoremap <M-S-Q> <C-W>q
 nnoremap <M-S-A> <C-W>o
 
-nnoremap <M-_> <C-W>-
+noremap <M-_> <C-W>-
 nnoremap <M-+> <C-W>+
 nnoremap <M-<> <C-W><
 nnoremap <M->> <C-W>>
@@ -141,8 +142,11 @@ augroup vimrc_term
     autocmd TermOpen * tnoremap <buffer> <M-S-k> <C-\><C-n><C-w>k
     autocmd TermOpen * tnoremap <buffer> <M-S-l> <C-\><C-n><C-w>l
     autocmd TermOpen * tnoremap <buffer> <M-S-q> <C-\><C-n>
+    " reset gui color to make terminal prettier
+    autocmd TermOpen * set termguicolors&
+    autocmd TermEnter * set termguicolors&
+    autocmd TermLeave * set termguicolors
 augroup END
-
 
 
 """""""""" custom function
@@ -182,6 +186,12 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " coc-snippets
 " :CocInstall coc-snippets
+" coc-emmet
+" :CocInstall coc-emmet
+Plug 'honza/vim-snippets'
+" coc-python
+" :CocInstall coc-python
+
 
 """"""""""""""""" syntastic check
 Plug 'dense-analysis/ale'
@@ -192,6 +202,9 @@ Plug 'skywind3000/gutentags_plus'
 Plug 'liuchengxu/vista.vim'
 
 """"""""""""""""" prettifier
+Plug 'arcticicestudio/nord-vim'
+Plug 'iCyMind/NeoSolarized'
+Plug 'morhetz/gruvbox'
 Plug 'Yggdroot/indentLine'
 Plug 'godlygeek/tabular'
 Plug 'vim-airline/vim-airline'
@@ -199,6 +212,9 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'sbdchd/neoformat'
 Plug 'ntpeters/vim-better-whitespace'
 Plug 'psliwka/vim-smoothie'
+" coc-highlight
+" :CocInstall coc-highlight
+
 
 """"""""""""""""" fuzzy search
 Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
@@ -219,6 +235,10 @@ Plug 'tpope/vim-commentary'
 Plug 'itchyny/calendar.vim'
 Plug 'mhinz/vim-startify'
 Plug 'terryma/vim-multiple-cursors'
+" coc-pairs
+" :CocInstall coc-pairs
+" coc-yank
+" :CocInstall coc-yank
 
 
 """"""""""""""""" git
@@ -251,13 +271,14 @@ Plug 'voldikss/vim-floaterm'
 call plug#end()
 
 
+
 """"""""""""""""" lsp
 " coc.nvim
-inoremap <silent><expr> <TAB>
-            \ pumvisible() ? "\<C-n>" :
-            \ <SID>check_back_space() ? "\<TAB>" :
-            \ coc#refresh()
-inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+" inore:map <silent><expr> <TAB>
+"             \ pumvisible() ? "\<C-n>" :
+"             \ <SID>check_back_space() ? "\<TAB>" :
+"             \ coc#refresh()
+" inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 
 function! s:check_back_space() abort
     let col = col('.') - 1
@@ -268,8 +289,34 @@ let g:python3_host_skip_check=1
 let g:python3_host_prog = '/home/chris/miniconda3/bin/python'
 let g:airline#extensions#coc#enabled = 1
 
-""""""""""""""""" autocomplete
+"coc-snippets
+" Use <C-l> for trigger snippet expand.
+imap <C-l> <Plug>(coc-snippets-expand)
 
+" Use <C-j> for select text for visual placeholder of snippet.
+vmap <C-j> <Plug>(coc-snippets-select)
+
+" Use <C-j> for jump to next placeholder, it's default of coc.nvim
+let g:coc_snippet_next = '<c-j>'
+
+" Use <C-k> for jump to previous placeholder, it's default of coc.nvim
+let g:coc_snippet_prev = '<c-k>'
+
+" Use <C-j> for both expand and jump (make expand higher priority.)
+imap <C-j> <Plug>(coc-snippets-expand-jump)
+
+" inoremap <silent><expr> <TAB>
+"       \ pumvisible() ? coc#_select_confirm() :
+"       \ coc#expandableOrJumpable() ? "\<C-r>=coc#rpc#request('doKeymap', ['snippets-expand-jump',''])\<CR>" :
+"       \ <SID>check_back_space() ? "\<TAB>" :
+"       \ coc#refresh()
+
+function! s:check_back_space() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
+let g:coc_snippet_next = '<tab>'
 
 
 """"""""""""""""" syntastic check
@@ -294,12 +341,50 @@ let g:airline#extensions#gutentags#enabled = 1
 " remove unwanted ctags info
 "let g:airline_section_x = '%{airline#util#prepend("",0)}%{airline#util#prepend(airline#extensions#vista#currenttag(),0)}%{airline#util#prepend("",0)}%{airline#util#wrap(airline#parts#filetype(),0)}'
 
+let g:gutentags_plus_nomap = 1
+" symbol
+noremap <silent> <leader>gs :GscopeFind s <C-R><C-W><cr>
+" symbol def
+noremap <silent> <leader>gg :GscopeFind g <C-R><C-W><cr>
+" function calls this func under cursor
+noremap <silent> <leader>gc :GscopeFind c <C-R><C-W><cr>
+" text str
+noremap <silent> <leader>gt :GscopeFind t <C-R><C-W><cr>
+" egrep pattern
+noremap <silent> <leader>ge :GscopeFind e <C-R><C-W><cr>
+" file name
+noremap <silent> <leader>gf :GscopeFind f <C-R>=expand("<cfile>")<cr><cr>
+" files that #include filename under cursor
+noremap <silent> <leader>gi :GscopeFind i <C-R>=expand("<cfile>")<cr><cr>
+" functions called by func under cursor
+noremap <silent> <leader>gd :GscopeFind d <C-R><C-W><cr>
+" places symbol assign
+noremap <silent> <leader>ga :GscopeFind a <C-R><C-W><cr>
+" current word in ctags database
+noremap <silent> <leader>gz :GscopeFind z <C-R><C-W><cr>
+
 
 " vista.vim
 nmap <F8> :Vista!!<CR>
 let g:airline#extensions#vista#enabled = 1
 
 """"""""""""""""" prettifier
+let g:nord_italic = 1
+let g:nord_italic_comments = 1
+let g:nord_underline = 1
+let g:nord_cursor_line_number_background = 1
+let g:nord_bold_vertical_split_line = 1
+augroup nord-overrides
+  autocmd!
+  autocmd ColorScheme nord highlight LineNr ctermfg=none guifg=#D8DEE9
+  autocmd ColorScheme nord highlight CursorLineNr ctermfg=none guifg=#D8DEE9
+  autocmd ColorScheme nord highlight Comment ctermfg=none guifg=#98971a
+augroup end
+" config must before colorscheme
+colorscheme nord
+
+
+
 " indentLine
 let g:indentLine_char_list = ['|', '¦', '┆', '┊']
 " Toggle Relative Number
@@ -321,10 +406,12 @@ let g:better_whitespace_enabled=1
 let g:strip_whitespace_on_save=1
 
 
-
+" coc-highlight
+autocmd CursorHold * silent call CocActionAsync('highlight')
 
 """"""""""""""""" fuzzy search
 " LeaderF
+let g:Lf_ShortcutB = "<leader>fb"
 let g:Lf_ShortcutF = "<leader>ff"
 let g:Lf_WindowPosition = 'popup'
 let g:Lf_CommandMap = {'<C-B>': ['<C-Down>'], '<Esc>': ['<C-C>']}
@@ -338,11 +425,32 @@ let g:Lf_RgConfig = [
             \ "--glob=!**/app/*",
             \ "--hidden"
             \ ]
-noremap <leader>fb :<C-U><C-R>=printf("Leaderf buffer %s", "")<CR><CR>
 noremap <leader>fm :<C-U><C-R>=printf("Leaderf mru %s", "")<CR><CR>
 noremap <leader>ft :<C-U><C-R>=printf("Leaderf bufTag %s", "")<CR><CR>
 noremap <leader>fl :<C-U><C-R>=printf("Leaderf line %s", "")<CR><CR>
 
+" coc-list
+
+command! -nargs=+ -complete=custom,s:GrepArgs Rg exe 'CocList grep '.<q-args>
+
+function! s:GrepArgs(...)
+  let list = ['-S', '-smartcase', '-i', '-ignorecase', '-w', '-word',
+        \ '-e', '-regex', '-u', '-skip-vcs-ignores', '-t', '-extension']
+  return join(list, "\n")
+endfunction
+
+" Keymapping for grep word under cursor with interactive mode
+nnoremap <silent> <Leader>cf :exe 'CocList -I --input='.expand('<cword>').' grep'<CR>
+command! -nargs=+ -complete=custom,s:GrepArgs Rg exe 'CocList grep '.<q-args>
+
+function! s:GrepArgs(...)
+  let list = ['-S', '-smartcase', '-i', '-ignorecase', '-w', '-word',
+        \ '-e', '-regex', '-u', '-skip-vcs-ignores', '-t', '-extension']
+  return join(list, "\n")
+endfunction
+
+" Keymapping for grep word under cursor with interactive mode
+nnoremap <silent> <Leader>cf :exe 'CocList -I --input='.expand('<cword>').' grep'<CR>
 
 """"""""""""""""" file explorer
 " ranger
@@ -365,6 +473,9 @@ nmap <leader>e :CocCommand explorer --width 30<CR>
 " neovim sudo writing
 let g:suda_smart_edit = 1
 cnoremap w!! :w suda://%
+
+" coc-yank
+nnoremap <silent> <leader>cy  :<C-u>CocList -A --normal yank<cr>
 
 
 
@@ -575,6 +686,8 @@ function s:prose()
     call pencil#init()
     call lexical#init({'spell':1})
     call litecorrect#init()
+    " disable coc-pairs
+    let b:coc_pairs_disabled = ['`']
     let g:pencil#autoformat = 1
     " manual formatting
     " format hard wrap linebreak to multi-line
