@@ -1,76 +1,3 @@
-select max(tot_salary)
-from (select dept_name, sum(salary)
-from instructor
-group by dept_name) as dept_total(dept_name, tot_salary);
-;-- -. . -..- - / . -. - .-. -.--
-select max(tot_salary)
-from (select dept_name, sum(salary)
-      from instructor
-      group by dept_name) as dept_total;
-;-- -. . -..- - / . -. - .-. -.--
-select max(salary)
-from instructor
-group by dept_name;
-;-- -. . -..- - / . -. - .-. -.--
-select dept_name,max(salary)
-from instructor
-group by dept_name;
-;-- -. . -..- - / . -. - .-. -.--
-select max(tot_salary)
-from (select dept_name, sum(salary)
-      from instructor
-      group by dept_name) as dept_total(dept_name, tot_salary);
-;-- -. . -..- - / . -. - .-. -.--
-select max(tot_salary)
-from (select dept_name, sum(salary)
-      from instructor
-      group by dept_name);
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from (select dept_name, sum(salary)
-      from instructor
-      group by dept_name);
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from (select dept_name, sum(salary)
-      from instructor
-      group by dept_name) as t;
-;-- -. . -..- - / . -. - .-. -.--
-select max(t.s)
-from (select dept_name, sum(salary) as s
-      from instructor
-      group by dept_name) as t;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from (select dept_name, sum(salary) as s
-      from instructor
-      group by dept_name) as t;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from (select dept_name, max(salary) as s
-      from instructor
-      group by dept_name) as t;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from (select dept_name, max(salary) as s
-      from instructor
-      group by dept_name) as t(d,s);
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from (select dept_name, max(salary) as s
-      from instructor
-      group by dept_name) as t (d,s);
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from (select dept_name, max(salary) as s
-      from instructor
-      group by dept_name)  t (d,s);
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from lateral (select dept_name, max(salary) as s
-      from instructor
-      group by dept_name)  t (d,s);
-;-- -. . -..- - / . -. - .-. -.--
 select *
 from lateral (select dept_name, max(salary) as s
       from instructor
@@ -577,8 +504,6 @@ SELECT a.account_id, c.fed_id
 FROM account a INNER JOIN customer c
 ON a.cust_id = c.cust_id
 WHERE c.cust_type_cd = 'B';
-;-- -. . -..- - / . -. - .-. -.--
-use large;
 ;-- -. . -..- - / . -. - .-. -.--
 select salary
 from instructor
@@ -1574,12 +1499,6 @@ from advertisement join user_ad ua on advertisement.id = ua.adid) s
 group by vendorid) s on vendor.id = s.vendorid
 order by ct desc;
 ;-- -. . -..- - / . -. - .-. -.--
-select t.id, t.description, count(email) as count
-from topic t left outer join blurt_analysis ba
-    on t.id = ba.topicid
-group by t.id
-order by t.id;
-;-- -. . -..- - / . -. - .-. -.--
 select user.name, count(distinct follower) CT
 from follow, user
 where followee in (select email from celebrity)
@@ -1594,12 +1513,112 @@ where followee in (select email from celebrity)
 group by followee
 order by CT;
 ;-- -. . -..- - / . -. - .-. -.--
+select user.name, followee, count(*) as ct
+from vendor_ambassador join vendor on vendor_ambassador.vendorid = vendor.id
+join user on vendor_ambassador.email = user.email, follow
+where followee = user.email
+group by followee
+order by ct;
+;-- -. . -..- - / . -. - .-. -.--
+select u1.name, u2.name
+from user u1, user u2
+where u1.name != u2.name
+and u2.email not in (select followee
+    from follow where follower = u1.email)
+and exists ((select ba.topicid
+        from blurt_analysis ba
+        where ba.email = u1.email)
+    intersect
+        (select ba2.topicid
+    from blurt_analysis ba2
+    where ba2.email = u2.email)
+    );
+;-- -. . -..- - / . -. - .-. -.--
+select 1<null;
+;-- -. . -..- - / . -. - .-. -.--
+with max budget (value) as
+(select max(budget)
+from department);
+;-- -. . -..- - / . -. - .-. -.--
+use large
+with max budget (value) as
+
+(select max(budget)
+from department);
+;-- -. . -..- - / . -. - .-. -.--
+select budget
+from department, max budget
+where department.budget = max budget.value;
+;-- -. . -..- - / . -. - .-. -.--
+with max_budget (value) as
+         (select max(budget)
+          from department)
+select budget
+from department, max budget
+where department.budget = max budget.value;
+;-- -. . -..- - / . -. - .-. -.--
+use large;
+;-- -. . -..- - / . -. - .-. -.--
+with T(ct) as (select count(*) from member)
+select count(*)/T
+from borrowed;
+;-- -. . -..- - / . -. - .-. -.--
+with T(ct) as (select count(*) from member)
+select count(*)/T.ct
+from borrowed;
+;-- -. . -..- - / . -. - .-. -.--
+with T as (select count(*) from member)
+select count(*)/T
+from borrowed;
+;-- -. . -..- - / . -. - .-. -.--
+select distinct takes.ID
+from takes, instructor, teaches
+where takes.course_id = teaches.course_id
+and takes.sec_id = teaches.sec_id
+and takes.semester=teaches.semester
+and takes.year = teaches.year
+and teaches.ID = instructor.ID
+and instructor.name='Einstein';
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from takes
+where ID='1234';
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from takes
+where ID='12345';
+;-- -. . -..- - / . -. - .-. -.--
+select grade
+from takes
+where ID='12345';
+;-- -. . -..- - / . -. - .-. -.--
+(select grade
+    from takes
+    where id = '1234');
+;-- -. . -..- - / . -. - .-. -.--
+with max_budget (value) as
+         (select max(budget)
+          from department)
+select budget
+from department, max_budget
+where department.budget = max_budget.value;
+;-- -. . -..- - / . -. - .-. -.--
+with ct as (select count(*) from member)
+select count(*)/ct
+from borrowed;
+;-- -. . -..- - / . -. - .-. -.--
 select user.name, count(distinct follower) `followers ct`
 from follow, user
 where followee in (select email from celebrity)
     and user.email = followee
 group by followee
 order by `followers ct`;
+;-- -. . -..- - / . -. - .-. -.--
+select t.id, t.description, count(email) as count
+from topic t left outer join blurt_analysis ba
+    on t.id = ba.topicid
+group by t.id
+order by t.id;
 ;-- -. . -..- - / . -. - .-. -.--
 select user.name, count(*) as ct
 from user join blurt on user.email = blurt.email
@@ -1614,13 +1633,6 @@ where not exists (
     from  follow
     where c1.email = follower
     );
-;-- -. . -..- - / . -. - .-. -.--
-select user.name, followee, count(*) as ct
-from vendor_ambassador join vendor on vendor_ambassador.vendorid = vendor.id
-join user on vendor_ambassador.email = user.email, follow
-where followee = user.email
-group by followee
-order by ct;
 ;-- -. . -..- - / . -. - .-. -.--
 select user.name, followee as email, count(*) as ct
 from vendor_ambassador join vendor on vendor_ambassador.vendorid = vendor.id
@@ -1640,34 +1652,6 @@ from advertisement join user_ad ua on advertisement.id = ua.adid) s
 group by vendorid) s on vendor.id = s.vendorid
 order by ct desc;
 ;-- -. . -..- - / . -. - .-. -.--
-select u1.name, u2.name
-from user u1, user u2
-where u1.name != u2.name
-and u2.email not in (select followee
-    from follow where follower = u1.email)
-and exists ((select ba.topicid
-        from blurt_analysis ba
-        where ba.email = u1.email)
-    intersect
-        (select ba2.topicid
-    from blurt_analysis ba2
-    where ba2.email = u2.email)
-    );
-;-- -. . -..- - / . -. - .-. -.--
-select u1.name as A, u2.name as B
-from user u1, user u2
-where u1.name != u2.name
-and u2.email not in (select followee
-    from follow where follower = u1.email)
-and exists ((select ba.topicid
-        from blurt_analysis ba
-        where ba.email = u1.email)
-    intersect
-        (select ba2.topicid
-    from blurt_analysis ba2
-    where ba2.email = u2.email)
-    );
-;-- -. . -..- - / . -. - .-. -.--
 select u1.email as A, u2.email as B, u3.email as C
 from user u1, user u2, user u3
 where u2.email in (
@@ -1683,6 +1667,20 @@ where u2.email in (
     from follow
     where follower = u1.email
 
+    );
+;-- -. . -..- - / . -. - .-. -.--
+select u1.name as A, u2.name as B
+from user u1, user u2
+where u1.name != u2.name
+and u2.email not in (select followee
+    from follow where follower = u1.email)
+and exists ((select ba.topicid
+        from blurt_analysis ba
+        where ba.email = u1.email)
+    intersect
+        (select ba2.topicid
+    from blurt_analysis ba2
+    where ba2.email = u2.email)
     );
 ;-- -. . -..- - / . -. - .-. -.--
 select t.id, t.description, location as state, count(*) as ct, avg(sentiment) as avg

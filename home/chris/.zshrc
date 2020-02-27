@@ -204,16 +204,16 @@ bindkey "^[^[" sudo-command-line  # <ESC> <ESC>
 source /usr/share/fzf/completion.zsh
 # use fzf-tab instead of predefined keybind
 # source /usr/share/fzf/key-bindings.zsh
-export FZF_TAB_OPTS=(    
-    --ansi   # Enable ANSI color support, necessary for showing groups    
-    --expect='/' # For continuous completion     
-    '--color=hl:$(( $#headers == 0 ? 108 : 255 ))'    
-    --nth=2,3 --delimiter='\x00'  # Don't search FZF_TAB_PREFIX    
-    --layout=reverse --height=70%    
-    --tiebreak=begin -m --bind=tab:down,change:top,ctrl-space:toggle --cycle    
-    '--query=$query'   # $query will be expanded to query string at runtime.        
-    '--header-lines=$#headers' # $#headers will be expanded to lines of headers at runtime    
-    ) 
+export FZF_TAB_OPTS=(
+    --ansi   # Enable ANSI color support, necessary for showing groups
+    --expect='/' # For continuous completion
+    '--color=hl:$(( $#headers == 0 ? 108 : 255 ))'
+    --nth=2,3 --delimiter='\x00'  # Don't search FZF_TAB_PREFIX
+    --layout=reverse --height=70%
+    --tiebreak=begin -m --bind=tab:down,change:top,ctrl-space:toggle --cycle
+    '--query=$query'   # $query will be expanded to query string at runtime.
+    '--header-lines=$#headers' # $#headers will be expanded to lines of headers at runtime
+    )
 
 # copy in zsh, since has !, zsh thinks its his expansion, setopt nobanghis to disable his expansion
 # --follow cause fzf read file with no permission, send error to null to ignore
@@ -233,3 +233,5 @@ bindkey '^Z' fancy-ctrl-z
 
 alias o='a -e xdg-open'
 alias v='f -e nvim'
+
+alias em='/home/chris/.emacs.d/doom-emacs/bin/doom run'

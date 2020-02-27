@@ -10,21 +10,20 @@
     <property name="DBE.Init.DialogShown.Ide" value="true" />
     <property name="Darcula.SavedEditorTheme" value="_@user_Darcula" />
     <property name="Default.SavedEditorTheme" value="_@user_Default" />
-    <property name="InstalledPluginsSearchHistory" value="/tag:Keymap" />
+    <property name="InstalledPluginsSearchHistory" value="vscode&#10;vscod&#10;vsco&#10;vsc&#10;vs" />
     <property name="KEYMAP" value="esc&#10;insert" />
     <property name="MYSQL_PROPERTIES_VARIANTS_-753420028" value="--databases --all-databases -A -Y --all-tablespaces -y --no-tablespaces --add-drop-database --add-drop-table --skip-add-drop-table --add-drop-trigger --add-locks --skip-add-locks --allow-keywords --apply-slave-statements --character-sets-dir= -i --comments --skip-comments --compatible= --compact --skip-disable-keys --skip-set-charset -c --complete-insert -C --compress -a --create-options --skip-create-options -B -# --debug --debug-check --debug-info --default-character-set= --delayed-insert --delete-master-logs --master-data -K --disable-keys --dump-slave --lock-all-tables --single-transaction --lock-tables -E --events -e --extended-insert --skip-extended-insert --fields-terminated-by= --fields-enclosed-by= --fields-optionally-enclosed-by= --fields-escaped-by= -F --flush-logs --databases= --flush-privileges -f --force --gtid --master-data= --dump-slave= --help --hex-blob -h --host= --ignore-database= --ignore-table= --include-master-host-port --insert-ignore --lines-terminated-by= -x -l --skip-lock-tables --log-error= --log-queries --skip-log-queries --max-allowed-packet= --net-buffer-length= --no-autocommit -n --no-create-db -t --no-create-info -d --no-data --no-data-med --skip-no-data-med -N --no-set-names --opt --quick --set-charset --skip-opt --order-by-primary -p --password -P --port= --protocol= -q --skip-quick -Q --quote-names --skip-quote-names --replace -r --result-file= -R --routines --dump-date --skip-dump-date -S --socket= --ssl --ssl-ca= --ssl-capath= --ssl-cert= --ssl-cipher= --ssl-key= --ssl-crl= --ssl-crlpath= --tls-version= --ssl-verify-server-cert -T --tab= --tables --triggers --skip-triggers --tz-utc --skip-tz-utc -u --user= -v --verbose -V --version -w --where= -X --xml --plugin-dir= --default-auth=" />
-    <property name="MarketplacePluginsSearchHistory" value="/tag:Keymap&#10;vi&#10;/tag:&quot;User Interface&quot;" />
-    <property name="PluginConfigurable.selectionTab" value="1" />
+    <property name="MarketplacePluginsSearchHistory" value="vi&#10;vscode&#10;key&#10;nit&#10;/tag:Keymap" />
     <property name="SqlStructureView.filterD.file.structure.state" value="true" />
     <property name="ask.about.ctrl.y.shortcut" value="true" />
     <property name="com.intellij.database.actions.DdlActions$DeleteProvider2$1.previewExpanded" value="true" />
     <property name="evlsprt3.193" value="16" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/data/untitled/sql/course/122A/vendor_topic.csv&#10;/home/chris/data/untitled/sql/course/122A/user_ad.csv&#10;/home/chris/data/untitled/sql/course/122A/advertisement.csv&#10;/home/chris/data/untitled/sql/course/122A/blurt_analysis.csv&#10;/home/chris/data/untitled/sql/course/122A/topic.csv&#10;/home/chris/data/untitled/sql/course/122A/vendor_ambassador.csv&#10;/home/chris/data/untitled/sql/course/122A/vendor.csv&#10;/home/chris/data/untitled/sql/course/122A/follow.csv&#10;/home/chris/data/untitled/sql/course/122A/hobby.csv&#10;/home/chris/data/untitled/sql/course/122A/blurt.csv&#10;/home/chris/data/untitled/sql/course/122A/celebrity.csv&#10;/home/chris/data/untitled/sql/course/122A/user.csv&#10;/home/chris/data/untitled/sql/try/tips.csv&#10;/home/chris/data/untitled/sql/try&#10;/home/chris/data/untitled/sql/course&#10;/home/chris/Downloads/DDL-MySQL.sql" />
-    <property name="file.gist.reindex.count" value="247" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/data/untitled/sql/course/122A&#10;/home/chris/data/untitled/sql/course/122A/vendor_topic.csv&#10;/home/chris/data/untitled/sql/course/122A/user_ad.csv&#10;/home/chris/data/untitled/sql/course/122A/advertisement.csv&#10;/home/chris/data/untitled/sql/course/122A/blurt_analysis.csv&#10;/home/chris/data/untitled/sql/course/122A/topic.csv&#10;/home/chris/data/untitled/sql/course/122A/vendor_ambassador.csv&#10;/home/chris/data/untitled/sql/course/122A/vendor.csv&#10;/home/chris/data/untitled/sql/course/122A/follow.csv&#10;/home/chris/data/untitled/sql/course/122A/hobby.csv&#10;/home/chris/data/untitled/sql/course/122A/blurt.csv&#10;/home/chris/data/untitled/sql/course/122A/celebrity.csv&#10;/home/chris/data/untitled/sql/course/122A/user.csv&#10;/home/chris/data/untitled/sql/try/tips.csv&#10;/home/chris/data/untitled/sql/try&#10;/home/chris/data/untitled/sql/course&#10;/home/chris/Downloads/DDL-MySQL.sql" />
+    <property name="file.gist.reindex.count" value="346" />
     <property name="ide.memory.adjusted" value="true" />
-    <property name="ideavim.statistics.timestamp" value="1582254388708" />
+    <property name="ideavim.statistics.timestamp" value="1582770766542" />
     <property name="import_error_directory" value="$USER_HOME$" />
     <property name="import_write_errors" value="true" />
-    <property name="lastTip" value="15" />
+    <property name="lastTip" value="19" />
   </component>
 </application>

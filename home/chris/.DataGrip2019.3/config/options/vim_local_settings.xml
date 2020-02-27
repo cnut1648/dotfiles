@@ -3,6 +3,25 @@
     <state version="5" />
     <globalmarks />
     <filemarks>
+      <file name="$USER_HOME$/data/untitled/sql/course/122A/query7.sql" timestamp="1582259214536">
+        <mark key="[" line="0" column="28" />
+        <mark key="]" line="0" column="32" />
+        <mark key="." line="0" column="32" />
+        <mark key="^" line="0" column="32" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1582830291865">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/sql/course/122A/query2.sql" timestamp="1582259051410">
+        <mark key="'" line="0" column="55" />
+        <mark key="[" line="5" column="11" />
+        <mark key="]" line="5" column="21" />
+        <mark key="." line="5" column="21" />
+        <mark key="^" line="5" column="21" />
+      </file>
+      <file name="/large.takes" timestamp="1582773124519">
+        <mark key="[" line="0" column="0" />
+      </file>
       <file name="$USER_HOME$/data/untitled/sql/course/122A/query5.sql" timestamp="1582259165971">
         <mark key="[" line="0" column="26" />
         <mark key="]" line="0" column="34" />
@@ -15,62 +34,13 @@
         <mark key="^" line="0" column="44" />
         <mark key="." line="0" column="44" />
       </file>
-      <file name="/blurts.blurt_analysis" timestamp="1582257858090">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="/vendor_topics [chris@localhost]" timestamp="1582258660532">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="/blurt_analysis [chris@localhost]" timestamp="1582257858069">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/data/untitled/sql/course/122A/query3.sql" timestamp="1582259072117">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="0" />
-        <mark key="." line="0" column="0" />
-      </file>
-      <file name="/blurts.follow" timestamp="1582259094672">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/data/untitled/sql/course/122A/query8.sql" timestamp="1582259267667">
-        <mark key="[" line="0" column="45" />
-        <mark key="]" line="0" column="49" />
-        <mark key="^" line="0" column="49" />
-        <mark key="." line="0" column="49" />
-      </file>
-      <file name="/dummy.sql" timestamp="1582258911319">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/data/untitled/sql/course/122A/query7.sql" timestamp="1582259214536">
-        <mark key="[" line="0" column="28" />
-        <mark key="]" line="0" column="32" />
-        <mark key="." line="0" column="32" />
-        <mark key="^" line="0" column="32" />
-      </file>
-      <file name="/vendor [chris@localhost]" timestamp="1582258352967">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="$USER_HOME$/data/untitled/sql/course/122A/query2.sql" timestamp="1582259051410">
-        <mark key="'" line="0" column="55" />
-        <mark key="[" line="5" column="11" />
-        <mark key="]" line="5" column="21" />
-        <mark key="." line="5" column="21" />
-        <mark key="^" line="5" column="21" />
-      </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" timestamp="1582253852868">
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="0" column="19" />
-      </file>
-      <file name="/advertisement [chris@localhost]" timestamp="1582258911055">
+      <file name="/console_7" timestamp="1582830208958">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="/blurts.advertisement" timestamp="1582258911079">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/console_6" timestamp="1582258993172">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="/blurts.vendor" timestamp="1582258352990">
+      <file name="/console_6" timestamp="1582830209750">
         <mark key="[" line="0" column="0" />
       </file>
       <file name="$USER_HOME$/data/untitled/sql/course/122A/query6.sql" timestamp="1582258983715">
@@ -79,10 +49,42 @@
         <mark key="^" line="0" column="15" />
         <mark key="." line="0" column="7" />
       </file>
-      <file name="/console_1" timestamp="1582259013980">
+      <file name="/console_3" timestamp="1582775950018">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/blurts.vendor_topics" timestamp="1582258660560">
+      <file name="/a.sql" timestamp="1582830291871">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/console_1" timestamp="1582830210194">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/blurts.blurt" timestamp="1582830210889">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/sql/course/122A/query3.sql" timestamp="1582259072117">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_7.sql" timestamp="1582778286641">
+        <mark key="[" line="9" column="15" />
+        <mark key="]" line="11" column="5" />
+        <mark key="." line="11" column="5" />
+        <mark key="^" line="11" column="5" />
+      </file>
+      <file name="/blurts.follow" timestamp="1582830210684">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/takes [chris@localhost]" timestamp="1582773124510">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/sql/course/122A/query8.sql" timestamp="1582259267667">
+        <mark key="[" line="0" column="45" />
+        <mark key="]" line="0" column="49" />
+        <mark key="^" line="0" column="49" />
+        <mark key="." line="0" column="49" />
+      </file>
+      <file name="/dummy.sql" timestamp="1582773124696">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
@@ -100,15 +102,15 @@
       <jump line="4" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_2.sql" />
       <jump line="2" column="15" filename="$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_6.sql" />
       <jump line="11" column="3" filename="$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_6.sql" />
-      <jump line="5" column="10" filename="$USER_HOME$/data/untitled/sql/course/122A/query2.sql" />
       <jump line="0" column="55" filename="$USER_HOME$/data/untitled/sql/course/122A/query2.sql" />
+      <jump line="5" column="22" filename="$USER_HOME$/data/untitled/sql/course/122A/query2.sql" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Cg==</text>
+      <register name="&quot;" type="4">
+        <text>borrowe</text>
       </register>
       <register name="-" type="4">
-        <text>C</text>
+        <text>borrowe</text>
       </register>
       <register name="/" type="4">
         <text encoding="base64">LT4=</text>
@@ -117,31 +119,31 @@
         <text>Albert_Carey@msn.com</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">dW5pb24KKHNlbGVjdCBncmFkZQogICAgZnJvbSB0YWtlcwogICAgd2hlcmUgaWQgPSAnMTIzNCcpCg==</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">c2VsZWN0IHVzZXIubmFtZSwgdi5lbWFpbAojICAgICAgLCBjb3VudCgqKSBhcyBjb3VudApmcm9tIGZvbGxvdywKICAgICB1c2VyIGpvaW4KICAgICh2ZW5kb3JfYW1iYXNzYWRvciBqb2luIHZlbmRvciB2ZSBvbiB2ZW5kb3JfYW1iYXNzYWRvci52ZW5kb3JpZCA9IHZlLmlkKSB2CiMgd2hlcmUgZm9sbG93ZWUgPSB2LmVtYWlsCiMgZ3JvdXAgYnkgdi5lbWFpbAo=</text>
+        <text encoding="base64">bnVsbAo=</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">dXNlIGJsdXJ0cwo=</text>
+        <text encoding="base64">ICAgIAo=</text>
       </register>
       <register name="4" type="2">
-        <text>order by ct desc)</text>
+        <text encoding="base64">d2hlcmUgSUQ9JzEyMzQ1Jwo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">am9pbiB2ZW5kb3Igb24gdmVuZG9yaWQK</text>
+        <text encoding="base64">ZnJvbSB0YWtlcwo=</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Z3JvdXAgYnkgdmVuZG9yaWQ7Cg==</text>
+        <text encoding="base64">c2VsZWN0IGdyYWRlCg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ZnJvbSB2ZW5kb3Igam9pbiB2ZW5kb3JfdG9waWNzIHZ0IG9uIHZlbmRvci5pZCA9IHZ0LnZlbmRvcmlkCg==</text>
+        <text encoding="base64">ZnJvbSBib3Jyb3dlZAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGpvaW4K</text>
+        <text encoding="base64">c2VsZWN0IGNvdW50KCopL2N0Cg==</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">ICAgICAgICAK</text>
+        <text encoding="base64">d2l0aCBjdCBhcyAoc2VsZWN0IGNvdW50KCopIGZyb20gbWVtYmVyKQo=</text>
       </register>
       <register name=":" type="4">
         <text encoding="base64">JzwsJz5zLy0+Lw==</text>

@@ -2,6 +2,11 @@
 <doublecmd>
   <History>
     <Navigation>
+      <Item>/home/chris/Documents/</Item>
+      <Item>/home/chris/</Item>
+      <Item>/home/chris/.config/nvim/</Item>
+      <Item>/home/chris/.config/</Item>
+      <Item>/home/chris/.conda/</Item>
       <Item>/home/chris/data/untitled/sql/course/122A/</Item>
       <Item>/home/chris/data/untitled/sql/course/</Item>
       <Item>/home/chris/data/untitled/sql/</Item>
@@ -9,7 +14,6 @@
       <Item>/home/chris/application/</Item>
       <Item>/run/media/chris/华为手机助手/</Item>
       <Item>/home/chris/Downloads/</Item>
-      <Item>/home/chris/</Item>
       <Item>/home/chris/data/Cent/books/cs/c/cpp/</Item>
       <Item>/home/chris/data/Cent/books/cs/c/cpp/c++/</Item>
       <Item>/home/chris/data/Cent/books/cs/c/</Item>
@@ -34,9 +38,7 @@
       <Item>/home/chris/data/Cent/books/cs/cs/</Item>
       <Item>/home/chris/data/Cent/books/math/history/</Item>
       <Item>/home/chris/.config/doublecmd/</Item>
-      <Item>/home/chris/.config/</Item>
       <Item>/home/chris/Documents/dotfiles/</Item>
-      <Item>/home/chris/Documents/</Item>
       <Item>/home/chris/test/</Item>
       <Item>/home/chris/Books/</Item>
       <Item>/home/chris/.ipython/</Item>
@@ -50,8 +52,6 @@
       <Item>/home/chris/Documents/dotfiles/home/chris/</Item>
       <Item>/home/chris/Documents/dotfiles/home/</Item>
       <Item>/home/chris/.config/termite/</Item>
-      <Item>/home/chris/.config/kitty/</Item>
-      <Item>/home/chris/.config/kitty/themes/</Item>
     </Navigation>
     <CommandLine/>
     <FileMask/>

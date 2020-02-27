@@ -1,3 +1,13 @@
+nnoremap Y y$
+
+
+
+nnoremap oo o
+nnoremap OO O
+
+nnoremap <silent> o :<C-u>call append(line("."),   repeat([""], v:count1))<CR>
+nnoremap <silent> O :<C-u>call append(line(".")-1, repeat([""], v:count1))<CR>
+
 inoremap <esc> <nop>
 inoremap jk <esc>
 inoremap JK <esc>
