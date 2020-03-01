@@ -428,7 +428,7 @@
     <ActionOnDoubleClick>2</ActionOnDoubleClick>
     <OpenedTabs>
       <Left>
-        <ActiveTab>5</ActiveTab>
+        <ActiveTab>8</ActiveTab>
         <Tab>
           <FileView Type="columns">
             <History>
@@ -672,7 +672,7 @@
                   <Path Filename="">/home/chris/data/Cent/</Path>
                   <Path Filename="math">/home/chris/data/Cent/books/</Path>
                   <Path Filename="">/home/chris/data/Cent/books/math/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/math/3a/</Path>
+                  <Path Filename="Friedberg solution.pdf">/home/chris/data/Cent/books/math/3a/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -754,7 +754,7 @@
                   <Path Filename="books">/home/chris/data/Cent/</Path>
                   <Path Filename="cs">/home/chris/data/Cent/books/</Path>
                   <Path Filename="">/home/chris/data/Cent/books/cs/</Path>
-                  <Path Filename="Roberto Ierusalimschy - Programming in Lua-lua.org (2017).pdf">/home/chris/data/Cent/books/cs/cs/</Path>
+                  <Path Filename="">/home/chris/data/Cent/books/cs/cs/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -779,7 +779,7 @@
                   <Path Filename="app">/home/chris/data/</Path>
                   <Path Filename="..">/home/chris/data/app/</Path>
                   <Path Filename="untitled">/home/chris/data/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/</Path>
+                  <Path Filename="">/home/chris/data/untitled/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -852,7 +852,7 @@
                   <Path Filename="books">/home/chris/data/Cent/</Path>
                   <Path Filename="Snipaste_2020-01-11_17-39-47.png">/home/chris/data/</Path>
                   <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="try.sql">/home/chris/Downloads/</Path>
+                  <Path Filename="">/home/chris/Downloads/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -946,7 +946,7 @@
                   <Path Filename="..">/home/chris/.conda/</Path>
                   <Path Filename=".config">/home/chris/</Path>
                   <Path Filename="nvim">/home/chris/.config/</Path>
-                  <Path Filename="..">/home/chris/.config/nvim/</Path>
+                  <Path Filename="">/home/chris/.config/nvim/</Path>
                 </Paths>
               </Entry>
             </History>

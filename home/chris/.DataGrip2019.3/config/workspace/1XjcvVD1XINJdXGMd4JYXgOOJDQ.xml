@@ -2,10 +2,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/122A/query9.sql">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_8.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state>
+              <caret column="2" selection-start-column="2" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -31,9 +31,10 @@
         <option value="$PROJECT_DIR$/122A/query3.sql" />
         <option value="$PROJECT_DIR$/122A/query5.sql" />
         <option value="$PROJECT_DIR$/122A/query7.sql" />
-        <option value="$PROJECT_DIR$/122A/query8.sql" />
         <option value="$PROJECT_DIR$/122A/query9.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_7.sql" />
+        <option value="$PROJECT_DIR$/122A/query8.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_8.sql" />
       </list>
     </option>
   </component>
@@ -75,22 +76,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="10" width="1900" height="1015" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Database" order="0" visible="true" weight="0.22835498" />
+      <window_info content_ui="combo" id="Database" order="0" visible="true" weight="0.22727273" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3281075" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="4" weight="0.32922733" />
-      <window_info anchor="bottom" id="Services" order="5" visible="true" weight="0.29339305" />
+      <window_info active="true" anchor="bottom" id="Services" order="5" visible="true" weight="0.29339305" />
       <window_info anchor="bottom" id="Database Changes" order="6" />
       <window_info anchor="bottom" id="Debug" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="SQL Generator" order="10" weight="0.32922733" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32922733" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="0" visible="true" weight="0.16287878" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="0" visible="true" weight="0.2797619" />
       <window_info anchor="right" id="Structure" order="1" side_tool="true" weight="0.24972005" />
       <window_info anchor="right" id="Key Promoter X" order="2" />
     </layout>
@@ -112,31 +114,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/large/table/instructor">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state presentationMode="REGULAR" projectRestartId="401d49d2-5c66-414d-865b-6c9c31bb377e" pageSize="500">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/try/table/officer">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state presentationMode="REGULAR" projectRestartId="9b177576-2468-4dc0-b24a-28a63e07144d" pageSize="500">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/large/table/tips">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state presentationMode="REGULAR" projectRestartId="9b177576-2468-4dc0-b24a-28a63e07144d" pageSize="500">
@@ -230,11 +207,6 @@
     <entry file="file://$PROJECT_DIR$/122A/advertisement.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/122A/follow.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-64357" />
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_6.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
@@ -302,15 +274,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/blurts/table/hobby">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state presentationMode="REGULAR" projectRestartId="12d0b953-e8c6-446f-ba77-60b913d70c13" pageSize="500">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/blurts/table/topic">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state presentationMode="REGULAR" projectRestartId="12d0b953-e8c6-446f-ba77-60b913d70c13" pageSize="500">
@@ -352,17 +315,6 @@
         <state presentationMode="REGULAR" projectRestartId="12d0b953-e8c6-446f-ba77-60b913d70c13" pageSize="500">
           <filtering>
             <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/blurts/table/follow">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state presentationMode="REGULAR" projectRestartId="12d0b953-e8c6-446f-ba77-60b913d70c13" pageSize="500">
-          <filtering>
-            <filter text="" />
-            <filter text="follower like '%Michael%'" />
-            <filter text="follower like '%Morgan%'" />
           </filtering>
         </state>
       </provider>
@@ -433,12 +385,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/122A/Query 1.tsv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/122A/Query 1.tsv" />
     <entry file="file://$PROJECT_DIR$/122A/query2.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -491,13 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/122A/query8.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="49" selection-start-column="49" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/122A/query7.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -505,10 +445,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/122A/follow.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-64605" />
+      </provider>
+    </entry>
+    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/blurts/table/hobby">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="6e47a4c9-380e-4152-a680-2478f94e5731" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/blurts/table/follow">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="6e47a4c9-380e-4152-a680-2478f94e5731" pageSize="-1">
+          <filtering>
+            <filter text="" />
+            <filter text="follower like '%Michael%'" />
+            <filter text="follower like '%Morgan%'" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/122A/Query 6.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/122A/Query 8.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="36689" selection-start-line="36689" selection-end-line="36689" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/122A/query8.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/122A/query9.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_8.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>

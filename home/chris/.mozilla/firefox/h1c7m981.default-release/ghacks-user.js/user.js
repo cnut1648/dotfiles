@@ -204,8 +204,8 @@ user_pref("app.update.auto", false);
  * [SETTING] about:addons>Extensions>[cog-wheel-icon]>Update Add-ons Automatically (toggle) ***/
    // user_pref("extensions.update.autoUpdateDefault", false);
 /* 0306: disable extension metadata
- * used when installing/updating an extension, and in daily background update checks: if false, it
- * hides the expanded text description (if it exists) when you "show more details about an addon" ***/
+ * used when installing/updating an extension, and in daily background update checks:
+ * when false, extension detail tabs will have no description ***/
    // user_pref("extensions.getAddons.cache.enabled", false);
 /* 0308: disable search engine updates (e.g. OpenSearch)
  * [NOTE] This does not affect Mozilla's built-in or Web Extension search engines
@@ -1701,6 +1701,7 @@ user_pref("browser.urlbar.suggest.searches", true);
 user_pref("toolkit.winRegisterApplicationRestart", true);
 user_pref("browser.startup.page", 3);
 user_pref("browser.newtabpage.enabled", true);
+user_pref("security.mixed_content.block_display_content", false);
 user_pref("browser.newtab.preload", true);
 user_pref("geo.provider.use_gpsd", true);
 user_pref("dom.event.clipboardevents.enabled", true);
@@ -1711,8 +1712,8 @@ user_pref("javascript.options.asmjs", true);
 user_pref("javascript.options.wasm", true);
 user_pref("dom.webaudio.enabled", true);
 user_pref("privacy.sanitize.sanitizeOnShutdown", false);
-user_pref("privacy.clearOnShutdown.sessions", false); 
-user_pref("privacy.clearOnShutdown.downloads", false); 
+user_pref("privacy.clearOnShutdown.sessions", false);
+user_pref("privacy.clearOnShutdown.downloads", false);
 user_pref("privacy.clearOnShutdown.history", false);
 user_pref("privacy.clearOnShutdown.cache",false);
 user_pref("privacy.clearOnShutdown.cookies",false);
@@ -1728,7 +1729,7 @@ user_pref("webgl.disable-fail-if-major-performance-caveat", false);
 user_pref("privacy.resistFingerprinting", false);
 user_pref("browser.search.openintab", true);
 user_pref("browser.tabs.loadBookmarksInTabs", true);
-user_pref("general.autoScroll", false); 
+user_pref("general.autoScroll", false);
 user_pref("signon.autofillForms", true);
 user_pref("signon.formlessCapture.enabled", true);
 user_pref("security.password_lifetime", 30);

@@ -3,7 +3,7 @@
     <feature id="editing.completion.camelHumps" count="5" last-shown="0" last-used="1582258470775" shown-count="0" />
     <feature id="codeassists.comment.line" count="62" last-shown="0" last-used="1582255158457" shown-count="0" />
     <feature id="codeassists.surroundwith.statement" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="refactoring.rename" count="2" last-shown="0" last-used="1582169478579" shown-count="0" />
+    <feature id="refactoring.rename" count="3" last-shown="0" last-used="1582852952029" shown-count="0" />
     <feature id="navigation.popup.action" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.completion.cancelByControlArrows" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.popup.table" count="0" last-shown="0" last-used="0" shown-count="0" />
@@ -16,7 +16,7 @@
     <feature id="navigation.popup.wildcards" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.quickdefinition" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="find.completion" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="editing.completion.basic" count="405" last-shown="0" last-used="1582773268851" shown-count="0" />
+    <feature id="editing.completion.basic" count="406" last-shown="0" last-used="1582965776175" shown-count="0" />
     <feature id="tag.name.completion" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.select.word" count="34" last-shown="0" last-used="1582258384454" shown-count="0" />
     <feature id="navigation.recent.files" count="0" last-shown="0" last-used="0" shown-count="0" />

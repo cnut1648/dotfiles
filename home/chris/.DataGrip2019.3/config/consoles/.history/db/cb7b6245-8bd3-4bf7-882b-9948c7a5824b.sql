@@ -1,21 +1,4 @@
 select *
-from lateral (select dept_name, max(salary) as s
-      from instructor
-      group by dept_name);
-;-- -. . -..- - / . -. - .-. -.--
-select min(s.m)
-from (select dept_name, max(salary) as m
-from instructor
-group by dept_name) as s;
-;-- -. . -..- - / . -. - .-. -.--
-select dept_name, max(salary)
-from instructor
-group by dept_name;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from student natural join takes natural join course;
-;-- -. . -..- - / . -. - .-. -.--
-select *
 from student natural join takes join course on takes.course_id;
 ;-- -. . -..- - / . -. - .-. -.--
 select *
@@ -1652,23 +1635,6 @@ from advertisement join user_ad ua on advertisement.id = ua.adid) s
 group by vendorid) s on vendor.id = s.vendorid
 order by ct desc;
 ;-- -. . -..- - / . -. - .-. -.--
-select u1.email as A, u2.email as B, u3.email as C
-from user u1, user u2, user u3
-where u2.email in (
-    select followee
-    from follow
-    where follower = u1.email
-    ) and u3.email in (
-    select followee
-    from follow
-    where follower = u2.email
-    ) and u3.email not in (
-    select followee
-    from follow
-    where follower = u1.email
-
-    );
-;-- -. . -..- - / . -. - .-. -.--
 select u1.name as A, u2.name as B
 from user u1, user u2
 where u1.name != u2.name
@@ -1688,3 +1654,84 @@ from blurt natural join blurt_analysis ba
 join topic t on ba.topicid = t.id
 group by topicid, location
 having avg < 0;
+;-- -. . -..- - / . -. - .-. -.--
+select u1.email as A, u2.email as B, u3.email as C
+from user u1, user u2, user u3
+where u2.email in (
+    select followee
+    from follow
+    where follower = u1.email
+    ) and u3.email in (
+    select followee
+    from follow
+    where follower = u2.email
+    ) and u3.email not in (
+    select followee
+    from follow
+    where follower = u1.email
+
+    );
+;-- -. . -..- - / . -. - .-. -.--
+select u1.email as A, u2.email as B, u3.email as C
+from user u1, user u2, user u3
+where u2.email in (
+    select followee
+    from follow f1
+    where follower = u1.email
+    ) and u3.email in (
+    select followee
+    from follow f2
+    where follower = u2.email
+    ) and u3.email not in (
+    select followee
+    from follow f3
+    where follower = u1.email
+);
+;-- -. . -..- - / . -. - .-. -.--
+select u1.email as A, u2.email as B, u3.email as C
+from user u1, user u2, user u3
+where u2.email in (
+    select followee
+    from follow f1
+    where follower = u1.email
+    ) and u3.email in (
+    select followee
+    from follow f2
+    where follower = u2.email
+    ) and u3.email not in (
+    select followee
+    from follow f3
+    where follower = u1.email
+)  and u1.email != u2.email and u3.email != u1.email;
+;-- -. . -..- - / . -. - .-. -.--
+select u1.email as A, u2.email as B, u3.email as C
+from user u1, user u2, user u3
+where u2.email in (
+    select followee
+    from follow f1
+    where follower = u1.email
+) and u3.email in (
+    select followee
+    from follow f2
+    where follower = u2.email
+) and u3.email not in (
+    select followee
+    from follow f3
+    where follower = u1.email
+)  and u1.email != u2.email and u3.email != u1.email;
+;-- -. . -..- - / . -. - .-. -.--
+select u1.email as A, u2.email as B, u3.email as C
+from user u1, user u2, user u3
+where u2.email in (
+    select followee
+    from follow f1
+    where follower = u1.email
+) and u3.email in (
+    select followee
+    from follow f2
+    where follower = u2.email
+) and u3.email not in (
+    select followee
+    from follow f3
+    where follower = u1.email
+)  and  u3.email != u1.email;
