@@ -13,8 +13,10 @@ set expandtab
 set termguicolors
 set cmdheight=2
 
-nmap <space> <leader>
 
+" whichkey requires mapleader value
+let g:mapleader = "\\"
+map <Space> <leader>
 
 """"""""""""""" normal
 
@@ -28,7 +30,9 @@ nmap <silent> <leader>xr :w <bar> :so ~/.config/nvim/init.vim<CR>
 " consistent with D & C
 nnoremap Y y$
 
-
+" auto indent when paste
+nnoremap p p`[v`]=
+nnoremap P P`[v`]=
 
 
 " window management
@@ -47,9 +51,11 @@ nnoremap <M-S-l> <C-W>l
 nnoremap <M-S-P> <C-W>p
 nnoremap <M-S-W> <C-W>w
 nnoremap <M-S-B> <C-W>b
-" equivalent <C-S-M> create new buffer as vertical split and
-" <C-S-N> send it to new tab
-nnoremap <M-S-P> <C-W>t
+" equivalent <C-S-M> create new buffer as vertical
+" split and <C-S-N> send it to new tab
+nnoremap <M-S-P> <C-W>T
+
+
 
 nnoremap <M-S-Q> <C-W>q
 nnoremap <M-S-A> <C-W>o
@@ -70,7 +76,7 @@ nnoremap <silent> o :<C-u>call append(line("."),   repeat([""], v:count1))<CR>
 nnoremap <silent> O :<C-u>call append(line(".")-1, repeat([""], v:count1))<CR>
 
 " tab management
-nnoremap <C-t>     :tabnew<CR>
+nnoremap <C-p>     :tabnew<CR>
 nnoremap <C-h>     :tabprevious<CR>
 nnoremap <C-l>     :tabnext<CR>
 
@@ -215,6 +221,8 @@ Plug 'honza/vim-snippets'
 " coc-python
 " :CocInstall coc-python
 
+" coc-calc
+" :CocInstall coc-calc
 
 """"""""""""""""""""""""""""""
 """"""""""""""""" syntastic check
@@ -285,6 +293,7 @@ Plug 'francoiscabrol/ranger.vim'
 Plug 'lambdalisue/suda.vim'
 Plug 'machakann/vim-sandwich'
 Plug 'wellle/targets.vim'
+Plug 'andymass/vim-matchup'
 Plug 'machakann/vim-swap'
 Plug 'tpope/vim-commentary'
 Plug 'itchyny/calendar.vim'
@@ -293,17 +302,18 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'unblevable/quick-scope'
 Plug 'justinmk/vim-sneak'
 Plug 'nelstrom/vim-visual-star-search'
-plug 'chaoren/vim-wordmotion'
-plug 'tommcdo/vim-lion'
-plug 'junegunn/vim-peekaboo'
-plug 'simnalamburt/vim-mundo'
-plug 't9md/vim-choosewin'
-plug 'rhysd/accelerated-jk'
-plug 'psliwka/vim-smoothie'
+Plug 'chaoren/vim-wordmotion'
+Plug 'junegunn/vim-peekaboo'
+Plug 'simnalamburt/vim-mundo'
+Plug 't9md/vim-choosewin'
+Plug 'rhysd/accelerated-jk'
+Plug 'psliwka/vim-smoothie'
+Plug 'segeljakt/vim-isotope'
 " coc-pairs
-" :cocinstall coc-pairs
+" :CocInstall coc-pairs
 " coc-yank
-" :cocinstall coc-yank
+" :CocInstall coc-yank
+
 
 
 """"""""""""""""""""""""""""""
@@ -312,7 +322,7 @@ plug 'psliwka/vim-smoothie'
 
 
 " coc-git
-" :cocinstall coc-git
+" :CocInstall coc-git
 
 
 
@@ -321,7 +331,7 @@ plug 'psliwka/vim-smoothie'
 """"""""""""""""""""""""""""""
 
 
-plug 'skywind3000/asyncrun.vim'
+Plug 'skywind3000/asyncrun.vim'
 
 
 
@@ -330,15 +340,15 @@ plug 'skywind3000/asyncrun.vim'
 """"""""""""""""""""""""""""""
 
 
-plug 'junegunn/goyo.vim'
-plug 'junegunn/limelight.vim'
-plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
-plug 'reedes/vim-pencil'
-plug 'sidofc/mkdx'
-plug 'reedes/vim-wordy'
-plug 'reedes/vim-lexical'
-plug 'reedes/vim-litecorrect'
-plug 'dbmrq/vim-ditto'
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/limelight.vim'
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
+Plug 'reedes/vim-pencil'
+Plug 'SidOfc/mkdx'
+Plug 'reedes/vim-wordy'
+Plug 'reedes/vim-lexical'
+Plug 'reedes/vim-litecorrect'
+Plug 'dbmrq/vim-ditto'
 
 
 """"""""""""""""""""""""""""""
@@ -346,10 +356,10 @@ plug 'dbmrq/vim-ditto'
 """"""""""""""""""""""""""""""
 
 
-" on-demand lazy load
+" On-demand lazy load
 " load when calling function
-plug 'liuchengxu/vim-which-key', { 'on': ['whichkey', 'whichkey!'] }
-plug 'skywind3000/vim-quickui'
+Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!'] }
+Plug 'skywind3000/vim-quickui'
 
 
 
@@ -358,7 +368,7 @@ plug 'skywind3000/vim-quickui'
 """"""""""""""""""""""""""""""
 
 
-plug 'voldikss/vim-floaterm'
+Plug 'voldikss/vim-floaterm'
 
 call plug#end()
 
@@ -382,11 +392,11 @@ call plug#end()
 
 
 " coc.nvim
-" inore:map <silent><expr> <tab>
-"             \ pumvisible() ? "\<c-n>" :
-"             \ <sid>check_back_space() ? "\<tab>" :
+" inore:map <silent><expr> <TAB>
+"             \ pumvisible() ? "\<C-n>" :
+"             \ <SID>check_back_space() ? "\<TAB>" :
 "             \ coc#refresh()
-" inoremap <expr><s-tab> pumvisible() ? "\<c-p>" : "\<c-h>"
+" inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 
 function! s:check_back_space() abort
     let col = col('.') - 1
@@ -398,32 +408,32 @@ let g:python3_host_prog = '/home/chris/miniconda3/bin/python'
 let g:airline#extensions#coc#enabled = 1
 
 "coc-snippets
-" use <c-l> for trigger snippet expand.
-imap <c-l> <plug>(coc-snippets-expand)
+" Use <C-l> for trigger snippet expand.
+imap <C-l> <Plug>(coc-snippets-expand)
 
-" use <c-j> for select text for visual placeholder of snippet.
-vmap <c-j> <plug>(coc-snippets-select)
+" Use <C-j> for select text for visual placeholder of snippet.
+vmap <C-j> <Plug>(coc-snippets-select)
 
-" use <c-j> for jump to next placeholder, it's default of coc.nvim
+" Use <C-j> for jump to next placeholder, it's default of coc.nvim
 let g:coc_snippet_next = '<c-j>'
 
-" use <c-k> for jump to previous placeholder, it's default of coc.nvim
+" Use <C-k> for jump to previous placeholder, it's default of coc.nvim
 let g:coc_snippet_prev = '<c-k>'
 
-" use <c-j> for both expand and jump (make expand higher priority.)
-imap <c-j> <plug>(coc-snippets-expand-jump)
+" Use <C-j> for both expand and jump (make expand higher priority.)
+imap <C-j> <Plug>(coc-snippets-expand-jump)
 
-inoremap <silent><expr> <tab>
+inoremap <silent><expr> <TAB>
       \ pumvisible() ? coc#_select_confirm() :
-      \ coc#expandableorjumpable() ? "\<c-r>=coc#rpc#request('dokeymap', ['snippets-expand-jump',''])\<cr>" :
-      \ <sid>check_back_space() ? "\<tab>" :
+      \ coc#expandableOrJumpable() ? "\<C-r>=coc#rpc#request('doKeymap', ['snippets-expand-jump',''])\<CR>" :
+      \ <SID>check_back_space() ? "\<TAB>" :
       \ coc#refresh()
 
 function! s:check_back_space() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
-" inoremap <expr> <cr> pumvisible() ? "\<c-y>" : "\<c-g>u\<cr>"
+" inoremap <expr> <cr> pumvisible() ? "\<C-y>" : "\<C-g>u\<CR>"
 let g:coc_snippet_next = '<tab>'
 
 """"""""""""""""""""""""""""""
@@ -458,29 +468,29 @@ let g:airline#extensions#gutentags#enabled = 1
 
 let g:gutentags_plus_nomap = 1
 " symbol
-noremap <silent> <leader>gs :gscopefind s <c-r><c-w><cr>
+noremap <silent> <leader>gs :GscopeFind s <C-R><C-W><cr>
 " symbol def
-noremap <silent> <leader>gg :gscopefind g <c-r><c-w><cr>
+noremap <silent> <leader>gg :GscopeFind g <C-R><C-W><cr>
 " function calls this func under cursor
-noremap <silent> <leader>gc :gscopefind c <c-r><c-w><cr>
+noremap <silent> <leader>gc :GscopeFind c <C-R><C-W><cr>
 " text str
-noremap <silent> <leader>gt :gscopefind t <c-r><c-w><cr>
+noremap <silent> <leader>gt :GscopeFind t <C-R><C-W><cr>
 " egrep pattern
-noremap <silent> <leader>ge :gscopefind e <c-r><c-w><cr>
+noremap <silent> <leader>ge :GscopeFind e <C-R><C-W><cr>
 " file name
-noremap <silent> <leader>gf :gscopefind f <c-r>=expand("<cfile>")<cr><cr>
+noremap <silent> <leader>gf :GscopeFind f <C-R>=expand("<cfile>")<cr><cr>
 " files that #include filename under cursor
-noremap <silent> <leader>gi :gscopefind i <c-r>=expand("<cfile>")<cr><cr>
+noremap <silent> <leader>gi :GscopeFind i <C-R>=expand("<cfile>")<cr><cr>
 " functions called by func under cursor
-noremap <silent> <leader>gd :gscopefind d <c-r><c-w><cr>
+noremap <silent> <leader>gd :GscopeFind d <C-R><C-W><cr>
 " places symbol assign
-noremap <silent> <leader>ga :gscopefind a <c-r><c-w><cr>
+noremap <silent> <leader>ga :GscopeFind a <C-R><C-W><cr>
 " current word in ctags database
-noremap <silent> <leader>gz :gscopefind z <c-r><c-w><cr>
+noremap <silent> <leader>gz :GscopeFind z <C-R><C-W><cr>
 
 
 " vista.vim
-nmap <f8> :vista!!<cr>
+nmap <F8> :Vista!!<CR>
 let g:airline#extensions#vista#enabled = 1
 
 
@@ -489,6 +499,7 @@ let g:airline#extensions#vista#enabled = 1
 """"""""""""""""" prettifier
 """"""""""""""""""""""""""""""
 
+" nord colorscheme
 let g:nord_italic = 1
 let g:nord_italic_comments = 1
 let g:nord_underline = 1
@@ -496,19 +507,20 @@ let g:nord_cursor_line_number_background = 1
 let g:nord_bold_vertical_split_line = 1
 augroup nord-overrides
   autocmd!
-  autocmd colorscheme nord highlight linenr ctermfg=none guifg=#d8dee9
-  autocmd colorscheme nord highlight cursorlinenr ctermfg=none guifg=#d8dee9
-  autocmd colorscheme nord highlight comment ctermfg=none guifg=#98971a
+  autocmd ColorScheme nord highlight LineNr ctermfg=none guifg=#D8DEE9
+  autocmd ColorScheme nord highlight CursorLineNr ctermfg=none guifg=#D8DEE9
+  autocmd ColorScheme nord highlight Comment ctermfg=none guifg=#98971a
 augroup end
 " config must before colorscheme
 colorscheme nord
 
 
-" indentline
-let g:indentline_char_list = ['|', '¦', '┆', '┊']
-" toggle relative number
-nnoremap <silent> <leader>nb :set relativenumber! <cr>
-nnoremap <silent> <leader>no :set relativenumber! nu!<bar> :indentlinestoggle <cr>
+
+" indentLine
+let g:indentLine_char_list = ['|', '¦', '┆', '┊']
+" Toggle Relative Number
+nnoremap <silent> <leader>ob :set relativenumber! <CR>
+nnoremap <silent> <leader>oo :set relativenumber! nu!<bar> :IndentLinesToggle <CR>
 
 " vim-airline
 let g:airline#extensions#tabline#enabled = 1
@@ -517,7 +529,7 @@ let g:airline_powerline_fonts = 1
 let g:airline_theme='wombat'
 
 " vim-commentary
-nmap <c-_> gcc
+nmap <C-_> gcc
 
 " better whitespace
 let g:better_whitespace_ctermcolor='yellow'
@@ -526,9 +538,14 @@ let g:strip_whitespace_on_save=1
 
 
 " coc-highlight
-autocmd cursorhold * silent call cocactionasync('highlight')
+autocmd CursorHold * silent call CocActionAsync('highlight')
 
+" vim-easy-align
+" Start interactive EasyAlign in visual mode (e.g. vipga)
+xmap ga <Plug>(EasyAlign)
 
+" Start interactive EasyAlign for a motion/text object (e.g. gaip)
+nmap ga <Plug>(EasyAlign)
 
 """"""""""""""""""""""""""""""
 """"""""""""""""" fuzzy search
@@ -537,13 +554,13 @@ autocmd cursorhold * silent call cocactionasync('highlight')
 
 
 
-" leaderf
-let g:lf_shortcutb = "<leader>fb"
-let g:lf_shortcutf = "<leader>ff"
-let g:lf_windowposition = 'popup'
-let g:lf_commandmap = {'<c-b>': ['<c-down>'], '<esc>': ['<c-c>']}
-let g:lf_ignorecurrentbuffername = 1
-let g:lf_rgconfig = [
+" LeaderF
+let g:Lf_ShortcutB = "<leader>fb"
+let g:Lf_ShortcutF = "<leader>ff"
+let g:Lf_WindowPosition = 'popup'
+let g:Lf_CommandMap = {'<C-B>': ['<C-Down>'], '<Esc>': ['<C-C>']}
+let g:Lf_IgnoreCurrentBufferName = 1
+let g:Lf_RgConfig = [
             \ "--max-columns=150",
             \ "--type-add web:*.{html,css,js}*",
             \ "--glob=!git/*",
@@ -552,32 +569,32 @@ let g:lf_rgconfig = [
             \ "--glob=!**/app/*",
             \ "--hidden"
             \ ]
-noremap <leader>fm :<c-u><c-r>=printf("leaderf mru %s", "")<cr><cr>
-noremap <leader>ft :<c-u><c-r>=printf("leaderf buftag %s", "")<cr><cr>
-noremap <leader>fl :<c-u><c-r>=printf("leaderf line %s", "")<cr><cr>
+noremap <leader>fm :<C-U><C-R>=printf("Leaderf mru %s", "")<CR><CR>
+noremap <leader>ft :<C-U><C-R>=printf("Leaderf bufTag %s", "")<CR><CR>
+noremap <leader>fl :<C-U><C-R>=printf("Leaderf line %s", "")<CR><CR>
 
 " coc-list
 
-command! -nargs=+ -complete=custom,s:grepargs rg exe 'coclist grep '.<q-args>
+command! -nargs=+ -complete=custom,s:GrepArgs Rg exe 'CocList grep '.<q-args>
 
-function! s:grepargs(...)
-  let list = ['-s', '-smartcase', '-i', '-ignorecase', '-w', '-word',
+function! s:GrepArgs(...)
+  let list = ['-S', '-smartcase', '-i', '-ignorecase', '-w', '-word',
         \ '-e', '-regex', '-u', '-skip-vcs-ignores', '-t', '-extension']
   return join(list, "\n")
 endfunction
 
-" keymapping for grep word under cursor with interactive mode
-nnoremap <silent> <leader>cf :exe 'coclist -i --input='.expand('<cword>').' grep'<cr>
-command! -nargs=+ -complete=custom,s:grepargs rg exe 'coclist grep '.<q-args>
+" Keymapping for grep word under cursor with interactive mode
+nnoremap <silent> <Leader>cf :exe 'CocList -I --input='.expand('<cword>').' grep'<CR>
+command! -nargs=+ -complete=custom,s:GrepArgs Rg exe 'CocList grep '.<q-args>
 
-function! s:grepargs(...)
-  let list = ['-s', '-smartcase', '-i', '-ignorecase', '-w', '-word',
+function! s:GrepArgs(...)
+  let list = ['-S', '-smartcase', '-i', '-ignorecase', '-w', '-word',
         \ '-e', '-regex', '-u', '-skip-vcs-ignores', '-t', '-extension']
   return join(list, "\n")
 endfunction
 
-" keymapping for grep word under cursor with interactive mode
-nnoremap <silent> <leader>cf :exe 'coclist -i --input='.expand('<cword>').' grep'<cr>
+" Keymapping for grep word under cursor with interactive mode
+nnoremap <silent> <Leader>cf :exe 'CocList -I --input='.expand('<cword>').' grep'<CR>
 
 
 
@@ -590,15 +607,15 @@ nnoremap <silent> <leader>cf :exe 'coclist -i --input='.expand('<cword>').' grep
 " disable default key
 let g:ranger_map_keys = 0
 " open file in new tab
-" map <leader>k :rangernewtab<cr>
-map <leader>k :ranger<cr>
+" map <leader>k :RangerNewTab<CR>
+map <leader>k :Ranger<CR>
 " replace netrw
 let g:ranger_replace_netrw = 1
-" disable indentline when entering terminal(ranger)
-autocmd termenter * indentlinesdisable
+" disable Indentline when entering terminal(ranger)
+autocmd TermEnter * IndentLinesDisable
 
 " coc-explorer
-nmap <leader>e :coccommand explorer --width 30<cr>
+nmap <leader>e :CocCommand explorer --width 30<CR>
 
 
 """"""""""""""""""""""""""""""
@@ -612,13 +629,18 @@ let g:suda_smart_edit = 1
 cnoremap w!! :w suda://%
 
 " coc-yank
-nnoremap <silent> <leader>cy  :<c-u>coclist -a --normal yank<cr>
+nnoremap <silent> <leader>cy  :<C-u>CocList -A --normal yank<cr>
 
 " quickscope
 " first occurrence
-hi quickscopeprimary guifg='red' gui=underline ctermfg=155 cterm=underline
+hi QuickScopePrimary guifg='red' gui=underline ctermfg=155 cterm=underline
 " second occurrence
-hi quickscopesecondary guifg='yellow'  gui=underline ctermfg=81 cterm=underline
+hi QuickScopeSecondary guifg='yellow'  gui=underline ctermfg=81 cterm=underline
+
+" matchup
+" always highlight surrounding
+let g:matchup_matchparen_deferred = 1
+let g:matchup_matchparen_hi_surround_always = 1
 
 " sneak
 let g:sneak#label=1
@@ -640,20 +662,20 @@ let g:sandwich#recipes += [
       \   {'buns': ['\[\s*', '\s*\]'], 'nnoremap':1, 'nesting': 1, 'regex': 1, 'match_syntax': 1, 'kind': ['delete', 'replace', 'textobj'], 'action': ['delete'], 'input': ['[']},
       \   {'buns': ['(\s*', '\s*)'],  'nnoremap':1, 'nesting': 1, 'regex': 1, 'match_syntax': 1, 'kind': ['delete', 'replace', 'textobj'], 'action': ['delete'], 'input': ['(']},
       \ ]
-xmap id <plug>(textobj-sandwich-query-i)
-xmap ad <plug>(textobj-sandwich-query-a)
-omap id <plug>(textobj-sandwich-query-i)
-omap ad <plug>(textobj-sandwich-query-a)
+xmap id <Plug>(textobj-sandwich-query-i)
+xmap ad <Plug>(textobj-sandwich-query-a)
+omap id <Plug>(textobj-sandwich-query-i)
+omap ad <Plug>(textobj-sandwich-query-a)
 
-xmap idd <plug>(textobj-sandwich-auto-i)
-xmap add <plug>(textobj-sandwich-auto-a)
-omap idd <plug>(textobj-sandwich-auto-i)
-omap add <plug>(textobj-sandwich-auto-a)
+xmap idd <Plug>(textobj-sandwich-auto-i)
+xmap add <Plug>(textobj-sandwich-auto-a)
+omap idd <Plug>(textobj-sandwich-auto-i)
+omap add <Plug>(textobj-sandwich-auto-a)
 
-xmap im <plug>(textobj-sandwich-literal-query-i)
-xmap am <plug>(textobj-sandwich-literal-query-a)
-omap im <plug>(textobj-sandwich-literal-query-i)
-omap am <plug>(textobj-sandwich-literal-query-a)
+xmap im <Plug>(textobj-sandwich-literal-query-i)
+xmap am <Plug>(textobj-sandwich-literal-query-a)
+omap im <Plug>(textobj-sandwich-literal-query-i)
+omap am <Plug>(textobj-sandwich-literal-query-a)
 
 " vim-choosewin
 " s swap with
@@ -667,15 +689,17 @@ nmap dw de
 nmap cw ce
 
 " mundo
-nnoremap <f4> :mundotoggle<cr>
+set undofile
+set undodir=~/.config/nvim/undo
+nnoremap <F4> :MundoToggle<CR>
 let g:mundo_width = 30
 let g:mundo_preview_height = 40
 let g:mundo_right = 0
 
 
 " accelerated
-nmap j <plug>(accelerated_jk_gj)
-nmap k <plug>(accelerated_jk_gk)
+nmap j <Plug>(accelerated_jk_gj)
+nmap k <Plug>(accelerated_jk_gk)
 
 
 
@@ -690,9 +714,9 @@ let g:asyncrun_open = 6
 " ring bell after run
 let g:asyncrun_bell = 1
 
-nnoremap <f11> :call asyncrun#quickfix_toggle(6)<cr>
+nnoremap <F11> :call asyncrun#quickfix_toggle(6)<cr>
 " unbuffer python output, so that live printing when output
-let pythonunbuffered=1
+let PYTHONUNBUFFERED=1
 
 
 
@@ -707,22 +731,22 @@ let pythonunbuffered=1
 let g:goyo_width = 120
 
 " limelight.vim
-" color name (:help cterm-colors) or ansi code
+" Color name (:help cterm-colors) or ANSI code
 let g:limelight_conceal_ctermfg = 'gray'
 let g:limelight_conceal_ctermfg = 240
 
-" color name (:help gui-colors) or rgb color
-let g:limelight_conceal_guifg = 'darkgray'
+" Color name (:help gui-colors) or RGB color
+let g:limelight_conceal_guifg = 'DarkGray'
 let g:limelight_conceal_guifg = '#777777'
 
-" default: 0.5
+" Default: 0.5
 let g:limelight_default_coefficient = 0.7
 
-" number of preceding/following paragraphs to include (default: 0)
+" Number of preceding/following paragraphs to include (default: 0)
 let g:limelight_paragraph_span = 1
 
-" beginning/end of paragraph
-"   when there's no empty line between the paragraphs
+" Beginning/end of paragraph
+"   When there's no empty line between the paragraphs
 "   and each paragraph starts with indentation
 let g:limelight_bop = '^\s'
 let g:limelight_eop = '\ze\n^\s'
@@ -950,16 +974,70 @@ let g:wordy#ring = [
 " backspace going back
 " after timeout open whichkey on <leader>
 
-hi WhichKeyFloating ctermbg=232 guibg=232
-hi WhichKeySeperator guibg=red
-highlight WhichKeyDesc ctermfg=68 guifg=#5f87d7
+hi WhichKeyFloating ctermbg=232 guibg=#171f4a guifg=68
+hi WhichKeySeperator guifg=#aaff96 guibg=#171f4a
+hi WhichKeyDesc ctermfg=68 guifg='green'
+hi WhichKey guifg=#ee03ff guibg=#171f4a
+let g:which_key_use_floating_win=1
+let g:which_key_exit = ["\<C-C>", "\<Esc>", "\<C-D>"]
+" uppercase key
+let g:which_key_display_names = {
+      \ ' '         : '□'      ,
+      \ '<CR>'      : '↵'      ,
+      \ '<BS>'      : '⌫'      ,
+      \ '<TAB>'     : '⇆'      ,
+      \ '<C-SPACE>' : 'Ctrl-□' ,
+      \ 'B' : '฿' ,
+      \ 'C' : '₵' ,
+      \ 'E' : 'Ꮛ' ,
+      \ 'F' : 'Ϝ' ,
+      \ 'K' : '₭' ,
+      \ 'O' : 'ට' ,
+      \ 'P' : '₱' ,
+      \ 'G' : 'Ꮆ' ,
+      \ 'X' : 'Ж' ,
+      \ }
+
+
+
+" use native command like gg when keymap not found
+let g:which_key_fallback_to_native_key=1
+nmap <silent> g :<C-u>WhichKey 'g'<CR>
 
 autocmd! FileType which_key
 autocmd FileType which_key :call QuickThemeChange("")
 
-autocmd! User vim-which-key call which_key#register('<Space>', "g:which_key_map")
+let g:which_key_map =  {}
+
+let g:which_key_map['name'] = '*****Root*****'
+let g:which_key_map['*'] = 'which_key_ignore'
+let g:which_key_map['g'] = {
+            \'name' : '+gutentags',
+            \'s' : 'symbol',
+            \'g' : 'symbol def',
+            \'c' : 'function calls this func under cursor',
+            \'t' : 'text str',
+            \'e' : 'egrep pattern',
+            \'f' : 'file name',
+            \'i' : 'files that #include filename under cursor',
+            \'d' : 'functions called by func under cursor',
+            \'a' : 'places symbol assign',
+            \'z' : 'current word in ctags database',
+            \}
+let g:which_key_map['b'] = {'name':'+buffer'}
+let g:which_key_map['c'] = {
+            \'name':'+coc',
+            \}
+let g:which_key_map['f'] = {'name':'+leaderf'}
+let g:which_key_map['o'] = {'name':'+option'}
+let g:which_key_map['x'] = {'name':'+files'}
+
+" which_key translate leader to value of mapleader, that is, \
+" lazy load thus register callable only when into this vim-which-key event
+autocmd! User vim-which-key call which_key#register('\', "g:which_key_map")
+
 nmap <silent> <leader> :<C-u>WhichKey '<leader>'<CR>
-" !!!!! don't add desc to keys, not possible for map <space> to <leader>
+
 
 
 
