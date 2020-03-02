@@ -105,9 +105,9 @@ inoremap <C-P> <Up>
 inoremap <C-N> <Down>
 
 inoremap <C-I> <Esc>lDa
+inoremap <C-H> <BS>
 inoremap <C-U> <Esc>d0xi
 inoremap <C-X><C-S> <Esc>:w<CR>a
-inoremap <C-h> <Left>
 inoremap <M-x> <Esc>:
 
 
@@ -116,8 +116,6 @@ inoremap <M-x> <Esc>:
 " inoremap <C-k> <Up>
 " inoremap <C-a> <C-o>0
 " inoremap <C-e> <C-o>$
-
-
 """""""""" visual
 " using jk slow down visual command
 "vnoremap jk <Esc>
@@ -247,10 +245,12 @@ Plug 'liuchengxu/vista.vim'
 """"""""""""""""" prettifier
 """"""""""""""""""""""""""""""
 
-
+" colorscheme
 Plug 'arcticicestudio/nord-vim'
 Plug 'iCyMind/NeoSolarized'
 Plug 'morhetz/gruvbox'
+
+" format
 Plug 'junegunn/vim-easy-align'
 Plug 'Yggdroot/indentLine'
 Plug 'vim-airline/vim-airline'
@@ -288,31 +288,47 @@ Plug 'francoiscabrol/ranger.vim'
 """"""""""""""""""""""""""""""
 """"""""""""""""" misc
 """"""""""""""""""""""""""""""
+" function
 
+Plug 'itchyny/calendar.vim'
 " neovim sudo :w
 Plug 'lambdalisue/suda.vim'
+" better exit
+Plug 'mhinz/vim-sayonara', { 'on': 'Sayonara' }
+Plug 'mtth/scratch.vim'
+Plug 'mhinz/vim-startify'
+Plug 'junegunn/vim-peekaboo'
+Plug 'simnalamburt/vim-mundo'
+Plug 'segeljakt/vim-isotope'
+" coc-yank
+" :CocInstall coc-yank
+
+" textobj
 Plug 'machakann/vim-sandwich'
 Plug 'wellle/targets.vim'
 Plug 'andymass/vim-matchup'
+" swap function arguments
 Plug 'machakann/vim-swap'
-Plug 'tpope/vim-commentary'
-Plug 'itchyny/calendar.vim'
-Plug 'mhinz/vim-startify'
-Plug 'terryma/vim-multiple-cursors'
-Plug 'unblevable/quick-scope'
-Plug 'justinmk/vim-sneak'
-Plug 'nelstrom/vim-visual-star-search'
-Plug 'chaoren/vim-wordmotion'
-Plug 'junegunn/vim-peekaboo'
-Plug 'simnalamburt/vim-mundo'
-Plug 't9md/vim-choosewin'
-Plug 'rhysd/accelerated-jk'
-Plug 'psliwka/vim-smoothie'
-Plug 'segeljakt/vim-isotope'
 " coc-pairs
 " :CocInstall coc-pairs
-" coc-yank
-" :CocInstall coc-yank
+
+" window
+
+" auto-resize window width
+Plug 'dm1try/golden_size'
+Plug 't9md/vim-choosewin'
+
+
+" motion
+Plug 'tpope/vim-commentary'
+Plug 'nelstrom/vim-visual-star-search'
+Plug 'justinmk/vim-sneak'
+Plug 'unblevable/quick-scope'
+Plug 'terryma/vim-multiple-cursors'
+Plug 'chaoren/vim-wordmotion'
+Plug 'rhysd/accelerated-jk'
+Plug 'psliwka/vim-smoothie'
+Plug 'haya14busa/vim-edgemotion'
 
 
 
@@ -345,9 +361,13 @@ Plug 'junegunn/limelight.vim'
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
 Plug 'reedes/vim-pencil'
 Plug 'SidOfc/mkdx'
+" check weak word
 Plug 'reedes/vim-wordy'
+" better spell check
 Plug 'reedes/vim-lexical'
+" autocorrect based on abbrev
 Plug 'reedes/vim-litecorrect'
+" highlight overuse word
 Plug 'dbmrq/vim-ditto'
 
 
@@ -362,11 +382,9 @@ Plug 'liuchengxu/vim-which-key', { 'on': ['WhichKey', 'WhichKey!'] }
 Plug 'skywind3000/vim-quickui'
 
 
-
 """"""""""""""""""""""""""""""
 """"""""""""""""" terminal
 """"""""""""""""""""""""""""""
-
 
 Plug 'voldikss/vim-floaterm'
 
@@ -572,6 +590,7 @@ let g:Lf_RgConfig = [
 noremap <leader>fm :<C-U><C-R>=printf("Leaderf mru %s", "")<CR><CR>
 noremap <leader>ft :<C-U><C-R>=printf("Leaderf bufTag %s", "")<CR><CR>
 noremap <leader>fl :<C-U><C-R>=printf("Leaderf line %s", "")<CR><CR>
+noremap <leader>fF :<C-U><C-R>=printf("Leaderf function %s", "")<CR><CR>
 
 " coc-list
 
@@ -622,28 +641,43 @@ nmap <leader>e :CocCommand explorer --width 30<CR>
 """"""""""""""""" misc
 """"""""""""""""""""""""""""""
 
+" function
 
 " suda.vim
 " neovim sudo writing
 let g:suda_smart_edit = 1
 cnoremap w!! :w suda://%
 
+" mundo
+set undofile
+set undodir=~/.config/nvim/undo
+nnoremap <F4> :MundoToggle<CR>
+let g:mundo_width = 30
+let g:mundo_preview_height = 40
+let g:mundo_right = 0
+
+
 " coc-yank
 nnoremap <silent> <leader>cy  :<C-u>CocList -A --normal yank<cr>
 
-" quickscope
-" first occurrence
-hi QuickScopePrimary guifg='red' gui=underline ctermfg=155 cterm=underline
-" second occurrence
-hi QuickScopeSecondary guifg='yellow'  gui=underline ctermfg=81 cterm=underline
+" scratch
+let g:scratch_no_mappings = 1
+" after exit insert hide
+let g:scratch_insert_autohide = 1
+let g:scratch_filetype = 'markdown'
+" save when hide, thus persist after exiting vim
+let g:scratch_persistence_file = '~/.config/nvim/scratch.md'
+
+nmap <leader>xs <plug>(scratch-insert-reuse)
+xmap <leader>xs <plug>(scratch-selection-reuse)
+
+" textobj
 
 " matchup
 " always highlight surrounding
-let g:matchup_matchparen_deferred = 1
-let g:matchup_matchparen_hi_surround_always = 1
+" let g:matchup_matchparen_deferred = 1
+" let g:matchup_matchparen_hi_surround_always = 1
 
-" sneak
-let g:sneak#label=1
 
 " sandwich
 " surround settings
@@ -655,13 +689,13 @@ let g:sandwich#recipes = deepcopy(g:sandwich#default_recipes)
 " external: surround not same textobj (eg. \begin \end)
 " surround-like add space to ( { [
 let g:sandwich#recipes += [
-      \   {'buns': ['{ ', ' }'],'nnoremap':1, 'nesting': 1, 'match_syntax': 1, 'kind': ['add', 'replace'], 'action': ['add'], 'input': ['{']},
-      \   {'buns': ['[ ', ' ]'],'nnoremap':1, 'nesting': 1, 'match_syntax': 1, 'kind': ['add', 'replace'], 'action': ['add'], 'input': ['[']},
-      \   {'buns': ['( ', ' )'],'nnoremap':1,'nesting': 1, 'match_syntax': 1, 'kind': ['add', 'replace'], 'action': ['add'], 'input': ['(']},
-      \   {'buns': ['{\s*', '\s*}'],  'nnoremap':1, 'nesting': 1, 'regex': 1, 'match_syntax': 1, 'kind': ['delete', 'replace', 'textobj'], 'action': ['delete'], 'input': ['{']},
-      \   {'buns': ['\[\s*', '\s*\]'], 'nnoremap':1, 'nesting': 1, 'regex': 1, 'match_syntax': 1, 'kind': ['delete', 'replace', 'textobj'], 'action': ['delete'], 'input': ['[']},
-      \   {'buns': ['(\s*', '\s*)'],  'nnoremap':1, 'nesting': 1, 'regex': 1, 'match_syntax': 1, 'kind': ['delete', 'replace', 'textobj'], 'action': ['delete'], 'input': ['(']},
-      \ ]
+            \   {'buns': ['{ ', ' }'],'nnoremap':1, 'nesting': 1, 'match_syntax': 1, 'kind': ['add', 'replace'], 'action': ['add'], 'input': ['{']},
+            \   {'buns': ['[ ', ' ]'],'nnoremap':1, 'nesting': 1, 'match_syntax': 1, 'kind': ['add', 'replace'], 'action': ['add'], 'input': ['[']},
+            \   {'buns': ['( ', ' )'],'nnoremap':1,'nesting': 1, 'match_syntax': 1, 'kind': ['add', 'replace'], 'action': ['add'], 'input': ['(']},
+            \   {'buns': ['{\s*', '\s*}'],  'nnoremap':1, 'nesting': 1, 'regex': 1, 'match_syntax': 1, 'kind': ['delete', 'replace', 'textobj'], 'action': ['delete'], 'input': ['{']},
+            \   {'buns': ['\[\s*', '\s*\]'], 'nnoremap':1, 'nesting': 1, 'regex': 1, 'match_syntax': 1, 'kind': ['delete', 'replace', 'textobj'], 'action': ['delete'], 'input': ['[']},
+            \   {'buns': ['(\s*', '\s*)'],  'nnoremap':1, 'nesting': 1, 'regex': 1, 'match_syntax': 1, 'kind': ['delete', 'replace', 'textobj'], 'action': ['delete'], 'input': ['(']},
+            \ ]
 xmap id <Plug>(textobj-sandwich-query-i)
 xmap ad <Plug>(textobj-sandwich-query-a)
 omap id <Plug>(textobj-sandwich-query-i)
@@ -677,6 +711,8 @@ xmap am <Plug>(textobj-sandwich-literal-query-a)
 omap im <Plug>(textobj-sandwich-literal-query-i)
 omap am <Plug>(textobj-sandwich-literal-query-a)
 
+" window
+
 " vim-choosewin
 " s swap with
 " [ ] switch between tabs
@@ -684,17 +720,25 @@ omap am <Plug>(textobj-sandwich-literal-query-a)
 nmap  -  <plug>(choosewin)
 let g:choosewin_overlay_enable = 1
 
+" motion
+
+" quick-scope
+let g:qs_highlight_on_keys = ['f', 'F', 't', 'T']
+" first occurrence
+hi QuickScopePrimary guifg='red' gui=underline ctermfg=155 cterm=underline
+" second occurrence
+hi QuickScopeSecondary guifg='yellow'  gui=underline ctermfg=81 cterm=underline
+
+" edgemotion
+nmap <m-j> <Plug>(edgemotion-j)
+nmap <m-k> <Plug>(edgemotion-k)
+
+" sneak
+let g:sneak#label=1
+
 " wordmotion
 nmap dw de
 nmap cw ce
-
-" mundo
-set undofile
-set undodir=~/.config/nvim/undo
-nnoremap <F4> :MundoToggle<CR>
-let g:mundo_width = 30
-let g:mundo_preview_height = 40
-let g:mundo_right = 0
 
 
 " accelerated
@@ -1028,7 +1072,15 @@ let g:which_key_map['b'] = {'name':'+buffer'}
 let g:which_key_map['c'] = {
             \'name':'+coc',
             \}
-let g:which_key_map['f'] = {'name':'+leaderf'}
+let g:which_key_map['f'] = {
+            \'name':'+leaderf',
+            \'f':'file',
+            \'b':'buffer',
+            \'l':'line',
+            \'m':'recent file',
+            \'F':'function',
+            \'t':'tag',
+            \}
 let g:which_key_map['o'] = {'name':'+option'}
 let g:which_key_map['x'] = {'name':'+files'}
 
@@ -1209,7 +1261,7 @@ call quickui#menu#install('&Writing', [
 let g:quickui_show_tip = 1
 
 " hit space twice to open menu
-noremap <space><space> :call quickui#menu#open()<cr>
+noremap <silent> <space><space> :call quickui#menu#open()<cr>
 
 nnoremap <silent>K :call quickui#tools#clever_context('k', g:context_menu_k, {})<cr>
 
@@ -1222,9 +1274,4 @@ function s:floatermSettings()
     hi FloatermNF guibg=black
     hi FloatermBorderNF guibg=gray guifg=blue
 endfunction
-
-let g:floaterm_width = 0.6
-let g:floaterm_height = 0.6
-let g:floaterm_position = "auto"
-"let g:floaterm_winblend = 0.3
 autocmd FileType floaterm call s:floatermSettings()
