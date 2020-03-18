@@ -1716,6 +1716,8 @@ user_pref("privacy.clearOnShutdown.sessions", false);
 user_pref("privacy.clearOnShutdown.downloads", false);
 user_pref("privacy.clearOnShutdown.history", false);
 user_pref("privacy.clearOnShutdown.cache",false);
+user_pref("browser.cache.disk.enable", true);
+user_pref("browser.shell.shortcutFavicons", true);
 user_pref("privacy.clearOnShutdown.cookies",false);
 user_pref("webgl.disabled", false);
 user_pref("webgl.enable-webgl2", true);

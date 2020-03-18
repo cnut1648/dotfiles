@@ -1194,6 +1194,11 @@
         <option name="myPlugins">
           <set>
             <plugin>
+              <option name="myPluginId" value="Lombook Plugin" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+            <plugin>
               <option name="myPluginId" value="de.victorsaar.intellij.aem" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
@@ -5332,11 +5337,6 @@
               <option name="myPluginId" value="org.jetbrains.android" />
               <option name="myPluginName" value="Android Support" />
               <option name="myBundled" value="true" />
-            </plugin>
-            <plugin>
-              <option name="myPluginId" value="com.techern.oxidize" />
-              <option name="myPluginName" />
-              <option name="myBundled" value="false" />
             </plugin>
             <plugin>
               <option name="myPluginId" value="org.rust.lang" />

@@ -1,1117 +1,3 @@
-select *
-from student natural join takes join course on takes.course_id;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from student natural join takes join course c on takes.course_id = c.course_id;
-;-- -. . -..- - / . -. - .-. -.--
-select c.dept_name, student.dept_name
-from student natural join takes join course c on takes.course_id = c.course_id;
-;-- -. . -..- - / . -. - .-. -.--
-select c.dept_name, student.dept_name
-from student natural join takes join course c on takes.course_id = c.course_id
-where c.dept_name in ('Finance','Music');
-;-- -. . -..- - / . -. - .-. -.--
-select c.dept_name, student.dept_name
-from student natural join takes join course c on takes.course_id = c.course_id
-where student.name <> "hek";
-;-- -. . -..- - / . -. - .-. -.--
-select c.dept_name, student.dept_name
-from student natural join takes join course c on takes.course_id = c.course_id
-where name <> "hek";
-;-- -. . -..- - / . -. - .-. -.--
-select max(budget)
-from department
-group by dept_name;
-;-- -. . -..- - / . -. - .-. -.--
-select min(t.m)
-from
-(select max(budget) as m
-from department
-group by dept_name) as t;
-;-- -. . -..- - / . -. - .-. -.--
-(select max(budget) as m
-from department
-group by dept_name) as t;
-;-- -. . -..- - / . -. - .-. -.--
-(select max(budget) as m
-from department
-group by dept_name);
-;-- -. . -..- - / . -. - .-. -.--
-select d,min(t.m)
-from
-(select dept_name as d, max(budget) as m
-from department
-group by dept_name) as t;
-;-- -. . -..- - / . -. - .-. -.--
-select t.d
-from
-(select dept_name as d, max(budget) as m
-from department
-group by dept_name) as t
-where t.m = min(t.m);
-;-- -. . -..- - / . -. - .-. -.--
-select t.d
-from (select dept_name as d, max(budget) as m
-from department
-group by dept_name
-having m = min(m)) as t;
-;-- -. . -..- - / . -. - .-. -.--
-select dept_name, sum(budget) from department
-group by dept_name;
-;-- -. . -..- - / . -. - .-. -.--
-select dept_name
-from department
-group by dept_name
-having sum(budget) <= all
-(select max(budget) as m
-from department
-group by dept_name);
-;-- -. . -..- - / . -. - .-. -.--
-select dept_name
-from department
-group by dept_name;
-;-- -. . -..- - / . -. - .-. -.--
-select dept_name,count(*)
-from department
-group by dept_name;
-;-- -. . -..- - / . -. - .-. -.--
-select dept_name,count(*)
-from department;
-;-- -. . -..- - / . -. - .-. -.--
-select count(*)
-from department;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from department;
-;-- -. . -..- - / . -. - .-. -.--
-select */dept_name
-from department;
-;-- -. . -..- - / . -. - .-. -.--
-with ct as (select count(*) from department)
-select *
-from department
-where budget > ct;
-;-- -. . -..- - / . -. - .-. -.--
-with ct as
-    (select count(*) from department)
-select *
-from department
-where budget > ct;
-;-- -. . -..- - / . -. - .-. -.--
-with ct as
-    (select count(*) from department)
-select *
-from department;
-;-- -. . -..- - / . -. - .-. -.--
-with ct as
-    (select count(*) from department)
-select *
-from ct;
-;-- -. . -..- - / . -. - .-. -.--
-with ct as
-    (select count(*) from department)
-select *
-from department
-where ct >= 7;
-;-- -. . -..- - / . -. - .-. -.--
-with c as
-    (select count(*) from department)
-select *
-from department
-where c >= 7;
-;-- -. . -..- - / . -. - .-. -.--
-with t as
-    (select count(*) as c from department)
-select *
-from department
-where t.c >= 7;
-;-- -. . -..- - / . -. - .-. -.--
-with t as
-    (select count(*) as c from department)
-select *
-from t;
-;-- -. . -..- - / . -. - .-. -.--
-with t as
-    (select count(*) as c from department)
-select c
-from t;
-;-- -. . -..- - / . -. - .-. -.--
-with t as
-    (select count(*) as c from department)
-select c
-from department
-where t.c >= 7;
-;-- -. . -..- - / . -. - .-. -.--
-with t as
-    (select count(*) as c from department)
-select *
-from department
-where exists(t);
-;-- -. . -..- - / . -. - .-. -.--
-with tablehhh as
-    (select count(*) as c from department)
-select *
-from department
-where exists(tablehhh);
-;-- -. . -..- - / . -. - .-. -.--
-with table (c) as
-    (select count(*)  from department)
-select *
-from department
-where exists(table);
-;-- -. . -..- - / . -. - .-. -.--
-with table (c) as
-    (select count(*)  from department)
-select *
-from department
-where exists table;
-;-- -. . -..- - / . -. - .-. -.--
-with tablehs (c) as
-    (select count(*)  from department)
-select *
-from department
-where exists tablehs;
-;-- -. . -..- - / . -. - .-. -.--
-select count(*)
-from instructor
-group by id;
-;-- -. . -..- - / . -. - .-. -.--
-select * from instructor
-group by id;
-;-- -. . -..- - / . -. - .-. -.--
-select * from instructor
-group by dept_name;
-;-- -. . -..- - / . -. - .-. -.--
-select dept_name, * from instructor
-group by dept_name;
-;-- -. . -..- - / . -. - .-. -.--
-select dept_name, salary from instructor
-group by dept_name;
-;-- -. . -..- - / . -. - .-. -.--
-select count(dept_name)  from instructor
-group by dept_name;
-;-- -. . -..- - / . -. - .-. -.--
-select dept_name  from instructor
-group by dept_name;
-;-- -. . -..- - / . -. - .-. -.--
-select count(*) from instructor
-group by dept_name;
-;-- -. . -..- - / . -. - .-. -.--
-select count(dept_name) from instructor
-group by dept_name;
-;-- -. . -..- - / . -. - .-. -.--
-select count(tt) from (select dept_name as tt from instructor
-group by dept_name) as d;
-;-- -. . -..- - / . -. - .-. -.--
-select count(d.tt) from (select dept_name as tt from instructor
-group by dept_name) as d;
-;-- -. . -..- - / . -. - .-. -.--
-select count(d.hello) from (select dept_name as tt from instructor
-group by dept_name) as d(hello);
-;-- -. . -..- - / . -. - .-. -.--
-select count(d)k from (select dept_name as tt from instructor
-group by dept_name) as d(hello);
-;-- -. . -..- - / . -. - .-. -.--
-select count(d) from (select dept_name as tt from instructor
-group by dept_name) as d(hello);
-;-- -. . -..- - / . -. - .-. -.--
-with allname as (select dept_name from instructor group by dept_name)
-select * from allname;
-;-- -. . -..- - / . -. - .-. -.--
-with allname as (select dept_name d from instructor group by dept_name)
-select count(d) from allname;
-;-- -. . -..- - / . -. - .-. -.--
-with allname as (select dept_name d from instructor group by dept_name)
-select d from allname
-where d = 'Finance';
-;-- -. . -..- - / . -. - .-. -.--
-create table member(
-    member_no varchar(20), name varchar(20), age INT,
-    primary key member_no
-
-
-);
-;-- -. . -..- - / . -. - .-. -.--
-create table member(
-    member_no varchar(20), name varchar(20), age INT,
-    primary key (member_no)
-);
-;-- -. . -..- - / . -. - .-. -.--
-create table borrowed(
-    member_no varchar(20), isbn varchar(20)
-    primary key (member_no, isbn), foreign key (member_no) reference member
-);
-;-- -. . -..- - / . -. - .-. -.--
-create table borrowed(
-    member_no varchar(20), isbn varchar(20),
-    primary key (member_no, isbn), foreign key (member_no) reference member
-);
-;-- -. . -..- - / . -. - .-. -.--
-create table borrowed(
-    member_no varchar(20), isbn varchar(20),
-    primary key (member_no, isbn), foreign key (member_no) references member
-)j;
-;-- -. . -..- - / . -. - .-. -.--
-create table borrowed(
-    member_no varchar(20), isbn varchar(20),
-    primary key (member_no, isbn), foreign key (member_no) references member
-);
-;-- -. . -..- - / . -. - .-. -.--
-create table borrowed(
-    member_no varchar(20), isbn varchar(20),
-    primary key (member_no, isbn), foreign key (member_no) references member(member_no)
-);
-;-- -. . -..- - / . -. - .-. -.--
-insert into member (member_no, name, age) VALUE (1, 'chris', 20);
-;-- -. . -..- - / . -. - .-. -.--
-insert into member (member_no, name, age) value (2, 'carmen', 20);
-;-- -. . -..- - / . -. - .-. -.--
-insert into member (member_no, name, age) value (3, 'jjj', 20);
-;-- -. . -..- - / . -. - .-. -.--
-insert into borrowed (member_no, isbn)
-values (2, '4231');
-;-- -. . -..- - / . -. - .-. -.--
-insert into borrowed (member_no, isbn) value (1, '3231');
-;-- -. . -..- - / . -. - .-. -.--
-insert into borrowed (member_no, isbn) value (1, '4324');
-;-- -. . -..- - / . -. - .-. -.--
-insert into borrowed (member_no, isbn)
-values (2, '4234');
-;-- -. . -..- - / . -. - .-. -.--
-insert into borrowed (member_no, isbn)
-values (1, '33');
-;-- -. . -..- - / . -. - .-. -.--
-with memct as (select count(*) from member)
-select count(*)/memct
-from borrowed;
-;-- -. . -..- - / . -. - .-. -.--
-with memct as (select count(*) c from member)
-select count(*)/memct
-from borrowed;
-;-- -. . -..- - / . -. - .-. -.--
-with memct as (select count(*) c from member)
-select count(*)/memct.c
-from borrowed;
-;-- -. . -..- - / . -. - .-. -.--
-with memct as (select count(*) as c from member)
-select *
-from memct;
-;-- -. . -..- - / . -. - .-. -.--
-with memct as (select count(*) as c from member)
-select count(*)/memct.c
-from borrowed;
-;-- -. . -..- - / . -. - .-. -.--
-with memct as (select count(*) as `c` from member)
-select count(*)/memct.c
-from borrowed;
-;-- -. . -..- - / . -. - .-. -.--
-with memct as (select count(*) as `c` from member)
-select count(*)/memct
-from borrowed;
-;-- -. . -..- - / . -. - .-. -.--
-memct;
-;-- -. . -..- - / . -. - .-. -.--
-with memct as (select count(*) as `c` from member)
-select count(member_no)/memct
-from borrowed;
-;-- -. . -..- - / . -. - .-. -.--
-select avg(a.ct)
-from (select count(*) * 1.0 as ct from member group by member_no) a;
-;-- -. . -..- - / . -. - .-. -.--
-select member_no, count(*) as tot
-from borrowed
-group by member_no;
-;-- -. . -..- - / . -. - .-. -.--
-select 1.0 * sum(totalborrowed)/count (distinct b.memb_no) as avg_per_member
-from
-(select memb_no, count(*) as totalborrowed
-from borrowed
-group by memb_no) t join borrowed b on t.membno = b.membno;
-;-- -. . -..- - / . -. - .-. -.--
-select avg (cnt)
-from ( select count(isbn), member_no
-from borrowed
-roup by member_no
-union
-select 0, member_no
-from member
-where not exists ( select isbn from borrowed
-where borrowed.member_no = member.memb_no) ) as books_count(cnt, memb_no);
-;-- -. . -..- - / . -. - .-. -.--
-select avg (cnt)
-from ( select count(isbn), member_no
-from borrowed
-roup by member_no
-union
-select 0, member_no
-from member
-where not exists ( select isbn from borrowed
-where borrowed.member_no = member.member_no) ) as books_count(cnt, member_no);
-;-- -. . -..- - / . -. - .-. -.--
-select avg (cnt)
-from ( select count(isbn), member_no
-from borrowed
-group by member_no
-union
-select 0, member_no
-from member
-where not exists ( select isbn from borrowed
-where borrowed.member_no = member.member_no) ) as books_count(cnt, member_no);
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from (
-         (select member_no, count(isbn)
-         from borrowed group by member_no)
-        union
-        (select member_no, 0 from member
-            where not exists(select isbn from borrowed
-            where member.member_no=borrowed.member_no)
-         ) as mncmn;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from (
-         (select member_no, count(isbn)
-         from borrowed group by member_no)
-        union
-        (select member_no, 0.0 from member
-            where not exists(select isbn from borrowed
-            where member.member_no=borrowed.member_no)
-         ) as mncmn;
-;-- -. . -..- - / . -. - .-. -.--
-select avg(ct)
-from (
-         (select member_no, count(isbn)
-         from borrowed group by member_no)
-        union
-        (select member_no, 0.0 from member
-            where not exists(select isbn from borrowed
-            where member.member_no=borrowed.member_no))
-         ) as mncmn(mem, ct);
-;-- -. . -..- - / . -. - .-. -.--
-select avg(ct)
-from (
-         (select member_no, count(isbn)
-         from borrowed group by member_no)
-        union
-        (select member_no, 0.0 from member
-            where not exists(select isbn from borrowed
-            where member.member_no=borrowed.member_no))
-         ) as mncmn (mem, ct);
-;-- -. . -..- - / . -. - .-. -.--
-select avg(`count(isbn)`)
-from (
-         (select member_no, count(isbn)
-         from borrowed group by member_no)
-        union
-        (select member_no, 0.0 from member
-            where not exists(select isbn from borrowed
-            where member.member_no=borrowed.member_no))
-         ) as mncmn;
-;-- -. . -..- - / . -. - .-. -.--
-select avg(ct)
-from (
-         (select member_no, count(isbn)
-         from borrowed group by member_no)
-        union
-        (select member_no, 0.0 from member
-            where not exists(select isbn from borrowed
-            where member.member_no=borrowed.member_no))
-         ) as mncmn;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from (
-         (select member_no, count(isbn)
-         from borrowed group by member_no)
-        union
-        (select member_no, 0.0 from member
-            where not exists(select isbn from borrowed
-            where member.member_no=borrowed.member_no))
-         ) as mncmn;
-;-- -. . -..- - / . -. - .-. -.--
-select 1.0 * sum(totalborrowed)/count (distinct b.member_no) as avg_per_member
-from
-(select member_no, count(*) as totalborrowed
-from borrowed
-group by member_no) t join borrowed b on t.member_no = b.member_no;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from department, instructor;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from department join instructor;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from department natural join instructor;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from department inner join instructor;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from department join instructor
-    on department.dept_name = instructor.dept_name and department.dept_name='Fiance';
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from department join instructor
-    on department.dept_name = instructor.dept_name;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from department join instructor
-    on department.dept_name = instructor.dept_name
-where department.dept_name = '%inace';
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from department join instructor
-    on department.dept_name = instructor.dept_name
-where department.dept_name like '%inace';
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from department join instructor
-    on department.dept_name = instructor.dept_name
-where department.dept_name like 'F%';
-;-- -. . -..- - / . -. - .-. -.--
-use try;
-;-- -. . -..- - / . -. - .-. -.--
-SELECT a.account_id, c.fed_id
--> FROM account a INNER JOIN customer c
-->
- ON a.cust_id = c.cust_id
--> WHERE c.cust_type_cd = 'B';
-;-- -. . -..- - / . -. - .-. -.--
-SELECT a.account_id, c.fed_id
- FROM account a INNER JOIN customer c
-
- ON a.cust_id = c.cust_id
- WHERE c.cust_type_cd = 'B';
-;-- -. . -..- - / . -. - .-. -.--
-SELECT a.account_id, c.fed_id
-FROM account a INNER JOIN customer c
-ON a.cust_id = c.cust_id
-WHERE c.cust_type_cd = 'B';
-;-- -. . -..- - / . -. - .-. -.--
-select salary
-from instructor
-
-(
-    select
-
-
-);
-;-- -. . -..- - / . -. - .-. -.--
-select salary
-from instructor
-);
-;-- -. . -..- - / . -. - .-. -.--
-select salary
-from instructor;
-;-- -. . -..- - / . -. - .-. -.--
-select salary
-from instructor
-except;
-;-- -. . -..- - / . -. - .-. -.--
-select salary
-from instructor
-where salary not in (
-select salary
-from instructor i1, instructor i2
-where i1.salary < i2.salary);
-;-- -. . -..- - / . -. - .-. -.--
-select instructor.salary
-from instructor
-where salary not in (
-select salary
-from instructor i1, instructor i2
-where i1.salary < i2.salary);
-;-- -. . -..- - / . -. - .-. -.--
-select i.salary
-from instructor i
-where salary not in (
-select salary
-from instructor i1, instructor i2
-where i1.salary < i2.salary);
-;-- -. . -..- - / . -. - .-. -.--
-select i.salary
-from instructor i
-where salary not in (
-select i1.salary
-from instructor i1, instructor i2
-where i1.salary < i2.salary);
-;-- -. . -..- - / . -. - .-. -.--
-desc employee;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from employee e join employee mg
-    on e.emp_id = mg.superior_emp_id;
-;-- -. . -..- - / . -. - .-. -.--
-select e.fname, e.lname, e.emp_id
-from employee e join employee mg
-    on e.emp_id = mg.superior_emp_id;
-;-- -. . -..- - / . -. - .-. -.--
-select e.fname, e.lname, 'VS', e2.fname
-from employee e, employee e2
-where e.emp_id != e2.emp_id and e.title='Teller'
-and e2.title='Teller';
-;-- -. . -..- - / . -. - .-. -.--
-select e.fname, e.lname, 'VS', e2.fname
-from employee e, employee e2
-where e.emp_id < e2.emp_id and e.title='Teller'
-and e2.title='Teller';
-;-- -. . -..- - / . -. - .-. -.--
-(select i.salary
-from instructor i)
-except;
-;-- -. . -..- - / . -. - .-. -.--
-(select i1.salary
-from instructor i1, instructor i2
-where i1.salary < i2.salary);
-;-- -. . -..- - / . -. - .-. -.--
-select max(salary)
-from instructor;
-;-- -. . -..- - / . -. - .-. -.--
-(select i.salary
-from instructor i)
-except
-(select i1.salary
-from instructor i1, instructor i2
-where i1.salary < i2.salary);
-;-- -. . -..- - / . -. - .-. -.--
-select e.fname, e.lname, 'VS', e2.fname
-from employee e, employee e2
-where e.emp_id < e2.emp_id and e.title='Teller'
-and e2.title='Teller'
-limit 5;
-;-- -. . -..- - / . -. - .-. -.--
-desc tips;
-;-- -. . -..- - / . -. - .-. -.--
-select *, total_bill/tip as rate
-from tips t
-where time = 'Dinner' and tip> 1.0 or day is not null;
-;-- -. . -..- - / . -. - .-. -.--
-select *, total_bill/tip as rate
-from tips t
-where time = 'Dinner' and tip> 1.0 or day is not null
-limit 10;
-;-- -. . -..- - / . -. - .-. -.--
-select sex, size, rate, day
-from (select *, total_bill/tip as rate from tips) as t
-where time = 'Dinner' and tip> 1.0 or day is not null
-group by sex, size
-# having
-limit 10;
-;-- -. . -..- - / . -. - .-. -.--
-select sex, size
-from (select *, total_bill/tip as rate from tips) as t
-where time = 'Dinner' and tip> 1.0 or day is not null
-group by sex, size
-# having
-limit 10;
-;-- -. . -..- - / . -. - .-. -.--
-select sex, size
-from (select *, total_bill/tip as rate from tips) as t
-where time = 'Dinner' and tip> 1.0 or day is not null
-# group by sex, size
-# having
-limit 10;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from (select *, total_bill/tip as rate from tips) as t
-where time = 'Dinner' and tip> 1.0 or day is not null
-# group by sex, size
-# having
-limit 10;
-;-- -. . -..- - / . -. - .-. -.--
-select sex, size, avg(rate), count(*)
-from (select *, total_bill/tip as rate from tips) as t
-where time = 'Dinner' and tip> 1.0 or day is not null
-group by sex, size
-# having
-limit 10;
-;-- -. . -..- - / . -. - .-. -.--
-select sex, size, avg(rate), count(*)
-from (select *, total_bill/tip as rate from tips) as t
-where time = 'Dinner' and tip> 1.0 or day is not null
-limit 10
-group by sex, size
-# having
-limit 10;
-;-- -. . -..- - / . -. - .-. -.--
-select sex, size, avg(rate), count(*)
-from (select *, total_bill/tip as rate from tips) as t
-where time = 'Dinner' and tip> 1.0 or day is not null
-limit 10
-group by sex, size;
-;-- -. . -..- - / . -. - .-. -.--
-select sex, size, avg(rate), count(*)
-from (select *, total_bill/tip as rate from tips
-      where time = 'Dinner' and tip> 1.0 or day is not null
-    limit 10
-    ) as t
-limit 10
-group by sex, size;
-;-- -. . -..- - / . -. - .-. -.--
-select sex, size, avg(rate), count(*)
-from (select *, total_bill/tip as rate from tips
-      where time = 'Dinner' and tip> 1.0 or day is not null
-    limit 10
-    ) as t;
-;-- -. . -..- - / . -. - .-. -.--
-select sex, size, avg(rate), count(*)
-from (select *, total_bill/tip as rate from tips
-      where time = 'Dinner' and tip> 1.0 or day is not null
-    limit 10
-    ) as t
-group by sex, size;
-;-- -. . -..- - / . -. - .-. -.--
-select sex, size, avg(rate) as avg, count(*)
-from (select *, total_bill/tip as rate from tips
-      where time = 'Dinner' and tip> 1.0 or day is not null
-    limit 10
-    ) as t
-group by sex, size;
-;-- -. . -..- - / . -. - .-. -.--
-select sex, size, avg(rate) as avg, count(*)
-from (select *, total_bill/tip as rate from tips
-      where time = 'Dinner' and tip> 1.0 or day is not null
-    limit 10
-    ) as t
-group by sex, size
-having avg > 10;
-;-- -. . -..- - / . -. - .-. -.--
-select sex, size, avg(rate) as avg, count(*)
-from (select *, total_bill/tip as rate from tips
-      where time = 'Dinner' and tip> 1.0 or day is not null
-    order by tip, time
-    limit 10
-    ) as t
-group by sex, size
-having avg > 10;
-;-- -. . -..- - / . -. - .-. -.--
-select account_id
-from account
-where account_id = max(account_id);
-;-- -. . -..- - / . -. - .-. -.--
-select max(account_id)
-from account;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from employee e
-where e.emp_id in (select e2.superior_emp_id from employee e2);
-;-- -. . -..- - / . -. - .-. -.--
-select account_id
-from account
-where avail_balance > some (select a.avail_balance
-    from account a inner join individual i on a.cust_id = i.cust_id
-    where i.fname = 'Frank' and i.lname = 'Tucker');
-;-- -. . -..- - / . -. - .-. -.--
-select account_id
-from account
-where avail_balance > any(select a.avail_balance
-
-    from account a inner join individual i on a.cust_id = i.cust_id
-    where i.fname = 'Frank' and i.lname = 'Tucker');
-;-- -. . -..- - / . -. - .-. -.--
-select account_id
-from account
-where avail_balance > some(select a.avail_balance
-    from account a inner join individual i on a.cust_id = i.cust_id
-    where i.fname = 'Frank' and i.lname = 'Tucker');
-;-- -. . -..- - / . -. - .-. -.--
-select account_id
-from account
-where avail_balance > any(select a.avail_balance
-    from account a inner join individual i on a.cust_id = i.cust_id
-    where i.fname = 'Frank' and i.lname = 'Tucker');
-;-- -. . -..- - / . -. - .-. -.--
-select account_id
-from account
-where avail_balance in (select a.avail_balance
-    from account a inner join individual i on a.cust_id = i.cust_id
-    where i.fname = 'Frank' and i.lname = 'Tucker');
-;-- -. . -..- - / . -. - .-. -.--
-select account_id
-from account
-where (avail_balance,lname) in (select a.avail_balance, lname
-    from account a inner join individual i on a.cust_id = i.cust_id
-    where i.fname = 'Frank' and i.lname = 'Tucker');
-;-- -. . -..- - / . -. - .-. -.--
-select account_id
-from account
-where (avail_balance,pending_balance) in (select a.avail_balance,a.pending_balance
-    from account a inner join individual i on a.cust_id = i.cust_id
-    where i.fname = 'Frank' and i.lname = 'Tucker');
-;-- -. . -..- - / . -. - .-. -.--
-show databases;
-;-- -. . -..- - / . -. - .-. -.--
-use project;
-;-- -. . -..- - / . -. - .-. -.--
-CREATE TABLE `blurts`.`blurt_analysis` (
-  `email` VARCHAR(45) NOT NULL,
-  `blurtid` INT NOT NULL,
-  `topicid` INT NOT NULL,
-  `confidence` INT NULL,
-  `sentiment` INT NULL,
-  PRIMARY KEY(`email`,`blurtid`,`topicid`),
-  FOREIGN KEY(`email`,`blurtid`) REFERENCES blurt(`email`,`blurtid`),
-  FOREIGN KEY(`topicid`) REFERENCES topic(`id`));
-;-- -. . -..- - / . -. - .-. -.--
-CREATE TABLE `blurts`.`advertisement` (
-  `id` INT NOT NULL,
-  `content` INT NULL,
-  `vendorid` INT NULL,
-  PRIMARY KEY(`id`),
-  FOREIGN KEY(`vendorid`) REFERENCES vendor(`id`));
-;-- -. . -..- - / . -. - .-. -.--
-CREATE TABLE `blurts`.`user` (
-  `email` VARCHAR(45) NOT NULL,
-  `password` VARCHAR(45) NULL,
-  `name` VARCHAR(45) NULL,
-  `data_of_birth` VARCHAR(45) NULL,
-  `address` VARCHAR(45) NULL,
-  `type` VARCHAR(45) NULL,
-  PRIMARY KEY (`email`));
-;-- -. . -..- - / . -. - .-. -.--
-CREATE TABLE `blurts`.`celebrity` (
-  `email` VARCHAR(45) NOT NULL,
-  `website` VARCHAR(45) NULL,
-  `kind` VARCHAR(45) NULL,
-  PRIMARY KEY (`email`));
-;-- -. . -..- - / . -. - .-. -.--
-CREATE TABLE `blurts`.`blurt` (
-  `blurtid` INT NOT NULL,
-  `email` VARCHAR(45) NOT NULL,
-  `text` VARCHAR(100) NULL,
-  `location` VARCHAR(45) NULL,
-  `time` VARCHAR(45) NULL,
-  PRIMARY KEY (`blurtid`,`email`),
-  FOREIGN KEY (`email`) REFERENCES user(`email`));
-;-- -. . -..- - / . -. - .-. -.--
-CREATE TABLE `blurts`.`hobby` (
-  `email` VARCHAR(45) NOT NULL,
-  `hobby` VARCHAR(45) NOT NULL,
-  PRIMARY KEY (`email`,`hobby`),
-  FOREIGN KEY (`email`) REFERENCES user(`email`));
-;-- -. . -..- - / . -. - .-. -.--
-CREATE TABLE `blurts`.`follow` (
-  `follower` VARCHAR(45) NOT NULL,
-  `followee` VARCHAR(45) NOT NULL,
-  PRIMARY KEY (`follower`,`followee`),
-  FOREIGN KEY (`follower`) REFERENCES user(`email`),
-  FOREIGN KEY (`followee`) REFERENCES user(`email`));
-;-- -. . -..- - / . -. - .-. -.--
-CREATE TABLE `blurts`.`vendor` (
-  `id` INT NOT NULL,
-  `name` VARCHAR(45) NOT NULL,
-  PRIMARY KEY (`id`));
-;-- -. . -..- - / . -. - .-. -.--
-CREATE TABLE `blurts`.`vendor_ambassador` (
-  `vendorid` INT NOT NULL,
-  `email` VARCHAR(45) NULL,
-  FOREIGN KEY (`email`) REFERENCES user(`email`),
-  FOREIGN KEY (`vendorid`) REFERENCES vendor(`id`));
-;-- -. . -..- - / . -. - .-. -.--
-CREATE TABLE `blurts`.`topic` (
-  `id` INT NOT NULL,
-  `description` VARCHAR(45) NOT NULL,
-  PRIMARY KEY (`id`));
-;-- -. . -..- - / . -. - .-. -.--
-CREATE TABLE `blurts`.`vendor_topics` (
-  `vendorid` INT NOT NULL,
-  `topicid` INT NOT NULL,blurt_analysis
-  PRIMARY KEY(`vendorid`,`topicid`),
-  FOREIGN KEY(`vendorid`) REFERENCES vendor(`id`),
-  FOREIGN KEY(`topicid`) REFERENCES topic(`id`));
-;-- -. . -..- - / . -. - .-. -.--
-CREATE TABLE `blurts`.`blurt_analysis` (
-  `email` VARCHAR(45) NOT NULL,
-  `blurtid` INT NOT NULL,
-  `topicid` INT NOT NULL,
-  `confidence` INT NULL,
-  `sentiment` INT NULL,
-  PRIMARY KEY(`email`,`blurtid`,`topicid`),
-  FOREIGN KEY(`email`) REFERENCES blurt(`email`),
-  FOREIGN KEY(`blurtid`) REFERENCES blurt(`blurtid`),
-  FOREIGN KEY(`topicid`) REFERENCES topic(`id`));
-;-- -. . -..- - / . -. - .-. -.--
-CREATE TABLE `blurts`.`advertisement` (
-  `id` INT NOT NULL,
-  `content` varchar(50) NULL,
-  `vendorid` INT NULL,
-  PRIMARY KEY(`id`),
-  FOREIGN KEY(`vendorid`) REFERENCES vendor(`id`));
-;-- -. . -..- - / . -. - .-. -.--
-CREATE TABLE `blurts`.`user_ad` (
-  `email` VARCHAR(45) NOT NULL,
-  `adid` INT NOT NULL,
-  PRIMARY KEY(`email`,`adid`),
-  FOREIGN KEY(`email`) REFERENCES user(`email`),
-  FOREIGN KEY(`adid`) REFERENCES advertisement(`id`));
-;-- -. . -..- - / . -. - .-. -.--
-select t.id, t.description,
-from topic t join blurt_analysis ba on t.id = ba.topicid
-group by t.id;
-;-- -. . -..- - / . -. - .-. -.--
-select t.id, t.description
-from topic t join blurt_analysis ba on t.id = ba.topicid
-group by t.id;
-;-- -. . -..- - / . -. - .-. -.--
-select t.id, t.description
-from topic t join blurt_analysis ba on t.id = ba.topicid;
-;-- -. . -..- - / . -. - .-. -.--
-select t.id, t.description, count(*)
-from topic t join blurt_analysis ba on t.id = ba.topicid
-group by t.id;
-;-- -. . -..- - / . -. - .-. -.--
-select sum(ct)
-from
-(select t.id, t.description, count(*) as ct
-from topic t join blurt_analysis ba on t.id = ba.topicid
-group by t.id);
-;-- -. . -..- - / . -. - .-. -.--
-select sum(ct)
-from
-(
-    select t.id, t.description, count(*) as ct
-from topic t join blurt_analysis ba on t.id = ba.topicid
-group by t.id
-    );
-;-- -. . -..- - / . -. - .-. -.--
-select sum(ct)
-from (
-    select t.id, t.description, count(*) as ct
-from topic t join blurt_analysis ba on t.id = ba.topicid
-group by t.id
-    );
-;-- -. . -..- - / . -. - .-. -.--
-select t.id, t.description, count(*) as ct
-from topic t join blurt_analysis ba on t.id = ba.topicid
-group by t.id;
-;-- -. . -..- - / . -. - .-. -.--
-select t.id, t.description, count(*) as ct
-from topic t join blurt_analysis ba on t.id = ba.topicid
-group by t.id
-order by ct;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from user
-where type = "C";
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from user, follow
-where type = "C";
-;-- -. . -..- - / . -. - .-. -.--
-select distinct email
-from user, follow
-where type = "C";
-;-- -. . -..- - / . -. - .-. -.--
-select followee, count(*)
-from user, follow
-where type = "C"
-group by followee;
-;-- -. . -..- - / . -. - .-. -.--
-(select email from user where type = "C");
-;-- -. . -..- - / . -. - .-. -.--
-select
-from follow, (select email celebrity from user where type = "C");
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from follow, (select email celebrity from user where type = "C");
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from follow, (select email celebrity
-    from user where type = 'C');
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from follow, (select email celebrity
-    from user where type = 'C') c;
-;-- -. . -..- - / . -. - .-. -.--
-select count()
-from user,(select email celebrity
-    from user where type = 'C') c;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from user,(select email celebrity
-    from user where type = 'C') c;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from user,(select email celebrity
-    from user where type = 'C') c
-where user.email = c.celebrity;
-;-- -. . -..- - / . -. - .-. -.--
-select followee, count(distinct follower)
-from follow
-where followee in (select email from celebrity)
-group by followee;
-;-- -. . -..- - / . -. - .-. -.--
-select sum(CT)
-    from(
-    select followee, count(distinct follower) CT
-                           from follow
-where followee in (select email from celebrity)
-group by followee
-    ) t;
-;-- -. . -..- - / . -. - .-. -.--
-select followee, count(distinct follower) CT
-                           from follow
-where followee in (select email from celebrity)
-group by followee;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from follow
-where followee = 'Brad_Pitt@pitt.com';
-;-- -. . -..- - / . -. - .-. -.--
-select distinct(follower)
-from follow
-where followee = 'Brad_Pitt@pitt.com';
-;-- -. . -..- - / . -. - .-. -.--
-select followee, count(distinct follower) CT
-                           from follow
-where followee in (select email from celebrity);
-;-- -. . -..- - / . -. - .-. -.--
-select followee
-                           from follow
-where followee in  (select email from celebrity);
-;-- -. . -..- - / . -. - .-. -.--
-select distinct followee
-                           from follow
-where followee in  (select email from celebrity);
-;-- -. . -..- - / . -. - .-. -.--
-select follower
-                           from follow
-where followee in  (select email from celebrity);
-;-- -. . -..- - / . -. - .-. -.--
-CREATE TABLE `blurts`.`vendor_topics` (
-  `vendorid` INT NOT NULL,
-  `topicid` INT NOT NULL,
-  PRIMARY KEY(`vendorid`,`topicid`),
-  FOREIGN KEY(`vendorid`) REFERENCES vendor(`id`),
-  FOREIGN KEY(`topicid`) REFERENCES topic(`id`));
-;-- -. . -..- - / . -. - .-. -.--
-select followee, count(distinct follower) CT
-    from follow
-    where followee in (select email from celebrity)
-    group by followee;
-;-- -. . -..- - / . -. - .-. -.--
-select followee, count(distinct follower) CT
-    from follow natural join user
-    where followee in (select email from celebrity)
-    group by followee;
-;-- -. . -..- - / . -. - .-. -.--
-select name, count(distinct follower) CT
-    from follow natural join user
-    where followee in (select email from celebrity)
-    group by followee;
-;-- -. . -..- - / . -. - .-. -.--
-with ct as
-    (select count(*) from member)
-select count(*) / ct
-from borrowed;
-;-- -. . -..- - / . -. - .-. -.--
-select t.id, t.description, count(*) as ct
-from topic t join blurt_analysis ba on t.id = ba.topicid
-group by t.id
-order by t.id;
-;-- -. . -..- - / . -. - .-. -.--
-select t.id, t.description, count(*) as ct
-from topic t left outer join blurt_analysis ba
-#     on t.id = ba.topicid
-group by t.id
-order by t.id;
-;-- -. . -..- - / . -. - .-. -.--
-select t.id, t.description, count(*) as ct
-from topic t left outer join blurt_analysis ba
-    on t.id = ba.topicid
-group by t.id
-order by t.id;
-;-- -. . -..- - / . -. - .-. -.--
-select t.id, t.description, count(t.id) as ct
-from topic t left outer join blurt_analysis ba
-    on t.id = ba.topicid
-group by t.id
-order by t.id;
-;-- -. . -..- - / . -. - .-. -.--
-select t.id, t.description, count(1) as ct
-from topic t left outer join blurt_analysis ba
-    on t.id = ba.topicid
-group by t.id
-order by t.id;
-;-- -. . -..- - / . -. - .-. -.--
-select followee, count(distinct follower) CT
-from follow
-where followee in (select email from celebrity)
-group by followee;
-;-- -. . -..- - / . -. - .-. -.--
-select followee, count(distinct follower) CT
-from follow
-where followee in (select email from celebrity)
-group by followee
-order by CT;
-;-- -. . -..- - / . -. - .-. -.--
-select followee, count(distinct follower) CT
-from follow, user
-where followee in (select email from celebrity)
-group by followee
-order by CT;
-;-- -. . -..- - / . -. - .-. -.--
-select user.name, count(distinct follower) CT
-from follow, user
-where followee in (select email from celebrity)
-group by followee
-order by CT;
-;-- -. . -..- - / . -. - .-. -.--
-use blurts;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from user, blurt
-where type="C" and blurt.email=user.email;
-;-- -. . -..- - / . -. - .-. -.--
-select user.email, count(*) as ct
-from user join blurt on user.email = blurt.email
-where type='C'
-group by user.email;
-;-- -. . -..- - / . -. - .-. -.--
-select user.email, count(*) as ct
-from user join blurt on user.email = blurt.email
-where type='C'
-group by user.email
-order by ct;
-;-- -. . -..- - / . -. - .-. -.--
-select user.email, count(*) as ct
-from user join blurt on user.email = blurt.email
-where type='C'
-group by user.email
-order by ct desc;
-;-- -. . -..- - / . -. - .-. -.--
-select u.name
-from celebrity c1 join user u on celebrity.email = u.email
-where not exists (
-    select c2.email
-    from celebrity c2, follow
-    where c1.email = follower
-    );
-;-- -. . -..- - / . -. - .-. -.--
-select u.name
-from celebrity c1 join user u on c1.email = u.email
-where not exists (
-    select c2.email
-    from celebrity c2, follow
-    where c1.email = follower
-    );
-;-- -. . -..- - / . -. - .-. -.--
-select u.name
-from celebrity c1 join user u on c1.email = u.email
-where not exists (
-    select follower
-#     select c2.email
-    from celebrity c2, follow
-    where c1.email = follower
-    );
-;-- -. . -..- - / . -. - .-. -.--
-select user.name, v.email, count(*) as count
-from follow, user join
-     (vendor_topics natural join vendor_ambassador) v
-                on v.email = user.email
-where followee = v.email
-group by v.email;
-;-- -. . -..- - / . -. - .-. -.--
 select user.name, v.email
 #      , count(*) as count
 from follow, user join
@@ -1540,8 +426,6 @@ select budget
 from department, max budget
 where department.budget = max budget.value;
 ;-- -. . -..- - / . -. - .-. -.--
-use large;
-;-- -. . -..- - / . -. - .-. -.--
 with T(ct) as (select count(*) from member)
 select count(*)/T
 from borrowed;
@@ -1589,33 +473,6 @@ where department.budget = max_budget.value;
 with ct as (select count(*) from member)
 select count(*)/ct
 from borrowed;
-;-- -. . -..- - / . -. - .-. -.--
-select user.name, count(distinct follower) `followers ct`
-from follow, user
-where followee in (select email from celebrity)
-    and user.email = followee
-group by followee
-order by `followers ct`;
-;-- -. . -..- - / . -. - .-. -.--
-select t.id, t.description, count(email) as count
-from topic t left outer join blurt_analysis ba
-    on t.id = ba.topicid
-group by t.id
-order by t.id;
-;-- -. . -..- - / . -. - .-. -.--
-select user.name, count(*) as ct
-from user join blurt on user.email = blurt.email
-where type='C'
-group by user.email
-order by ct desc;
-;-- -. . -..- - / . -. - .-. -.--
-select u.name
-from celebrity c1 join user u on c1.email = u.email
-where not exists (
-    select follower
-    from  follow
-    where c1.email = follower
-    );
 ;-- -. . -..- - / . -. - .-. -.--
 select user.name, followee as email, count(*) as ct
 from vendor_ambassador join vendor on vendor_ambassador.vendorid = vendor.id
@@ -1720,6 +577,836 @@ where u2.email in (
     where follower = u1.email
 )  and u1.email != u2.email and u3.email != u1.email;
 ;-- -. . -..- - / . -. - .-. -.--
+select *
+from 1;
+;-- -. . -..- - / . -. - .-. -.--
+select 1,2,3;
+;-- -. . -..- - / . -. - .-. -.--
+select 1,2,3
+from (select 5,7);
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from (select 5,7);
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from (select 5,7 from follow);
+;-- -. . -..- - / . -. - .-. -.--
+select 5,7
+from follow;
+;-- -. . -..- - / . -. - .-. -.--
+use large;
+;-- -. . -..- - / . -. - .-. -.--
+select 5,7
+from department;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from (select 5 from department) as a, (select 2 from department) as b;
+;-- -. . -..- - / . -. - .-. -.--
+select a,b
+from (select 5 from department) as a, (select 2 from department) as b;
+;-- -. . -..- - / . -. - .-. -.--
+select a.`5`,b.`2`
+from (select 5 from department) as a, (select 2 from department) as b;
+;-- -. . -..- - / . -. - .-. -.--
+select a.`5`,b.`2`
+from (select 5 from department) as a, (select 2 from department) as b
+order by a.`5` desc, b.`2` asc;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from takes;
+;-- -. . -..- - / . -. - .-. -.--
+select sec_id, grade, ID
+from takes
+order by sec_id, grade;
+;-- -. . -..- - / . -. - .-. -.--
+select sec_id, grade, ID
+from takes
+order by sec_id desc, grade asc;
+;-- -. . -..- - / . -. - .-. -.--
+insert into course(course_id)
+values ('MATH101');
+;-- -. . -..- - / . -. - .-. -.--
+delete from course
+where course_id like 'MATH%';
+;-- -. . -..- - / . -. - .-. -.--
+select id
+from instructor
+where salary >= any (select salary from instructor);
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from (1,2,3);
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from (1,2,3) as T;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from topic t left outer join blurt_analysis ba
+    on t.id = ba.topicid
+# group by t.id
+order by t.id;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from section natural join classroom c
+where year between 2015 and 2019;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from section natural join classroom c
+where year between 2000 and 2019;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from section natural join classroom c
+where year = 2009;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from section natural join classroom c;
+;-- -. . -..- - / . -. - .-. -.--
+select course_id,sec_id,max(capacity)
+from section natural join classroom c
+group by course_id,sec_id;
+;-- -. . -..- - / . -. - .-. -.--
+select course_id,sec_id,max(capacity),building,room_number
+from section natural join classroom c
+group by course_id,sec_id;
+;-- -. . -..- - / . -. - .-. -.--
+select maxc.course_id,maxc.sec_id, c1.building,c1.room_number
+from (
+     select s2.course_id,s2.sec_id,max(c2.capacity) as m
+    from classroom as c2 natural join section as s2
+    group by s2.course_id,s2.sec_id
+         ) as maxc, classroom as c1 natural join section as s1
+where maxc.course_id=s1.course_id and maxc.sec_id=s1.sec_id
+and maxc.m = c1.capacity;
+;-- -. . -..- - / . -. - .-. -.--
+select course_id,sec_id,max(capacity),building,room_number
+from section natural join classroom c
+group by course_id,sec_id
+order by room_number;
+;-- -. . -..- - / . -. - .-. -.--
+select maxc.course_id, maxc.sec_id, c1.building, c1.room_number
+from (
+         select s2.course_id, s2.sec_id, max(c2.capacity) as m
+         from classroom as c2
+                  natural join section as s2
+         group by s2.course_id, s2.sec_id
+     ) as maxc,
+     classroom as c1
+         natural join section as s1
+where maxc.course_id = s1.course_id
+  and maxc.sec_id = s1.sec_id
+  and maxc.m = c1.capacity;
+;-- -. . -..- - / . -. - .-. -.--
+SELECT c.dept_name
+FROM (SELECT max(c.cnt) AS maxc FROM c) AS m, c
+WHERE c.cnt = m.maxc;
+;-- -. . -..- - / . -. - .-. -.--
+SELECT C.dept_name
+FROM (SELECT max(C.cnt) AS maxc FROM C) AS m, C
+WHERE C.cnt = m.maxc;
+;-- -. . -..- - / . -. - .-. -.--
+WITH C(dept_name, cnt) AS (SELECT i1.dept_name, count(i1.ID) FROM instructor AS i1 GROUP BY
+dept_name)
+SELECT C.dept_name
+FROM (SELECT max(C.cnt) AS maxc FROM C) AS m, C
+WHERE C.cnt = m.maxc;
+;-- -. . -..- - / . -. - .-. -.--
+with M(dept, ct) as (select i.dept_name, count(distinct i.ID)
+from department join instructor i on department.dept_name = i.dept_name
+    group by i.dept_name
+)
+select *
+from M;
+;-- -. . -..- - / . -. - .-. -.--
+with M(dept, ct) as (select i.dept_name, count(distinct i.ID)
+from department join instructor i on department.dept_name = i.dept_name
+    group by i.dept_name
+)
+select dept
+from M
+where M >= all (select * from M);
+;-- -. . -..- - / . -. - .-. -.--
+select dept
+from M
+where M.ct >= all (select * from M);
+;-- -. . -..- - / . -. - .-. -.--
+with M(dept, ct) as (select i.dept_name, count(distinct i.ID)
+from department join instructor i on department.dept_name = i.dept_name
+    group by i.dept_name
+)
+select dept
+from M
+where M.ct >= all (select * from M);
+;-- -. . -..- - / . -. - .-. -.--
+with M(dept, ct) as (select i.dept_name, count(distinct i.ID)
+from department join instructor i on department.dept_name = i.dept_name
+    group by i.dept_name
+)
+select dept
+from department join M on dept_name = M.dept
+where ct  >= (select max(M.ct) from M);
+;-- -. . -..- - / . -. - .-. -.--
+select id
+from instructor
+where salary = (select max(salary) from instructor);
+;-- -. . -..- - / . -. - .-. -.--
+select id
+from instructor
+where salary >= all (select salary from instructor);
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from instructor join advisor a on instructor.ID = a.i_ID;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from instructor natural join advisor a;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from instructor natural join teaches;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from instructor join teaches t on instructor.ID = t.ID;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from student left outer join takes t where student.ID = t.ID;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from student left outer join takes t
+where student.ID = t.ID;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from student left outer join takes t on student.ID = t.ID;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from student left outer join takes on true
+where student.ID = takes.ID;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from student inner join takes t on student.ID = t.ID;
+;-- -. . -..- - / . -. - .-. -.--
+select d.dept_name name
+from instructor join department d on instructor.dept_name = d.dept_name
+where salary = (select max(salary) from instructor i2 natural join department d2 where d2.dept_name = d.dept_name );
+;-- -. . -..- - / . -. - .-. -.--
+select d.dept_name, name
+from instructor join department d on instructor.dept_name = d.dept_name
+where salary = (select max(salary) from instructor i2 natural join department d2 where d2.dept_name = d.dept_name );
+;-- -. . -..- - / . -. - .-. -.--
+select dept_name, salary
+from instructor
+group by dept_name, salary;
+;-- -. . -..- - / . -. - .-. -.--
+select dept_name, max(salary)
+from instructor
+group by dept_name, salary;
+;-- -. . -..- - / . -. - .-. -.--
+select dept_name, max(salary)
+from instructor
+group by dept_name;
+;-- -. . -..- - / . -. - .-. -.--
+select d.dept_name, name, salary
+from instructor join department d on instructor.dept_name = d.dept_name
+where salary = (select max(salary) from instructor i2 natural join department d2 where d2.dept_name = d.dept_name );
+;-- -. . -..- - / . -. - .-. -.--
+create table branch
+   (branch_name 	varchar(15)	not null unique,
+    branch_city 	varchar(15)	not null,
+    assets 		number		not null,
+    primary key(branch_name));
+;-- -. . -..- - / . -. - .-. -.--
+delete from depositor;
+;-- -. . -..- - / . -. - .-. -.--
+drop table depositor;
+;-- -. . -..- - / . -. - .-. -.--
+delete from borrower;
+;-- -. . -..- - / . -. - .-. -.--
+drop table borrower;
+;-- -. . -..- - / . -. - .-. -.--
+delete from account;
+;-- -. . -..- - / . -. - .-. -.--
+drop table account;
+;-- -. . -..- - / . -. - .-. -.--
+delete from branch;
+;-- -. . -..- - / . -. - .-. -.--
+drop table branch;
+;-- -. . -..- - / . -. - .-. -.--
+delete from loan;
+;-- -. . -..- - / . -. - .-. -.--
+drop table loan;
+;-- -. . -..- - / . -. - .-. -.--
+delete from customer;
+;-- -. . -..- - / . -. - .-. -.--
+drop table customer;
+;-- -. . -..- - / . -. - .-. -.--
+create table account
+   (account_number 	varchar(15)	not null unique,
+    branch_name		varchar(15)	not null,
+    balance 		number		not null,
+    primary key(account_number));
+;-- -. . -..- - / . -. - .-. -.--
+create table account
+(
+    account_number varchar(15) not null unique,
+    branch_name    varchar(15) not null,
+    balance        number      not null,
+    primary key (account_number)
+);
+;-- -. . -..- - / . -. - .-. -.--
+create table loan
+   (loan_number 	varchar(15)	not null unique,
+    branch_name		varchar(15)	not null,
+    amount 		number		not null,
+    primary key(loan_number));
+;-- -. . -..- - / . -. - .-. -.--
+create table account
+(
+    `account_number` varchar(15) not null unique,
+    `branch_name`    varchar(15) not null,
+    `balance`        number      not null,
+    primary key (`account_number`)
+);
+;-- -. . -..- - / . -. - .-. -.--
+create table large.account
+(
+    `account_number` varchar(15) not null unique,
+    `branch_name`    varchar(15) not null,
+    `balance`        number      not null,
+    primary key (`account_number`)
+);
+;-- -. . -..- - / . -. - .-. -.--
+create table `large`.`account`
+
+(
+    `account_number` varchar(15) not null unique,
+    `branch_name`    varchar(15) not null,
+    `balance`        number      not null,
+    primary key (`account_number`)
+);
+;-- -. . -..- - / . -. - .-. -.--
+create table `large`.`account`
+(
+    `account_number` varchar(15) not null unique,
+    `branch_name`    varchar(15) not null,
+    `balance`        int not null,
+    primary key (`account_number`)
+);
+;-- -. . -..- - / . -. - .-. -.--
+create table branch
+   (branch_name 	varchar(15)	not null unique,
+    branch_city 	varchar(15)	not null,
+    assets 		int		not null,
+    primary key(branch_name));
+;-- -. . -..- - / . -. - .-. -.--
+create table customer
+   (customer_name 	varchar(15)	not null unique,
+    customer_street 	varchar(12)	not null,
+    customer_city 	varchar(15)	not null,
+    primary key(customer_name));
+;-- -. . -..- - / . -. - .-. -.--
+create table loan
+   (loan_number 	varchar(15)	not null unique,
+    branch_name		varchar(15)	not null,
+    amount   int not null,
+    primary key(loan_number));
+;-- -. . -..- - / . -. - .-. -.--
+create table depositor
+   (customer_name 	varchar(15)	not null,
+    account_number 	varchar(15)	not null,
+    primary key(customer_name, account_number),
+    foreign key(account_number) references account(account_number),
+    foreign key(customer_name) references customer(customer_name));
+;-- -. . -..- - / . -. - .-. -.--
+create table borrower
+   (customer_name 	varchar(15)	not null,
+    loan_number 	varchar(15)	not null,
+    primary key(customer_name, loan_number),
+    foreign key(customer_name) references customer(customer_name),
+    foreign key(loan_number) references loan(loan_number));
+;-- -. . -..- - / . -. - .-. -.--
+insert into customer	values ('Jones',	'Main',		'Harrison');
+;-- -. . -..- - / . -. - .-. -.--
+insert into customer	values ('Smith',	'Main',		'Rye');
+;-- -. . -..- - / . -. - .-. -.--
+insert into customer	values ('Hayes',	'Main',		'Harrison');
+;-- -. . -..- - / . -. - .-. -.--
+insert into customer	values ('Curry',	'North',	'Rye');
+;-- -. . -..- - / . -. - .-. -.--
+insert into customer	values ('Lindsay',	'Park',		'Pittsfield');
+;-- -. . -..- - / . -. - .-. -.--
+insert into customer	values ('Turner',	'Putnam',	'Stamford');
+;-- -. . -..- - / . -. - .-. -.--
+insert into customer	values ('Williams',	'Nassau',	'Princeton');
+;-- -. . -..- - / . -. - .-. -.--
+insert into customer	values ('Adams',	'Spring',	'Pittsfield');
+;-- -. . -..- - / . -. - .-. -.--
+insert into customer	values ('Johnson',	'Alma',		'Palo Alto');
+;-- -. . -..- - / . -. - .-. -.--
+insert into customer	values ('Glenn',	'Sand Hill',	'Woodside');
+;-- -. . -..- - / . -. - .-. -.--
+insert into customer	values ('Brooks',	'Senator',	'Brooklyn');
+;-- -. . -..- - / . -. - .-. -.--
+insert into customer	values ('Green',	'Walnut',	'Stamford');
+;-- -. . -..- - / . -. - .-. -.--
+insert into customer	values ('Jackson',	'University',	'Salt Lake');
+;-- -. . -..- - / . -. - .-. -.--
+insert into customer	values ('Majeris',	'First',	'Rye');
+;-- -. . -..- - / . -. - .-. -.--
+insert into customer	values ('McBride',	'Safety',	'Rye');
+;-- -. . -..- - / . -. - .-. -.--
+insert into branch	values ('Downtown',	'Brooklyn',	 900000);
+;-- -. . -..- - / . -. - .-. -.--
+insert into branch	values ('Redwood',	'Palo Alto',	2100000);
+;-- -. . -..- - / . -. - .-. -.--
+insert into branch	values ('Perryridge',	'Horseneck',	1700000);
+;-- -. . -..- - / . -. - .-. -.--
+insert into branch	values ('Mianus',	'Horseneck',	 400200);
+;-- -. . -..- - / . -. - .-. -.--
+insert into branch	values ('Round Hill',	'Horseneck',	8000000);
+;-- -. . -..- - / . -. - .-. -.--
+insert into branch	values ('Pownal',	'Bennington',	 400000);
+;-- -. . -..- - / . -. - .-. -.--
+insert into branch	values ('North Town',	'Rye',		3700000);
+;-- -. . -..- - / . -. - .-. -.--
+insert into branch	values ('Brighton',	'Brooklyn',	7000000);
+;-- -. . -..- - / . -. - .-. -.--
+insert into branch	values ('Central',	'Rye',		 400280);
+;-- -. . -..- - / . -. - .-. -.--
+insert into account	values ('A-101',	'Downtown',	500);
+;-- -. . -..- - / . -. - .-. -.--
+insert into account	values ('A-215',	'Mianus',	700);
+;-- -. . -..- - / . -. - .-. -.--
+insert into account	values ('A-102',	'Perryridge',	400);
+;-- -. . -..- - / . -. - .-. -.--
+insert into account	values ('A-305',	'Round Hill',	350);
+;-- -. . -..- - / . -. - .-. -.--
+insert into account	values ('A-201',	'Perryridge',	900);
+;-- -. . -..- - / . -. - .-. -.--
+insert into account	values ('A-222',	'Redwood',	700);
+;-- -. . -..- - / . -. - .-. -.--
+insert into account	values ('A-217',	'Brighton',	750);
+;-- -. . -..- - / . -. - .-. -.--
+insert into account	values ('A-333',	'Central',	850);
+;-- -. . -..- - / . -. - .-. -.--
+insert into account	values ('A-444',	'North Town',	625);
+;-- -. . -..- - / . -. - .-. -.--
+insert into depositor values ('Johnson','A-101');
+;-- -. . -..- - / . -. - .-. -.--
+insert into depositor values ('Smith',	'A-215');
+;-- -. . -..- - / . -. - .-. -.--
+insert into depositor values ('Hayes',	'A-102');
+;-- -. . -..- - / . -. - .-. -.--
+insert into depositor values ('Hayes',	'A-101');
+;-- -. . -..- - / . -. - .-. -.--
+insert into depositor values ('Turner',	'A-305');
+;-- -. . -..- - / . -. - .-. -.--
+insert into depositor values ('Johnson','A-201');
+;-- -. . -..- - / . -. - .-. -.--
+insert into depositor values ('Jones',	'A-217');
+;-- -. . -..- - / . -. - .-. -.--
+insert into depositor values ('Lindsay','A-222');
+;-- -. . -..- - / . -. - .-. -.--
+insert into depositor values ('Majeris','A-333');
+;-- -. . -..- - / . -. - .-. -.--
+insert into depositor values ('Smith',	'A-444');
+;-- -. . -..- - / . -. - .-. -.--
+insert into loan	values ('L-17',		'Downtown',	1000);
+;-- -. . -..- - / . -. - .-. -.--
+insert into loan	values ('L-23',		'Redwood',	2000);
+;-- -. . -..- - / . -. - .-. -.--
+insert into loan	values ('L-15',		'Perryridge',	1500);
+;-- -. . -..- - / . -. - .-. -.--
+insert into loan	values ('L-14',		'Downtown',	1500);
+;-- -. . -..- - / . -. - .-. -.--
+insert into loan	values ('L-93',		'Mianus',	500);
+;-- -. . -..- - / . -. - .-. -.--
+insert into loan	values ('L-11',		'Round Hill',	900);
+;-- -. . -..- - / . -. - .-. -.--
+insert into loan	values ('L-16',		'Perryridge',	1300);
+;-- -. . -..- - / . -. - .-. -.--
+insert into loan	values ('L-20',		'North Town',	7500);
+;-- -. . -..- - / . -. - .-. -.--
+insert into loan	values ('L-21',		'Central',	570);
+;-- -. . -..- - / . -. - .-. -.--
+insert into borrower values ('Jones',	'L-17');
+;-- -. . -..- - / . -. - .-. -.--
+insert into borrower values ('Smith',	'L-23');
+;-- -. . -..- - / . -. - .-. -.--
+insert into borrower values ('Hayes',	'L-15');
+;-- -. . -..- - / . -. - .-. -.--
+insert into borrower values ('Jackson',	'L-14');
+;-- -. . -..- - / . -. - .-. -.--
+insert into borrower values ('Curry',	'L-93');
+;-- -. . -..- - / . -. - .-. -.--
+insert into borrower values ('Smith',	'L-11');
+;-- -. . -..- - / . -. - .-. -.--
+insert into borrower values ('Williams','L-17');
+;-- -. . -..- - / . -. - .-. -.--
+insert into borrower values ('Adams',	'L-16');
+;-- -. . -..- - / . -. - .-. -.--
+insert into borrower values ('McBride',	'L-20');
+;-- -. . -..- - / . -. - .-. -.--
+insert into borrower values ('Smith',	'L-21');
+;-- -. . -..- - / . -. - .-. -.--
+select distinct customer_name
+from customer
+except
+select customer_name
+from customer natural join depositor natural join account natural join branch
+where branch_city <> 'Brooklyn';
+;-- -. . -..- - / . -. - .-. -.--
+select customer_name
+from customer natural join depositor natural join account natural join branch
+where branch_city <> 'Brooklyn';
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from customer natural join depositor natural join account natural join branch
+where branch_city <> 'Brooklyn';
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from customer natural join depositor natural join account natural join branch;
+;-- -. . -..- - / . -. - .-. -.--
+select distinct customer_name
+from customer natual join depositor
+except
+select customer_name
+from customer natural join depositor natural join account natural join branch
+where branch_city <> 'Brooklyn';
+;-- -. . -..- - / . -. - .-. -.--
+select distinct customer_name
+from customer natural join depositor
+except
+select customer_name
+from customer natural join depositor natural join account natural join branch
+where branch_city <> 'Brooklyn';
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from customer natural join depositor natural join account natural join branch
+order by customer_name;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from book;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from borrowed;
+;-- -. . -..- - / . -. - .-. -.--
+desc borrowed;
+;-- -. . -..- - / . -. - .-. -.--
+select b.member_no, count(*)
+from member left join borrowed b on member.member_no = b.member_no
+group by b.member_no;
+;-- -. . -..- - / . -. - .-. -.--
+select m.member_no, count(*)
+from member m left join borrowed b on m.member_no = b.member_no
+group by m.member_no;
+;-- -. . -..- - / . -. - .-. -.--
+select m.member_no, count(isb)
+from member m left join borrowed b on m.member_no = b.member_no
+group by m.member_no;
+;-- -. . -..- - / . -. - .-. -.--
+select m.member_no, avg(isbn)
+from member m left join borrowed b on m.member_no = b.member_no
+group by m.member_no;
+;-- -. . -..- - / . -. - .-. -.--
+select m.member_no, count(isbn)
+from member m left join borrowed b on m.member_no = b.member_no
+group by m.member_no;
+;-- -. . -..- - / . -. - .-. -.--
+select avg(t.ct)
+from (
+select m.member_no, count(isbn) as ct
+from member m left join borrowed b on m.member_no = b.member_no
+group by m.member_no) as t;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from department join instructor i on department.dept_name = i.dept_name;
+;-- -. . -..- - / . -. - .-. -.--
+select count(*)
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name;
+;-- -. . -..- - / . -. - .-. -.--
+select i.dept_name,count(*)
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name;
+;-- -. . -..- - / . -. - .-. -.--
+select ct.c
+from (
+select i.dept_name,count(*) as c
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name) as ct
+where ct.c = (select max(ct.c) from ct);
+;-- -. . -..- - / . -. - .-. -.--
+select ct.c
+from (
+select i.dept_name,count(*) as c
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name) as ct
+where ct.c = 3;
+;-- -. . -..- - / . -. - .-. -.--
+select ct.dept_name, ct.c
+from (
+select i.dept_name,count(*) as c
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name) as ct
+where ct.c = 3;
+;-- -. . -..- - / . -. - .-. -.--
+select ct.dept_name, ct.c
+from (
+select i.dept_name,count(*) as c
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name) as ct
+where ct.c = (select max(ct.c) from ct);
+;-- -. . -..- - / . -. - .-. -.--
+select i.dept_name,count(*) as c
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name;
+;-- -. . -..- - / . -. - .-. -.--
+select i.dept_name,count(*) as c
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name
+having c = max(c);
+;-- -. . -..- - / . -. - .-. -.--
+select i.dept_name,count(*) as c
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name
+having  max(c) = 3;
+;-- -. . -..- - / . -. - .-. -.--
+select i.dept_name,count(*) as c
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name
+having  c = 3;
+;-- -. . -..- - / . -. - .-. -.--
+select i.dept_name,count(*) as c
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name
+having  c = max(c);
+;-- -. . -..- - / . -. - .-. -.--
+select i.dept_name,count(*) as c,max(c)
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name
+having   max(c);
+;-- -. . -..- - / . -. - .-. -.--
+select i.dept_name,count(*) as c,max(count(*))
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name
+having   max(c);
+;-- -. . -..- - / . -. - .-. -.--
+select i.dept_name,count(*) as c,count(*)
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name
+having  max(c) < 5;
+;-- -. . -..- - / . -. - .-. -.--
+select i.dept_name,count(*) as c,count(*)
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name
+having  max(c) = 5;
+;-- -. . -..- - / . -. - .-. -.--
+select i.dept_name,count(*) as c,count(*)
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name
+having  max(c) = 3;
+;-- -. . -..- - / . -. - .-. -.--
+select i.dept_name,count(*) as c
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name
+having  max(c) < 3;
+;-- -. . -..- - / . -. - .-. -.--
+select i.dept_name,count(*) as c
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name
+having  max(c) <= 3;
+;-- -. . -..- - / . -. - .-. -.--
+select i.dept_name,count(*) as c
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name
+having  max(c) >= c;
+;-- -. . -..- - / . -. - .-. -.--
+select i.dept_name,count(*) as c
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name
+having  max(c) > c;
+;-- -. . -..- - / . -. - .-. -.--
+select i.dept_name,count(*) as c
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name
+having  max(c) = c;
+;-- -. . -..- - / . -. - .-. -.--
+select i.dept_name,count(*) as c
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name
+having  max(c) <= c;
+;-- -. . -..- - / . -. - .-. -.--
+select i.dept_name,count(*) c
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name
+having  max(c) <= c;
+;-- -. . -..- - / . -. - .-. -.--
+select i.dept_name,count(*) c
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name
+limit 1;
+;-- -. . -..- - / . -. - .-. -.--
+select i.dept_name,count(*) c
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name
+order by c
+limit 1;
+;-- -. . -..- - / . -. - .-. -.--
+select i.dept_name,count(*) c
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name
+order by c desc
+limit 1;
+;-- -. . -..- - / . -. - .-. -.--
+select ct.dept_name
+from (
+select i.dept_name,count(*) as c
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name) as ct join department d on d.dept_name = ct.dept_name;
+;-- -. . -..- - / . -. - .-. -.--
+select ct.dept_name
+from (
+select i.dept_name,count(*) as c
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name) as ct join department d on d.dept_name = ct.dept_name
+where ct.c = (select max(ct.c) from ct);
+;-- -. . -..- - / . -. - .-. -.--
+with ct(d,c) as (select i.dept_name,count(*) as c
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name)
+
+
+select i.dept_name,count(*) c
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name
+order by c desc
+limit 1;
+;-- -. . -..- - / . -. - .-. -.--
+select dept_name
+from department, ct
+where dept_name = ct.d;
+;-- -. . -..- - / . -. - .-. -.--
+with ct(d,c) as (select i.dept_name,count(*) as c
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name)
+select dept_name
+from department, ct
+where dept_name = ct.d;
+;-- -. . -..- - / . -. - .-. -.--
+with ct(d,c) as (select i.dept_name,count(*) as c
+from department join instructor i on department.dept_name = i.dept_name
+group by i.dept_name)
+select dept_name
+from department, ct
+where dept_name = ct.d and ct.c = (select max(ct.c) from ct);
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from instructor
+group by id, `year`, course_id;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from instructor natural join teaches t
+group by id, `year`, course_id;
+;-- -. . -..- - / . -. - .-. -.--
+select ID
+from instructor natural join teaches t
+group by id, `year`, course_id
+having count(*) >= 2;
+;-- -. . -..- - / . -. - .-. -.--
+select ID, name
+from instructor natural join teaches t
+group by id, `year`, course_id
+having count(*) >= 2;
+;-- -. . -..- - / . -. - .-. -.--
+select course_id
+from teaches
+where (1= (select count(distinct section.sec_id) from section where section.semester='Spring'))
+and (1= (select count(distinct section.sec_id) from section where section.semester='Fall'));
+;-- -. . -..- - / . -. - .-. -.--
+select course_id
+from teaches
+where exists (select * from section where section.semester='Spring' and section.course_id=teaches.course_id)
+and exists (select * from section where section.semester='Fall' and section.course_id=teaches.course_id);
+;-- -. . -..- - / . -. - .-. -.--
+select course_id
+from course
+where exists (select * from section where section.semester='Spring' and section.course_id=teaches.course_id)
+and exists (select * from section where section.semester='Fall' and section.course_id=teaches.course_id);
+;-- -. . -..- - / . -. - .-. -.--
+select course_id
+from course
+where exists (select * from section where section.semester='Spring' and section.course_id=course.course_id)
+and exists (select * from section where section.semester='Fall' and section.course_id=course.course_id);
+;-- -. . -..- - / . -. - .-. -.--
+select course.course_id
+from course
+where exists (select * from section where section.semester='Spring' and section.course_id=course.course_id)
+and exists (select * from section where section.semester='Fall' and section.course_id=course.course_id);
+;-- -. . -..- - / . -. - .-. -.--
+;;
+;-- -. . -..- - / . -. - .-. -.--
+select count(*) as ct
+from department natural join instructor
+group by dept_name;
+;-- -. . -..- - / . -. - .-. -.--
+select dept_name, count(*) as ct
+from department natural join instructor
+group by dept_name;
+;-- -. . -..- - / . -. - .-. -.--
+select dept_name, count(*) as ct
+from department natural join instructor
+group by dept_name
+having ct >= all (select
+dept_name, count(*) as ct
+from department natural join instructor
+group by dept_name);
+;-- -. . -..- - / . -. - .-. -.--
+select dept_name, count(*) as ct
+from department natural join instructor
+group by dept_name
+having ct >= all (select
+count(*) as ct
+from department natural join instructor
+group by dept_name);
+;-- -. . -..- - / . -. - .-. -.--
+select count(*)
+from takes
+group by course_id;
+;-- -. . -..- - / . -. - .-. -.--
+select course_id,count(*)
+from takes
+group by course_id;
+;-- -. . -..- - / . -. - .-. -.--
+select *
+from topic t left outer join blurt_analysis ba
+    on t.id = ba.topicid
+group by t.id
+order by t.id;
+;-- -. . -..- - / . -. - .-. -.--
+select t.id, t.description, count(email) as count
+from topic t left outer join blurt_analysis ba
+    on t.id = ba.topicid
+group by t.id
+order by t.id;
+;-- -. . -..- - / . -. - .-. -.--
+select user.name, count(distinct follower) `followers ct`
+from follow, user
+where followee in (select email from celebrity)
+    and user.email = followee
+group by followee
+order by `followers ct`;
+;-- -. . -..- - / . -. - .-. -.--
+select u.name
+from celebrity c1 join user u on c1.email = u.email
+where not exists (
+    select follower
+    from  follow
+    where c1.email = follower
+    );
+;-- -. . -..- - / . -. - .-. -.--
+select user.name, count(distinct follower) `followers ct`
+from follow, user
+where followee in (select email from celebrity)
+  and user.email = followee
+group by followee
+order by `followers ct`;
+;-- -. . -..- - / . -. - .-. -.--
 select u1.email as A, u2.email as B, u3.email as C
 from user u1, user u2, user u3
 where u2.email in (
@@ -1735,3 +1422,89 @@ where u2.email in (
     from follow f3
     where follower = u1.email
 )  and  u3.email != u1.email;
+;-- -. . -..- - / . -. - .-. -.--
+select u1.email as A, u2.email as B, u3.email as C
+from user u1, user u2, user u3
+where u2.email in (
+    select followee
+    from follow f1
+    where follower = u1.email
+) and u3.email in (
+    select followee
+    from follow f2
+    where follower = u2.email
+) and u3.email not in (
+    select followee
+    from follow f3
+    where follower = u1.email
+)  and  u3.email != u1.email and u2.email != u1.email and u3.email != u2.email;
+;-- -. . -..- - / . -. - .-. -.--
+select user.name, count(*) as ct
+from user join blurt on user.email = blurt.email
+where type='C'
+group by user.email
+order by ct desc;
+;-- -. . -..- - / . -. - .-. -.--
+select u.name
+from celebrity c1 join user u on c1.email = u.email
+where not exists (
+        select follower
+        from  follow
+        where c1.email = follower
+    );
+;-- -. . -..- - / . -. - .-. -.--
+select user.name, followee as email, count(*) as ct
+from vendor_ambassador join vendor on vendor_ambassador.vendorid = vendor.id
+                       join user on vendor_ambassador.email = user.email, follow
+where followee = user.email
+group by followee
+order by ct;
+;-- -. . -..- - / . -. - .-. -.--
+select u1.name as A, u2.name as B
+from user u1, user u2
+where u1.name != u2.name
+  and u2.email not in (select followee
+                       from follow where follower = u1.email)
+  and exists ((select ba.topicid
+               from blurt_analysis ba
+               where ba.email = u1.email)
+              intersect
+                  (select ba2.topicid
+    from blurt_analysis ba2
+    where ba2.email = u2.email)
+    );
+;-- -. . -..- - / . -. - .-. -.--
+select t.id, t.description, location as state, count(*) as ct, avg(sentiment) as avg
+from blurt natural join blurt_analysis ba
+           join topic t on ba.topicid = t.id
+group by topicid, location
+having avg < 0;
+;-- -. . -..- - / . -. - .-. -.--
+select user.name, followee as email, count(*) as ct
+from vendor_ambassador join vendor on vendor_ambassador.vendorid = vendor.id
+                       join user on vendor_ambassador.email = user.email, follow
+where followee = user.email
+group by followee;
+;-- -. . -..- - / . -. - .-. -.--
+select t.id, t.description, count(email) as count
+from topic t left outer join blurt_analysis ba
+                             on t.id = ba.topicid
+group by t.id
+order by t.id;
+;-- -. . -..- - / . -. - .-. -.--
+select user.name, count(distinct follower) `followers ct`
+from follow, user
+where followee in (select email from celebrity)
+  and user.email = followee
+group by followee;
+;-- -. . -..- - / . -. - .-. -.--
+select name, s.ct
+from vendor join (
+    select vendorid, count(*) as ct
+    from (select vendorid, email
+          from vendor_topics join blurt_analysis ba on vendor_topics.topicid = ba.topicid
+              except
+          select vendorid,email
+          from advertisement join user_ad ua on advertisement.id = ua.adid) s
+    group by vendorid) s on vendor.id = s.vendorid
+order by ct desc;

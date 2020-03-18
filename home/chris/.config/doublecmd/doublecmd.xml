@@ -117,6 +117,13 @@
         </Command>
         <Separator/>
         <Command>
+          <ID>{8A33E883-B34E-41D6-9CFF-FD066628E136}</ID>
+          <Icon>/usr/share/icons/gnome/256x256/places/user-trash.png</Icon>
+          <Hint>Trash</Hint>
+          <Command>cm_ChangeDir</Command>
+          <Param>trash:///</Param>
+        </Command>
+        <Command>
           <ID>{EB580C9B-2E5A-4375-8E06-AED1281D9CC1}</ID>
           <Icon>cm_options</Icon>
           <Command>cm_Options</Command>
@@ -389,7 +396,7 @@
     <UseTrash>True</UseTrash>
     <SkipFileOpError>False</SkipFileOpError>
     <TypeOfDuplicatedRename>0</TypeOfDuplicatedRename>
-    <ShowDialogOnDragDrop>True</ShowDialogOnDragDrop>
+    <ShowDialogOnDragDrop>False</ShowDialogOnDragDrop>
     <DragAndDropTextRichtextDesireLevel>0</DragAndDropTextRichtextDesireLevel>
     <DragAndDropTextHtmlDesireLevel>1</DragAndDropTextHtmlDesireLevel>
     <DragAndDropTextUnicodeDesireLevel>2</DragAndDropTextUnicodeDesireLevel>
@@ -428,7 +435,7 @@
     <ActionOnDoubleClick>2</ActionOnDoubleClick>
     <OpenedTabs>
       <Left>
-        <ActiveTab>8</ActiveTab>
+        <ActiveTab>4</ActiveTab>
         <Tab>
           <FileView Type="columns">
             <History>
@@ -536,27 +543,6 @@
         </Tab>
         <Tab>
           <FileView Type="columns">
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="scripts">/usr/lib/doublecmd/</Path>
-                  <Path Filename="..">/usr/lib/doublecmd/scripts/</Path>
-                  <Path Filename="Cent">/home/chris/data/</Path>
-                  <Path Filename="">/home/chris/data/Cent/</Path>
-                  <Path Filename="math">/home/chris/data/Cent/books/</Path>
-                  <Path Filename="history">/home/chris/data/Cent/books/math/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/math/history/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
             <Sortings>
               <Sorting>
                 <Direction>1</Direction>
@@ -588,7 +574,7 @@
                   <Path Filename="books">/home/chris/data/Cent/</Path>
                   <Path Filename="cs">/home/chris/data/Cent/books/</Path>
                   <Path Filename="">/home/chris/data/Cent/books/cs/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/cs/sql/</Path>
+                  <Path Filename="Abraham Silberschatz, Henry Korth and S. Sudarshan - Database System Concepts. 7-McGraw-Hill Education (2020).pdf">/home/chris/data/Cent/books/cs/sql/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -672,7 +658,7 @@
                   <Path Filename="">/home/chris/data/Cent/</Path>
                   <Path Filename="math">/home/chris/data/Cent/books/</Path>
                   <Path Filename="">/home/chris/data/Cent/books/math/</Path>
-                  <Path Filename="Friedberg solution.pdf">/home/chris/data/Cent/books/math/3a/</Path>
+                  <Path Filename="">/home/chris/data/Cent/books/math/3a/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -754,7 +740,9 @@
                   <Path Filename="books">/home/chris/data/Cent/</Path>
                   <Path Filename="cs">/home/chris/data/Cent/books/</Path>
                   <Path Filename="">/home/chris/data/Cent/books/cs/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/cs/cs/</Path>
+                  <Path Filename="Drew Neil - Practical Vim_ Edit Text at the Speed of Thought (2015, Pragmatic Bookshelf).pdf">/home/chris/data/Cent/books/cs/cs/</Path>
+                  <Path Filename="ml">/home/chris/data/Cent/books/cs/</Path>
+                  <Path Filename="">/home/chris/data/Cent/books/cs/ml/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -765,7 +753,7 @@
         </Tab>
       </Left>
       <Right>
-        <ActiveTab>4</ActiveTab>
+        <ActiveTab>1</ActiveTab>
         <Tab>
           <FileView Type="columns">
             <History>
@@ -852,7 +840,7 @@
                   <Path Filename="books">/home/chris/data/Cent/</Path>
                   <Path Filename="Snipaste_2020-01-11_17-39-47.png">/home/chris/data/</Path>
                   <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="">/home/chris/Downloads/</Path>
+                  <Path Filename="Untitled.ipynb">/home/chris/Downloads/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -1016,7 +1004,77 @@
                   <Path Filename="Downloads">/home/chris/</Path>
                   <Path Filename="mini project csv files">/home/chris/Downloads/</Path>
                   <Path Filename="Documents">/home/chris/</Path>
-                  <Path Filename="3s.pdf">/home/chris/Documents/</Path>
+                  <Path Filename="">/home/chris/Documents/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>12</Function>
+              </Sorting>
+            </Sortings>
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="..">/home/chris/data/untitled/</Path>
+                  <Path Filename="untitled">/home/chris/data/</Path>
+                  <Path Filename="test">/home/chris/</Path>
+                  <Path Filename="p">/home/chris/test/</Path>
+                  <Path Filename=".config">/home/chris/</Path>
+                  <Path Filename="doublecmd">/home/chris/.config/</Path>
+                  <Path Filename="multiarc.ini">/home/chris/.config/doublecmd/</Path>
+                  <Path Filename="doublecmd">/home/chris/.config/</Path>
+                  <Path Filename=".yarn">/home/chris/</Path>
+                  <Path Filename="..">/home/chris/.yarn/</Path>
+                  <Path Filename=".yarn">/home/chris/</Path>
+                  <Path Filename="bin">/home/chris/.yarn/</Path>
+                  <Path Filename="..">/home/chris/.yarn/bin/</Path>
+                  <Path Filename="..">/home/chris/.yarn/</Path>
+                  <Path Filename=".temp">/home/chris/</Path>
+                  <Path Filename="timeshift">/home/chris/.temp/</Path>
+                  <Path Filename="..">/home/chris/.temp/timeshift/</Path>
+                  <Path Filename="..">/home/chris/.temp/</Path>
+                  <Path Filename=".ipython">/home/chris/</Path>
+                  <Path Filename="..">/home/chris/.ipython/</Path>
+                  <Path Filename="Books">/home/chris/</Path>
+                  <Path Filename="..">/home/chris/Books/</Path>
+                  <Path Filename="test">/home/chris/</Path>
+                  <Path Filename="..">/home/chris/test/</Path>
+                  <Path Filename=".local">/home/chris/</Path>
+                  <Path Filename="share">/home/chris/.local/</Path>
+                  <Path Filename="baloo">/home/chris/.local/share/</Path>
+                  <Path Filename="..">/home/chris/.local/share/baloo/</Path>
+                  <Path Filename="flatpak">/home/chris/.local/share/</Path>
+                  <Path Filename="..">/home/chris/.local/share/flatpak/</Path>
+                  <Path Filename="inxi">/home/chris/.local/share/</Path>
+                  <Path Filename="..">/home/chris/.local/share/inxi/</Path>
+                  <Path Filename="JetBrains">/home/chris/.local/share/</Path>
+                  <Path Filename="..">/home/chris/.local/share/JetBrains/</Path>
+                  <Path Filename="Trash">/home/chris/.local/share/</Path>
+                  <Path Filename="info">/home/chris/.local/share/Trash/</Path>
+                  <Path Filename="..">/home/chris/.local/share/Trash/info/</Path>
+                  <Path Filename="files">/home/chris/.local/share/Trash/</Path>
+                  <Path Filename="..">/home/chris/.local/share/Trash/files/</Path>
+                  <Path Filename="files">/home/chris/.local/share/Trash/</Path>
+                  <Path Filename="Marijn Haverbeke - Eloquent JavaScript_ A Modern Introduction to Programming, 3rd Edition-No Starch Press (2019).epub">/home/chris/.local/share/Trash/files/</Path>
+                  <Path Filename=".local">/home/chris/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/cs/ml/</Path>
+                  <Path Filename="cs">/home/chris/data/Cent/books/</Path>
+                  <Path Filename="books">/home/chris/data/Cent/</Path>
+                  <Path Filename="Snipaste_2020-01-11_17-39-47.png">/home/chris/data/</Path>
+                  <Path Filename="Downloads">/home/chris/</Path>
+                  <Path Filename="">/home/chris/Downloads/</Path>
+                  <Path Filename="Script.txt">/home/chris/Downloads/mp-85356927/</Path>
+                  <Path Filename="">/home/chris/Downloads/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -1251,31 +1309,8 @@
       <Columns>
         <Column>
           <Title>Name</Title>
-          <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
-          <Width>627</Width>
-          <Align>0</Align>
-          <Font>
-            <Name>Source Code Pro Light</Name>
-            <Size>10</Size>
-            <Style>0</Style>
-            <Quality>0</Quality>
-          </Font>
-          <TextColor>-2147483640</TextColor>
-          <Background>-2147483643</Background>
-          <Background2>-2147483627</Background2>
-          <MarkColor>255</MarkColor>
-          <CursorColor>-2147483635</CursorColor>
-          <CursorText>-2147483634</CursorText>
-          <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>255</InactiveMarkColor>
-          <UseInvertedSelection>False</UseInvertedSelection>
-          <UseInactiveSelColor>False</UseInactiveSelColor>
-          <Overcolor>True</Overcolor>
-        </Column>
-        <Column>
-          <Title>Ext</Title>
-          <FuncString>[DC().GETFILEEXT{}]</FuncString>
-          <Width>50</Width>
+          <FuncString>[DC().GETFILENAME{}]</FuncString>
+          <Width>673</Width>
           <Align>0</Align>
           <Font>
             <Name>Source Code Pro Light</Name>

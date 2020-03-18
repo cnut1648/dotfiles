@@ -17,6 +17,8 @@ set cmdheight=2
 " whichkey requires mapleader value
 let g:mapleader = "\\"
 map <Space> <leader>
+" disable matchit
+let g:loaded_matchit = 1
 
 """"""""""""""" normal
 
@@ -260,7 +262,6 @@ Plug 'prettier/vim-prettier'
 Plug 'ntpeters/vim-better-whitespace'
 " coc-highlight
 " :CocInstall coc-highlight
-
 
 """"""""""""""""""""""""""""""
 """"""""""""""""" fuzzy search
@@ -545,7 +546,7 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail_improved'
 let g:airline_powerline_fonts = 1
 let g:airline_theme='wombat'
-
+let g:airline_highlighting_cache = 1
 " vim-commentary
 nmap <C-_> gcc
 
@@ -1099,7 +1100,7 @@ call quickui#menu#reset()
 
 " install a 'File' menu, use [text, command] to represent an item.
 call quickui#menu#install('&File', [
-            \ [ "&Open File\t(F3)", 'tabe' ],
+            \ [ "&Open File", 'tabe' ],
             \ [ "&Close\t(:bd)", 'Bclose' ],
             \ [ "&Save\t(:w)", 'write'],
             \ [ "--", '' ],

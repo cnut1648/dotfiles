@@ -27,7 +27,11 @@ font pango:monospace 8
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 ###### autostart
-exec --no-startup-id bri 0.4
+exec_always --no-startup-id bri 0.4
+exec_always --no-startup-id setxkbmap -option 'ctrl: nocaps'
+exec_always --no-startup-id xcape -e 'Control_L=Escape'
+exec_always --no-startup-id xcape -e 'Shift_R=Return'
+
 
 # autoset-up workspace
 # exec --no-startup-id i3-msg 'workspace 1; exec /usr/bin/firefox'
@@ -41,10 +45,10 @@ exec_always --no-startup-id picom
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
-exec --no-startup-id nm-applet
+exec_always --no-startup-id nm-applet
 
 # implement spiral tiling of bspwm
-exec --no-startup-id autotiling
+exec_always --no-startup-id autotiling
 
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
