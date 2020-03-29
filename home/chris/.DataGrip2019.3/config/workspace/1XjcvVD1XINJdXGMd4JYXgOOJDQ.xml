@@ -1,11 +1,27 @@
 <project version="4">
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/122A/Script.sql">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_9.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_10.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="784">
-              <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+            <state relative-caret-position="72">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/information_schema/view/APPLICABLE_ROLES">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state presentationMode="REGULAR" projectRestartId="269aee55-0bce-4862-a84c-36cd8b434a68" pageSize="500">
+              <filtering>
+                <filter text="" />
+              </filtering>
             </state>
           </provider>
         </entry>
@@ -39,14 +55,15 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_8.sql" />
         <option value="$PROJECT_DIR$/122A/Script.txt" />
         <option value="$PROJECT_DIR$/122A/Script.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_9.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_10.sql" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" x="963" y="10" width="946" height="1015" />
+  <component name="ProjectFrameBounds" x="11" y="11" width="942" height="1012" />
   <component name="ProjectView">
     <navigator proportions="" version="1" />
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -67,6 +84,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="TodoView">
@@ -79,24 +97,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="963" y="10" width="946" height="1015" extended-state="0" />
+    <frame x="11" y="11" width="942" height="1012" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Database" order="0" sideWeight="0.4990476" weight="0.47144458" />
+      <window_info active="true" content_ui="combo" id="Database" order="0" sideWeight="0.4990476" visible="true" weight="0.4707865" />
       <window_info id="Favorites" order="1" sideWeight="0.50095236" side_tool="true" weight="0.22489317" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3281075" />
       <window_info anchor="bottom" id="Inspection" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="4" weight="0.32922733" />
-      <window_info anchor="bottom" id="Services" order="5" visible="true" weight="0.42553192" />
+      <window_info anchor="bottom" id="Services" order="5" visible="true" weight="0.49493814" />
       <window_info anchor="bottom" id="Database Changes" order="6" />
       <window_info anchor="bottom" id="Debug" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="SQL Generator" order="10" weight="0.32922733" />
       <window_info anchor="bottom" id="Inspection Results" order="11" weight="0.32922733" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="0" visible="true" weight="0.29418343" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="0" weight="0.43595505" />
       <window_info anchor="right" id="Structure" order="1" side_tool="true" weight="0.24972005" />
       <window_info anchor="right" id="Key Promoter X" order="2" weight="0.32959402" />
     </layout>
@@ -118,76 +136,6 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/information_schema/view/INNODB_TABLESPACES_ENCRYPTION">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state presentationMode="REGULAR" projectRestartId="b3e47a3f-a138-4b38-a98f-51e7fd843a2c" pageSize="500">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/try/table/branch">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state presentationMode="REGULAR" projectRestartId="b3e47a3f-a138-4b38-a98f-51e7fd843a2c" pageSize="500">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../try/tips.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/large/table/member">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state presentationMode="REGULAR" projectRestartId="b3e47a3f-a138-4b38-a98f-51e7fd843a2c" pageSize="500">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/large/table/borrowed">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state presentationMode="REGULAR" projectRestartId="b3e47a3f-a138-4b38-a98f-51e7fd843a2c" pageSize="500">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/large/table/department">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state presentationMode="REGULAR" projectRestartId="b3e47a3f-a138-4b38-a98f-51e7fd843a2c" pageSize="500">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/large/table/teaches">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state presentationMode="REGULAR" projectRestartId="b3e47a3f-a138-4b38-a98f-51e7fd843a2c" pageSize="500">
-          <filtering>
-            <filter text="" />
-          </filtering>
-          <column-attributes>
-            <column name="semester" enabled="false" position="-1" />
-            <column name="year" enabled="false" position="-1" />
-          </column-attributes>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/large/table/instructor">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state presentationMode="REGULAR" projectRestartId="b3e47a3f-a138-4b38-a98f-51e7fd843a2c" pageSize="500">
-          <filtering>
-            <filter text="" />
-          </filtering>
-        </state>
-      </provider>
-    </entry>
     <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/large/table/section.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -408,9 +356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/122A/Query 2.csv">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/122A/Query 1.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -450,8 +395,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/122A/Script.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="784">
-          <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+        <state relative-caret-position="252">
+          <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/large/table/account">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="269aee55-0bce-4862-a84c-36cd8b434a68" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/try/table/account">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="269aee55-0bce-4862-a84c-36cd8b434a68" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_9.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/122A/table_create.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="85" column="44" lean-forward="true" selection-start-line="85" selection-start-column="44" selection-end-line="85" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/try/table/T">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="269aee55-0bce-4862-a84c-36cd8b434a68" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_10.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/information_schema/view/ALL_PLUGINS">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="269aee55-0bce-4862-a84c-36cd8b434a68" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/information_schema/view/ENABLED_ROLES">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="269aee55-0bce-4862-a84c-36cd8b434a68" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cb7b6245-8bd3-4bf7-882b-9948c7a5824b/schema/information_schema/view/APPLICABLE_ROLES">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state presentationMode="REGULAR" projectRestartId="269aee55-0bce-4862-a84c-36cd8b434a68" pageSize="500">
+          <filtering>
+            <filter text="" />
+          </filtering>
         </state>
       </provider>
     </entry>

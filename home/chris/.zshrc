@@ -235,3 +235,4 @@ alias o='a -e xdg-open'
 alias v='f -e nvim'
 
 alias em='/home/chris/.emacs.d/doom-emacs/bin/doom run'
+alias doom='/home/chris/.emacs.d/doom-emacs/bin/doom'

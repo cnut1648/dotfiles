@@ -3,48 +3,50 @@
     <state version="5" />
     <globalmarks />
     <filemarks>
-      <file name="/blurts.user" timestamp="1583385536132">
+      <file name="/ALL_PLUGINS [chris@localhost]" timestamp="1585027683572">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/topic [chris@localhost]" timestamp="1583384771097">
+      <file name="/console" timestamp="1585023761419">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/blurts.topic" timestamp="1583384771126">
+      <file name="/T [chris@localhost]" timestamp="1585026896290">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/blurts.user_ad" timestamp="1583385540869">
+      <file name="/console_9" timestamp="1585023780747">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/blurts.hobby" timestamp="1583384759378">
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_9.sql" timestamp="1585026289801">
+        <mark key="'" line="0" column="19" />
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="1" column="31" />
+        <mark key="." line="3" column="0" />
+        <mark key="^" line="4" column="0" />
+      </file>
+      <file name="/large.account" timestamp="1585026270546">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/blurts.blurt_analysis" timestamp="1583384698748">
+      <file name="/dummy.sql" timestamp="1585027698603">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/vendor_topics [chris@localhost]" timestamp="1583385567000">
+      <file name="/try.T" timestamp="1585026896383">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/vendor_ambassador [chris@localhost]" timestamp="1583385556191">
+      <file name="/information_schema.APPLICABLE_ROLES" timestamp="1585027692295">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/blurts.celebrity" timestamp="1583384736693">
+      <file name="/ENABLED_ROLES [chris@localhost]" timestamp="1585027696517">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/dummy.sql" timestamp="1583385574643">
+      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_10.sql" timestamp="1585026908119">
+        <mark key="[" line="0" column="5" />
+        <mark key="]" line="0" column="5" />
+        <mark key="." line="0" column="5" />
+        <mark key="^" line="0" column="5" />
+      </file>
+      <file name="/APPLICABLE_ROLES [chris@localhost]" timestamp="1585027692288">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/vendor [chris@localhost]" timestamp="1583385548626">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="/blurts.vendor_ambassador" timestamp="1583385556217">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="/user [chris@localhost]" timestamp="1583385536106">
-        <mark key="[" line="0" column="0" />
-      </file>
-      <file name="/follow [chris@localhost]" timestamp="1583384743972">
-        <mark key="[" line="0" column="0" />
-      </file>
+      <file name="$USER_HOME$/data/untitled/sql/course/122A/table_create.sql" timestamp="1585026805110" />
       <file name="$USER_HOME$/data/untitled/sql/course/122A/Script.sql" timestamp="1583385980069">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="41" column="17" />
@@ -52,19 +54,22 @@
         <mark key="^" line="41" column="17" />
         <mark key="." line="41" column="17" />
       </file>
-      <file name="/user_ad [chris@localhost]" timestamp="1583385540842">
+      <file name="/console_3" timestamp="1585026787821">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/blurts.vendor" timestamp="1583385548652">
+      <file name="/account [chris@localhost]" timestamp="1585026281228">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/celebrity [chris@localhost]" timestamp="1583384736667">
+      <file name="/information_schema.ENABLED_ROLES" timestamp="1585027696544">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/blurts.vendor_topics" timestamp="1583385567029">
+      <file name="/console_10" timestamp="1585026296971">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/hobby [chris@localhost]" timestamp="1583384759348">
+      <file name="/information_schema.ALL_PLUGINS" timestamp="1585027683596">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/try.account" timestamp="1585026281258">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
@@ -100,46 +105,49 @@
       <jump line="91" column="0" filename="$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_8.sql" />
       <jump line="71" column="14" filename="$USER_HOME$/data/untitled/sql/course/122A/Script.sql" />
       <jump line="0" column="0" filename="$USER_HOME$/data/untitled/sql/course/122A/Script.sql" />
+      <jump line="0" column="19" filename="$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_9.sql" />
     </jumps>
     <registers>
-      <register name="&quot;" type="2">
-        <text encoding="base64">b3JkZXIgYnkgY3Q7Cg==</text>
+      <register name="&quot;" type="4">
+        <text>account</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">IA==</text>
+        <text>account</text>
       </register>
       <register name="/" type="4">
         <text>teaches</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">c2VsZWN0IGRlcHRfbmFtZSwgY291bnQoKikgYXMgY3QKZnJvbSBkZXBhcnRtZW50IG5hdHVyYWwgam9pbiBpbnN0cnVjdG9yCg==</text>
+        <text encoding="base64">U0VMRUNUIHByb2R1Y3RfY2QsIG9wZW5fYnJhbmNoX2lkLAogU1VNKGF2YWlsX2JhbGFuY2UpIHRvdF9iYWxhbmNlCg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">b3JkZXIgYnkgY3Q7Cg==</text>
+        <text encoding="base64">ICAgICAgICAgICAgICAK</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">b3JkZXIgYnkgY3Q7Cg==</text>
+        <text encoding="base64">U0VMRUNUIHByb2R1Y3RfY2QsIG9wZW5fYnJhbmNoX2lkLAogICAgICAgU1VNKGF2YWlsX2JhbGFuY2UpIHRvdF9iYWxhbmNlCkZST00gYWNjb3VudApHUk9VUCBCWSBwcm9kdWN0X2NkLCBvcGVuX2JyYW5jaF9pZApXSVRIIENVQkU7Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">b3JkZXIgYnkgYGZvbGxvd2VycyBjdGA7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">c2VsZWN0IGRlcHRfbmFtZSwgY291bnQoKikgYXMgY3QKZnJvbSBkZXBhcnRtZW50IG5hdHVyYWwgam9pbiBpbnN0cnVjdG9yCmdyb3VwIGJ5IGRlcHRfbmFtZQpoYXZpbmcgY3QgPj0gYWxsIChzZWxlY3QKY291bnQoKikgYXMgY3QKZnJvbSBkZXBhcnRtZW50IG5hdHVyYWwgam9pbiBpbnN0cnVjdG9yCmdyb3VwIGJ5IGRlcHRfbmFtZSkKCg==</text>
+        <text encoding="base64">LT4gR1JPVVAgQlkgcHJvZHVjdF9jZCwgb3Blbl9icmFuY2hfaWQgV0lUSCBST0xMVVA7Cg==</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ZnJvbSAK</text>
+        <text encoding="base64">RlJPTSBhY2NvdW50Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">ICAgICAgIAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICBhbmQgKDE9IChzZWxlY3QgY291bnQoZGlzdGluY3Qgc2VjdGlvbi5zZWNfaWQpIGZyb20gc2VjdGlvbiB3aGVyZSBzZWN0aW9uLnNlbWVzdGVyPSdGYWxsJykpCg==</text>
+        <text encoding="base64">ICAgICAgIAo=</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">Cg==</text>
+        <text encoding="base64">LT4K</text>
       </register>
       <register name="9" type="2">
-        <text encoding="base64">c2VsZWN0IGRlcHRfbmFtZQo=</text>
+        <text>select 13 a1, 14 a2
+union
+select 15 a1, 'hello' a2</text>
       </register>
       <register name=":" type="4">
         <text>w</text>

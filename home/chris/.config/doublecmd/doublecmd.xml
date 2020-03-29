@@ -133,8 +133,13 @@
   </Toolbars>
   <MainWindow>
     <Position Save="True">
-      <Maximized>True</Maximized>
+      <Maximized>False</Maximized>
       <Splitter>54.1383219954649</Splitter>
+      <Left>10</Left>
+      <Top>25</Top>
+      <Width>1896</Width>
+      <Height>998</Height>
+      <PixelsPerInch>96</PixelsPerInch>
     </Position>
   </MainWindow>
   <Configuration Save="True" SortOrder="1" TreeType="0">
@@ -533,6 +538,7 @@
                   <Path Filename="..">/home/chris/data/Cent/books/math/3a/</Path>
                   <Path Filename="39">/home/chris/data/Cent/</Path>
                   <Path Filename="">/home/chris/data/Cent/39/</Path>
+                  <Path Filename="">/home/chris/data/Cent/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -574,7 +580,9 @@
                   <Path Filename="books">/home/chris/data/Cent/</Path>
                   <Path Filename="cs">/home/chris/data/Cent/books/</Path>
                   <Path Filename="">/home/chris/data/Cent/books/cs/</Path>
-                  <Path Filename="Abraham Silberschatz, Henry Korth and S. Sudarshan - Database System Concepts. 7-McGraw-Hill Education (2020).pdf">/home/chris/data/Cent/books/cs/sql/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/cs/sql/</Path>
+                  <Path Filename="sql">/home/chris/data/Cent/books/cs/</Path>
+                  <Path Filename="122A课本.pdf">/home/chris/data/Cent/books/cs/sql/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -743,6 +751,43 @@
                   <Path Filename="Drew Neil - Practical Vim_ Edit Text at the Speed of Thought (2015, Pragmatic Bookshelf).pdf">/home/chris/data/Cent/books/cs/cs/</Path>
                   <Path Filename="ml">/home/chris/data/Cent/books/cs/</Path>
                   <Path Filename="">/home/chris/data/Cent/books/cs/ml/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="language">/usr/lib/doublecmd/</Path>
+                  <Path Filename="..">/usr/lib/doublecmd/language/</Path>
+                  <Path Filename="plugins">/usr/lib/doublecmd/</Path>
+                  <Path Filename="wfx">/usr/lib/doublecmd/plugins/</Path>
+                  <Path Filename="..">/usr/lib/doublecmd/plugins/wfx/</Path>
+                  <Path Filename="C">/home/chris/data/untitled/</Path>
+                  <Path Filename="..">/home/chris/data/untitled/C/</Path>
+                  <Path Filename="arduino">/home/chris/data/untitled/</Path>
+                  <Path Filename="untitled">/home/chris/data/</Path>
+                  <Path Filename="..">/home/chris/data/untitled/</Path>
+                  <Path Filename="Cent">/home/chris/data/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/</Path>
+                  <Path Filename="..">/home/chris/data/</Path>
+                  <Path Filename="data">/home/chris/</Path>
+                  <Path Filename="..">/home/chris/application/</Path>
+                  <Path Filename="Cent">/home/chris/data/</Path>
+                  <Path Filename="Academic">/home/chris/data/Cent/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/Academic/</Path>
+                  <Path Filename="books">/home/chris/data/Cent/</Path>
+                  <Path Filename="cs">/home/chris/data/Cent/books/</Path>
+                  <Path Filename="">/home/chris/data/Cent/books/cs/</Path>
+                  <Path Filename="快看完">/home/chris/data/Cent/books/cs/python/</Path>
+                  <Path Filename="">/home/chris/data/Cent/books/cs/python/快看完/</Path>
                 </Paths>
               </Entry>
             </History>

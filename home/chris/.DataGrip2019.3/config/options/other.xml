@@ -21,11 +21,11 @@
     <property name="com.intellij.database.view.editors.ObjectEditorWithPreview.proportion" value="-0.7" />
     <property name="evlsprt3.193" value="16" />
     <property name="file.chooser.recent.files" value="$USER_HOME$/data/untitled/sql/course/122A&#10;/home/chris/data/untitled/sql/course/122A/vendor_topic.csv&#10;/home/chris/data/untitled/sql/course/122A/user_ad.csv&#10;/home/chris/data/untitled/sql/course/122A/advertisement.csv&#10;/home/chris/data/untitled/sql/course/122A/blurt_analysis.csv&#10;/home/chris/data/untitled/sql/course/122A/topic.csv&#10;/home/chris/data/untitled/sql/course/122A/vendor_ambassador.csv&#10;/home/chris/data/untitled/sql/course/122A/vendor.csv&#10;/home/chris/data/untitled/sql/course/122A/follow.csv&#10;/home/chris/data/untitled/sql/course/122A/hobby.csv&#10;/home/chris/data/untitled/sql/course/122A/blurt.csv&#10;/home/chris/data/untitled/sql/course/122A/celebrity.csv&#10;/home/chris/data/untitled/sql/course/122A/user.csv&#10;/home/chris/data/untitled/sql/try/tips.csv&#10;/home/chris/data/untitled/sql/try&#10;/home/chris/data/untitled/sql/course&#10;/home/chris/Downloads/DDL-MySQL.sql" />
-    <property name="file.gist.reindex.count" value="487" />
+    <property name="file.gist.reindex.count" value="500" />
     <property name="ide.memory.adjusted" value="true" />
-    <property name="ideavim.statistics.timestamp" value="1583377537965" />
+    <property name="ideavim.statistics.timestamp" value="1585023761073" />
     <property name="import_error_directory" value="$USER_HOME$" />
     <property name="import_write_errors" value="true" />
-    <property name="lastTip" value="29" />
+    <property name="lastTip" value="30" />
   </component>
 </application>

@@ -70,11 +70,12 @@ def printRows() {
   if (calcWidth) {
     rows = new ArrayList<>()
     def widths = new int[COLUMNS.size()]
-    COLUMNS.eachWithIndex { column, idx -> widths[idx] = column.name().length() }
+    COLUMNS.each { column -> widths[column.columnNumber()] = column.name().length() }
     ROWS.each { row ->
-      def rowValues = COLUMNS.withIndex().collect { col, idx ->
+      def rowValues = COLUMNS.collect { col ->
         def value = FORMATTER.format(row, col)
-        widths[idx] = Math.max(widths[idx], value.length())
+        def colNum = col.columnNumber()
+        widths[colNum] = Math.max(widths[colNum], value.length())
         value
       }
       rows.add(rowValues)

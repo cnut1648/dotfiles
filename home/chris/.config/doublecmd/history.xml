@@ -2,7 +2,9 @@
 <doublecmd>
   <History>
     <Navigation>
+      <Item>/home/chris/data/Cent/books/cs/python/快看完/</Item>
       <Item>/home/chris/data/Cent/books/cs/sql/</Item>
+      <Item>/home/chris/data/Cent/books/cs/</Item>
       <Item>/home/chris/data/untitled/python/mycourse/</Item>
       <Item>/home/chris/data/untitled/python/mycourse/math10/</Item>
       <Item>/home/chris/data/untitled/python/</Item>
@@ -13,7 +15,6 @@
       <Item>/home/chris/data/Cent/books/math/</Item>
       <Item>/home/chris/data/Cent/books/math/stat/</Item>
       <Item>/home/chris/data/Cent/books/cs/ml/</Item>
-      <Item>/home/chris/data/Cent/books/cs/</Item>
       <Item>/home/chris/data/Cent/books/</Item>
       <Item>/home/chris/data/Cent/books/math/stat/STAT/</Item>
       <Item>/home/chris/Documents/</Item>
@@ -51,8 +52,6 @@
       <Item>/home/chris/.config/doublecmd/</Item>
       <Item>/home/chris/Documents/dotfiles/</Item>
       <Item>/home/chris/test/</Item>
-      <Item>/home/chris/Books/</Item>
-      <Item>/home/chris/.ipython/</Item>
     </Navigation>
     <CommandLine/>
     <FileMask/>

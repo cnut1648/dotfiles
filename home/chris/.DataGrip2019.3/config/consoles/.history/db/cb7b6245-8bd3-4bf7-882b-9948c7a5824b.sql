@@ -1,56 +1,3 @@
-select user.name, v.email
-#      , count(*) as count
-from follow, user join
-     (vendor_topics natural join vendor_ambassador) v
-                on v.email = user.email
-where followee = v.email;
-;-- -. . -..- - / . -. - .-. -.--
-select user.name, v.email
-#      , count(*) as count
-from follow, user join
-     (vendor_topics natural join vendor_ambassador) v
-                on v.email = user.email;
-;-- -. . -..- - / . -. - .-. -.--
-select user.name, v.email
-#      , count(*) as count
-from follow, (user join
-     (vendor_topics natural join vendor_ambassador) v
-                on v.email = user.email);
-;-- -. . -..- - / . -. - .-. -.--
-select user.name, v.email
-#      , count(*) as count
-from follow join (user join
-     (vendor_topics natural join vendor_ambassador) v
-                on v.email = user.email);
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from vendor_ambassador natural join vendor;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from vendor_ambassador natural join vendor on vendor_ambassador.vendorid = vendor.id;
-;-- -. . -..- - / . -. - .-. -.--
-select user.name, v.email
-#      , count(*) as count
-from follow,
-     user join
-    (vendor_ambassador join vendor ve on vendor_ambassador.vendorid = ve.id) v;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-    (vendor_ambassador join vendor ve on vendor_ambassador.vendorid = ve.id) v;
-;-- -. . -..- - / . -. - .-. -.--
-select *
- from   (vendor_ambassador join vendor  on vendor_ambassador.vendorid = vendor.id) v;
-;-- -. . -..- - / . -. - .-. -.--
-select *
- from   (vendor_ambassador join vendor  on vendor_ambassador.vendorid = vendor.id) as v;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from vendor_ambassador join vendor on vendor_ambassador.vendorid = vendor.id;
-;-- -. . -..- - / . -. - .-. -.--
-select *
-from vendor_ambassador join vendor on vendor_ambassador.vendorid = vendor.id
-join user;
-;-- -. . -..- - / . -. - .-. -.--
 select *
 from vendor_ambassador join vendor on vendor_ambassador.vendorid = vendor.id
 join user on vendor_ambassador.email = user.email;
@@ -1508,3 +1455,52 @@ from vendor join (
           from advertisement join user_ad ua on advertisement.id = ua.adid) s
     group by vendorid) s on vendor.id = s.vendorid
 order by ct desc;
+;-- -. . -..- - / . -. - .-. -.--
+select 13 a1, 14 a2
+union
+select 15 a1, 'hello' a2;
+;-- -. . -..- - / . -. - .-. -.--
+SELECT product_cd, open_branch_id,
+ SUM(avail_balance) tot_balance
+FROM account
+GROUP BY product_cd, open_branch_id WITH ROLLUP;
+;-- -. . -..- - / . -. - .-. -.--
+SELECT product_cd, open_branch_id,
+       SUM(avail_balance) tot_balance
+FROM account
+GROUP BY product_cd, open_branch_id WITH ROLLUP;
+;-- -. . -..- - / . -. - .-. -.--
+SELECT product_cd, open_branch_id,
+       SUM(avail_balance) tot_balance
+FROM account
+GROUP BY product_cd, open_branch_id;
+;-- -. . -..- - / . -. - .-. -.--
+SELECT product_cd, open_branch_id,
+       SUM(avail_balance) tot_balance
+FROM account
+GROUP BY product_cd, open_branch_id
+WITH ROLLUP;
+;-- -. . -..- - / . -. - .-. -.--
+SELECT product_cd, open_branch_id,
+       SUM(avail_balance) tot_balance
+FROM account
+GROUP BY product_cd, open_branch_id
+WITH CUBE;
+;-- -. . -..- - / . -. - .-. -.--
+desc account;
+;-- -. . -..- - / . -. - .-. -.--
+show index from account;
+;-- -. . -..- - / . -. - .-. -.--
+create table T(
+    id int, gender ENUM('Male','Female'),
+    constraint pk_p, PRIMARY KEY (id)
+);
+;-- -. . -..- - / . -. - .-. -.--
+create table T(
+    id int, gender ENUM('Male','Female'),
+    constraint pk_p PRIMARY KEY (id)
+);
+;-- -. . -..- - / . -. - .-. -.--
+desc T;
+;-- -. . -..- - / . -. - .-. -.--
+show index from T;
