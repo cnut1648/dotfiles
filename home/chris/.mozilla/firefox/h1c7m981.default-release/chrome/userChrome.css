@@ -43,3 +43,6 @@
   display: none !important;
 }
 
+#nav-bar .bookmark-item[label="Others"] .toolbarbutton-text {
+    display: none !important;
+}

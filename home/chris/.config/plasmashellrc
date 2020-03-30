@@ -8,12 +8,13 @@ Width 3840=1001
 [DownloadDialog Settings]
 Height 2160=2009
 Width 3840=3840
+Window-Maximized 2160x3840=true
 
 [General]
 Number of Actions=0
 
 [PlasmaRunnerManager]
-LaunchCounts=2 services_fcitx-configtool.desktop,3 services_org.manjaro.pamac.manager.desktop,2 services_systemsettings.desktop,2 services_autokey-qt.desktop,2 services_khotkeys.desktop,1 services_nixnote2.desktop,2 services_timeshift-gtk.desktop,1 services_nvidia-settings.desktop,1 services_fcitx.desktop,2 services_org.kde.filelight.desktop,1 services_org.freedesktop.IBus.Setup.desktop
+LaunchCounts=2 services_timeshift-gtk.desktop,2 services_org.kde.filelight.desktop,2 services_systemsettings.desktop,1 services_nixnote2.desktop,1 services_fcitx.desktop,1 services_org.freedesktop.IBus.Setup.desktop,2 services_autokey-qt.desktop,2 services_khotkeys.desktop,2 services_fcitx-configtool.desktop,3 services_org.manjaro.pamac.manager.desktop,1 services_nvidia-settings.desktop
 pluginWhiteList=desktopsessions,services,places,PowerDevil,calculator,unitconverter,shell,bookmarks,recentdocuments,locations,baloosearch
 
 [PlasmaViews][Panel 1][Defaults]
