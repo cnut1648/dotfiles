@@ -6,7 +6,7 @@
     <feature id="refactoring.pushDown" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="refactoring.inlineMacro" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="refactoring.changeSignature" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="codeassists.quickFix" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="codeassists.quickFix" count="1" last-shown="0" last-used="1585691945860" shown-count="0" />
     <feature id="codeassists.altInsert" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.complete.statement" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="refactoring.inlineTypedef" count="0" last-shown="0" last-used="0" shown-count="0" />
@@ -15,10 +15,10 @@
     <feature id="refactoring.pullUp" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.popup.class" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.overrideimplement" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="codeassists.parameterInfo" count="6" last-shown="0" last-used="1582011514235" shown-count="0" />
+    <feature id="codeassists.parameterInfo" count="18" last-shown="0" last-used="1585692158204" shown-count="0" />
     <feature id="refactoring.inlineParameter" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="codeassists.quickdefinition" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="editing.completion.basic" count="2" last-shown="0" last-used="1582011505996" shown-count="0" />
+    <feature id="editing.completion.basic" count="9" last-shown="0" last-used="1585692796100" shown-count="0" />
     <feature id="refactoring.inlineConst" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="tag.name.completion" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="generate.definitions" count="0" last-shown="0" last-used="0" shown-count="0" />
@@ -35,24 +35,24 @@
     <feature id="codeassists.liveTemplates" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.select.in" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="navigation.goto.usages" count="0" last-shown="0" last-used="0" shown-count="0" />
-    <feature id="codeassists.quickjavadoc" count="0" last-shown="0" last-used="0" shown-count="0" />
+    <feature id="codeassists.quickjavadoc" count="3" last-shown="0" last-used="1585679769211" shown-count="0" />
     <feature id="refactoring.introduceParameter" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="refactoring.inlineLocalVar" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="editing.completion.changeSorting" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="refactoring.appCodeIntroduceVariable" count="0" last-shown="0" last-used="0" shown-count="0" />
     <feature id="refactoring.moveMembers" count="0" last-shown="0" last-used="0" shown-count="0" />
     <completionStatsTag>
-      <option name="sparedCharacters" value="10" />
-      <option name="invocations" value="2" />
+      <option name="sparedCharacters" value="31" />
+      <option name="invocations" value="8" />
       <option name="startDate" value="1581926400000" />
-      <option name="dayCount" value="1" />
-      <option name="lastDate" value="1581926400000" />
+      <option name="dayCount" value="3" />
+      <option name="lastDate" value="1585638000000" />
     </completionStatsTag>
     <fixesStatsTag>
-      <option name="invocations" value="0" />
-      <option name="startDate" value="0" />
-      <option name="dayCount" value="0" />
-      <option name="lastDate" value="0" />
+      <option name="invocations" value="1" />
+      <option name="startDate" value="1585638000000" />
+      <option name="dayCount" value="1" />
+      <option name="lastDate" value="1585638000000" />
     </fixesStatsTag>
   </component>
 </application>

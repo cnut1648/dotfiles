@@ -10,11 +10,12 @@
         <mark key="." line="9" column="19" />
         <mark key="^" line="9" column="19" />
       </file>
-      <file name="$USER_HOME$/data/untitled/Cpp/mycpp/main.cpp" timestamp="1582011747481">
-        <mark key="[" line="60" column="0" />
-        <mark key="]" line="60" column="9" />
-        <mark key="." line="60" column="9" />
-        <mark key="^" line="60" column="9" />
+      <file name="$USER_HOME$/data/untitled/Cpp/mycpp/main.cpp" timestamp="1585692829562">
+        <mark key="'" line="16" column="0" />
+        <mark key="[" line="37" column="9" />
+        <mark key="]" line="37" column="14" />
+        <mark key="^" line="37" column="14" />
+        <mark key="." line="37" column="14" />
       </file>
       <file name="$USER_HOME$/data/untitled/Cpp/algorithm/tryy.cpp" timestamp="1582011653114">
         <mark key="[" line="9" column="4" />
@@ -26,41 +27,50 @@
     <jumps>
       <jump line="12" column="16" filename="$USER_HOME$/data/untitled/Cpp/algorithm/try.cpp" />
       <jump line="0" column="0" filename="$USER_HOME$/data/untitled/Cpp/algorithm/try.cpp" />
+      <jump line="79" column="23" filename="$USER_HOME$/data/untitled/Cpp/mycpp/main.cpp" />
+      <jump line="61" column="0" filename="$USER_HOME$/data/untitled/Cpp/mycpp/main.cpp" />
+      <jump line="14" column="0" filename="$USER_HOME$/data/untitled/Cpp/mycpp/main.cpp" />
     </jumps>
     <registers>
-      <register name="0" type="4">
-        <text encoding="base64">ZW51bSBjbGFzcyBDIHtHVU5EQU0sIEpBUEFOfTsKICAgIEMgdmFyMSB7Qzo6R1VOREFNfTsKICAgIEMgdmFyMiB7Qzo6SkFQQU59OwogICAgaWYgKHZhcjEgPCB2YXIyKQogICAgICAgIGNvdXQgPDwgInllcyEiIDw8IGVuZGw7</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIGZvbygpID0gMTA7Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">Ly8vLyAgICBjb3V0IDw8IHMgPDwgZW5kbDsK</text>
+        <text encoding="base64">Cg==</text>
       </register>
-      <register name="&quot;" type="2">
-        <text encoding="base64">Ly8vLyAgICBjb3V0IDw8IHMgPDwgZW5kbDsK</text>
+      <register name="&quot;" type="4">
+        <text>o</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">Ly8gICAgZG91YmxlIHMgPSByZWFkX2FuZF9zdW0oMyk7Cg==</text>
+        <text encoding="base64">Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">ICAgIGVudW0gY2xhc3MgQyB7R1VOREFNLCBKQVBBTn07Cg==</text>
+        <text encoding="base64">ICAgIHAgLT4gZigpOwo=</text>
       </register>
-      <register name="4" type="4">
-        <text encoding="base64">CiAgICBDIHZhcjEge0M6OkdVTkRBTX07CiAgICBDIHZhcjIge0M6OkpBUEFOfTsKICAgIGlmICh2YXIxIDwgdmFyMikKICAgICAgICBjb3V0IDw8ICJ5ZXMhIiA8PCBlbmRsOw==</text>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIHN1cCAqcCA9ICZ5Owo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIGNvdXQgPDwgdmFyMSA8PCBlbmRsOwo=</text>
+        <text encoding="base64">ICAgIHIuZigpOwo=</text>
       </register>
-      <register name="6" type="4">
-        <text encoding="base64">CmRvdWJsZSByZWFkX2FuZF9zdW0oaW50IHMpCnsKICAgIFZlY3RvciB2KHMpOyAvLyBtYWtlIGEgdmVjdG9yIG9mIHMgZWxlbWVudHMKICAgIGZvciAoaW50IGk9MDsgaSE9di5zaXplKCk7ICsraSkKICAgICAgICBjaW4+PnZbaV07IC8vIHJlYWQgaW50byBlbGVtZW50cwogICAgZG91YmxlIHN1bSA9IDA7CiAgICBmb3IgKGludCBpPTA7IGkhPXYuc2l6ZSgpOyArK2kpCiAgICAgICAgc3VtKz12W2ldOyAvLyB0YWtlIHRoZSBzdW0gb2YgdGhlIGVsZW1lbnRzCiAgICByZXR1cm4gc3VtOwp9Ow==</text>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIHN1cCYgciA9IHk7Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">bwo=</text>
+        <text encoding="base64">ICAgIHkuZigpOwo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIHguZigpOwo=</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIHN1YiB5Owo=</text>
       </register>
       <register name="-" type="4">
-        <text encoding="base64">PA==</text>
+        <text>o</text>
       </register>
     </registers>
     <search>
-      <last-dir>0</last-dir>
+      <last-dir>-1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>

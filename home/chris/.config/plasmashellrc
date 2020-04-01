@@ -14,7 +14,7 @@ Window-Maximized 2160x3840=true
 Number of Actions=0
 
 [PlasmaRunnerManager]
-LaunchCounts=2 services_timeshift-gtk.desktop,2 services_org.kde.filelight.desktop,2 services_systemsettings.desktop,1 services_nixnote2.desktop,1 services_fcitx.desktop,1 services_org.freedesktop.IBus.Setup.desktop,2 services_autokey-qt.desktop,2 services_khotkeys.desktop,2 services_fcitx-configtool.desktop,3 services_org.manjaro.pamac.manager.desktop,1 services_nvidia-settings.desktop
+LaunchCounts=2 services_systemsettings.desktop,1 services_nixnote2.desktop,1 services_Zoom.desktop,2 services_khotkeys.desktop,1 services_nvidia-settings.desktop,2 services_autokey-qt.desktop,2 services_fcitx-configtool.desktop,1 services_org.freedesktop.IBus.Setup.desktop,2 services_org.kde.filelight.desktop,2 services_timeshift-gtk.desktop,1 services_fcitx.desktop,3 services_org.manjaro.pamac.manager.desktop
 pluginWhiteList=desktopsessions,services,places,PowerDevil,calculator,unitconverter,shell,bookmarks,recentdocuments,locations,baloosearch
 
 [PlasmaViews][Panel 1][Defaults]

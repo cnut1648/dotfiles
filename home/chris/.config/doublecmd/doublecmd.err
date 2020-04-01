@@ -558,3 +558,98 @@ Unhandled exception: EAccessViolation: Access violation
   $00000000004EACCF line 6243, column 19 of fmain.pas in /usr/lib/doublecmd/doublecmd
   $00007F83D649A723 in /usr/lib/libQt5Core.so.5
 
+--------------- 29-03-2020, 18:35:11 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.14.1, libQt5Pas 5.6.1 | PID 12799
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FB459D72299 in /usr/lib/libQt5Pas.so.1
+  $000000000051B6CD line 314, column 42 of qtobject.inc in /usr/bin/doublecmd
+  $00000000004BA536 line 1615, column 3 of include/application.inc in /usr/bin/doublecmd
+  $00000000004DB081 line 2192, column 3 of fmain.pas in /usr/bin/doublecmd
+  $00000000004AF27C line 2196, column 7 of include/customform.inc in /usr/bin/doublecmd
+  $00000000004AF4FD line 2276, column 3 of include/customform.inc in /usr/bin/doublecmd
+  $000000000043942F in /usr/bin/doublecmd
+  $0000000000647BBD line 5411, column 28 of include/wincontrol.inc in /usr/bin/doublecmd
+  $00000000004ACD72 line 1477, column 31 of include/customform.inc in /usr/bin/doublecmd
+  $00000000006EAD3B line 5702, column 7 of qtwidgets.pas in /usr/bin/doublecmd
+  $00000000006E5459 line 2868, column 3 of qtwidgets.pas in /usr/bin/doublecmd
+  $00000000004EACCF line 6243, column 19 of fmain.pas in /usr/bin/doublecmd
+  $00007FB4584EC723 in /usr/lib/libQt5Core.so.5
+
+--------------- 29-03-2020, 21:57:06 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.14.1, libQt5Pas 5.6.1 | PID 10363
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F692B47D299 in /usr/lib/libQt5Pas.so.1
+  $000000000051B6CD line 314, column 42 of qtobject.inc in /usr/bin/doublecmd
+  $00000000004BA536 line 1615, column 3 of include/application.inc in /usr/bin/doublecmd
+  $00000000004DB081 line 2192, column 3 of fmain.pas in /usr/bin/doublecmd
+  $00000000004AF27C line 2196, column 7 of include/customform.inc in /usr/bin/doublecmd
+  $00000000004AF4FD line 2276, column 3 of include/customform.inc in /usr/bin/doublecmd
+  $000000000043942F in /usr/bin/doublecmd
+  $0000000000647BBD line 5411, column 28 of include/wincontrol.inc in /usr/bin/doublecmd
+  $00000000004ACD72 line 1477, column 31 of include/customform.inc in /usr/bin/doublecmd
+  $00000000006EAD3B line 5702, column 7 of qtwidgets.pas in /usr/bin/doublecmd
+  $00000000006E5459 line 2868, column 3 of qtwidgets.pas in /usr/bin/doublecmd
+  $00000000004EACCF line 6243, column 19 of fmain.pas in /usr/bin/doublecmd
+  $00007F6929BF7723 in /usr/lib/libQt5Core.so.5
+
+--------------- 29-03-2020, 22:16:46 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.14.1, libQt5Pas 5.6.1 | PID 1700
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F121C063299 in /usr/lib/libQt5Pas.so.1
+  $000000000051B6CD line 314, column 42 of qtobject.inc in /usr/bin/doublecmd
+  $00000000004BA536 line 1615, column 3 of include/application.inc in /usr/bin/doublecmd
+  $00000000004DB081 line 2192, column 3 of fmain.pas in /usr/bin/doublecmd
+  $00000000004AF27C line 2196, column 7 of include/customform.inc in /usr/bin/doublecmd
+  $00000000004AF4FD line 2276, column 3 of include/customform.inc in /usr/bin/doublecmd
+  $000000000043942F in /usr/bin/doublecmd
+  $0000000000647BBD line 5411, column 28 of include/wincontrol.inc in /usr/bin/doublecmd
+  $00000000004ACD72 line 1477, column 31 of include/customform.inc in /usr/bin/doublecmd
+  $00000000006EAD3B line 5702, column 7 of qtwidgets.pas in /usr/bin/doublecmd
+  $00000000006E5459 line 2868, column 3 of qtwidgets.pas in /usr/bin/doublecmd
+  $00000000004EACCF line 6243, column 19 of fmain.pas in /usr/bin/doublecmd
+  $00007F121A7DD723 in /usr/lib/libQt5Core.so.5
+
+--------------- 30-03-2020, 08:48:56 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.14.1, libQt5Pas 5.6.1 | PID 2831
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F62F38F2299 in /usr/lib/libQt5Pas.so.1
+  $000000000051B6CD line 314, column 42 of qtobject.inc in /usr/bin/doublecmd
+  $00000000004BA536 line 1615, column 3 of include/application.inc in /usr/bin/doublecmd
+  $00000000004DB081 line 2192, column 3 of fmain.pas in /usr/bin/doublecmd
+  $00000000004AF27C line 2196, column 7 of include/customform.inc in /usr/bin/doublecmd
+  $00000000004AF4FD line 2276, column 3 of include/customform.inc in /usr/bin/doublecmd
+  $000000000043942F in /usr/bin/doublecmd
+  $0000000000647BBD line 5411, column 28 of include/wincontrol.inc in /usr/bin/doublecmd
+  $00000000004ACD72 line 1477, column 31 of include/customform.inc in /usr/bin/doublecmd
+  $00000000006EAD3B line 5702, column 7 of qtwidgets.pas in /usr/bin/doublecmd
+  $00000000006E5459 line 2868, column 3 of qtwidgets.pas in /usr/bin/doublecmd
+  $00000000004EACCF line 6243, column 19 of fmain.pas in /usr/bin/doublecmd
+  $00007F62F206C723 in /usr/lib/libQt5Core.so.5
+
+--------------- 30-03-2020, 09:58:00 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.14.1, libQt5Pas 5.6.1 | PID 17784
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F26A1992299 in /usr/lib/libQt5Pas.so.1
+  $000000000051B6CD line 314, column 42 of qtobject.inc in /usr/bin/doublecmd
+  $00000000004BA536 line 1615, column 3 of include/application.inc in /usr/bin/doublecmd
+  $00000000004DB081 line 2192, column 3 of fmain.pas in /usr/bin/doublecmd
+  $00000000004AF27C line 2196, column 7 of include/customform.inc in /usr/bin/doublecmd
+  $00000000004AF4FD line 2276, column 3 of include/customform.inc in /usr/bin/doublecmd
+  $000000000043942F in /usr/bin/doublecmd
+  $0000000000647BBD line 5411, column 28 of include/wincontrol.inc in /usr/bin/doublecmd
+  $00000000004ACD72 line 1477, column 31 of include/customform.inc in /usr/bin/doublecmd
+  $00000000006EAD3B line 5702, column 7 of qtwidgets.pas in /usr/bin/doublecmd
+  $00000000006E5459 line 2868, column 3 of qtwidgets.pas in /usr/bin/doublecmd
+  $00000000004EACCF line 6243, column 19 of fmain.pas in /usr/bin/doublecmd
+  $00007F26A010C723 in /usr/lib/libQt5Core.so.5
+
