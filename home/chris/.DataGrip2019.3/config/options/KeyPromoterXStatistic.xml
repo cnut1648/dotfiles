@@ -9,6 +9,14 @@
           <Count>6</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Auto-Indent Lines">
+        <Item>
+          <IdeaActionID>AutoIndentLines</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+I'</ShortCut>
+          <Description>Auto-Indent Lines</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Copy">
         <Item>
           <IdeaActionID>$Copy</IdeaActionID>
@@ -46,7 +54,7 @@
           <IdeaActionID>ActivateDatabaseToolWindow</IdeaActionID>
           <ShortCut>'Alt+1'</ShortCut>
           <Description>Database</Description>
-          <Count>8</Count>
+          <Count>10</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete Row">
@@ -70,7 +78,7 @@
           <IdeaActionID>DatabaseView.DropAction</IdeaActionID>
           <ShortCut>'Delete'</ShortCut>
           <Description>Drop</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Execute">
@@ -86,7 +94,7 @@
           <IdeaActionID>ActivateFilesToolWindow</IdeaActionID>
           <ShortCut>'Alt+2'</ShortCut>
           <Description>Files</Description>
-          <Count>10</Count>
+          <Count>22</Count>
         </Item>
       </Statistic>
       <Statistic Action="Find Usages">
@@ -153,6 +161,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Reformat Code">
+        <Item>
+          <IdeaActionID>ReformatCode</IdeaActionID>
+          <ShortCut>'Alt+Shift+L'</ShortCut>
+          <Description>Reformat Code</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Reload Page">
         <Item>
           <IdeaActionID>Console.TableResult.Reload</IdeaActionID>
@@ -169,12 +185,20 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Services">
+        <Item>
+          <IdeaActionID>ActivateServicesToolWindow</IdeaActionID>
+          <ShortCut>'Alt+8'</ShortCut>
+          <Description>Services</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Settings...">
         <Item>
           <IdeaActionID>ShowSettings</IdeaActionID>
           <ShortCut>'Ctrl+Alt+S'</ShortCut>
           <Description>Settings...</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Submit">
@@ -183,6 +207,14 @@
           <ShortCut>'Ctrl+Enter'</ShortCut>
           <Description>Submit</Description>
           <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Surround With...">
+        <Item>
+          <IdeaActionID>SurroundWith</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+T'</ShortCut>
+          <Description>Surround With...</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
     </option>

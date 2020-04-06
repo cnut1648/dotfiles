@@ -507,6 +507,12 @@ noremap <silent> <leader>ga :GscopeFind a <C-R><C-W><cr>
 " current word in ctags database
 noremap <silent> <leader>gz :GscopeFind z <C-R><C-W><cr>
 
+" when in git folder when exit throw error
+" thus fixing
+au FileType gitcommit,gitrebase let g:gutentags_enabled=0
+
+
+
 
 " vista.vim
 nmap <F8> :Vista!!<CR>

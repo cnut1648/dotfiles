@@ -3,18 +3,19 @@
     <local-interpreter path="/usr/bin/node" />
   </component>
   <component name="NotRoamableUiSettings">
+    <option name="fontFace" value="Noto Sans Regular" />
     <option name="fontScale" value="2.0" />
-    <option name="fontSize" value="14" />
+    <option name="fontSize" value="24" />
   </component>
   <component name="PropertiesComponent">
     <property name="ExpandBeforeRunStepsPanel" value="true" />
     <property name="ExpandRunDashboardTypesPanel" value="false" />
     <property name="ask.about.ctrl.y.shortcut" value="true" />
     <property name="evlsprt3.193" value="15" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/data/untitled/Cpp&#10;/usr/bin/gdb&#10;/usr/bin/cmake" />
-    <property name="file.gist.reindex.count" value="16" />
-    <property name="ideavim.statistics.timestamp" value="1585626196171" />
-    <property name="lastTip" value="8" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/data/untitled/Cpp/mycpp/main.cpp&#10;/home/chris/data/untitled/Cpp/mycpp/CMakeLists.txt&#10;/home/chris/data/untitled/Cpp/mycpp&#10;/home/chris/data/untitled/Cpp/ics46/hello/app/main.cpp&#10;/home/chris/data/untitled/Cpp/ics46/hello/CMakeLists.txt&#10;/home/chris/data/untitled/Cpp/CMakeLists.txt&#10;/home/chris/data/untitled/Cpp/ics46&#10;/home/chris/data/untitled/Cpp&#10;/usr/bin/gdb&#10;/usr/bin/cmake" />
+    <property name="file.gist.reindex.count" value="38" />
+    <property name="ideavim.statistics.timestamp" value="1586130604883" />
+    <property name="lastTip" value="9" />
     <property name="tasks.pass.word.conversion.enforced" value="true" />
     <property name="ts.lib.d.ts.version" value="3.7.2" />
   </component>

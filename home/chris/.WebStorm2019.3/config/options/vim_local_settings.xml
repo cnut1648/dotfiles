@@ -2,9 +2,47 @@
   <component name="VimLocalSettings">
     <state version="5" />
     <globalmarks />
-    <filemarks />
+    <filemarks>
+      <file name="$USER_HOME$/data/untitled/js/1/index.html" timestamp="1585856585293">
+        <mark key="[" line="35" column="9" />
+        <mark key="]" line="36" column="24" />
+        <mark key="^" line="36" column="24" />
+        <mark key="." line="36" column="24" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/js/1/test.css" timestamp="1585854888004">
+        <mark key="[" line="76" column="4" />
+        <mark key="]" line="76" column="18" />
+        <mark key="." line="76" column="18" />
+        <mark key="^" line="76" column="18" />
+      </file>
+    </filemarks>
     <jumps />
-    <registers />
+    <registers>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIDxsaT48YSBocmVmPSIjaW50ZXJuYWwiPkludGVybmFsIGxpbms8L2E+PC9saT4K</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">ICA8dWw+CiAgICA8bGk+bGlzdCBvbmU8L2xpPgogICAgPGxpPmxpc3QgdHdvCiAgICA8b2w+CiAgICAgICAgPGxpPm5lc3RlZCBsaXN0IG9uZTwvbGk+CiAgICAgIDxsaT5uZXN0ZWQgbGlzdCB0d288L2xpPgogICAgPC9vbD48L2xpPgogICAgICA8bGk+bGlzdCB0aHJlZTwvbGk+CiAgPC91bD4KPGRpdj4KICA8c3Bhbj5TcGFuICMxLCBpbiB0aGUgZGl2LgogICAgPHNwYW4+U3BhbiAjMiwgaW4gdGhlIHNwYW4gdGhhdCdzIGluIHRoZSBkaXYuPC9zcGFuPgogIDwvc3Bhbj4KPC9kaXY+CjxzcGFuPlNwYW4gIzMsIG5vdCBpbiB0aGUgZGl2IGF0IGFsbC48L3NwYW4+CjxzcGFuPiBTcGFuICMgNDwvc3Bhbj4KPHA+IGhsZWxvIHdvbHJkPC9wPgo8c3Bhbj5hbm90aGVyIHNwYW48L3NwYW4+</text>
+      </register>
+      <register name="&quot;" type="4">
+        <text>border: #a7cece;</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIGZvbnQtc2l6ZTogMTBweDsK</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIGJhY2tncm91bmQtY29sb3I6ICM5ZmNjMjU7Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">ICAgIGJvcmRlcjogIzBkNTM1MzsK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">LypwOmZpcnN0LWxldHRlciB7Ki8KLypmb250LXNpemU6M2VtOyovCi8qfSovCgovKnA6Zmlyc3QtbGluZSB7Ki8KLypmb250LXN0eWxlOml0YWxpYzsqLwp9Cg==</text>
+      </register>
+      <register name="-" type="4">
+        <text>border: #a7cece;</text>
+      </register>
+    </registers>
     <search>
       <last-dir>0</last-dir>
       <show-last>false</show-last>

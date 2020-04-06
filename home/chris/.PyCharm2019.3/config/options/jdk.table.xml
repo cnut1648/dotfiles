@@ -3,7 +3,7 @@
     <jdk version="2">
       <name value="Python 3.7 (python)" />
       <type value="Python SDK" />
-      <version value="Python 3.7.6" />
+      <version value="Python 3.7.7" />
       <homePath value="$USER_HOME$/miniconda3/bin/python3.7" />
       <roots>
         <classPath>

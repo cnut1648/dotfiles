@@ -2,17 +2,6 @@
   <component name="RecentDirectoryProjectsManager">
     <option name="additionalInfo">
       <map>
-        <entry key="$APPLICATION_CONFIG_DIR$/projects/default">
-          <value>
-            <RecentProjectMetaInfo projectWorkspaceId="1X0YXo5DSdi4jC2bzCQHNvbqSd3">
-              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="DB-193.6015.44" />
-              <option name="buildTimestamp" value="1579620248330" />
-              <option name="productionCode" value="DB" />
-              <option name="projectOpenTimestamp" value="1580184522033" />
-            </RecentProjectMetaInfo>
-          </value>
-        </entry>
         <entry key="$APPLICATION_CONFIG_DIR$/projects/try">
           <value>
             <RecentProjectMetaInfo projectWorkspaceId="1X0YZSIK18XrX7jo9Sk1im7VE64">
@@ -27,13 +16,25 @@
         </entry>
         <entry key="$USER_HOME$/data/untitled/sql/course">
           <value>
-            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1XjcvVD1XINJdXGMd4JYXgOOJDQ">
+            <RecentProjectMetaInfo projectWorkspaceId="1XjcvVD1XINJdXGMd4JYXgOOJDQ">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
               <option name="build" value="DB-193.6911.16" />
-              <option name="buildTimestamp" value="1584120937438" />
-              <frame x="11" y="11" width="942" height="1012" />
+              <option name="buildTimestamp" value="1584120954059" />
+              <frame x="1305" y="10" width="605" height="502" />
               <option name="productionCode" value="DB" />
-              <option name="projectOpenTimestamp" value="1585023760273" />
+              <option name="projectOpenTimestamp" value="1585864556270" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$APPLICATION_CONFIG_DIR$/projects/default">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1X0YXo5DSdi4jC2bzCQHNvbqSd3">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="DB-193.6911.16" />
+              <option name="buildTimestamp" value="1584120904085" />
+              <frame x="970" y="1045" width="940" height="1005" />
+              <option name="productionCode" value="DB" />
+              <option name="projectOpenTimestamp" value="1586130965675" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
@@ -41,9 +42,9 @@
     </option>
     <option name="recentPaths">
       <list>
+        <option value="$APPLICATION_CONFIG_DIR$/projects/default" />
         <option value="$USER_HOME$/data/untitled/sql/course" />
         <option value="$APPLICATION_CONFIG_DIR$/projects/try" />
-        <option value="$APPLICATION_CONFIG_DIR$/projects/default" />
       </list>
     </option>
   </component>

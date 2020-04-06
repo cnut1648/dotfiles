@@ -704,6 +704,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.bfi">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.example.bfi-language-plugin" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.bib">
       <plugins>
         <option name="myPlugins">
@@ -5577,19 +5590,6 @@
         </option>
       </plugins>
     </entry>
-    <entry key="*.rlib">
-      <plugins>
-        <option name="myPlugins">
-          <set>
-            <plugin>
-              <option name="myPluginId" value="com.techern.oxidize" />
-              <option name="myPluginName" />
-              <option name="myBundled" value="false" />
-            </plugin>
-          </set>
-        </option>
-      </plugins>
-    </entry>
     <entry key="*.robot">
       <plugins>
         <option name="myPlugins">
@@ -8204,19 +8204,6 @@
           <set>
             <plugin>
               <option name="myPluginId" value="intellij.buck.plugin" />
-              <option name="myPluginName" />
-              <option name="myBundled" value="false" />
-            </plugin>
-          </set>
-        </option>
-      </plugins>
-    </entry>
-    <entry key="Cargo.toml">
-      <plugins>
-        <option name="myPlugins">
-          <set>
-            <plugin>
-              <option name="myPluginId" value="com.techern.oxidize" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>

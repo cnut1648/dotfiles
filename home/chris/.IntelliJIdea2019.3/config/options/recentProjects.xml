@@ -4,20 +4,60 @@
       <map>
         <entry key="$USER_HOME$/data/untitled/java/myapp">
           <value>
-            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1TgoBohEKwdfV5nTgHOi1oSuL87">
+            <RecentProjectMetaInfo projectWorkspaceId="1TgoBohEKwdfV5nTgHOi1oSuL87">
               <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
-              <option name="build" value="IU-193.6015.39" />
-              <option name="buildTimestamp" value="1579579045014" />
-              <frame x="10" y="10" width="1900" height="1015" />
+              <option name="build" value="IU-193.6911.18" />
+              <option name="buildTimestamp" value="1584432179511" />
+              <frame x="1305" y="10" width="605" height="1015" />
               <option name="productionCode" value="IU" />
-              <option name="projectOpenTimestamp" value="1581036568115" />
+              <option name="projectOpenTimestamp" value="1585867622260" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/IdeaProjects/cs122b-spring20">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1a0LoJKjtjSy8bRVTtYWHeySWJd">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-193.6911.18" />
+              <option name="buildTimestamp" value="1584432179511" />
+              <frame x="1305" y="10" width="605" height="1015" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1585867740339" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/data/untitled/web/course/cs122B">
+          <value>
+            <RecentProjectMetaInfo projectWorkspaceId="1a0MIfnq2rZtb9d166gO89H69os">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-193.6911.18" />
+              <option name="buildTimestamp" value="1584432152397" />
+              <frame x="1930" y="1045" width="1890" height="1005" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1585885234699" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/data/untitled/web/course/cs122b-spring20-project1-jdbc-example">
+          <value>
+            <RecentProjectMetaInfo opened="true" projectWorkspaceId="1a15Fh0tKdok6YEuORDF7J2tUnd">
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="IU-193.6911.18" />
+              <option name="buildTimestamp" value="1584432131963" />
+              <frame x="1450" y="1045" width="460" height="1005" extendedState="6" />
+              <option name="productionCode" value="IU" />
+              <option name="projectOpenTimestamp" value="1586130974438" />
             </RecentProjectMetaInfo>
           </value>
         </entry>
       </map>
     </option>
+    <option name="lastProjectLocation" value="$USER_HOME$/data/untitled/web/course" />
     <option name="recentPaths">
       <list>
+        <option value="$USER_HOME$/data/untitled/web/course/cs122b-spring20-project1-jdbc-example" />
+        <option value="$USER_HOME$/data/untitled/web/course/cs122B" />
+        <option value="$USER_HOME$/IdeaProjects/cs122b-spring20" />
         <option value="$USER_HOME$/data/untitled/java/myapp" />
       </list>
     </option>

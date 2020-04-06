@@ -132,7 +132,7 @@ export _ZL_DATA='~/.config/.zlua'
 # escape %- by -, z A-B instead of z A&-B to jump ../A-B
 export _ZL_HYPHEN=1
 # you-should-use hardcore mode
-export YSU_HARDCORE=1
+export YSU_HARDCORE=0
 
 source $ZSH/oh-my-zsh.sh
 

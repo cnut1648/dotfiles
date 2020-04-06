@@ -1,12 +1,20 @@
 <application>
   <component name="DimensionService">
-    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="1858" height="273" />
-    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="1858" height="273" />
-    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="1858" height="273" />
-    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="1858" height="273" />
+    <size key="GridCell.Tab.0.left.0.0.1920.1080" width="366" height="592" />
+    <size key="GridCell.Tab.0.center.0.0.1920.1080" width="366" height="592" />
+    <size key="GridCell.Tab.0.right.0.0.1920.1080" width="366" height="592" />
+    <size key="GridCell.Tab.0.bottom.0.0.1920.1080" width="366" height="592" />
+    <size key="GridCell.Tab.1.left.0.0.1920.1080" width="366" height="269" />
+    <size key="GridCell.Tab.1.center.0.0.1920.1080" width="366" height="269" />
+    <size key="GridCell.Tab.1.right.0.0.1920.1080" width="366" height="269" />
+    <size key="GridCell.Tab.1.bottom.0.0.1920.1080" width="366" height="269" />
+    <size key="GridCell.Tab.0.left.0.0.3840.2160@192dpi" width="1792" height="514" />
+    <size key="GridCell.Tab.0.center.0.0.3840.2160@192dpi" width="1792" height="514" />
+    <size key="GridCell.Tab.0.right.0.0.3840.2160@192dpi" width="1792" height="514" />
+    <size key="GridCell.Tab.0.bottom.0.0.3840.2160@192dpi" width="1792" height="514" />
   </component>
   <component name="WindowManager">
-    <frame x="10" y="10" width="1900" height="1015" />
+    <frame x="1450" y="1045" width="460" height="1005" extendedState="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -23,14 +31,20 @@
     </layout>
   </component>
   <component name="WindowStateApplicationService">
-    <state x="548" y="76" width="428" height="471" key="FileChooserDialogImpl" timestamp="1580160121409">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="1080" y="32" width="856" height="1161" key="FileChooserDialogImpl" timestamp="1585890152443">
+      <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="550" y="87" key="FileChooserDialogImpl/0.0.1920.1035" timestamp="1580159492192" />
     <state x="548" y="76" width="428" height="471" key="FileChooserDialogImpl/0.0.1920.1080" timestamp="1580160121409" />
-    <state x="960" y="389" key="WELCOME_SCREEN" timestamp="1580159493000">
-      <screen x="0" y="0" width="1920" height="1035" />
+    <state x="1080" y="32" width="856" height="1161" key="FileChooserDialogImpl/0.0.3840.2160" timestamp="1585890152443" />
+    <state x="1219" y="193" width="1376" height="1159" key="NewModule_or_Project.wizard" timestamp="1585890156767">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1219" y="193" width="1376" height="1159" key="NewModule_or_Project.wizard/0.0.3840.2160" timestamp="1585890156767" />
+    <state x="1920" y="860" key="WELCOME_SCREEN" timestamp="1585890126494">
+      <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="960" y="389" key="WELCOME_SCREEN/0.0.1920.1035" timestamp="1580159493000" />
+    <state x="1920" y="860" key="WELCOME_SCREEN/0.0.3840.2160" timestamp="1585890126494" />
   </component>
 </application>

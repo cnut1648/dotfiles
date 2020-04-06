@@ -31,11 +31,17 @@
     <property name="DBE.Init.BalloonShown" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1128" y="340" key="com.intellij.ide.util.TipDialog" timestamp="1580184523657">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="1405" y="672" width="1022" height="734" key="SettingsEditor" timestamp="1586131039306">
+      <screen x="0" y="0" width="3840" height="2160" />
+    </state>
+    <state x="1405" y="672" width="1022" height="734" key="SettingsEditor/0.0.3840.2160@0.0.3840.2160" timestamp="1586131039306" />
+    <state x="2248" y="620" key="com.intellij.ide.util.TipDialog" timestamp="1586131021088">
+      <screen x="0" y="0" width="3840" height="2160" />
     </state>
     <state x="1128" y="340" key="com.intellij.ide.util.TipDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1580184523657" />
+    <state x="2248" y="620" key="com.intellij.ide.util.TipDialog/0.0.3840.2160@0.0.3840.2160" timestamp="1586131021088" />
   </component>
 </project>

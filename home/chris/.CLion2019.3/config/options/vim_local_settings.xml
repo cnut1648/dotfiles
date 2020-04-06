@@ -3,6 +3,15 @@
     <state version="5" />
     <globalmarks />
     <filemarks>
+      <file name="/GDB" timestamp="1585731585389">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/Cpp/ics46/hello/app/main.cpp" timestamp="1585714420985">
+        <mark key="[" line="6" column="12" />
+        <mark key="]" line="6" column="23" />
+        <mark key="." line="6" column="23" />
+        <mark key="^" line="6" column="23" />
+      </file>
       <file name="$USER_HOME$/data/untitled/Cpp/algorithm/try.cpp" timestamp="1582011401380">
         <mark key="'" line="0" column="0" />
         <mark key="[" line="9" column="0" />
@@ -10,18 +19,52 @@
         <mark key="." line="9" column="19" />
         <mark key="^" line="9" column="19" />
       </file>
-      <file name="$USER_HOME$/data/untitled/Cpp/mycpp/main.cpp" timestamp="1585692829562">
+      <file name="$USER_HOME$/data/untitled/Cpp/mycpp/String.hpp" timestamp="1585731070508">
+        <mark key="'" line="9" column="0" />
+        <mark key="[" line="115" column="31" />
+        <mark key="]" line="115" column="48" />
+        <mark key="^" line="128" column="3" />
+        <mark key="." line="128" column="3" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/Cpp/mycpp/main.cpp" timestamp="1585731785375">
         <mark key="'" line="16" column="0" />
-        <mark key="[" line="37" column="9" />
-        <mark key="]" line="37" column="14" />
-        <mark key="^" line="37" column="14" />
-        <mark key="." line="37" column="14" />
+        <mark key="[" line="37" column="0" />
+        <mark key="]" line="37" column="0" />
+        <mark key="." line="37" column="0" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/Cpp/mycpp/s.cpp" timestamp="1585715447978">
+        <mark key="'" line="107" column="0" />
+        <mark key="[" line="3" column="10" />
+        <mark key="]" line="3" column="39" />
+        <mark key="^" line="3" column="39" />
+        <mark key="." line="3" column="39" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/Cpp/mycpp/String.cpp_dir/fragment.cpp" timestamp="1585728586684">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/Cpp/mycpp/String.cpp" timestamp="1585733560998">
+        <mark key="'" line="139" column="12" />
+        <mark key="[" line="137" column="38" />
+        <mark key="]" line="138" column="37" />
+        <mark key="^" line="138" column="37" />
+        <mark key="." line="138" column="37" />
       </file>
       <file name="$USER_HOME$/data/untitled/Cpp/algorithm/tryy.cpp" timestamp="1582011653114">
         <mark key="[" line="9" column="4" />
         <mark key="]" line="13" column="30" />
         <mark key="^" line="13" column="30" />
         <mark key="." line="14" column="0" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/Cpp/mycpp/CMakeLists.txt" timestamp="1585716776302">
+        <mark key="[" line="1" column="8" />
+        <mark key="]" line="1" column="8" />
+        <mark key="." line="1" column="8" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/Cpp/ics46/proj0/core/String.hpp" timestamp="1585715615937">
+        <mark key="'" line="0" column="0" />
+      </file>
+      <file name="/oc-debug-editor-when-no-source-position-available.txt" timestamp="1585728586697">
+        <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
     <jumps>
@@ -30,52 +73,76 @@
       <jump line="79" column="23" filename="$USER_HOME$/data/untitled/Cpp/mycpp/main.cpp" />
       <jump line="61" column="0" filename="$USER_HOME$/data/untitled/Cpp/mycpp/main.cpp" />
       <jump line="14" column="0" filename="$USER_HOME$/data/untitled/Cpp/mycpp/main.cpp" />
+      <jump line="130" column="0" filename="$USER_HOME$/data/untitled/Cpp/ics46/proj0/core/String.hpp" />
+      <jump line="0" column="0" filename="$USER_HOME$/data/untitled/Cpp/ics46/proj0/core/String.hpp" />
+      <jump line="130" column="0" filename="$USER_HOME$/data/untitled/Cpp/mycpp/s.cpp" />
+      <jump line="132" column="0" filename="$USER_HOME$/data/untitled/Cpp/mycpp/s.cpp" />
+      <jump line="28" column="0" filename="$USER_HOME$/data/untitled/Cpp/mycpp/String.hpp" />
+      <jump line="9" column="0" filename="$USER_HOME$/data/untitled/Cpp/mycpp/String.hpp" />
+      <jump line="13" column="7" filename="$USER_HOME$/data/untitled/Cpp/mycpp/String.cpp" />
+      <jump line="59" column="31" filename="$USER_HOME$/data/untitled/Cpp/mycpp/String.cpp" />
+      <jump line="62" column="13" filename="$USER_HOME$/data/untitled/Cpp/mycpp/String.cpp" />
+      <jump line="66" column="17" filename="$USER_HOME$/data/untitled/Cpp/mycpp/String.cpp" />
+      <jump line="73" column="19" filename="$USER_HOME$/data/untitled/Cpp/mycpp/String.cpp" />
+      <jump line="74" column="28" filename="$USER_HOME$/data/untitled/Cpp/mycpp/String.cpp" />
+      <jump line="139" column="12" filename="$USER_HOME$/data/untitled/Cpp/mycpp/String.cpp" />
     </jumps>
     <registers>
-      <register name="0" type="2">
-        <text encoding="base64">ICAgIGZvbygpID0gMTA7Cg==</text>
-      </register>
-      <register name="1" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
       <register name="&quot;" type="4">
-        <text>o</text>
-      </register>
-      <register name="2" type="2">
-        <text encoding="base64">Cg==</text>
-      </register>
-      <register name="3" type="2">
-        <text encoding="base64">ICAgIHAgLT4gZigpOwo=</text>
-      </register>
-      <register name="4" type="2">
-        <text encoding="base64">ICAgIHN1cCAqcCA9ICZ5Owo=</text>
-      </register>
-      <register name="5" type="2">
-        <text encoding="base64">ICAgIHIuZigpOwo=</text>
-      </register>
-      <register name="6" type="2">
-        <text encoding="base64">ICAgIHN1cCYgciA9IHk7Cg==</text>
-      </register>
-      <register name="7" type="2">
-        <text encoding="base64">ICAgIHkuZigpOwo=</text>
-      </register>
-      <register name="8" type="2">
-        <text encoding="base64">ICAgIHguZigpOwo=</text>
-      </register>
-      <register name="9" type="2">
-        <text encoding="base64">ICAgIHN1YiB5Owo=</text>
+        <text>d</text>
       </register>
       <register name="-" type="4">
-        <text>o</text>
+        <text>d</text>
+      </register>
+      <register name="/" type="4">
+        <text>[len]</text>
+      </register>
+      <register name="0" type="4">
+        <text encoding="base64">Y2hhciAqdG1wID0gbmV3IGNoYXJbbGVuXTsKICAgIGZvciAoaW50IGkgPSAwOyBpIDwgbGVuOyBpKyspIHRtcFtpXSA9IGF0KGkpOwogICAgZGVsZXRlW10gaXRlbTs=</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">ICAgIGRlbGV0ZVtdIHRtcDsK</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">ICAgIGludCBpID0gMDsK</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">I2luY2x1ZGUgPGlvc3RyZWFtPgo=</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">dXNpbmcgbmFtZXNwYWNlIHN0ZDsK</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgIHRtcFtpXSA9IHMuYXQK</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgIGZvciAoaSA9IDA7IGkgPCBsZW47IGkrKykgdG1wW2ldID0gYXQoaSk7Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgIGludCBpOwo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">ICAgIGNoYXIgKnRtcCA9IG5ldyBjaGFyW2xlbisyXTsK</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgIAo=</text>
       </register>
     </registers>
     <search>
-      <last-dir>-1</last-dir>
+      <last-search>[len]</last-search>
+      <last-offset />
+      <last-pattern>[len]</last-pattern>
+      <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
     <history>
-      <history-search />
-      <history-cmd />
+      <history-search>
+        <entry>len</entry>
+        <entry>[len]</entry>
+      </history-search>
+      <history-cmd>
+        <entry>call append(line(&quot;.&quot;),   repeat([&quot;&quot;], v:count1))</entry>
+      </history-cmd>
       <history-expr />
       <history-input />
     </history>

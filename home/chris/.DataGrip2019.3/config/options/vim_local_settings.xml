@@ -3,73 +3,61 @@
     <state version="5" />
     <globalmarks />
     <filemarks>
-      <file name="/ALL_PLUGINS [chris@localhost]" timestamp="1585027683572">
+      <file name="/stars_in_movies [chris@localhost]" timestamp="1585866919000">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/console" timestamp="1585023761419">
+      <file name="/moviedb.stars" timestamp="1585866931552">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/T [chris@localhost]" timestamp="1585026896290">
+      <file name="/moviedb.movies" timestamp="1585866821744">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/console_9" timestamp="1585023780747">
+      <file name="/movies [chris@localhost]" timestamp="1585866821719">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_9.sql" timestamp="1585026289801">
-        <mark key="'" line="0" column="19" />
-        <mark key="[" line="0" column="0" />
-        <mark key="]" line="1" column="31" />
-        <mark key="." line="3" column="0" />
-        <mark key="^" line="4" column="0" />
-      </file>
-      <file name="/large.account" timestamp="1585026270546">
+      <file name="/customers [chris@localhost]" timestamp="1585866826304">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/dummy.sql" timestamp="1585027698603">
+      <file name="/creditcards [chris@localhost]" timestamp="1585866798774">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/try.T" timestamp="1585026896383">
+      <file name="/moviedb.stars_in_movies" timestamp="1585866919027">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/information_schema.APPLICABLE_ROLES" timestamp="1585027692295">
+      <file name="/stars [chris@localhost]" timestamp="1585866931529">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/ENABLED_ROLES [chris@localhost]" timestamp="1585027696517">
+      <file name="/genres [chris@localhost]" timestamp="1585866813011">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_10.sql" timestamp="1585026908119">
-        <mark key="[" line="0" column="5" />
-        <mark key="]" line="0" column="5" />
-        <mark key="." line="0" column="5" />
-        <mark key="^" line="0" column="5" />
-      </file>
-      <file name="/APPLICABLE_ROLES [chris@localhost]" timestamp="1585027692288">
+      <file name="/moviedb.ratings" timestamp="1585866940639">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/data/untitled/sql/course/122A/table_create.sql" timestamp="1585026805110" />
-      <file name="$USER_HOME$/data/untitled/sql/course/122A/Script.sql" timestamp="1583385980069">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="41" column="17" />
-        <mark key="]" line="41" column="17" />
-        <mark key="^" line="41" column="17" />
-        <mark key="." line="41" column="17" />
-      </file>
-      <file name="/console_3" timestamp="1585026787821">
+      <file name="/sales [chris@localhost]" timestamp="1585866932376">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/account [chris@localhost]" timestamp="1585026281228">
+      <file name="/genres_in_movies [chris@localhost]" timestamp="1585866814468">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/information_schema.ENABLED_ROLES" timestamp="1585027696544">
+      <file name="/moviedb.sales" timestamp="1585866932396">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/console_10" timestamp="1585026296971">
+      <file name="/moviedb.genres_in_movies" timestamp="1585866814475">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/information_schema.ALL_PLUGINS" timestamp="1585027683596">
+      <file name="/moviedb.creditcards" timestamp="1585866798796">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="/try.account" timestamp="1585026281258">
+      <file name="/moviedb.genres" timestamp="1585866813037">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/dummy.sql" timestamp="1585867026753">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/moviedb.customers" timestamp="1585866826323">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/ratings [chris@localhost]" timestamp="1585866940615">
         <mark key="[" line="0" column="0" />
       </file>
     </filemarks>
@@ -106,48 +94,59 @@
       <jump line="71" column="14" filename="$USER_HOME$/data/untitled/sql/course/122A/Script.sql" />
       <jump line="0" column="0" filename="$USER_HOME$/data/untitled/sql/course/122A/Script.sql" />
       <jump line="0" column="19" filename="$APPLICATION_CONFIG_DIR$/consoles/db/cb7b6245-8bd3-4bf7-882b-9948c7a5824b/console_9.sql" />
+      <jump line="0" column="4" filename="$USER_HOME$/data/untitled/sql/course/cs122B/createtable.sql" />
     </jumps>
     <registers>
-      <register name="&quot;" type="4">
-        <text>account</text>
+      <register name="&quot;" type="2">
+        <text>CREATE TABLE IF NOT EXISTS creditcards(
+	id VARCHAR(20) NOT NULL,
+	firstName VARCHAR(50) NOT NULL,
+	lastName VARCHAR(50) NOT NULL,
+	expiration DATE NOT NULL,
+    PRIMARY KEY (id)
+	);</text>
       </register>
       <register name="-" type="4">
-        <text>account</text>
+        <text>s</text>
       </register>
       <register name="/" type="4">
         <text>teaches</text>
       </register>
       <register name="0" type="2">
-        <text encoding="base64">U0VMRUNUIHByb2R1Y3RfY2QsIG9wZW5fYnJhbmNoX2lkLAogU1VNKGF2YWlsX2JhbGFuY2UpIHRvdF9iYWxhbmNlCg==</text>
+        <text encoding="base64">ICAgIENPTlNUUkFJTlQgUFJJTUFSWSBLRVkgKGlkKQo=</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgICAgICAgICAgICAK</text>
+        <text>CREATE TABLE IF NOT EXISTS creditcards(
+	id VARCHAR(20) NOT NULL,
+	firstName VARCHAR(50) NOT NULL,
+	lastName VARCHAR(50) NOT NULL,
+	expiration DATE NOT NULL,
+    PRIMARY KEY (id)
+	);</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">U0VMRUNUIHByb2R1Y3RfY2QsIG9wZW5fYnJhbmNoX2lkLAogICAgICAgU1VNKGF2YWlsX2JhbGFuY2UpIHRvdF9iYWxhbmNlCkZST00gYWNjb3VudApHUk9VUCBCWSBwcm9kdWN0X2NkLCBvcGVuX2JyYW5jaF9pZApXSVRIIENVQkU7Cg==</text>
-      </register>
-      <register name="3" type="2">
         <text encoding="base64">Cg==</text>
       </register>
+      <register name="3" type="2">
+        <text encoding="base64">ICAgIAo=</text>
+      </register>
       <register name="4" type="2">
-        <text encoding="base64">LT4gR1JPVVAgQlkgcHJvZHVjdF9jZCwgb3Blbl9icmFuY2hfaWQgV0lUSCBST0xMVVA7Cg==</text>
+        <text encoding="base64">ICAgIHNhbGVfZGF0ZSBEQVRFIE5PVCBOVUxMLAo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">RlJPTSBhY2NvdW50Cg==</text>
+        <text encoding="base64">Q1JFQVRFIFRBQkxFIElGIE5PVCBFWElTVFMgc2FsZXMoCglpZCBJTlQgUFJJTUFSWSBLRVkgTk9UIE5VTEwgQVVUT19JTkNSRU1FTlQsCgljdXN0b21lcl9pZCBJTlQgTk9UIE5VTEwsCgltb3ZpZXNfaWQgSU5UIE5PVCBOVUxMLAoJc2FsZV9kYXRlIERBVEUgTk9UIE5VTEwsCglGT1JFSUdOIEtFWSAoY3VzdG9tZXJfaWQpIFJFRkVSRU5DRVMgY3VzdG9tZXJzKGlkKSBvbiBERUxFVEUgQ0FTQ0FERSwKCUZPUkVJR04gS0VZIChtb3ZpZXNfaWQpIFJFRkVSRU5DRVMgbW92aWVzKGlkKQoJKTsK</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgICAgIAo=</text>
+        <text encoding="base64">ICAgIENPTlNUUkFJTlQgUFJJTUFSWSBLRVkgKGdlbnJlSWQpLAo=</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgICAgIAo=</text>
+        <text encoding="base64">ICAgIENPTlNUUkFJTlQgUFJJTUFSWSBLRVkgKGdlbnJlSWQpCg==</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">LT4K</text>
+        <text encoding="base64">Q1JFQVRFIFRBQkxFIElGIE5PVCBFWElTVFMgY3VzdG9tZXJzKAoJaWQgSU5UIFBSSU1BUlkgS0VZIE5PVCBOVUxMIEFVVE9fSU5DUkVNRU5ULAoJZmlyc3RfbmFtZSBWQVJDSEFSKDUwKSBOT1QgTlVMTCwKCWxhc3RfbmFtZSBWQVJDSEFSKDUwKSBOT1QgTlVMTCwKCWNjX2lkIFZBUkNIQVIoMjApIE5PVCBOVUxMLAoJYWRkcmVzcyBWQVJDSEFSKDIwMCkgTk9UIE5VTEwsCgllbWFpbCBWQVJDSEFSKDUwKSBOT1QgTlVMTCwKCXBhc3N3b3JkIFZBUkNIQVIoMjApIE5PVCBOVUxMLAoJRk9SRUlHTiBLRVkgKGNjX2lkKSBSRUZFUkVOQ0VTIGNyZWRpdGNhcmRzKGlkKSBvbiBERUxFVEUgQ0FTQ0FERQoJKTsK</text>
       </register>
       <register name="9" type="2">
-        <text>select 13 a1, 14 a2
-union
-select 15 a1, 'hello' a2</text>
+        <text encoding="base64">ICAgIENPTlNUUkFJTlQgUFJJTUFSWSBLRVkgKGlkKQo=</text>
       </register>
       <register name=":" type="4">
         <text>w</text>
