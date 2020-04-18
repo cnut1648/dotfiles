@@ -655,6 +655,9 @@ nmap <leader>e :CocCommand explorer --width 30<CR>
 let g:suda_smart_edit = 1
 cnoremap w!! :w suda://%
 
+" Sayonara
+cnoremap qq :Sayonara
+
 " mundo
 set undofile
 set undodir=~/.config/nvim/undo

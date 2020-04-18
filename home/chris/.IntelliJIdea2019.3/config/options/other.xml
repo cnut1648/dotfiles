@@ -8,32 +8,39 @@
     <option name="fontSize" value="24" />
   </component>
   <component name="PropertiesComponent">
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.60286677" />
+    <property name="Copy.OpenInEditor" value="true" />
     <property name="ExpandBeforeRunStepsPanel" value="true" />
     <property name="ExpandRunDashboardTypesPanel" value="false" />
     <property name="FileChooser.ShowPath" value="true" />
-    <property name="InstalledPluginsSearchHistory" value="tomc" />
-    <property name="MarketplacePluginsSearchHistory" value="tomc" />
+    <property name="InstalledPluginsSearchHistory" value="debugg&#10;debu&#10;de&#10;d&#10;liveedit" />
+    <property name="MarketplacePluginsSearchHistory" value="liveedit&#10;tomc" />
     <property name="PluginConfigurable.selectionTab" value="1" />
     <property name="ProjectStructure.TopLevelElements" value="0.18397999" />
+    <property name="RunConfigurable.dividerProportion" value="0.2206288" />
+    <property name="SettingsSearchHistory" value="maven&#10;shortcut" />
     <property name="ask.about.ctrl.y.shortcut" value="true" />
     <property name="build.toolwindow.Sync.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
     <property name="build.toolwindow.run.selection.state" value="com.intellij.build.BuildTreeConsoleView" />
     <property name="com.intellij.openapi.roots.ui.configuration.TabbedModuleEditor.selectedEditor" value="Sources" />
     <property name="create.project.preferred.importer" value="Maven" />
+    <property name="decompiler.legal.notice.accepted" value="true" />
     <property name="defaultJdkConfigured" value="true" />
     <property name="evlsprt3.193" value="10" />
-    <property name="file.chooser.recent.files" value="$USER_HOME$/data/untitled/web/course/cs122b-spring20-project1-jdbc-example&#10;/home/chris/data/untitled/web/course/cs122b-spring20-project1-jdbc-example/pom.xml&#10;/usr/lib/jvm/java-8-openjdk&#10;/usr/share/tomcat8&#10;/home/chris/data/untitled/web/course/cs122B&#10;/home/chris/data/untitled/java/myapp" />
-    <property name="file.gist.reindex.count" value="18" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/data/untitled/web/course/cs122b/web/META-INF&#10;/home/chris/data/untitled/web/course/cs122b&#10;/home/chris/data/untitled/web/course/cs122b-spring20-team-111&#10;/home/chris/data/untitled/web/course/cs122b-spring20-project1-api-example&#10;/home/chris/data/untitled/web/course/cs122b-spring20-project1-star-example&#10;/home/chris/data/untitled/web/course/cs122b-spring20-project1-jdbc-example&#10;/home/chris/data/untitled/web/course/cs122b-spring20-project1-jdbc-example/pom.xml&#10;/usr/lib/jvm/java-8-openjdk&#10;/usr/share/tomcat8&#10;/home/chris/data/untitled/web/course/cs122B&#10;/home/chris/data/untitled/java/myapp" />
+    <property name="file.gist.reindex.count" value="88" />
+    <property name="fileTypeChangedCounter" value="2" />
     <property name="ide.memory.adjusted" value="true" />
-    <property name="ideavim.statistics.timestamp" value="1586130975533" />
+    <property name="ideavim.statistics.timestamp" value="1586564146734" />
     <property name="installed.kotlin.plugin.version" value="1.3.61-release-IJ2019.3-1" />
     <property name="jdk.selected.JAVA_MODULE" value="13" />
+    <property name="js.chrome.debugger.port.98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" value="33707" />
     <property name="kotlin.plugin.releaseDate" value="1.3.61-release-IJ2019.3-1:2019-11-26" />
-    <property name="last.imported.location" value="$USER_HOME$/data/untitled/web/course/cs122b-spring20-project1-jdbc-example" />
-    <property name="lastTip" value="10" />
+    <property name="last.imported.location" value="$USER_HOME$/data/untitled/web/course/cs122b" />
+    <property name="lastTip" value="37" />
     <property name="packagesearch.endpoint.url.fulltext" value="https://package-search.services.jetbrains.com/api/search/idea/fulltext" />
     <property name="packagesearch.endpoint.url.suggest" value="https://package-search.services.jetbrains.com/api/search/idea/suggest" />
-    <property name="packagesearch.status.updated.ts" value="1585867622155" />
+    <property name="packagesearch.status.updated.ts" value="1586480767644" />
     <property name="project.wizard.group" value="JAVA_MODULE" />
     <property name="tasks.pass.word.conversion.enforced" value="true" />
     <property name="ts.lib.d.ts.version" value="3.7.2" />

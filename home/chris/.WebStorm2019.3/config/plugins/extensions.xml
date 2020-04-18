@@ -3968,6 +3968,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.leex">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.elixir_lang" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.letter">
       <plugins>
         <option name="myPlugins">
@@ -6418,6 +6431,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.rpmmacros">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.carbonblack.intellij.rpmspec" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.rq">
       <plugins>
         <option name="myPlugins">
@@ -6898,6 +6924,19 @@
           <set>
             <plugin>
               <option name="myPluginId" value="com.sharedvocabs.plugins.rdfandsparql" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.spec">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.carbonblack.intellij.rpmspec" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
@@ -9010,6 +9049,11 @@
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
+            <plugin>
+              <option name="myPluginId" value="pro.bashsupport" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
@@ -9020,6 +9064,11 @@
           <set>
             <plugin>
               <option name="myPluginId" value="BashSupport" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="pro.bashsupport" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
@@ -9036,6 +9085,11 @@
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
+            <plugin>
+              <option name="myPluginId" value="pro.bashsupport" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
           </set>
         </option>
       </plugins>
@@ -9046,6 +9100,11 @@
           <set>
             <plugin>
               <option name="myPluginId" value="BashSupport" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="pro.bashsupport" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>
@@ -9142,6 +9201,11 @@
           <set>
             <plugin>
               <option name="myPluginId" value="BashSupport" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="pro.bashsupport" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
             </plugin>

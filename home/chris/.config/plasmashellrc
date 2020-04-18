@@ -14,8 +14,8 @@ Window-Maximized 2160x3840=true
 Number of Actions=0
 
 [PlasmaRunnerManager]
-LaunchCounts=1 services_nixnote2.desktop,1 services_org.freedesktop.IBus.Setup.desktop,2 services_org.kde.filelight.desktop,1 services_nvidia-settings.desktop,1 services_Zoom.desktop,1 services_fcitx.desktop,3 services_org.manjaro.pamac.manager.desktop,3 services_systemsettings.desktop,2 services_timeshift-gtk.desktop,2 services_khotkeys.desktop,2 services_fcitx-configtool.desktop,2 services_autokey-qt.desktop
-pluginWhiteList=desktopsessions,services,places,PowerDevil,calculator,unitconverter,shell,bookmarks,recentdocuments,locations,baloosearch
+LaunchCounts=1 services_nixnote2.desktop,1 services_fcitx.desktop,1 services_Zoom.desktop,1 services_org.freedesktop.IBus.Setup.desktop,3 services_systemsettings.desktop,2 services_khotkeys.desktop,1 services_nvidia-settings.desktop,2 services_autokey-qt.desktop,3 services_org.manjaro.pamac.manager.desktop,2 services_fcitx-configtool.desktop,2 services_org.kde.filelight.desktop,2 services_timeshift-gtk.desktop,1 services_libreoffice-startcenter.desktop
+pluginWhiteList=services,bookmarks,baloosearch
 
 [PlasmaViews][Panel 1][Defaults]
 thickness=90

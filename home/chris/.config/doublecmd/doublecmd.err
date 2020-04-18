@@ -748,3 +748,102 @@ Unhandled exception: EAccessViolation: Access violation
   $00000000004EACCF line 6243, column 19 of fmain.pas in /usr/bin/doublecmd
   $00007FE090F97723 in /usr/lib/libQt5Core.so.5
 
+--------------- 07-04-2020, 17:37:55 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.14.1, libQt5Pas 5.6.1 | PID 1832
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FA568B43299 in /usr/lib/libQt5Pas.so.1
+  $000000000051B6CD line 314, column 42 of qtobject.inc in /usr/bin/doublecmd
+  $00000000004BA536 line 1615, column 3 of include/application.inc in /usr/bin/doublecmd
+  $00000000004DB081 line 2192, column 3 of fmain.pas in /usr/bin/doublecmd
+  $00000000004AF27C line 2196, column 7 of include/customform.inc in /usr/bin/doublecmd
+  $00000000004AF4FD line 2276, column 3 of include/customform.inc in /usr/bin/doublecmd
+  $000000000043942F in /usr/bin/doublecmd
+  $0000000000647BBD line 5411, column 28 of include/wincontrol.inc in /usr/bin/doublecmd
+  $00000000004ACD72 line 1477, column 31 of include/customform.inc in /usr/bin/doublecmd
+  $00000000006EAD3B line 5702, column 7 of qtwidgets.pas in /usr/bin/doublecmd
+  $00000000006E5459 line 2868, column 3 of qtwidgets.pas in /usr/bin/doublecmd
+  $00000000004EACCF line 6243, column 19 of fmain.pas in /usr/bin/doublecmd
+  $00007FA5672BD723 in /usr/lib/libQt5Core.so.5
+
+--------------- 08-04-2020, 19:26:04 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.14.2, libQt5Pas 5.6.1 | PID 1816
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F16E3DEA952 in /usr/lib/libQt5Pas.so.1
+  $00007F16E3DEA8A8 in /usr/lib/libQt5Pas.so.1
+  $0000000000708433 line 17806, column 75 of qtwidgets.pas in /usr/bin/doublecmd
+  $0000000000707C0F line 17570, column 3 of qtwidgets.pas in /usr/bin/doublecmd
+  $0000000000438F00 in /usr/bin/doublecmd
+  $00000000006E438E line 2270, column 3 of qtwidgets.pas in /usr/bin/doublecmd
+  $00000000006E43C4 line 2276, column 3 of qtwidgets.pas in /usr/bin/doublecmd
+  $00007F16E3E3F80D in /usr/lib/libQt5Pas.so.1
+  $00007F16E3E3F5C6 in /usr/lib/libQt5Pas.so.1
+  $00007F16E251DD10 in /usr/lib/libQt5Core.so.5
+  $00007F16E25183C0 in /usr/lib/libQt5Core.so.5
+
+--------------- 08-04-2020, 19:26:05 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.14.2, libQt5Pas 5.6.1 | PID 1816
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F16E3DEA952 in /usr/lib/libQt5Pas.so.1
+  $00007F16E3DEA8A8 in /usr/lib/libQt5Pas.so.1
+  $0000000000708433 line 17806, column 75 of qtwidgets.pas in /usr/bin/doublecmd
+  $0000000000707C0F line 17570, column 3 of qtwidgets.pas in /usr/bin/doublecmd
+  $0000000000438F00 in /usr/bin/doublecmd
+  $00000000006E438E line 2270, column 3 of qtwidgets.pas in /usr/bin/doublecmd
+  $00000000007B8790 line 208, column 24 of qtwscontrols.pp in /usr/bin/doublecmd
+  $000000000064D638 line 7861, column 26 of include/wincontrol.inc in /usr/bin/doublecmd
+  $000000000065FC65 line 47, column 3 of include/customcontrol.inc in /usr/bin/doublecmd
+  $000000000064782F line 5313, column 5 of include/wincontrol.inc in /usr/bin/doublecmd
+  $0000000000647819 line 5309, column 11 of include/wincontrol.inc in /usr/bin/doublecmd
+  $000000000064A67C line 6606, column 5 of include/wincontrol.inc in /usr/bin/doublecmd
+  $000000000065FBF1 line 40, column 3 of include/customcontrol.inc in /usr/bin/doublecmd
+  $00000000004A8041 line 316, column 3 of include/scrollingwincontrol.inc in /usr/bin/doublecmd
+  $00000000004A99D1 line 212, column 5 of include/customform.inc in /usr/bin/doublecmd
+  $0000000000438F00 in /usr/bin/doublecmd
+  $00000000004A4DF6 line 1934, column 3 of forms.pp in /usr/bin/doublecmd
+
+--------------- 10-04-2020, 16:18:19 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.14.2, libQt5Pas 5.6.1 | PID 1852
+Unhandled exception: EListError: List index (9) out of bounds
+  Stack trace:
+  $000000000045ECC0 in /usr/bin/doublecmd
+  $000000000076C1D5 line 6539, column 3 of grids.pas in /usr/bin/doublecmd
+  $0000000000A42C70 line 1998, column 3 of fileviews/ucolumnsfileview.pas in /usr/bin/doublecmd
+  $0000000000655E57 line 2462, column 22 of include/control.inc in /usr/bin/doublecmd
+  $000000000043942F in /usr/bin/doublecmd
+  $0000000000647BBD line 5411, column 28 of include/wincontrol.inc in /usr/bin/doublecmd
+  $000000000076692A line 4833, column 31 of grids.pas in /usr/bin/doublecmd
+  $00000000006EAD3B line 5702, column 7 of qtwidgets.pas in /usr/bin/doublecmd
+  $00000000006E6B2A line 3616, column 7 of qtwidgets.pas in /usr/bin/doublecmd
+  $00000000006E4BA0 line 2642, column 46 of qtwidgets.pas in /usr/bin/doublecmd
+  $0000000000706C22 line 17141, column 15 of qtwidgets.pas in /usr/bin/doublecmd
+  $0000000000707EA9 line 17650, column 9 of qtwidgets.pas in /usr/bin/doublecmd
+  $00007F9AF03159D8 in /usr/lib/libQt5Pas.so.1
+  $00007F9AEEA13203 in /usr/lib/libQt5Core.so.5
+
+--------------- 10-04-2020, 16:18:22 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.14.2, libQt5Pas 5.6.1 | PID 1852
+Unhandled exception: EListError: List index (9) out of bounds
+  Stack trace:
+  $000000000045ECC0 in /usr/bin/doublecmd
+  $000000000076C1D5 line 6539, column 3 of grids.pas in /usr/bin/doublecmd
+  $0000000000A42C70 line 1998, column 3 of fileviews/ucolumnsfileview.pas in /usr/bin/doublecmd
+  $0000000000655E57 line 2462, column 22 of include/control.inc in /usr/bin/doublecmd
+  $000000000043942F in /usr/bin/doublecmd
+  $0000000000647BBD line 5411, column 28 of include/wincontrol.inc in /usr/bin/doublecmd
+  $000000000076692A line 4833, column 31 of grids.pas in /usr/bin/doublecmd
+  $00000000006EAD3B line 5702, column 7 of qtwidgets.pas in /usr/bin/doublecmd
+  $00000000006E6B2A line 3616, column 7 of qtwidgets.pas in /usr/bin/doublecmd
+  $00000000006E4BA0 line 2642, column 46 of qtwidgets.pas in /usr/bin/doublecmd
+  $0000000000706C22 line 17141, column 15 of qtwidgets.pas in /usr/bin/doublecmd
+  $0000000000707EA9 line 17650, column 9 of qtwidgets.pas in /usr/bin/doublecmd
+  $00007F9AF03159D8 in /usr/lib/libQt5Pas.so.1
+  $00007F9AEEA13203 in /usr/lib/libQt5Core.so.5
+

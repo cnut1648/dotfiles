@@ -3,69 +3,96 @@
     <state version="5" />
     <globalmarks />
     <filemarks>
-      <file name="/GDB" timestamp="1585731585389">
+      <file name="$USER_HOME$/data/untitled/Cpp/ics46/proj1/core/MazeDFirstG.h" timestamp="1586851102382">
+        <mark key="[" line="17" column="57" />
+        <mark key="]" line="17" column="57" />
+        <mark key="^" line="17" column="57" />
+        <mark key="." line="17" column="57" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/Cpp/mycpp/String.cpp_dir/fragment.cpp" timestamp="1586244690723">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/data/untitled/Cpp/ics46/hello/app/main.cpp" timestamp="1585714420985">
-        <mark key="[" line="6" column="12" />
-        <mark key="]" line="6" column="23" />
-        <mark key="." line="6" column="23" />
-        <mark key="^" line="6" column="23" />
+      <file name="$USER_HOME$/data/untitled/Cpp/ics46/proj1/include/darkmaze/Maze.hpp" timestamp="1586848047160" />
+      <file name="$USER_HOME$/data/untitled/Cpp/mycpp/main.cpp_dir/fragment.cpp" timestamp="1586244695477">
+        <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/data/untitled/Cpp/algorithm/try.cpp" timestamp="1582011401380">
-        <mark key="'" line="0" column="0" />
-        <mark key="[" line="9" column="0" />
-        <mark key="]" line="19" column="0" />
-        <mark key="." line="9" column="19" />
-        <mark key="^" line="9" column="19" />
+      <file name="$USER_HOME$/data/untitled/Cpp/mycpp/problem3.h" timestamp="1586571293977">
+        <mark key="[" line="10" column="28" />
+        <mark key="]" line="11" column="0" />
+        <mark key="." line="11" column="0" />
+        <mark key="^" line="11" column="0" />
       </file>
-      <file name="$USER_HOME$/data/untitled/Cpp/mycpp/String.hpp" timestamp="1585731070508">
+      <file name="$USER_HOME$/data/untitled/Cpp/ics46/proj1/include/darkmaze/MazeFactory.hpp" timestamp="1586846923575" />
+      <file name="$USER_HOME$/data/untitled/Cpp/ics46/proj1/include/darkmaze/MazeGenerator.hpp" timestamp="1586846894497" />
+      <file name="$USER_HOME$/data/untitled/Cpp/mycpp/t.h" timestamp="1586242520630">
+        <mark key="[" line="7" column="16" />
+        <mark key="]" line="7" column="14" />
+        <mark key="." line="7" column="14" />
+        <mark key="^" line="7" column="14" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/Cpp/ics46/proj1/core/MazeDFirstG.cpp" timestamp="1586853127638">
+        <mark key="[" line="70" column="41" />
+        <mark key="]" line="70" column="42" />
+        <mark key="^" line="70" column="42" />
+        <mark key="." line="70" column="42" />
+      </file>
+      <file name="/GDB" timestamp="1586847568953">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/Cpp/mycpp/String.hpp" timestamp="1586413110786">
         <mark key="'" line="9" column="0" />
         <mark key="[" line="115" column="31" />
         <mark key="]" line="115" column="48" />
         <mark key="^" line="128" column="3" />
         <mark key="." line="128" column="3" />
       </file>
-      <file name="$USER_HOME$/data/untitled/Cpp/mycpp/main.cpp" timestamp="1585731785375">
-        <mark key="'" line="16" column="0" />
-        <mark key="[" line="37" column="0" />
-        <mark key="]" line="37" column="0" />
-        <mark key="." line="37" column="0" />
+      <file name="$USER_HOME$/data/untitled/Cpp/mycpp/main.cpp" timestamp="1586851540008">
+        <mark key="'" line="17" column="0" />
+        <mark key="[" line="59" column="33" />
+        <mark key="]" line="59" column="33" />
+        <mark key="." line="59" column="33" />
+        <mark key="^" line="59" column="33" />
       </file>
-      <file name="$USER_HOME$/data/untitled/Cpp/mycpp/s.cpp" timestamp="1585715447978">
-        <mark key="'" line="107" column="0" />
-        <mark key="[" line="3" column="10" />
-        <mark key="]" line="3" column="39" />
-        <mark key="^" line="3" column="39" />
-        <mark key="." line="3" column="39" />
+      <file name="$USER_HOME$/data/untitled/Cpp/mycpp/String.cpp" timestamp="1586412977164">
+        <mark key="'" line="81" column="11" />
+        <mark key="[" line="120" column="38" />
+        <mark key="]" line="120" column="38" />
+        <mark key="." line="120" column="38" />
+        <mark key="^" line="120" column="38" />
       </file>
-      <file name="$USER_HOME$/data/untitled/Cpp/mycpp/String.cpp_dir/fragment.cpp" timestamp="1585728586684">
+      <file name="$USER_HOME$/data/untitled/Cpp/ics46/proj1/core/MazeG.h" timestamp="1586845582065">
+        <mark key="[" line="5" column="21" />
+        <mark key="]" line="8" column="0" />
+        <mark key="." line="8" column="0" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/Cpp/mycpp/problem3.cpp" timestamp="1586574607635">
+        <mark key="[" line="1" column="21" />
+        <mark key="]" line="2" column="15" />
+        <mark key="." line="2" column="15" />
+        <mark key="^" line="2" column="15" />
+      </file>
+      <file name="/oc-debug-editor-when-no-source-position-available.txt" timestamp="1586244696505">
         <mark key="[" line="0" column="0" />
       </file>
-      <file name="$USER_HOME$/data/untitled/Cpp/mycpp/String.cpp" timestamp="1585733560998">
-        <mark key="'" line="139" column="12" />
-        <mark key="[" line="137" column="38" />
-        <mark key="]" line="138" column="37" />
-        <mark key="^" line="138" column="37" />
-        <mark key="." line="138" column="37" />
+      <file name="$USER_HOME$/data/untitled/Cpp/mycpp/t.cpp" timestamp="1586242515282">
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="10" column="2" />
+        <mark key="^" line="10" column="1" />
+        <mark key="." line="10" column="1" />
       </file>
-      <file name="$USER_HOME$/data/untitled/Cpp/algorithm/tryy.cpp" timestamp="1582011653114">
-        <mark key="[" line="9" column="4" />
-        <mark key="]" line="13" column="30" />
-        <mark key="^" line="13" column="30" />
-        <mark key="." line="14" column="0" />
+      <file name="$USER_HOME$/data/untitled/Cpp/ics46/proj1/core/MazeG.cpp" timestamp="1586845561232">
+        <mark key="[" line="8" column="0" />
+        <mark key="]" line="6" column="19" />
+        <mark key="." line="6" column="19" />
+        <mark key="^" line="6" column="19" />
       </file>
-      <file name="$USER_HOME$/data/untitled/Cpp/mycpp/CMakeLists.txt" timestamp="1585716776302">
-        <mark key="[" line="1" column="8" />
-        <mark key="]" line="1" column="8" />
-        <mark key="." line="1" column="8" />
+      <file name="$USER_HOME$/data/untitled/Cpp/untitled/main.cpp" timestamp="1586588100396">
+        <mark key="[" line="35" column="17" />
+        <mark key="]" line="35" column="17" />
+        <mark key="^" line="37" column="22" />
+        <mark key="." line="35" column="17" />
       </file>
-      <file name="$USER_HOME$/data/untitled/Cpp/ics46/proj0/core/String.hpp" timestamp="1585715615937">
-        <mark key="'" line="0" column="0" />
-      </file>
-      <file name="/oc-debug-editor-when-no-source-position-available.txt" timestamp="1585728586697">
-        <mark key="[" line="0" column="0" />
-      </file>
+      <file name="$USER_HOME$/data/untitled/Cpp/ics46/proj1/include/darkmaze/Direction.hpp" timestamp="1586845496145" />
     </filemarks>
     <jumps>
       <jump line="12" column="16" filename="$USER_HOME$/data/untitled/Cpp/algorithm/try.cpp" />
@@ -86,52 +113,56 @@
       <jump line="73" column="19" filename="$USER_HOME$/data/untitled/Cpp/mycpp/String.cpp" />
       <jump line="74" column="28" filename="$USER_HOME$/data/untitled/Cpp/mycpp/String.cpp" />
       <jump line="139" column="12" filename="$USER_HOME$/data/untitled/Cpp/mycpp/String.cpp" />
+      <jump line="78" column="22" filename="$USER_HOME$/data/untitled/Cpp/mycpp/String.cpp" />
+      <jump line="159" column="0" filename="$USER_HOME$/data/untitled/Cpp/mycpp/String.cpp" />
+      <jump line="4" column="19" filename="$USER_HOME$/data/untitled/Cpp/mycpp/String.cpp" />
+      <jump line="81" column="11" filename="$USER_HOME$/data/untitled/Cpp/mycpp/String.cpp" />
     </jumps>
     <registers>
       <register name="&quot;" type="4">
-        <text>d</text>
+        <text>n</text>
       </register>
       <register name="-" type="4">
-        <text>d</text>
+        <text>n</text>
       </register>
       <register name="/" type="4">
-        <text>[len]</text>
+        <text>nullptr</text>
       </register>
-      <register name="0" type="4">
-        <text encoding="base64">Y2hhciAqdG1wID0gbmV3IGNoYXJbbGVuXTsKICAgIGZvciAoaW50IGkgPSAwOyBpIDwgbGVuOyBpKyspIHRtcFtpXSA9IGF0KGkpOwogICAgZGVsZXRlW10gaXRlbTs=</text>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgIGVsc2UgaWYocG9pbnQgPj0gNCl7CiAgICAgICAgbWF6ZS5yZW1vdmVXYWxsKGksIGosIERpcmVjdGlvbjo6ZG93bik7CiAgICAgICAgcG9pbnQgLT0gNAogICAgICAgIHVwZGF0ZU1hemUoaSwgaiwgbWF6ZSk7CiAgICB9Cg==</text>
       </register>
       <register name="1" type="2">
-        <text encoding="base64">ICAgIGRlbGV0ZVtdIHRtcDsK</text>
+        <text encoding="base64">ICAgICAgICB1cGRhdGVNYXplKGksIGosIG1hemUpOwo=</text>
       </register>
       <register name="2" type="2">
-        <text encoding="base64">ICAgIGludCBpID0gMDsK</text>
+        <text encoding="base64">ICAgICAgICBwb2ludCAtPSA0Cg==</text>
       </register>
       <register name="3" type="2">
-        <text encoding="base64">I2luY2x1ZGUgPGlvc3RyZWFtPgo=</text>
+        <text encoding="base64">ICAgIGlmIChwb2ludCA9PSAwKQo=</text>
       </register>
       <register name="4" type="2">
-        <text encoding="base64">dXNpbmcgbmFtZXNwYWNlIHN0ZDsK</text>
+        <text encoding="base64">ICAgICAgICAgICAgaWYgKGdyaWRbaV1bal0uZmlyc3QgKQo=</text>
       </register>
       <register name="5" type="2">
-        <text encoding="base64">ICAgIHRtcFtpXSA9IHMuYXQK</text>
+        <text encoding="base64">ICAgIHVwZGF0ZU1hemUod2lkdGgsIGhlaWdodCk7Cg==</text>
       </register>
       <register name="6" type="2">
-        <text encoding="base64">ICAgIGZvciAoaSA9IDA7IGkgPCBsZW47IGkrKykgdG1wW2ldID0gYXQoaSk7Cg==</text>
+        <text encoding="base64">ICAgIGZvciAoaW50IGkgPSAwOyBpIDwgaGVpZ2h0OyArK2kpewogICAgICAgIGZvciAoaW50IGogPSAwOyBqIDwgd2lkdGg7ICsrail7CiAgICAgICAgICAgIGlmIChncmlkW2ldW2pdLmZpcnN0ICkKICAgICAgICB9CiAgICB9Cg==</text>
       </register>
       <register name="7" type="2">
-        <text encoding="base64">ICAgIGludCBpOwo=</text>
+        <text encoding="base64">ICAgIGlmIChncmlkW3hdW3ldZGQK</text>
       </register>
       <register name="8" type="2">
-        <text encoding="base64">ICAgIGNoYXIgKnRtcCA9IG5ldyBjaGFyW2xlbisyXTsK</text>
+        <text encoding="base64">ICAgICAgICAK</text>
       </register>
       <register name="9" type="2">
         <text encoding="base64">ICAgIAo=</text>
       </register>
     </registers>
     <search>
-      <last-search>[len]</last-search>
+      <last-search>nullptr</last-search>
       <last-offset />
-      <last-pattern>[len]</last-pattern>
+      <last-pattern>nullptr</last-pattern>
       <last-dir>1</last-dir>
       <show-last>false</show-last>
     </search>
@@ -139,6 +170,7 @@
       <history-search>
         <entry>len</entry>
         <entry>[len]</entry>
+        <entry>nullptr</entry>
       </history-search>
       <history-cmd>
         <entry>call append(line(&quot;.&quot;),   repeat([&quot;&quot;], v:count1))</entry>

@@ -4,4 +4,7 @@
     <option name="FONT_FAMILY" value="DialogInput" />
     <option name="FONT_SCALE" value="2.0" />
   </component>
+  <component name="LiveEditOptions" chromeAutoDelay="300" chromeUpdateJSOnChanges="true" restartIfHotSwapFailed="true" updateFilesToCompile="true">
+    <option name="elementHighlighting" value="true" />
+  </component>
 </application>

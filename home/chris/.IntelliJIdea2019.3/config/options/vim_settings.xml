@@ -1,8 +1,224 @@
 <application>
-  <component name="VimSettings">
-    <state version="5" enabled="true" />
-    <shortcut-conflicts />
+  <component name="VimEditorSettings">
     <editor />
+  </component>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search>
+        <entry>console</entry>
+      </history-search>
+      <history-cmd>
+        <entry>call append(line(&quot;.&quot;),   repeat([&quot;&quot;], v:count1))</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
+  <component name="VimKeySettings">
+    <shortcut-conflicts>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed C</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed V</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed K</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed A</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed F</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed T</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed U</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed D</text>
+      </shortcut-conflict>
+      <shortcut-conflict owner="vim">
+        <text>ctrl pressed X</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="$USER_HOME$/data/untitled/web/course/cs122b/src/SingleMovie.java" timestamp="1586484574995">
+        <mark key="[" line="51" column="0" />
+        <mark key="]" line="51" column="0" />
+        <mark key="." line="51" column="0" />
+        <mark key="^" line="46" column="67" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/web/course/cs122b/README.md" timestamp="1586565862690">
+        <mark key="[" line="5" column="17" />
+        <mark key="]" line="5" column="8" />
+        <mark key="^" line="5" column="8" />
+        <mark key="." line="5" column="7" />
+      </file>
+      <file name="/a.dummy" timestamp="1586478763141">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/web/course/cs122b/web/index.html" timestamp="1586566419891">
+        <mark key="[" line="17" column="35" />
+        <mark key="]" line="17" column="36" />
+        <mark key="." line="17" column="35" />
+        <mark key="^" line="17" column="36" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/web/course/cs122b/target/index.html" timestamp="1586409173767">
+        <mark key="'" line="108" column="0" />
+        <mark key="[" line="84" column="0" />
+        <mark key="]" line="110" column="25" />
+        <mark key="." line="84" column="0" />
+        <mark key="^" line="83" column="0" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/web/course/cs122b-spring20-team-111/web/index.js" timestamp="1586399815234">
+        <mark key="[" line="29" column="26" />
+        <mark key="]" line="29" column="51" />
+        <mark key="." line="29" column="51" />
+        <mark key="^" line="29" column="51" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/web/course/cs122b/web/index.css" timestamp="1586502576011">
+        <mark key="[" line="7" column="0" />
+        <mark key="]" line="7" column="0" />
+        <mark key="." line="7" column="0" />
+        <mark key="^" line="7" column="1" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/web/course/cs122b-spring20-team-111/web/index.html" timestamp="1586399451999">
+        <mark key="[" line="56" column="18" />
+        <mark key="]" line="56" column="18" />
+        <mark key="^" line="24" column="9" />
+        <mark key="." line="56" column="18" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/web/course/cs122b/web/Rating.vue" timestamp="1586480425646">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="83" column="8" />
+        <mark key="^" line="83" column="8" />
+        <mark key="." line="83" column="8" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/web/course/cs122b/web/index.js" timestamp="1586501722566">
+        <mark key="'" line="18" column="4" />
+        <mark key="[" line="40" column="40" />
+        <mark key="]" line="40" column="85" />
+        <mark key="^" line="40" column="85" />
+        <mark key="." line="40" column="84" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/web/course/cs122b/src/SingleStarServlet.java" timestamp="1586414437404">
+        <mark key="[" line="17" column="30" />
+        <mark key="]" line="17" column="30" />
+        <mark key="." line="17" column="30" />
+      </file>
+      <file name="/JavaScript Console" timestamp="1586482510767">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/web/course/cs122b/web/single-movie.html" timestamp="1586585011995">
+        <mark key="[" line="94" column="18" />
+        <mark key="]" line="94" column="25" />
+        <mark key="^" line="97" column="19" />
+        <mark key="." line="94" column="18" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/web/course/cs122b/web/collapse.js" timestamp="1586416278928">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="13" column="0" />
+        <mark key="^" line="13" column="0" />
+        <mark key="." line="13" column="0" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/web/course/cs122b/web/single-star.js" timestamp="1586496738188">
+        <mark key="[" line="70" column="18" />
+        <mark key="]" line="70" column="18" />
+        <mark key="." line="70" column="18" />
+        <mark key="^" line="60" column="37" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/web/course/cs122b/web/single-star.html" timestamp="1586567810339">
+        <mark key="[" line="24" column="36" />
+        <mark key="]" line="24" column="36" />
+        <mark key="." line="24" column="35" />
+        <mark key="^" line="24" column="36" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/web/course/cs122b/web/single-movie.js" timestamp="1586565029719">
+        <mark key="[" line="24" column="52" />
+        <mark key="]" line="24" column="52" />
+        <mark key="." line="24" column="52" />
+        <mark key="^" line="24" column="73" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/web/course/cs122b/web/emoji.js" timestamp="1586565540192">
+        <mark key="[" line="0" column="0" />
+        <mark key="]" line="0" column="0" />
+        <mark key="." line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/data/untitled/web/course/cs122b/src/MovieList.java" timestamp="1586494642588">
+        <mark key="[" line="82" column="60" />
+        <mark key="]" line="82" column="63" />
+        <mark key="^" line="82" column="63" />
+        <mark key="." line="82" column="62" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="0" column="0" filename="$USER_HOME$/data/untitled/web/course/cs122b-spring20-project1-api-example/src/SingleStarServlet.java" />
+      <jump line="58" column="0" filename="$USER_HOME$/data/untitled/web/course/cs122b/target/index.html" />
+      <jump line="46" column="0" filename="$USER_HOME$/data/untitled/web/course/cs122b/web/index.js" />
+      <jump line="61" column="8" filename="$USER_HOME$/data/untitled/web/course/cs122b/web/index.js" />
+      <jump line="18" column="4" filename="$USER_HOME$/data/untitled/web/course/cs122b/web/index.js" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="4">
+        <text encoding="base64">JiN4MUY2RA==</text>
+      </register>
+      <register name="-" type="4">
+        <text encoding="base64">JiN4MUY2RA==</text>
+      </register>
+      <register name="/" type="4">
+        <text>console</text>
+      </register>
+      <register name="0" type="2">
+        <text encoding="base64">ICAgICAgICA8cCBjbGFzcz0ibGVhZCIgaWQ9InJhdGluZyIgc3R5bGU9InRleHQtYWxpZ246IGNlbnRlciI+PC9wPgo=</text>
+      </register>
+      <register name="1" type="4">
+        <text encoding="base64">Y29uc29sZS5sb2coJCgiI3JhdGluZyIpLnRleHQoKSk7CiAgICBuZXcgVnVlKHsKICAgICAgICBlbDogIiNlbW9qaSIsCiAgICAgICAgdGVtcGxhdGU6IGA8cCB2LWlmPSJyYXRlKCk9PT0wIj4mI3gxRjYwRDwvcD4KICAgICAgICA8cCB2LWVsc2UtaWY9InJhdGUoKT09PTEiPiYjMTI4NTY2PC9wPgogICAgICAgIDxwIHYtZWxzZT4mIzEyODUzMTs8L3A+YCwKICAgICAgICBtZXRob2RzOiB7CiAgICAgICAgICAgIHJhdGUoKXsKICAgICAgICAgICAgICAgIHJhdGluZyA9IHBhcnNlSW50KCQoIiNyYXRpbmciKS50ZXh0KCksMTApOwogICAgICAgICAgICAgICAgaWYgKHJhdGluZyA+PSA4KSByZXR1cm4gMDsKICAgICAgICAgICAgICAgIGVsc2UgaWYgKHJhdGluZyA+PSA1KSByZXR1cm4gMTsKICAgICAgICAgICAgICAgIGVsc2UgcmV0dXJuIDI7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9KQ==</text>
+      </register>
+      <register name="2" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Y29uc29sZS5sb2coJCgiI3JhdGluZyIpLnRleHQoKSk7Cm5ldyBWdWUoewogICAgZWw6ICIjZW1vamkiLAogICAgdGVtcGxhdGU6IGA8cCB2LWlmPSJyYXRlKCk9PTAiPiYjeDFGNjBEPC9wPgogICAgICAgIDxwIHYtZWxzZS1pZj0icmF0ZSgpPT0xIj4mIzEyODU2NjwvcD4KICAgICAgICA8cCB2LWVsc2U+JiMxMjg1MzE7PC9wPmAsCiAgICBtZXRob2RzOiB7CiAgICAgICAgcmF0ZSgpewogICAgICAgICAgICByYXRpbmcgPSBwYXJzZUludCgkKCIjcmF0aW5nIikudGV4dCgpLDEwKTsKICAgICAgICAgICAgaWYgKHJhdGluZyA+PSA4KSByZXR1cm4gMDsKICAgICAgICAgICAgZWxzZSBpZiAocmF0aW5nID49IDUpIHJldHVybiAxOwogICAgICAgICAgICBlbHNlIHJldHVybiAyOwogICAgICAgIH0KICAgIH0KfSk=</text>
+      </register>
+      <register name="4" type="4">
+        <text encoding="base64">IGNvbnNvbGUubG9nKCQoIiNyYXRpbmciKS50ZXh0KCkpOwogICAgbmV3IFZ1ZSh7CiAgICAgICAgZWw6ICIjZW1vamkiLAogICAgICAgIHRlbXBsYXRlOiBgPHAgdi1pZj0icmF0ZSgpPT0wIj4mI3gxRjYwRDwvcD4KICAgICAgICA8cCB2LWVsc2UtaWY9InJhdGUoKT09MSI+JiMxMjg1NjY8L3A+CiAgICAgICAgPHAgdi1lbHNlPiYjMTI4NTMxOzwvcD5gLAogICAgICAgIG1ldGhvZHM6IHsKICAgICAgICAgICAgcmF0ZSgpewogICAgICAgICAgICAgICAgcmF0aW5nID0gcGFyc2VJbnQoJCgiI3JhdGluZyIpLnRleHQoKSwxMCk7CiAgICAgICAgICAgICAgICBpZiAocmF0aW5nID49IDgpIHJldHVybiAwOwogICAgICAgICAgICAgICAgZWxzZSBpZiAocmF0aW5nID49IDUpIHJldHVybiAxOwogICAgICAgICAgICAgICAgZWxzZSByZXR1cm4gMjsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgIH0pOw==</text>
+      </register>
+      <register name="5" type="4">
+        <text encoding="base64">CiAgICAgICAgZGF0YTogewogICAgICAgICAgICB5ZXM6IHRydWUsCiAgICAgICAgICAgIG5vOiBmYWxzZQogICAgICAgIH0s</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIGNvbnNvbGUubG9nKHJhdGluZyk7Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">PGRpdj4gPGgxPgoxOiA8c3BhbiB2LWlmPSJ5ZXMiPlllczwvc3Bhbj4KPC9oMT4KPGgxPgoyOiA8c3BhbiB2LWlmPSJubyI+Tm88L3NwYW4+CjwvaDE+CjwvZGl2Pgo=</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">ICAgICAgICAK</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-search>console</last-search>
+      <last-offset />
+      <last-pattern>console</last-pattern>
+      <last-dir>1</last-dir>
+      <show-last>false</show-last>
+    </search>
+  </component>
+  <component name="VimSettings">
+    <state version="6" enabled="true" />
     <notifications>
       <idea-join enabled="true" />
       <idea-put enabled="false" />

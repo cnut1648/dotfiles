@@ -231,9 +231,11 @@ bindsym $mod+r mode "resize"
 mode "one-quick"{
 	bindsym g exec xdg-open "http://www.google.com/search?q=$(xclip -out -selection primary)"; mode "default"
 	bindsym b exec xdg-open "http://www.baidu.com/s?wd=$(xclip -out -selection primary)"; mode "default"
+    bindsym y exec xdg-open "http://www.youtube.com/results?search_query=$(xclip -out -selection primary)"; mode "default"
 	bindsym z exec xdg-open "http://www.zhihu.com/search?q=$(xclip -out -selection primary)"; mode "default"
 	bindsym d exec xdg-open "http://www.douban.com/search?q=$(xclip -out -selection primary)"; mode "default"
 	bindsym l exec xdg-open "http://www.bilibili.com/search?keyword=$(xclip -out -selection primary)"; mode "default"
+    bindsym a exec xdg-open "http://www.amazon.com/s?k=$(xclip -out -selection primary)"; mode "default"
 
 	bindsym Return mode "default"
 	bindsym $mod+Return mode "default"
