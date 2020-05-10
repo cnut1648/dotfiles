@@ -13,7 +13,7 @@ X = [
     ]
 ZSH = [
     '~/.zshrc',
-    '~/.oh-my-zsh'
+    '~/.oh-my-zsh/custom'
     ]
 BASH = [
     '~/.bashrc',
