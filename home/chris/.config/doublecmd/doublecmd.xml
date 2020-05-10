@@ -138,7 +138,7 @@
       <Left>10</Left>
       <Top>25</Top>
       <Width>1896</Width>
-      <Height>998</Height>
+      <Height>999</Height>
       <PixelsPerInch>96</PixelsPerInch>
     </Position>
   </MainWindow>
@@ -440,7 +440,7 @@
     <ActionOnDoubleClick>2</ActionOnDoubleClick>
     <OpenedTabs>
       <Left>
-        <ActiveTab>11</ActiveTab>
+        <ActiveTab>9</ActiveTab>
         <Tab>
           <FileView Type="columns">
             <History>
@@ -525,51 +525,6 @@
         </Tab>
         <Tab>
           <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="language">/usr/lib/doublecmd/</Path>
-                  <Path Filename="..">/usr/lib/doublecmd/language/</Path>
-                  <Path Filename="plugins">/usr/lib/doublecmd/</Path>
-                  <Path Filename="wfx">/usr/lib/doublecmd/plugins/</Path>
-                  <Path Filename="..">/usr/lib/doublecmd/plugins/wfx/</Path>
-                  <Path Filename="C">/home/chris/data/untitled/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/C/</Path>
-                  <Path Filename="arduino">/home/chris/data/untitled/</Path>
-                  <Path Filename="untitled">/home/chris/data/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/</Path>
-                  <Path Filename="Cent">/home/chris/data/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/</Path>
-                  <Path Filename="..">/home/chris/data/</Path>
-                  <Path Filename="data">/home/chris/</Path>
-                  <Path Filename="..">/home/chris/application/</Path>
-                  <Path Filename="Cent">/home/chris/data/</Path>
-                  <Path Filename="Academic">/home/chris/data/Cent/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/Academic/</Path>
-                  <Path Filename="books">/home/chris/data/Cent/</Path>
-                  <Path Filename="cs">/home/chris/data/Cent/books/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/cs/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/books/cs/sql/</Path>
-                  <Path Filename="sql">/home/chris/data/Cent/books/cs/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/cs/sql/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/cs/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
             <History>
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
@@ -601,28 +556,10 @@
                   <Path Filename="cpp">/home/chris/data/Cent/books/cs/c/</Path>
                   <Path Filename="c++">/home/chris/data/Cent/books/cs/c/cpp/</Path>
                   <Path Filename="..">/home/chris/data/Cent/books/cs/c/cpp/c++/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/cs/c/cpp/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="scripts">/usr/lib/doublecmd/</Path>
-                  <Path Filename="..">/usr/lib/doublecmd/scripts/</Path>
-                  <Path Filename="Cent">/home/chris/data/</Path>
-                  <Path Filename="">/home/chris/data/Cent/</Path>
-                  <Path Filename="math">/home/chris/data/Cent/books/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/math/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/math/stat/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/cs/c/cpp/</Path>
+                  <Path Filename="cpp">/home/chris/data/Cent/books/cs/c/</Path>
+                  <Path Filename="algorithm">/home/chris/data/Cent/books/cs/</Path>
+                  <Path Filename="">/home/chris/data/Cent/books/cs/algorithm/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -694,149 +631,6 @@
         </Tab>
         <Tab>
           <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="sql">/home/chris/data/untitled/web/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/web/sql/</Path>
-                  <Path Filename="sql">/home/chris/data/untitled/web/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/web/sql/</Path>
-                  <Path Filename="course">/home/chris/data/untitled/web/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/web/course/</Path>
-                  <Path Filename="sql">/home/chris/data/untitled/web/</Path>
-                  <Path Filename="course">/home/chris/data/untitled/web/sql/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/web/sql/course/</Path>
-                  <Path Filename="try">/home/chris/data/untitled/web/sql/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/web/sql/try/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/web/sql/</Path>
-                  <Path Filename="course">/home/chris/data/untitled/web/</Path>
-                  <Path Filename="cs122B">/home/chris/data/untitled/web/course/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/web/course/cs122B/</Path>
-                  <Path Filename="cs122B">/home/chris/data/untitled/web/course/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/web/course/cs122B/</Path>
-                  <Path Filename="cs122B">/home/chris/data/untitled/web/course/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/web/course/cs122B/</Path>
-                  <Path Filename="cs122b">/home/chris/data/untitled/web/course/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/web/course/cs122b/</Path>
-                  <Path Filename="cs122b">/home/chris/data/untitled/web/course/</Path>
-                  <Path Filename=".git">/home/chris/data/untitled/web/course/cs122b/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/web/course/cs122b/.git/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/web/course/cs122b/</Path>
-                  <Path Filename="cs122B">/home/chris/data/untitled/web/course/</Path>
-                  <Path Filename="src">/home/chris/data/untitled/web/course/cs122B/</Path>
-                  <Path Filename="main">/home/chris/data/untitled/web/course/cs122B/src/</Path>
-                  <Path Filename="java">/home/chris/data/untitled/web/course/cs122B/src/main/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/web/course/cs122B/src/main/java/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/web/course/cs122B/src/main/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/web/course/cs122B/src/</Path>
-                  <Path Filename="web">/home/chris/data/untitled/web/course/cs122B/</Path>
-                  <Path Filename="META-INF">/home/chris/data/untitled/web/course/cs122B/web/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/web/course/cs122B/web/META-INF/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/web/course/cs122B/web/</Path>
-                  <Path Filename="web">/home/chris/data/untitled/web/course/cs122B/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/web/course/cs122B/web/</Path>
-                  <Path Filename="src">/home/chris/data/untitled/web/course/cs122B/</Path>
-                  <Path Filename="test">/home/chris/data/untitled/web/course/cs122B/src/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/web/course/cs122B/src/test/</Path>
-                  <Path Filename="main">/home/chris/data/untitled/web/course/cs122B/src/</Path>
-                  <Path Filename="java">/home/chris/data/untitled/web/course/cs122B/src/main/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/web/course/cs122B/src/main/java/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/web/course/cs122B/src/main/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/web/course/cs122B/src/</Path>
-                  <Path Filename="web">/home/chris/data/untitled/web/course/cs122B/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/web/course/cs122B/web/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/web/course/cs122B/</Path>
-                  <Path Filename="">/home/chris/data/untitled/web/course/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="">/home/chris/data/untitled/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/js/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/</Path>
-                  <Path Filename="untitled">/home/chris/data/</Path>
-                  <Path Filename="test">/home/chris/</Path>
-                  <Path Filename="p">/home/chris/test/</Path>
-                  <Path Filename=".config">/home/chris/</Path>
-                  <Path Filename="doublecmd">/home/chris/.config/</Path>
-                  <Path Filename="multiarc.ini">/home/chris/.config/doublecmd/</Path>
-                  <Path Filename="doublecmd">/home/chris/.config/</Path>
-                  <Path Filename=".yarn">/home/chris/</Path>
-                  <Path Filename="..">/home/chris/.yarn/</Path>
-                  <Path Filename=".yarn">/home/chris/</Path>
-                  <Path Filename="bin">/home/chris/.yarn/</Path>
-                  <Path Filename="..">/home/chris/.yarn/bin/</Path>
-                  <Path Filename="..">/home/chris/.yarn/</Path>
-                  <Path Filename=".temp">/home/chris/</Path>
-                  <Path Filename="timeshift">/home/chris/.temp/</Path>
-                  <Path Filename="..">/home/chris/.temp/timeshift/</Path>
-                  <Path Filename="..">/home/chris/.temp/</Path>
-                  <Path Filename=".ipython">/home/chris/</Path>
-                  <Path Filename="..">/home/chris/.ipython/</Path>
-                  <Path Filename="Books">/home/chris/</Path>
-                  <Path Filename="..">/home/chris/Books/</Path>
-                  <Path Filename="test">/home/chris/</Path>
-                  <Path Filename="..">/home/chris/test/</Path>
-                  <Path Filename=".local">/home/chris/</Path>
-                  <Path Filename="share">/home/chris/.local/</Path>
-                  <Path Filename="baloo">/home/chris/.local/share/</Path>
-                  <Path Filename="..">/home/chris/.local/share/baloo/</Path>
-                  <Path Filename="flatpak">/home/chris/.local/share/</Path>
-                  <Path Filename="..">/home/chris/.local/share/flatpak/</Path>
-                  <Path Filename="inxi">/home/chris/.local/share/</Path>
-                  <Path Filename="..">/home/chris/.local/share/inxi/</Path>
-                  <Path Filename="JetBrains">/home/chris/.local/share/</Path>
-                  <Path Filename="..">/home/chris/.local/share/JetBrains/</Path>
-                  <Path Filename="Trash">/home/chris/.local/share/</Path>
-                  <Path Filename="info">/home/chris/.local/share/Trash/</Path>
-                  <Path Filename="..">/home/chris/.local/share/Trash/info/</Path>
-                  <Path Filename="files">/home/chris/.local/share/Trash/</Path>
-                  <Path Filename="..">/home/chris/.local/share/Trash/files/</Path>
-                  <Path Filename="files">/home/chris/.local/share/Trash/</Path>
-                  <Path Filename="Marijn Haverbeke - Eloquent JavaScript_ A Modern Introduction to Programming, 3rd Edition-No Starch Press (2019).epub">/home/chris/.local/share/Trash/files/</Path>
-                  <Path Filename=".local">/home/chris/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/books/cs/ml/</Path>
-                  <Path Filename="cs">/home/chris/data/Cent/books/</Path>
-                  <Path Filename="books">/home/chris/data/Cent/</Path>
-                  <Path Filename="Snipaste_2020-01-11_17-39-47.png">/home/chris/data/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="">/home/chris/Downloads/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-          <Options>1</Options>
-          <LockPath>/home/chris/Downloads/</LockPath>
-          <Title>Downloads</Title>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
             <History>
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
@@ -878,6 +672,76 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
+                  <Path Filename="scripts">/usr/lib/doublecmd/</Path>
+                  <Path Filename="..">/usr/lib/doublecmd/scripts/</Path>
+                  <Path Filename="Cent">/home/chris/data/</Path>
+                  <Path Filename="">/home/chris/data/Cent/</Path>
+                  <Path Filename="math">/home/chris/data/Cent/books/</Path>
+                  <Path Filename="">/home/chris/data/Cent/books/math/</Path>
+                  <Path Filename="133A">/home/chris/data/Cent/books/math/econ/</Path>
+                  <Path Filename="">/home/chris/data/Cent/books/math/econ/133A/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="language">/usr/lib/doublecmd/</Path>
+                  <Path Filename="..">/usr/lib/doublecmd/language/</Path>
+                  <Path Filename="plugins">/usr/lib/doublecmd/</Path>
+                  <Path Filename="wfx">/usr/lib/doublecmd/plugins/</Path>
+                  <Path Filename="..">/usr/lib/doublecmd/plugins/wfx/</Path>
+                  <Path Filename="C">/home/chris/data/untitled/</Path>
+                  <Path Filename="..">/home/chris/data/untitled/C/</Path>
+                  <Path Filename="arduino">/home/chris/data/untitled/</Path>
+                  <Path Filename="untitled">/home/chris/data/</Path>
+                  <Path Filename="..">/home/chris/data/untitled/</Path>
+                  <Path Filename="Cent">/home/chris/data/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/</Path>
+                  <Path Filename="..">/home/chris/data/</Path>
+                  <Path Filename="data">/home/chris/</Path>
+                  <Path Filename="..">/home/chris/application/</Path>
+                  <Path Filename="Cent">/home/chris/data/</Path>
+                  <Path Filename="Academic">/home/chris/data/Cent/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/Academic/</Path>
+                  <Path Filename="books">/home/chris/data/Cent/</Path>
+                  <Path Filename="cs">/home/chris/data/Cent/books/</Path>
+                  <Path Filename="">/home/chris/data/Cent/books/cs/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/cs/web/</Path>
+                  <Path Filename="web">/home/chris/data/Cent/books/cs/</Path>
+                  <Path Filename="js">/home/chris/data/Cent/books/cs/web/</Path>
+                  <Path Filename="Vue">/home/chris/data/Cent/books/cs/web/js/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/cs/web/js/Vue/</Path>
+                  <Path Filename="Head First JavaScript中文版.莫里森.扫描版.pdf">/home/chris/data/Cent/books/cs/web/js/</Path>
+                  <Path Filename="cs">/home/chris/data/Cent/books/</Path>
+                  <Path Filename="books">/home/chris/data/Cent/</Path>
+                  <Path Filename="untitled">/home/chris/data/</Path>
+                  <Path Filename="python">/home/chris/data/untitled/</Path>
+                  <Path Filename="data">/home/chris/data/untitled/python/</Path>
+                  <Path Filename="Epidemiology">/home/chris/data/untitled/python/data/</Path>
+                  <Path Filename="">/home/chris/data/untitled/python/data/Epidemiology/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
                   <Path Filename="language">/usr/lib/doublecmd/</Path>
                   <Path Filename="..">/usr/lib/doublecmd/language/</Path>
                   <Path Filename="plugins">/usr/lib/doublecmd/</Path>
@@ -900,101 +764,10 @@
                   <Path Filename="cs">/home/chris/data/Cent/books/</Path>
                   <Path Filename="">/home/chris/data/Cent/books/cs/</Path>
                   <Path Filename="..">/home/chris/data/Cent/books/cs/cs/</Path>
-                  <Path Filename="js">/home/chris/data/Cent/books/cs/</Path>
-                  <Path Filename="vue">/home/chris/data/Cent/books/cs/js/</Path>
-                  <Path Filename="Fullstack Vue_ The Complete Guide to Vue.js-CreateSpace Independent Publishing Platform (29_8_2018).pdf">/home/chris/data/Cent/books/cs/js/vue/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="scripts">/usr/lib/doublecmd/</Path>
-                  <Path Filename="..">/usr/lib/doublecmd/scripts/</Path>
-                  <Path Filename="Cent">/home/chris/data/</Path>
-                  <Path Filename="">/home/chris/data/Cent/</Path>
-                  <Path Filename="math">/home/chris/data/Cent/books/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/math/</Path>
-                  <Path Filename="133A">/home/chris/data/Cent/books/math/econ/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/math/econ/133A/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="multiarc.ini">/home/chris/.config/doublecmd/</Path>
-                  <Path Filename="doublecmd">/home/chris/.config/</Path>
-                  <Path Filename=".yarn">/home/chris/</Path>
-                  <Path Filename="..">/home/chris/.yarn/</Path>
-                  <Path Filename=".yarn">/home/chris/</Path>
-                  <Path Filename="bin">/home/chris/.yarn/</Path>
-                  <Path Filename="..">/home/chris/.yarn/bin/</Path>
-                  <Path Filename="..">/home/chris/.yarn/</Path>
-                  <Path Filename=".temp">/home/chris/</Path>
-                  <Path Filename="timeshift">/home/chris/.temp/</Path>
-                  <Path Filename="..">/home/chris/.temp/timeshift/</Path>
-                  <Path Filename="..">/home/chris/.temp/</Path>
-                  <Path Filename=".ipython">/home/chris/</Path>
-                  <Path Filename="..">/home/chris/.ipython/</Path>
-                  <Path Filename="Books">/home/chris/</Path>
-                  <Path Filename="..">/home/chris/Books/</Path>
-                  <Path Filename="test">/home/chris/</Path>
-                  <Path Filename="..">/home/chris/test/</Path>
-                  <Path Filename=".local">/home/chris/</Path>
-                  <Path Filename="share">/home/chris/.local/</Path>
-                  <Path Filename="baloo">/home/chris/.local/share/</Path>
-                  <Path Filename="..">/home/chris/.local/share/baloo/</Path>
-                  <Path Filename="flatpak">/home/chris/.local/share/</Path>
-                  <Path Filename="..">/home/chris/.local/share/flatpak/</Path>
-                  <Path Filename="inxi">/home/chris/.local/share/</Path>
-                  <Path Filename="..">/home/chris/.local/share/inxi/</Path>
-                  <Path Filename="JetBrains">/home/chris/.local/share/</Path>
-                  <Path Filename="..">/home/chris/.local/share/JetBrains/</Path>
-                  <Path Filename="Trash">/home/chris/.local/share/</Path>
-                  <Path Filename="info">/home/chris/.local/share/Trash/</Path>
-                  <Path Filename="..">/home/chris/.local/share/Trash/info/</Path>
-                  <Path Filename="files">/home/chris/.local/share/Trash/</Path>
-                  <Path Filename="..">/home/chris/.local/share/Trash/files/</Path>
-                  <Path Filename="files">/home/chris/.local/share/Trash/</Path>
-                  <Path Filename="Marijn Haverbeke - Eloquent JavaScript_ A Modern Introduction to Programming, 3rd Edition-No Starch Press (2019).epub">/home/chris/.local/share/Trash/files/</Path>
-                  <Path Filename=".local">/home/chris/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/books/cs/ml/</Path>
-                  <Path Filename="cs">/home/chris/data/Cent/books/</Path>
-                  <Path Filename="books">/home/chris/data/Cent/</Path>
-                  <Path Filename="Snipaste_2020-01-11_17-39-47.png">/home/chris/data/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/</Path>
-                  <Path Filename="chris">/home/</Path>
-                  <Path Filename="lib">/</Path>
-                  <Path Filename="..">/lib/</Path>
-                  <Path Filename="home">/</Path>
-                  <Path Filename="chris">/home/</Path>
-                  <Path Filename="Documents">/home/chris/</Path>
-                  <Path Filename="">/home/chris/Documents/</Path>
+                  <Path Filename="web">/home/chris/data/Cent/books/cs/</Path>
+                  <Path Filename="js">/home/chris/data/Cent/books/cs/web/</Path>
+                  <Path Filename="Vue">/home/chris/data/Cent/books/cs/web/js/</Path>
+                  <Path Filename="Vue.js Up and Running_ Building Accessible and Performant Web Apps-O’Reilly Media (2018).pdf">/home/chris/data/Cent/books/cs/web/js/Vue/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -1005,7 +778,7 @@
         </Tab>
       </Left>
       <Right>
-        <ActiveTab>4</ActiveTab>
+        <ActiveTab>2</ActiveTab>
         <Tab>
           <FileView Type="columns">
             <History>
@@ -1123,7 +896,14 @@
                   <Path Filename="course">/home/chris/data/untitled/sql/</Path>
                   <Path Filename="122A">/home/chris/data/untitled/sql/course/</Path>
                   <Path Filename="">/home/chris/data/untitled/sql/course/122A/</Path>
-                  <Path Filename="">/home/chris/data/untitled/</Path>
+                  <Path Filename="..">/home/chris/data/untitled/</Path>
+                  <Path Filename="untitled">/home/chris/data/</Path>
+                  <Path Filename="Cpp">/home/chris/data/untitled/</Path>
+                  <Path Filename="ics46">/home/chris/data/untitled/Cpp/</Path>
+                  <Path Filename="wk5">/home/chris/data/untitled/Cpp/ics46/</Path>
+                  <Path Filename="problem2">/home/chris/data/untitled/Cpp/ics46/wk5/</Path>
+                  <Path Filename="wk6">/home/chris/data/untitled/Cpp/ics46/</Path>
+                  <Path Filename="problem4.odt">/home/chris/data/untitled/Cpp/ics46/wk6/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -1206,52 +986,14 @@
           <FileView Type="columns">
             <Sortings>
               <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
+                <Direction>2</Direction>
+                <Function>0</Function>
               </Sorting>
             </Sortings>
             <History>
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="..">/home/chris/.ipython/</Path>
-                  <Path Filename="Books">/home/chris/</Path>
-                  <Path Filename="..">/home/chris/Books/</Path>
-                  <Path Filename="test">/home/chris/</Path>
-                  <Path Filename="..">/home/chris/test/</Path>
-                  <Path Filename=".local">/home/chris/</Path>
-                  <Path Filename="share">/home/chris/.local/</Path>
-                  <Path Filename="baloo">/home/chris/.local/share/</Path>
-                  <Path Filename="..">/home/chris/.local/share/baloo/</Path>
-                  <Path Filename="flatpak">/home/chris/.local/share/</Path>
-                  <Path Filename="..">/home/chris/.local/share/flatpak/</Path>
-                  <Path Filename="inxi">/home/chris/.local/share/</Path>
-                  <Path Filename="..">/home/chris/.local/share/inxi/</Path>
-                  <Path Filename="JetBrains">/home/chris/.local/share/</Path>
-                  <Path Filename="..">/home/chris/.local/share/JetBrains/</Path>
-                  <Path Filename="Trash">/home/chris/.local/share/</Path>
-                  <Path Filename="info">/home/chris/.local/share/Trash/</Path>
-                  <Path Filename="..">/home/chris/.local/share/Trash/info/</Path>
-                  <Path Filename="files">/home/chris/.local/share/Trash/</Path>
-                  <Path Filename="..">/home/chris/.local/share/Trash/files/</Path>
-                  <Path Filename="files">/home/chris/.local/share/Trash/</Path>
-                  <Path Filename="Marijn Haverbeke - Eloquent JavaScript_ A Modern Introduction to Programming, 3rd Edition-No Starch Press (2019).epub">/home/chris/.local/share/Trash/files/</Path>
-                  <Path Filename=".local">/home/chris/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/books/cs/ml/</Path>
-                  <Path Filename="cs">/home/chris/data/Cent/books/</Path>
-                  <Path Filename="books">/home/chris/data/Cent/</Path>
-                  <Path Filename="Snipaste_2020-01-11_17-39-47.png">/home/chris/data/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="Guo Y.  - Solution to Derivatives Markets_ tor Exam FM (2007).pdf">/home/chris/Downloads/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/</Path>
-                  <Path Filename="untitled">/home/chris/data/</Path>
-                  <Path Filename="Cpp">/home/chris/data/untitled/</Path>
-                  <Path Filename="ics46">/home/chris/data/untitled/Cpp/</Path>
-                  <Path Filename="wk2">/home/chris/data/untitled/Cpp/ics46/</Path>
-                  <Path Filename="core">/home/chris/data/untitled/Cpp/ics46/wk2/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/Cpp/ics46/wk2/core/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/Cpp/ics46/wk2/</Path>
                   <Path Filename="proj0">/home/chris/data/untitled/Cpp/ics46/</Path>
                   <Path Filename="core">/home/chris/data/untitled/Cpp/ics46/proj0/</Path>
                   <Path Filename="..">/home/chris/data/untitled/Cpp/ics46/proj0/core/</Path>
@@ -1264,6 +1006,44 @@
                   <Path Filename="core">/home/chris/data/untitled/Cpp/ics46/wk2/</Path>
                   <Path Filename="..">/home/chris/data/untitled/Cpp/ics46/wk2/core/</Path>
                   <Path Filename="week2.tar.gz">/home/chris/data/untitled/Cpp/ics46/wk2/</Path>
+                  <Path Filename="wk4">/home/chris/data/untitled/Cpp/ics46/</Path>
+                  <Path Filename="CMakeLists.txt">/home/chris/data/untitled/Cpp/ics46/wk4/</Path>
+                  <Path Filename="wk4">/home/chris/data/untitled/Cpp/ics46/</Path>
+                  <Path Filename="..">/home/chris/data/untitled/Cpp/ics46/wk4/</Path>
+                  <Path Filename="wk3">/home/chris/data/untitled/Cpp/ics46/</Path>
+                  <Path Filename="..">/home/chris/data/untitled/Cpp/ics46/wk3/</Path>
+                  <Path Filename="wk4">/home/chris/data/untitled/Cpp/ics46/</Path>
+                  <Path Filename="core">/home/chris/data/untitled/Cpp/ics46/wk4/</Path>
+                  <Path Filename="..">/home/chris/data/untitled/Cpp/ics46/wk4/core/</Path>
+                  <Path Filename="core">/home/chris/data/untitled/Cpp/ics46/wk4/</Path>
+                  <Path Filename="..">/home/chris/data/untitled/Cpp/ics46/wk4/core/</Path>
+                  <Path Filename="core">/home/chris/data/untitled/Cpp/ics46/wk4/</Path>
+                  <Path Filename="..">/home/chris/data/untitled/Cpp/ics46/wk4/core/</Path>
+                  <Path Filename="core">/home/chris/data/untitled/Cpp/ics46/wk4/</Path>
+                  <Path Filename="wk3">/home/chris/data/untitled/Cpp/ics46/</Path>
+                  <Path Filename="core">/home/chris/data/untitled/Cpp/ics46/wk3/</Path>
+                  <Path Filename="..">/home/chris/data/untitled/Cpp/ics46/wk3/core/</Path>
+                  <Path Filename="..">/home/chris/data/untitled/Cpp/ics46/wk3/</Path>
+                  <Path Filename="wk4">/home/chris/data/untitled/Cpp/ics46/</Path>
+                  <Path Filename="core">/home/chris/data/untitled/Cpp/ics46/wk4/</Path>
+                  <Path Filename="..">/home/chris/data/untitled/Cpp/ics46/wk4/core/</Path>
+                  <Path Filename="core">/home/chris/data/untitled/Cpp/ics46/wk4/</Path>
+                  <Path Filename="..">/home/chris/data/untitled/Cpp/ics46/wk4/core/</Path>
+                  <Path Filename="exp">/home/chris/data/untitled/Cpp/ics46/wk4/</Path>
+                  <Path Filename="proj2">/home/chris/data/untitled/Cpp/ics46/</Path>
+                  <Path Filename="core">/home/chris/data/untitled/Cpp/ics46/proj2/</Path>
+                  <Path Filename="..">/home/chris/data/untitled/Cpp/ics46/proj2/core/</Path>
+                  <Path Filename="proj1">/home/chris/data/untitled/Cpp/ics46/</Path>
+                  <Path Filename="core">/home/chris/data/untitled/Cpp/ics46/proj1/</Path>
+                  <Path Filename="MazeBTS.cpp">/home/chris/data/untitled/Cpp/ics46/proj1/core/</Path>
+                  <Path Filename="Cpp">/home/chris/data/untitled/</Path>
+                  <Path Filename="untitled">/home/chris/data/</Path>
+                  <Path Filename="Downloads">/home/chris/</Path>
+                  <Path Filename="..">/home/chris/Downloads/</Path>
+                  <Path Filename="Desktop">/home/chris/</Path>
+                  <Path Filename="..">/home/chris/Desktop/</Path>
+                  <Path Filename="Desktop">/home/chris/</Path>
+                  <Path Filename="">/home/chris/Desktop/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -1284,8 +1064,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename=".yarn">/home/chris/</Path>
-                  <Path Filename="bin">/home/chris/.yarn/</Path>
                   <Path Filename="..">/home/chris/.yarn/bin/</Path>
                   <Path Filename="..">/home/chris/.yarn/</Path>
                   <Path Filename=".temp">/home/chris/</Path>
@@ -1333,7 +1111,9 @@
                   <Path Filename="core">/home/chris/data/untitled/Cpp/ics46/wk2/</Path>
                   <Path Filename="untitled">/home/chris/data/</Path>
                   <Path Filename="Desktop">/home/chris/</Path>
-                  <Path Filename="">/home/chris/Desktop/</Path>
+                  <Path Filename="..">/home/chris/Desktop/</Path>
+                  <Path Filename="Downloads">/home/chris/</Path>
+                  <Path Filename="">/home/chris/Downloads/</Path>
                 </Paths>
               </Entry>
             </History>

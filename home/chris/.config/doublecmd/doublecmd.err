@@ -847,3 +847,45 @@ Unhandled exception: EListError: List index (9) out of bounds
   $00007F9AF03159D8 in /usr/lib/libQt5Pas.so.1
   $00007F9AEEA13203 in /usr/lib/libQt5Core.so.5
 
+--------------- 18-04-2020, 22:38:38 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.14.2, libQt5Pas 5.6.1 | PID 1863
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FF2C69D766C in /usr/lib/libQt5Pas.so.1
+
+--------------- 18-04-2020, 22:38:52 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.14.2, libQt5Pas 5.6.1 | PID 47596
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F390A68B66C in /usr/lib/libQt5Pas.so.1
+
+--------------- 20-04-2020, 23:18:07 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.14.2, libQt5Pas 5.6.1 | PID 3514
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FBFD704766C in /usr/lib/libQt5Pas.so.1
+
+--------------- 22-04-2020, 18:58:10 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.14.2, libQt5Pas 5.6.1 | PID 2160
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F1C4B45666C in /usr/lib/libQt5Pas.so.1
+
+--------------- 28-04-2020, 02:40:48 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.14.2, libQt5Pas 5.6.1 | PID 1834
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F3A0403D66C in /usr/lib/libQt5Pas.so.1
+
+--------------- 28-04-2020, 02:46:56 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.14.2, libQt5Pas 5.6.1 | PID 484318
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F9C8598366C in /usr/lib/libQt5Pas.so.1
+

@@ -12,7 +12,8 @@ X = [
     '/etc/sddm.conf' # sddm window dpi support hidpi
     ]
 ZSH = [
-    '~/.zshrc'
+    '~/.zshrc',
+    '~/.oh-my-zsh/'
     ]
 BASH = [
     '~/.bashrc',

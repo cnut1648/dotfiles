@@ -1,6 +1,9 @@
+set surround
+set commentary
+set argtextobj
+set g:argtextobj_pairs="(:),{:},<:>"
+
 nnoremap Y y$
-
-
 
 nnoremap oo o
 nnoremap OO O
