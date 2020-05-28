@@ -138,7 +138,7 @@
       <Left>10</Left>
       <Top>25</Top>
       <Width>1896</Width>
-      <Height>999</Height>
+      <Height>998</Height>
       <PixelsPerInch>96</PixelsPerInch>
     </Position>
   </MainWindow>
@@ -440,7 +440,7 @@
     <ActionOnDoubleClick>2</ActionOnDoubleClick>
     <OpenedTabs>
       <Left>
-        <ActiveTab>9</ActiveTab>
+        <ActiveTab>3</ActiveTab>
         <Tab>
           <FileView Type="columns">
             <History>
@@ -559,7 +559,12 @@
                   <Path Filename="..">/home/chris/data/Cent/books/cs/c/cpp/</Path>
                   <Path Filename="cpp">/home/chris/data/Cent/books/cs/c/</Path>
                   <Path Filename="algorithm">/home/chris/data/Cent/books/cs/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/cs/algorithm/</Path>
+                  <Path Filename="Clifford A. Shaffer - Data Structures and Algorithm Analysis in C++, 3rd Edition  -Dover Publications (2011).pdf">/home/chris/data/Cent/books/cs/algorithm/</Path>
+                  <Path Filename="math">/home/chris/data/Cent/books/</Path>
+                  <Path Filename="stat">/home/chris/data/Cent/books/math/</Path>
+                  <Path Filename="STAT">/home/chris/data/Cent/books/math/stat/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/math/stat/STAT/</Path>
+                  <Path Filename="STAT">/home/chris/data/Cent/books/math/stat/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -767,7 +772,7 @@
                   <Path Filename="web">/home/chris/data/Cent/books/cs/</Path>
                   <Path Filename="js">/home/chris/data/Cent/books/cs/web/</Path>
                   <Path Filename="Vue">/home/chris/data/Cent/books/cs/web/js/</Path>
-                  <Path Filename="Vue.js Up and Running_ Building Accessible and Performant Web Apps-O’Reilly Media (2018).pdf">/home/chris/data/Cent/books/cs/web/js/Vue/</Path>
+                  <Path Filename="">/home/chris/data/Cent/books/cs/web/js/Vue/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -778,7 +783,7 @@
         </Tab>
       </Left>
       <Right>
-        <ActiveTab>2</ActiveTab>
+        <ActiveTab>5</ActiveTab>
         <Tab>
           <FileView Type="columns">
             <History>
@@ -904,6 +909,8 @@
                   <Path Filename="problem2">/home/chris/data/untitled/Cpp/ics46/wk5/</Path>
                   <Path Filename="wk6">/home/chris/data/untitled/Cpp/ics46/</Path>
                   <Path Filename="problem4.odt">/home/chris/data/untitled/Cpp/ics46/wk6/</Path>
+                  <Path Filename="wk7">/home/chris/data/untitled/Cpp/ics46/</Path>
+                  <Path Filename="problem5.odt">/home/chris/data/untitled/Cpp/ics46/wk7/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -1064,8 +1071,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="..">/home/chris/.yarn/bin/</Path>
-                  <Path Filename="..">/home/chris/.yarn/</Path>
                   <Path Filename=".temp">/home/chris/</Path>
                   <Path Filename="timeshift">/home/chris/.temp/</Path>
                   <Path Filename="..">/home/chris/.temp/timeshift/</Path>
@@ -1113,7 +1118,9 @@
                   <Path Filename="Desktop">/home/chris/</Path>
                   <Path Filename="..">/home/chris/Desktop/</Path>
                   <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="">/home/chris/Downloads/</Path>
+                  <Path Filename="Lecture+33.pdf">/home/chris/Downloads/</Path>
+                  <Path Filename="Downloads">/home/chris/</Path>
+                  <Path Filename="Solution-Quiz3-CS122B-Spring-2017.pdf">/home/chris/Downloads/</Path>
                 </Paths>
               </Entry>
             </History>

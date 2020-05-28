@@ -889,3 +889,10 @@ Unhandled exception: EAccessViolation: Access violation
   Stack trace:
   $00007F9C8598366C in /usr/lib/libQt5Pas.so.1
 
+--------------- 19-05-2020, 23:54:21 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.14.2, libQt5Pas 5.6.1 | PID 3473
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F8770BC166C in /usr/lib/libQt5Pas.so.1
+

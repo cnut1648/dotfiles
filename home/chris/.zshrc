@@ -240,6 +240,11 @@ alias doom='/home/chris/.emacs.d/doom-emacs/bin/doom'
 alias ics='ics46@192.168.0.250'
 
 
+# cuda
 export CUDA_HOME=/opt/cuda
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/cuda/lib64
 export PATH=$PATH:$CUDA_HOME/bin
+
+# android
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME
