@@ -905,7 +905,7 @@ let g:mkdx#settings = {
             \ 'restore_visual':          1,
             \ 'enter':                   { 'enable': 1, 'malformed': 1, 'o': 1,
             \                              'shifto': 1, 'shift': 1 },
-            \ 'map':                     { 'prefix': '<leader>', 'enable': 1 },
+            \ 'map':                     { 'prefix': '<Tab>', 'enable': 1 },
             \ 'tokens':                  { 'enter': ['-', '*', '>'],
             \                              'bold': '**', 'italic': '*', 'strike': '',
             \                              'list': '-', 'fence': '',

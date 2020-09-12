@@ -896,3 +896,128 @@ Unhandled exception: EAccessViolation: Access violation
   Stack trace:
   $00007F8770BC166C in /usr/lib/libQt5Pas.so.1
 
+--------------- 28-05-2020, 17:20:10 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.14.2, libQt5Pas 5.6.1 | PID 2022
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F5B9E27C66C in /usr/lib/libQt5Pas.so.1
+
+--------------- 31-05-2020, 12:40:50 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.14.2, libQt5Pas 5.6.1 | PID 76235
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $0000000000433745 in /usr/lib/doublecmd/doublecmd
+  $00000000009A8504 line 596, column 41 of kastoolbar.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000656962 line 2913, column 5 of include/control.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006D4409 line 114, column 3 of include/speedbutton.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006D6764 line 973, column 7 of include/speedbutton.inc in /usr/lib/doublecmd/doublecmd
+  $000000000043942F in /usr/lib/doublecmd/doublecmd
+  $0000000000653D48 line 1581, column 11 of include/control.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000646313 line 4755, column 83 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000647A01 line 5376, column 38 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000006EAD3B line 5702, column 7 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006E6C0E line 3650, column 7 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006E4BA0 line 2642, column 46 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000706C22 line 17141, column 15 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000707EA9 line 17650, column 9 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00007F72E1039E0D in /usr/lib/libQt5Pas.so.1
+
+--------------- 31-05-2020, 12:40:56 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.14.2, libQt5Pas 5.6.1 | PID 76235
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F72E1039CF0 in /usr/lib/libQt5Pas.so.1
+  $0000000000707C0F line 17570, column 3 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000438F00 in /usr/lib/doublecmd/doublecmd
+  $00000000006E438E line 2270, column 3 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000006E43C4 line 2276, column 3 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00007F72E1079CAB in /usr/lib/libQt5Pas.so.1
+  $00007F72DF7FE3C0 in /usr/lib/libQt5Core.so.5
+
+--------------- 31-05-2020, 12:40:57 ---------------
+| DC v0.9.8 beta Rev. 9296 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.14.2, libQt5Pas 5.6.1 | PID 76235
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F72E1039CF0 in /usr/lib/libQt5Pas.so.1
+  $0000000000707C0F line 17570, column 3 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $0000000000438F00 in /usr/lib/doublecmd/doublecmd
+  $00000000006E438E line 2270, column 3 of qtwidgets.pas in /usr/lib/doublecmd/doublecmd
+  $00000000007B8790 line 208, column 24 of qtwscontrols.pp in /usr/lib/doublecmd/doublecmd
+  $000000000064D638 line 7861, column 26 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000065FC65 line 47, column 3 of include/customcontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000064782F line 5313, column 5 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000647819 line 5309, column 11 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000064A67C line 6606, column 5 of include/wincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $000000000065FBF1 line 40, column 3 of include/customcontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004A8041 line 316, column 3 of include/scrollingwincontrol.inc in /usr/lib/doublecmd/doublecmd
+  $00000000004A99D1 line 212, column 5 of include/customform.inc in /usr/lib/doublecmd/doublecmd
+  $0000000000438F00 in /usr/lib/doublecmd/doublecmd
+  $00000000004A4DF6 line 1934, column 3 of forms.pp in /usr/lib/doublecmd/doublecmd
+
+--------------- 10-08-2020, 12:45:48 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.15.0, libQt5Pas 5.6.1 | PID 4140
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F56BA2494E2 in /usr/lib/libQt5XcbQpa.so.5
+
+--------------- 19-08-2020, 00:47:38 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.15.0, libQt5Pas 5.6.1 | PID 2211
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F2003D3C4E2 in /usr/lib/libQt5XcbQpa.so.5
+
+--------------- 20-08-2020, 19:45:09 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.15.0, libQt5Pas 5.6.1 | PID 1994
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F7A7BD8F4E2 in /usr/lib/libQt5XcbQpa.so.5
+
+--------------- 22-08-2020, 23:10:23 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.15.0, libQt5Pas 5.6.1 | PID 2053
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FD0DFF1D4E2 in /usr/lib/libQt5XcbQpa.so.5
+
+--------------- 29-08-2020, 18:27:38 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.15.0, libQt5Pas 5.6.1 | PID 2037
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F4E240514E2 in /usr/lib/libQt5XcbQpa.so.5
+
+--------------- 01-09-2020, 19:49:51 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.15.0, libQt5Pas 5.6.1 | PID 9886
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FB102CCD4E2 in /usr/lib/libQt5XcbQpa.so.5
+
+--------------- 02-09-2020, 10:52:25 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.15.0, libQt5Pas 5.6.1 | PID 1969
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F705ED674E2 in /usr/lib/libQt5XcbQpa.so.5
+
+--------------- 03-09-2020, 23:43:36 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.15.0, libQt5Pas 5.6.1 | PID 2017
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F10362D94E2 in /usr/lib/libQt5XcbQpa.so.5
+
+--------------- 08-09-2020, 18:59:46 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.15.0, libQt5Pas 5.6.1 | PID 2185
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FAC9E4D44E2 in /usr/lib/libQt5XcbQpa.so.5
+

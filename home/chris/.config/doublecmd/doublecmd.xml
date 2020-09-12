@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<doublecmd DCVersion="0.9.8 beta" ConfigVersion="10">
+<doublecmd DCVersion="0.9.9 beta" ConfigVersion="10">
   <Toolbars>
     <MainToolbar>
       <Row>
@@ -135,11 +135,11 @@
     <Position Save="True">
       <Maximized>False</Maximized>
       <Splitter>54.1383219954649</Splitter>
-      <Left>10</Left>
-      <Top>25</Top>
-      <Width>1896</Width>
-      <Height>998</Height>
-      <PixelsPerInch>96</PixelsPerInch>
+      <Left>20</Left>
+      <Top>48</Top>
+      <Width>3792</Width>
+      <Height>1998</Height>
+      <PixelsPerInch>192</PixelsPerInch>
     </Position>
   </MainWindow>
   <Configuration Save="True" SortOrder="1" TreeType="0">
@@ -227,7 +227,7 @@
     </Main>
     <Editor>
       <Name>Monospace</Name>
-      <Size>9</Size>
+      <Size>11</Size>
       <Style>0</Style>
       <Quality>0</Quality>
     </Editor>
@@ -375,6 +375,8 @@
       </Columns>
     </BriefView>
     <ExtraLineSpan>2</ExtraLineSpan>
+    <FolderPrefix>[</FolderPrefix>
+    <FolderPostfix>]</FolderPostfix>
   </FilesViews>
   <Keyboard>
     <Typing>
@@ -440,7 +442,7 @@
     <ActionOnDoubleClick>2</ActionOnDoubleClick>
     <OpenedTabs>
       <Left>
-        <ActiveTab>3</ActiveTab>
+        <ActiveTab>7</ActiveTab>
         <Tab>
           <FileView Type="columns">
             <History>
@@ -450,7 +452,7 @@
                   <Path Filename="scripts">/usr/lib/doublecmd/</Path>
                   <Path Filename="..">/usr/lib/doublecmd/scripts/</Path>
                   <Path Filename="Cent">/home/chris/data/</Path>
-                  <Path Filename="">/home/chris/data/Cent/</Path>
+                  <Path Filename="Chapter 8.ppt">/home/chris/data/Cent/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -564,7 +566,8 @@
                   <Path Filename="stat">/home/chris/data/Cent/books/math/</Path>
                   <Path Filename="STAT">/home/chris/data/Cent/books/math/stat/</Path>
                   <Path Filename="..">/home/chris/data/Cent/books/math/stat/STAT/</Path>
-                  <Path Filename="STAT">/home/chris/data/Cent/books/math/stat/</Path>
+                  <Path Filename="">/home/chris/data/Cent/books/math/stat/</Path>
+                  <Path Filename="">/home/chris/data/Cent/books/math/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -640,43 +643,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="language">/usr/lib/doublecmd/</Path>
-                  <Path Filename="..">/usr/lib/doublecmd/language/</Path>
-                  <Path Filename="plugins">/usr/lib/doublecmd/</Path>
-                  <Path Filename="wfx">/usr/lib/doublecmd/plugins/</Path>
-                  <Path Filename="..">/usr/lib/doublecmd/plugins/wfx/</Path>
-                  <Path Filename="C">/home/chris/data/untitled/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/C/</Path>
-                  <Path Filename="arduino">/home/chris/data/untitled/</Path>
-                  <Path Filename="untitled">/home/chris/data/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/</Path>
-                  <Path Filename="Cent">/home/chris/data/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/</Path>
-                  <Path Filename="..">/home/chris/data/</Path>
-                  <Path Filename="data">/home/chris/</Path>
-                  <Path Filename="..">/home/chris/application/</Path>
-                  <Path Filename="Cent">/home/chris/data/</Path>
-                  <Path Filename="Academic">/home/chris/data/Cent/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/Academic/</Path>
-                  <Path Filename="books">/home/chris/data/Cent/</Path>
-                  <Path Filename="cs">/home/chris/data/Cent/books/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/cs/</Path>
-                  <Path Filename="快看完">/home/chris/data/Cent/books/cs/python/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/cs/python/快看完/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
                   <Path Filename="scripts">/usr/lib/doublecmd/</Path>
                   <Path Filename="..">/usr/lib/doublecmd/scripts/</Path>
                   <Path Filename="Cent">/home/chris/data/</Path>
@@ -684,7 +650,9 @@
                   <Path Filename="math">/home/chris/data/Cent/books/</Path>
                   <Path Filename="">/home/chris/data/Cent/books/math/</Path>
                   <Path Filename="133A">/home/chris/data/Cent/books/math/econ/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/math/econ/133A/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/math/econ/133A/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/cs/web/js/typescript/</Path>
+                  <Path Filename="..">/home/chris/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -733,46 +701,7 @@
                   <Path Filename="data">/home/chris/data/untitled/python/</Path>
                   <Path Filename="Epidemiology">/home/chris/data/untitled/python/data/</Path>
                   <Path Filename="">/home/chris/data/untitled/python/data/Epidemiology/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="language">/usr/lib/doublecmd/</Path>
-                  <Path Filename="..">/usr/lib/doublecmd/language/</Path>
-                  <Path Filename="plugins">/usr/lib/doublecmd/</Path>
-                  <Path Filename="wfx">/usr/lib/doublecmd/plugins/</Path>
-                  <Path Filename="..">/usr/lib/doublecmd/plugins/wfx/</Path>
-                  <Path Filename="C">/home/chris/data/untitled/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/C/</Path>
-                  <Path Filename="arduino">/home/chris/data/untitled/</Path>
-                  <Path Filename="untitled">/home/chris/data/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/</Path>
-                  <Path Filename="Cent">/home/chris/data/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/</Path>
-                  <Path Filename="..">/home/chris/data/</Path>
-                  <Path Filename="data">/home/chris/</Path>
-                  <Path Filename="..">/home/chris/application/</Path>
-                  <Path Filename="Cent">/home/chris/data/</Path>
-                  <Path Filename="Academic">/home/chris/data/Cent/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/Academic/</Path>
-                  <Path Filename="books">/home/chris/data/Cent/</Path>
-                  <Path Filename="cs">/home/chris/data/Cent/books/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/cs/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/books/cs/cs/</Path>
-                  <Path Filename="web">/home/chris/data/Cent/books/cs/</Path>
-                  <Path Filename="js">/home/chris/data/Cent/books/cs/web/</Path>
-                  <Path Filename="Vue">/home/chris/data/Cent/books/cs/web/js/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/cs/web/js/Vue/</Path>
+                  <Path Filename="..">/home/chris/data/untitled/python/data/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -783,7 +712,7 @@
         </Tab>
       </Left>
       <Right>
-        <ActiveTab>5</ActiveTab>
+        <ActiveTab>2</ActiveTab>
         <Tab>
           <FileView Type="columns">
             <History>
@@ -884,6 +813,12 @@
         </Tab>
         <Tab>
           <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>0</Function>
+              </Sorting>
+            </Sortings>
             <History>
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
@@ -911,6 +846,10 @@
                   <Path Filename="problem4.odt">/home/chris/data/untitled/Cpp/ics46/wk6/</Path>
                   <Path Filename="wk7">/home/chris/data/untitled/Cpp/ics46/</Path>
                   <Path Filename="problem5.odt">/home/chris/data/untitled/Cpp/ics46/wk7/</Path>
+                  <Path Filename="wk9">/home/chris/data/untitled/Cpp/ics46/</Path>
+                  <Path Filename="problem1.odt">/home/chris/data/untitled/Cpp/ics46/wk9/</Path>
+                  <Path Filename="p5">/home/chris/data/untitled/Cpp/ics46/</Path>
+                  <Path Filename="project5.tar.gz">/home/chris/data/untitled/Cpp/ics46/p5/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -1120,7 +1059,7 @@
                   <Path Filename="Downloads">/home/chris/</Path>
                   <Path Filename="Lecture+33.pdf">/home/chris/Downloads/</Path>
                   <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="Solution-Quiz3-CS122B-Spring-2017.pdf">/home/chris/Downloads/</Path>
+                  <Path Filename="">/home/chris/Downloads/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -1186,13 +1125,13 @@
     <ShowHiddenDimmed>False</ShowHiddenDimmed>
     <ShowMode>3</ShowMode>
     <ShowOverlays>False</ShowOverlays>
-    <Size>32</Size>
-    <DiskSize>16</DiskSize>
+    <Size>48</Size>
+    <DiskSize>32</DiskSize>
     <DiskAlpha>50</DiskAlpha>
     <Exclude>False</Exclude>
     <ExcludeDirs/>
     <CustomIcons>0</CustomIcons>
-    <PixelsPerInch>96</PixelsPerInch>
+    <PixelsPerInch>192</PixelsPerInch>
     <ShowInMenus Enabled="False">
       <Size>16</Size>
     </ShowInMenus>
@@ -1205,6 +1144,7 @@
     <HotDir Name="chris" Path="/home/chris"/>
     <HotDir Name="Cent" Path="/home/chris/data/Cent"/>
     <HotDir Name="untitled" Path="/home/chris/data/untitled"/>
+    <HotDir Name="Downloads" Path="/home/chris/Downloads/"/>
     <HotDir Name=".config" Path="/home/chris/.config"/>
   </DirectoryHotList>
   <Viewer>
@@ -1349,7 +1289,7 @@
       <Name>Default</Name>
       <CustomView>False</CustomView>
       <FileSystem>&lt;General&gt;</FileSystem>
-      <PixelsPerInch>96</PixelsPerInch>
+      <PixelsPerInch>192</PixelsPerInch>
       <CursorBorder Enabled="True">
         <Color>-2147483635</Color>
       </CursorBorder>
@@ -1357,7 +1297,7 @@
         <Column>
           <Title>Name</Title>
           <FuncString>[DC().GETFILENAME{}]</FuncString>
-          <Width>673</Width>
+          <Width>1346</Width>
           <Align>0</Align>
           <Font>
             <Name>Source Code Pro Light</Name>
@@ -1380,7 +1320,7 @@
         <Column>
           <Title>Size</Title>
           <FuncString>[DC().GETFILESIZE{}]</FuncString>
-          <Width>70</Width>
+          <Width>140</Width>
           <Align>1</Align>
           <Font>
             <Name>Source Code Pro Light</Name>
@@ -1403,7 +1343,7 @@
         <Column>
           <Title>Date</Title>
           <FuncString>[DC().GETFILETIME{}]</FuncString>
-          <Width>140</Width>
+          <Width>280</Width>
           <Align>1</Align>
           <Font>
             <Name>Source Code Pro Light</Name>
@@ -1426,7 +1366,7 @@
         <Column>
           <Title>Attr</Title>
           <FuncString>[DC().GETFILEATTR{}]</FuncString>
-          <Width>100</Width>
+          <Width>200</Width>
           <Align>0</Align>
           <Font>
             <Name>Source Code Pro Light</Name>
@@ -1576,4 +1516,11 @@
     <PluginFilenameStyle>0</PluginFilenameStyle>
     <PluginPathToBeRelativeTo>%COMMANDER_PATH%</PluginPathToBeRelativeTo>
   </Plugins>
+  <Differ>
+    <Colors>
+      <Added>11206570</Added>
+      <Deleted>11184895</Deleted>
+      <Modified>16755370</Modified>
+    </Colors>
+  </Differ>
 </doublecmd>

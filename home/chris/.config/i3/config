@@ -236,6 +236,7 @@ mode "one-quick"{
 	bindsym d exec xdg-open "http://www.douban.com/search?q=$(xclip -out -selection primary)"; mode "default"
 	bindsym l exec xdg-open "http://www.bilibili.com/search?keyword=$(xclip -out -selection primary)"; mode "default"
     bindsym a exec xdg-open "http://www.amazon.com/s?k=$(xclip -out -selection primary)"; mode "default"
+    bindsym r exec xdg-open "http://www.goodreads.com/search?q=$(xclip -out -selection primary)&search_type=books"; mode "default"
 
 	bindsym Return mode "default"
 	bindsym $mod+Return mode "default"

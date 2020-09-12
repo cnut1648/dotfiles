@@ -2,19 +2,35 @@
 <doublecmd>
   <History>
     <Navigation>
+      <Item>/home/chris/Downloads/</Item>
+      <Item>/home/chris/</Item>
+      <Item>/home/chris/data/</Item>
+      <Item>/home/chris/data/Cent/</Item>
+      <Item>/home/chris/data/untitled/web/course/cs122B/</Item>
+      <Item>/home/chris/data/untitled/web/course/</Item>
+      <Item>/home/chris/data/Cent/books/cs/ml/dl/</Item>
+      <Item>/home/chris/data/Cent/books/cs/ml/</Item>
+      <Item>/home/chris/data/Cent/books/cs/ml/178/</Item>
+      <Item>/home/chris/data/Cent/books/cs/</Item>
+      <Item>/home/chris/data/Cent/books/cs/java/</Item>
+      <Item>/home/chris/data/Cent/books/cs/java/scala/</Item>
+      <Item>/run/media/chris/华为手机助手/</Item>
+      <Item>/home/chris/data/Cent/books/</Item>
+      <Item>/home/chris/data/untitled/Cpp/ics46/p5/</Item>
+      <Item>/home/chris/data/untitled/Cpp/ics46/</Item>
+      <Item>/home/chris/data/Cent/books/cs/web/js/typescript/</Item>
+      <Item>/home/chris/data/Cent/ca/Camera/</Item>
+      <Item>/home/chris/data/Cent/ca/</Item>
+      <Item>/home/chris/data/untitled/Cpp/ics46/wk9/</Item>
+      <Item>/home/chris/data/Cent/books/cs/algorithm/</Item>
       <Item>/home/chris/data/Cent/books/math/stat/</Item>
       <Item>/home/chris/data/Cent/books/math/stat/STAT/</Item>
       <Item>/home/chris/data/Cent/books/math/</Item>
-      <Item>/home/chris/data/Cent/books/</Item>
-      <Item>/home/chris/Downloads/</Item>
-      <Item>/home/chris/</Item>
       <Item>/home/chris/data/untitled/Cpp/ics46/wk7/</Item>
-      <Item>/home/chris/data/untitled/Cpp/ics46/</Item>
       <Item>/home/chris/data/untitled/Cpp/ics46/wk6/</Item>
       <Item>/home/chris/data/untitled/Cpp/ics46/wk5/</Item>
       <Item>/home/chris/data/untitled/Cpp/</Item>
       <Item>/home/chris/data/untitled/</Item>
-      <Item>/home/chris/data/</Item>
       <Item>/home/chris/Desktop/</Item>
       <Item>/home/chris/data/untitled/Cpp/ics46/proj1/core/</Item>
       <Item>/home/chris/data/untitled/Cpp/ics46/proj1/</Item>
@@ -23,8 +39,6 @@
       <Item>/home/chris/data/Cent/books/cs/web/js/Vue/</Item>
       <Item>/home/chris/data/Cent/books/cs/web/js/</Item>
       <Item>/home/chris/data/Cent/books/cs/web/</Item>
-      <Item>/home/chris/data/Cent/books/cs/</Item>
-      <Item>/home/chris/data/Cent/books/cs/algorithm/</Item>
       <Item>/home/chris/data/Cent/books/cs/c/</Item>
       <Item>/home/chris/data/untitled/Cpp/ics46/wk4/</Item>
       <Item>/home/chris/data/untitled/Cpp/ics46/wk4/core/</Item>
@@ -33,26 +47,12 @@
       <Item>/home/chris/data/untitled/python/data/Epidemiology/</Item>
       <Item>/home/chris/data/untitled/python/data/</Item>
       <Item>/home/chris/data/untitled/python/</Item>
-      <Item>/home/chris/data/Cent/</Item>
       <Item>/home/chris/data/Cent/books/cs/cs/</Item>
       <Item>/home/chris/data/untitled/Cpp/ics46/wk2/</Item>
       <Item>/home/chris/data/untitled/Cpp/ics46/wk2/core/</Item>
       <Item>/home/chris/data/untitled/Cpp/ics46/proj0/</Item>
       <Item>/home/chris/data/untitled/Cpp/ics46/proj0/core/</Item>
       <Item>/home/chris/data/Cent/books/cs/js/vue/</Item>
-      <Item>/home/chris/Documents/</Item>
-      <Item>/home/</Item>
-      <Item>/</Item>
-      <Item>/lib/</Item>
-      <Item>/home/chris/data/Cent/books/cs/js/</Item>
-      <Item>/home/chris/data/untitled/web/course/</Item>
-      <Item>/home/chris/data/untitled/web/course/cs122B/</Item>
-      <Item>/home/chris/data/untitled/web/course/cs122B/web/</Item>
-      <Item>/home/chris/data/untitled/web/course/cs122B/src/</Item>
-      <Item>/home/chris/data/untitled/web/course/cs122B/src/main/</Item>
-      <Item>/home/chris/data/untitled/web/course/cs122B/src/main/java/</Item>
-      <Item>/home/chris/data/untitled/web/course/cs122B/src/test/</Item>
-      <Item>/home/chris/data/untitled/web/course/cs122b-spring20-team-111/</Item>
     </Navigation>
     <CommandLine/>
     <FileMask/>
@@ -64,6 +64,9 @@
       <Item/>
     </ReplaceText>
     <ReplaceTextPath/>
+    <CreateDirectories>
+      <Item>java</Item>
+    </CreateDirectories>
     <SearchDirectories/>
     <SearchExcludeFiles/>
     <SearchExcludeDirectories/>
