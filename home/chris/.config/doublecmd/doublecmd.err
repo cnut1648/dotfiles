@@ -1021,3 +1021,80 @@ Unhandled exception: EAccessViolation: Access violation
   Stack trace:
   $00007FAC9E4D44E2 in /usr/lib/libQt5XcbQpa.so.5
 
+--------------- 12-09-2020, 12:27:41 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.15.0, libQt5Pas 5.6.1 | PID 2053
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007EFEE5EE34E2 in /usr/lib/libQt5XcbQpa.so.5
+
+--------------- 12-09-2020, 14:01:22 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.15.0, libQt5Pas 5.6.1 | PID 2050
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F5027BE74E2 in /usr/lib/libQt5XcbQpa.so.5
+
+--------------- 12-09-2020, 14:02:33 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.15.0, libQt5Pas 5.6.1 | PID 1938
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F49F8ECB4E2 in /usr/lib/libQt5XcbQpa.so.5
+
+--------------- 18-09-2020, 23:00:51 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.15.0, libQt5Pas 5.6.1 | PID 1961
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FB662D234E2 in /usr/lib/libQt5XcbQpa.so.5
+
+--------------- 22-09-2020, 20:12:39 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.15.0, libQt5Pas 5.6.1 | PID 1934
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FEFD44BA4E2 in /usr/lib/libQt5XcbQpa.so.5
+
+--------------- 26-09-2020, 09:07:24 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.15.0, libQt5Pas 5.6.1 | PID 1980
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FDCE9ED34E2 in /usr/lib/libQt5XcbQpa.so.5
+
+--------------- 27-09-2020, 15:08:53 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.15.0, libQt5Pas 5.6.1 | PID 1981
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F5C4CE324E2 in /usr/lib/libQt5XcbQpa.so.5
+
+--------------- 28-09-2020, 18:24:05 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.15.0, libQt5Pas 5.6.1 | PID 1969
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FA00F9ED4E2 in /usr/lib/libQt5XcbQpa.so.5
+
+--------------- 29-09-2020, 17:06:34 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.15.0, libQt5Pas 5.6.1 | PID 1975
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F2BF93044E2 in /usr/lib/libQt5XcbQpa.so.5
+
+--------------- 03-10-2020, 06:15:54 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.15.0, libQt5Pas 5.6.1 | PID 2525
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F5FE10984E2 in /usr/lib/libQt5XcbQpa.so.5
+
+--------------- 10-10-2020, 11:39:29 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 3682
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F012C90E18C in /usr/lib/libQt5Pas.so.1
+

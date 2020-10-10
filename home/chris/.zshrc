@@ -237,8 +237,6 @@ alias v='f -e nvim'
 alias em='/home/chris/.emacs.d/doom-emacs/bin/doom run'
 alias doom='/home/chris/.emacs.d/doom-emacs/bin/doom'
 
-alias ics='ics46@192.168.0.250'
-
 
 # cuda
 export CUDA_HOME=/opt/cuda
@@ -248,8 +246,3 @@ export PATH=$PATH:$CUDA_HOME/bin
 # android
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME
-
-alias master='rsync -ave "ssh -i cs122b.pem" ubuntu@ec2-54-237-58-21.compute-1.amazonaws.com:tomcat/bin/queryLog ./master'
-alias slave='rsync -ave "ssh -i cs122b.pem" ubuntu@ec2-54-84-133-4.compute-1.amazonaws.com:tomcat/bin/queryLog ./slave'
-alias comb='cat < slave >> master;rm slave;mv master'
-alias single='rsync -ave "ssh -i cs122b.pem" ubuntu@ec2-54-208-237-151.compute-1.amazonaws.com:tomcat/bin/queryLog ./single'
