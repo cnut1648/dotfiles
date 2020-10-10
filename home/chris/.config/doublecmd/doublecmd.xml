@@ -135,10 +135,10 @@
     <Position Save="True">
       <Maximized>False</Maximized>
       <Splitter>54.1383219954649</Splitter>
-      <Left>965</Left>
-      <Top>25</Top>
+      <Left>10</Left>
+      <Top>0</Top>
       <Width>941</Width>
-      <Height>998</Height>
+      <Height>1005</Height>
       <PixelsPerInch>96</PixelsPerInch>
     </Position>
   </MainWindow>

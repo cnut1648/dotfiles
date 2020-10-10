@@ -37,12 +37,8 @@ software = ['~/.config/i3/',
         "~/.mozilla/firefox/h1c7m981.default-release/chrome/userChrome.css",
          # Plasma desktop widgets
          '~/.config/plasmashellrc',
+         '/home/chris/.local/share/plasma/plasmoids',
          # jetbrains
-        '~/.PyCharm2019.3/config',
-        '~/.IntelliJIdea2019.3/config',
-        '~/.WebStorm2019.3/config',
-        '~/.CLion2019.3/config',
-        '~/.DataGrip2019.3/config',
         '~/.ideavimrc',
         # feh & neofetch
         '~/Pictures/'

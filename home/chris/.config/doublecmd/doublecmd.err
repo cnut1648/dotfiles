@@ -1098,3 +1098,24 @@ Unhandled exception: EAccessViolation: Access violation
   Stack trace:
   $00007F012C90E18C in /usr/lib/libQt5Pas.so.1
 
+--------------- 10-10-2020, 13:02:04 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 1782
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F9A0688C18C in /usr/lib/libQt5Pas.so.1
+
+--------------- 10-10-2020, 13:19:01 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 10841
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007FAED1B3618C in /usr/lib/libQt5Pas.so.1
+
+--------------- 10-10-2020, 13:19:55 ---------------
+| DC v0.9.9 beta Rev. 9478 -- x86_64-Linux-qt5
+| Manjaro Linux -- Qt 5.15.1, libQt5Pas 5.6.1 | PID 11463
+Unhandled exception: EAccessViolation: Access violation
+  Stack trace:
+  $00007F965812E18C in /usr/lib/libQt5Pas.so.1
+

@@ -1,2 +1,0 @@
-com.intellij.plugins.html.instantEditing
-sonnenhut.liveedit.patch

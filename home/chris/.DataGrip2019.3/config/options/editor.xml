@@ -1,9 +1,0 @@
-<application>
-  <component name="CodeInsightSettings">
-    <option name="REFORMAT_ON_PASTE" value="1" />
-  </component>
-  <component name="DefaultFont">
-    <option name="FONT_SIZE" value="14" />
-    <option name="FONT_SCALE" value="2.0" />
-  </component>
-</application>
