@@ -1,6 +1,6 @@
 {
     "type": "script",
-    "description": "mat",
+    "description": "jup",
     "store": {},
     "modes": [
         1
@@ -11,7 +11,7 @@
     "showInTrayMenu": false,
     "abbreviation": {
         "abbreviations": [
-            "%mat"
+            "nbv"
         ],
         "backspace": true,
         "ignoreCase": false,

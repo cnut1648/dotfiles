@@ -136,9 +136,9 @@
       <Maximized>False</Maximized>
       <Splitter>54.1383219954649</Splitter>
       <Left>10</Left>
-      <Top>0</Top>
-      <Width>941</Width>
-      <Height>1005</Height>
+      <Top>25</Top>
+      <Width>1896</Width>
+      <Height>484</Height>
       <PixelsPerInch>96</PixelsPerInch>
     </Position>
   </MainWindow>
@@ -442,7 +442,7 @@
     <ActionOnDoubleClick>2</ActionOnDoubleClick>
     <OpenedTabs>
       <Left>
-        <ActiveTab>8</ActiveTab>
+        <ActiveTab>3</ActiveTab>
         <Tab>
           <FileView Type="columns">
             <History>
@@ -513,7 +513,7 @@
                   <Path Filename="Cent">/home/chris/data/</Path>
                   <Path Filename="">/home/chris/data/Cent/</Path>
                   <Path Filename="math">/home/chris/data/Cent/books/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/math/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/math/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -567,7 +567,9 @@
                   <Path Filename="STAT">/home/chris/data/Cent/books/math/stat/</Path>
                   <Path Filename="..">/home/chris/data/Cent/books/math/stat/STAT/</Path>
                   <Path Filename="">/home/chris/data/Cent/books/math/stat/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/math/</Path>
+                  <Path Filename="prob">/home/chris/data/Cent/books/math/</Path>
+                  <Path Filename="stat">/home/chris/data/Cent/books/math/prob/</Path>
+                  <Path Filename="Dennis Wackerly - Student Solutions Manual.pdf">/home/chris/data/Cent/books/math/prob/stat/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -588,7 +590,7 @@
                   <Path Filename="">/home/chris/data/Cent/</Path>
                   <Path Filename="math">/home/chris/data/Cent/books/</Path>
                   <Path Filename="">/home/chris/data/Cent/books/math/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/math/3a/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/math/3a/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -628,31 +630,7 @@
                   <Path Filename="..">/home/chris/data/Cent/books/cs/algorithm/算法/</Path>
                   <Path Filename="挑战程序设计竞赛">/home/chris/data/Cent/books/cs/algorithm/</Path>
                   <Path Filename="..">/home/chris/data/Cent/books/cs/algorithm/挑战程序设计竞赛/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/cs/algorithm/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="scripts">/usr/lib/doublecmd/</Path>
-                  <Path Filename="..">/usr/lib/doublecmd/scripts/</Path>
-                  <Path Filename="Cent">/home/chris/data/</Path>
-                  <Path Filename="">/home/chris/data/Cent/</Path>
-                  <Path Filename="math">/home/chris/data/Cent/books/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/math/</Path>
-                  <Path Filename="133A">/home/chris/data/Cent/books/math/econ/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/books/math/econ/133A/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/books/cs/web/js/typescript/</Path>
-                  <Path Filename="">/home/chris/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/cs/algorithm/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -701,135 +679,7 @@
                   <Path Filename="data">/home/chris/data/untitled/python/</Path>
                   <Path Filename="Epidemiology">/home/chris/data/untitled/python/data/</Path>
                   <Path Filename="">/home/chris/data/untitled/python/data/Epidemiology/</Path>
-                  <Path Filename="">/home/chris/data/untitled/python/data/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="data">/home/chris/</Path>
-                  <Path Filename="..">/home/chris/application/</Path>
-                  <Path Filename="Cent">/home/chris/data/</Path>
-                  <Path Filename="Academic">/home/chris/data/Cent/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/Academic/</Path>
-                  <Path Filename="books">/home/chris/data/Cent/</Path>
-                  <Path Filename="cs">/home/chris/data/Cent/books/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/cs/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/books/cs/web/</Path>
-                  <Path Filename="web">/home/chris/data/Cent/books/cs/</Path>
-                  <Path Filename="js">/home/chris/data/Cent/books/cs/web/</Path>
-                  <Path Filename="Vue">/home/chris/data/Cent/books/cs/web/js/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/books/cs/web/js/Vue/</Path>
-                  <Path Filename="Head First JavaScript中文版.莫里森.扫描版.pdf">/home/chris/data/Cent/books/cs/web/js/</Path>
-                  <Path Filename="cs">/home/chris/data/Cent/books/</Path>
-                  <Path Filename="books">/home/chris/data/Cent/</Path>
-                  <Path Filename="untitled">/home/chris/data/</Path>
-                  <Path Filename="python">/home/chris/data/untitled/</Path>
-                  <Path Filename="data">/home/chris/data/untitled/python/</Path>
-                  <Path Filename="Epidemiology">/home/chris/data/untitled/python/data/</Path>
-                  <Path Filename="">/home/chris/data/untitled/python/data/Epidemiology/</Path>
                   <Path Filename="..">/home/chris/data/untitled/python/data/</Path>
-                  <Path Filename="p">/run/media/chris/Seagate Backup Plus Drive/</Path>
-                  <Path Filename="Orwell.Ignorance.is.Strength.Episode.Three.Synthesis">/run/media/chris/Seagate Backup Plus Drive/p/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/p/Orwell.Ignorance.is.Strength.Episode.Three.Synthesis/</Path>
-                  <Path Filename="deck">/run/media/chris/Seagate Backup Plus Drive/p/</Path>
-                  <Path Filename="MetaBeat.ydk">/run/media/chris/Seagate Backup Plus Drive/p/deck/</Path>
-                  <Path Filename="Seagate">/run/media/chris/Seagate Backup Plus Drive/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/Seagate/</Path>
-                  <Path Filename="X">/run/media/chris/Seagate Backup Plus Drive/</Path>
-                  <Path Filename="D">/run/media/chris/Seagate Backup Plus Drive/X/</Path>
-                  <Path Filename="A">/run/media/chris/Seagate Backup Plus Drive/X/D/</Path>
-                  <Path Filename="あやみ旬果">/run/media/chris/Seagate Backup Plus Drive/X/D/A/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/X/D/A/あやみ旬果/</Path>
-                  <Path Filename="一乃瀬るりあ">/run/media/chris/Seagate Backup Plus Drive/X/D/A/</Path>
-                  <Path Filename="mism-058">/run/media/chris/Seagate Backup Plus Drive/X/D/A/一乃瀬るりあ/</Path>
-                  <Path Filename="2D239666B0D7396702645B7BC4D6A1C318509B89.torrent">/run/media/chris/Seagate Backup Plus Drive/X/D/A/一乃瀬るりあ/mism-058/</Path>
-                  <Path Filename="A">/run/media/chris/Seagate Backup Plus Drive/X/D/</Path>
-                  <Path Filename="松本ななえ">/run/media/chris/Seagate Backup Plus Drive/X/D/A/</Path>
-                  <Path Filename="SNIS-849">/run/media/chris/Seagate Backup Plus Drive/X/D/A/松本ななえ/</Path>
-                  <Path Filename="SNIS-849 9頭身！新人グラドルの初イキ！初体験4本番スペシャル 松本ななえ - AVMOO.jpg">/run/media/chris/Seagate Backup Plus Drive/X/D/A/松本ななえ/SNIS-849/</Path>
-                  <Path Filename="SNIS-849">/run/media/chris/Seagate Backup Plus Drive/X/D/A/松本ななえ/</Path>
-                  <Path Filename="水莱丽">/run/media/chris/Seagate Backup Plus Drive/X/D/A/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/X/D/A/水莱丽/</Path>
-                  <Path Filename="森沢かな">/run/media/chris/Seagate Backup Plus Drive/X/D/A/</Path>
-                  <Path Filename="APNS064">/run/media/chris/Seagate Backup Plus Drive/X/D/A/森沢かな/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/X/D/A/森沢かな/APNS064/</Path>
-                  <Path Filename="APNS066">/run/media/chris/Seagate Backup Plus Drive/X/D/A/森沢かな/</Path>
-                  <Path Filename="APNS-066 失踪した愛しき妻のレイプ映像がDVDで送りつけられてきた... 犯され、輪わされ、絶頂させられ、徹底的に淫乱調教されていた... 森沢かな - JAVLibrary.jpg">/run/media/chris/Seagate Backup Plus Drive/X/D/A/森沢かな/APNS066/</Path>
-                  <Path Filename="..">/run/media/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="C">/home/chris/data/untitled/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/C/</Path>
-                  <Path Filename="arduino">/home/chris/data/untitled/</Path>
-                  <Path Filename="untitled">/home/chris/data/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/</Path>
-                  <Path Filename="Cent">/home/chris/data/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/</Path>
-                  <Path Filename="..">/home/chris/data/</Path>
-                  <Path Filename="data">/home/chris/</Path>
-                  <Path Filename="..">/home/chris/application/</Path>
-                  <Path Filename="Cent">/home/chris/data/</Path>
-                  <Path Filename="Academic">/home/chris/data/Cent/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/Academic/</Path>
-                  <Path Filename="books">/home/chris/data/Cent/</Path>
-                  <Path Filename="cs">/home/chris/data/Cent/books/</Path>
-                  <Path Filename="">/home/chris/data/Cent/books/cs/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/books/cs/web/</Path>
-                  <Path Filename="web">/home/chris/data/Cent/books/cs/</Path>
-                  <Path Filename="js">/home/chris/data/Cent/books/cs/web/</Path>
-                  <Path Filename="Vue">/home/chris/data/Cent/books/cs/web/js/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/books/cs/web/js/Vue/</Path>
-                  <Path Filename="Head First JavaScript中文版.莫里森.扫描版.pdf">/home/chris/data/Cent/books/cs/web/js/</Path>
-                  <Path Filename="cs">/home/chris/data/Cent/books/</Path>
-                  <Path Filename="books">/home/chris/data/Cent/</Path>
-                  <Path Filename="untitled">/home/chris/data/</Path>
-                  <Path Filename="python">/home/chris/data/untitled/</Path>
-                  <Path Filename="data">/home/chris/data/untitled/python/</Path>
-                  <Path Filename="Epidemiology">/home/chris/data/untitled/python/data/</Path>
-                  <Path Filename="">/home/chris/data/untitled/python/data/Epidemiology/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/python/data/</Path>
-                  <Path Filename="p">/run/media/chris/Seagate Backup Plus Drive/</Path>
-                  <Path Filename="Orwell.Ignorance.is.Strength.Episode.Three.Synthesis">/run/media/chris/Seagate Backup Plus Drive/p/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/p/Orwell.Ignorance.is.Strength.Episode.Three.Synthesis/</Path>
-                  <Path Filename="deck">/run/media/chris/Seagate Backup Plus Drive/p/</Path>
-                  <Path Filename="MetaBeat.ydk">/run/media/chris/Seagate Backup Plus Drive/p/deck/</Path>
-                  <Path Filename="Seagate">/run/media/chris/Seagate Backup Plus Drive/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/Seagate/</Path>
-                  <Path Filename="X">/run/media/chris/Seagate Backup Plus Drive/</Path>
-                  <Path Filename="D">/run/media/chris/Seagate Backup Plus Drive/X/</Path>
-                  <Path Filename="A">/run/media/chris/Seagate Backup Plus Drive/X/D/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/X/D/A/</Path>
-                  <Path Filename="p">/run/media/chris/Seagate Backup Plus Drive/</Path>
-                  <Path Filename="YGOPro2完整版">/run/media/chris/Seagate Backup Plus Drive/p/</Path>
-                  <Path Filename="YGOPro2完整版">/run/media/chris/Seagate Backup Plus Drive/p/YGOPro2完整版/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/p/YGOPro2完整版/YGOPro2完整版/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/p/YGOPro2完整版/</Path>
-                  <Path Filename="YGOPro2完整版">/run/media/chris/Seagate Backup Plus Drive/p/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/p/YGOPro2完整版/</Path>
-                  <Path Filename="ppsspp_win">/run/media/chris/Seagate Backup Plus Drive/p/</Path>
-                  <Path Filename="">/run/media/</Path>
                 </Paths>
               </Entry>
             </History>
