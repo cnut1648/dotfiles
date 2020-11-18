@@ -135,6 +135,29 @@ bindsym $mod+a focus parent
 # focus the child container
 bindsym $mod+z focus child
 
+# i3-grid call rofi ui
+# - hjkl: move
+# - m: enter
+# - n: multi-select
+# - b: backspace
+# - c: clear text
+# - e: escape
+#
+# A: arrange all window (snap --all)
+# C current center, with size n%
+# D current move to location n
+# F current move to center and resize to 100
+# G Guake style
+# H hide all workspace floating windows
+# R reset, same as $mod+shift+n
+# SF snap all current floating windows into grid
+# X custom row, col, loc
+bindsym $mod+n exec /bin/bash ~/.config/i3grid/manager.sh
+
+# i3grid reset, current move to location 0, center and resize back to normal floating window (75%)
+bindsym $mod+shift+n exec "python3 -m i3grid reset"
+
+
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 set $ws0 "0"

@@ -8,7 +8,7 @@ configuration {
     display-window: "Window";
     display-drun: "Drun";
     kb-row-tab: "Tab";
-    kb-mode-next: "space";
+    kb-mode-next: "Shift+space";
     run-shell-command: "{terminal} -e '{cmd}'";
 /*  modi: "window,run,ssh";  */
 /*  there are no space between modes */

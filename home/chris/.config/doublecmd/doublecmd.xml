@@ -138,7 +138,7 @@
       <Left>10</Left>
       <Top>25</Top>
       <Width>1896</Width>
-      <Height>484</Height>
+      <Height>994</Height>
       <PixelsPerInch>96</PixelsPerInch>
     </Position>
   </MainWindow>
@@ -442,7 +442,7 @@
     <ActionOnDoubleClick>2</ActionOnDoubleClick>
     <OpenedTabs>
       <Left>
-        <ActiveTab>3</ActiveTab>
+        <ActiveTab>7</ActiveTab>
         <Tab>
           <FileView Type="columns">
             <History>
@@ -513,7 +513,7 @@
                   <Path Filename="Cent">/home/chris/data/</Path>
                   <Path Filename="">/home/chris/data/Cent/</Path>
                   <Path Filename="math">/home/chris/data/Cent/books/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/books/math/</Path>
+                  <Path Filename="">/home/chris/data/Cent/books/math/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -590,7 +590,7 @@
                   <Path Filename="">/home/chris/data/Cent/</Path>
                   <Path Filename="math">/home/chris/data/Cent/books/</Path>
                   <Path Filename="">/home/chris/data/Cent/books/math/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/books/math/3a/</Path>
+                  <Path Filename="">/home/chris/data/Cent/books/math/3a/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -630,7 +630,7 @@
                   <Path Filename="..">/home/chris/data/Cent/books/cs/algorithm/算法/</Path>
                   <Path Filename="挑战程序设计竞赛">/home/chris/data/Cent/books/cs/algorithm/</Path>
                   <Path Filename="..">/home/chris/data/Cent/books/cs/algorithm/挑战程序设计竞赛/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/books/cs/algorithm/</Path>
+                  <Path Filename="">/home/chris/data/Cent/books/cs/algorithm/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -679,7 +679,67 @@
                   <Path Filename="data">/home/chris/data/untitled/python/</Path>
                   <Path Filename="Epidemiology">/home/chris/data/untitled/python/data/</Path>
                   <Path Filename="">/home/chris/data/untitled/python/data/Epidemiology/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/python/data/</Path>
+                  <Path Filename="">/home/chris/data/untitled/python/data/</Path>
+                </Paths>
+              </Entry>
+            </History>
+            <ColumnsView>
+              <ColumnsSet>Default</ColumnsSet>
+            </ColumnsView>
+          </FileView>
+        </Tab>
+        <Tab>
+          <FileView Type="columns">
+            <History>
+              <Entry Active="True">
+                <FileSource Type="FileSystem"/>
+                <Paths>
+                  <Path Filename="language">/usr/lib/doublecmd/</Path>
+                  <Path Filename="..">/usr/lib/doublecmd/language/</Path>
+                  <Path Filename="plugins">/usr/lib/doublecmd/</Path>
+                  <Path Filename="wfx">/usr/lib/doublecmd/plugins/</Path>
+                  <Path Filename="..">/usr/lib/doublecmd/plugins/wfx/</Path>
+                  <Path Filename="C">/home/chris/data/untitled/</Path>
+                  <Path Filename="..">/home/chris/data/untitled/C/</Path>
+                  <Path Filename="arduino">/home/chris/data/untitled/</Path>
+                  <Path Filename="untitled">/home/chris/data/</Path>
+                  <Path Filename="..">/home/chris/data/untitled/</Path>
+                  <Path Filename="Cent">/home/chris/data/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/</Path>
+                  <Path Filename="..">/home/chris/data/</Path>
+                  <Path Filename="data">/home/chris/</Path>
+                  <Path Filename="..">/home/chris/application/</Path>
+                  <Path Filename="Cent">/home/chris/data/</Path>
+                  <Path Filename="Academic">/home/chris/data/Cent/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/Academic/</Path>
+                  <Path Filename="books">/home/chris/data/Cent/</Path>
+                  <Path Filename="cs">/home/chris/data/Cent/books/</Path>
+                  <Path Filename="">/home/chris/data/Cent/books/cs/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/cs/cs/</Path>
+                  <Path Filename="cs">/home/chris/data/Cent/books/</Path>
+                  <Path Filename="c">/home/chris/data/Cent/books/cs/</Path>
+                  <Path Filename="cpp">/home/chris/data/Cent/books/cs/c/</Path>
+                  <Path Filename="c++">/home/chris/data/Cent/books/cs/c/cpp/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/cs/c/cpp/c++/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/cs/c/cpp/</Path>
+                  <Path Filename="cpp">/home/chris/data/Cent/books/cs/c/</Path>
+                  <Path Filename="algorithm">/home/chris/data/Cent/books/cs/</Path>
+                  <Path Filename="Clifford A. Shaffer - Data Structures and Algorithm Analysis in C++, 3rd Edition  -Dover Publications (2011).pdf">/home/chris/data/Cent/books/cs/algorithm/</Path>
+                  <Path Filename="math">/home/chris/data/Cent/books/</Path>
+                  <Path Filename="stat">/home/chris/data/Cent/books/math/</Path>
+                  <Path Filename="STAT">/home/chris/data/Cent/books/math/stat/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/math/stat/STAT/</Path>
+                  <Path Filename="">/home/chris/data/Cent/books/math/stat/</Path>
+                  <Path Filename="prob">/home/chris/data/Cent/books/math/</Path>
+                  <Path Filename="stat">/home/chris/data/Cent/books/math/prob/</Path>
+                  <Path Filename="Dennis Wackerly - Student Solutions Manual.pdf">/home/chris/data/Cent/books/math/prob/stat/</Path>
+                  <Path Filename="cs">/home/chris/data/Cent/books/</Path>
+                  <Path Filename="web">/home/chris/data/Cent/books/cs/</Path>
+                  <Path Filename="spring">/home/chris/data/Cent/books/cs/web/</Path>
+                  <Path Filename="udemy">/home/chris/data/Cent/books/cs/web/spring/</Path>
+                  <Path Filename="Spring Framework 5 Beginner to Guru 2020-5">/home/chris/data/Cent/books/cs/web/spring/udemy/</Path>
+                  <Path Filename="3. Dependency Injection with Spring">/home/chris/data/Cent/books/cs/web/spring/udemy/Spring Framework 5 Beginner to Guru 2020-5/</Path>
+                  <Path Filename="14.1 Ending Source.html">/home/chris/data/Cent/books/cs/web/spring/udemy/Spring Framework 5 Beginner to Guru 2020-5/3. Dependency Injection with Spring/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -828,6 +888,7 @@
                   <Path Filename="problem1.odt">/home/chris/data/untitled/Cpp/ics46/wk9/</Path>
                   <Path Filename="p5">/home/chris/data/untitled/Cpp/ics46/</Path>
                   <Path Filename="">/home/chris/data/untitled/Cpp/ics46/p5/</Path>
+                  <Path Filename="">/home/chris/data/untitled/Cpp/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -1155,8 +1216,8 @@
     <ShowHiddenDimmed>False</ShowHiddenDimmed>
     <ShowMode>3</ShowMode>
     <ShowOverlays>False</ShowOverlays>
-    <Size>48</Size>
-    <DiskSize>32</DiskSize>
+    <Size>16</Size>
+    <DiskSize>16</DiskSize>
     <DiskAlpha>50</DiskAlpha>
     <Exclude>False</Exclude>
     <ExcludeDirs/>
