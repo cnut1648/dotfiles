@@ -48,4 +48,4 @@ directory = [scripts, X, ZSH, BASH, software]
 
 for d in directory:
     for f in d:
-        os.system(f'sudo cp -r --parent {f} .')
+        os.system(f'cp -r --parent {f} .')
