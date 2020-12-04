@@ -1,28 +1,33 @@
-name: base
+name: ds
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - conda
   - python
-  - numpy
-  - pandas
-  - keras
-  - matplotlib
-  - scikit-learn
-  - pynvim
-  - pytorch
-  - seaborn
   - jupyterlab
   - ipywidgets
-  - python-language-server
-  - cudatoolkit
-  - torchvision
   - jupyter_client
+  - numpy
+  - scipy
+  - sympy
+  - matplotlib
+  - seaborn
+  - pandas
+  - pandas-profiling
+  - albumentations
+  - pillow
+  - scikit-learn
+  - scikit-image
+  - keras
+  - tensorflow
+  - pytorch
+  - torchvision
+  - opencv
   - tqdm
   - networkx
-  - pandas-profiling
-  - xlrd
-  - sympy
-  - opencv
+  - scrapy
+  - selenium
+  - beautifulsoup4
   - pymc3
 prefix: /home/chris/miniconda3
