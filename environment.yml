@@ -1,0 +1,28 @@
+name: base
+channels:
+  - defaults
+dependencies:
+  - conda
+  - python
+  - numpy
+  - pandas
+  - keras
+  - matplotlib
+  - scikit-learn
+  - pynvim
+  - pytorch
+  - seaborn
+  - jupyterlab
+  - ipywidgets
+  - python-language-server
+  - cudatoolkit
+  - torchvision
+  - jupyter_client
+  - tqdm
+  - networkx
+  - pandas-profiling
+  - xlrd
+  - sympy
+  - opencv
+  - pymc3
+prefix: /home/chris/miniconda3
