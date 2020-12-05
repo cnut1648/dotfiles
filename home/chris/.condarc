@@ -1,0 +1,6 @@
+channel_priority: strict
+channels:
+  - conda-forge
+  - defaults
+restore_free_channel: true
+allow_conda_downgrades: false

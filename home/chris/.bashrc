@@ -159,3 +159,6 @@ unset __conda_setup
 # fix miniconda messing with $TERM,
 # thus making backspace not working
 export TERMINFO=/usr/share/terminfo
+
+# default env
+conda activate dl

@@ -2,8 +2,11 @@ import os
 #from pathlib import Path
 # import shutil
 
-scripts = ['/usr/bin/bri',
-        '/usr/bin/color_show']
+scripts = [
+        '/usr/bin/bri',
+        '/usr/bin/color_show'
+        ]
+
 X = [
     '~/.Xresources',
     '~/.xprofile',
@@ -11,16 +14,20 @@ X = [
     '~/.Xclients',
     '/etc/sddm.conf' # sddm window dpi support hidpi
     ]
+
 ZSH = [
     '~/.zshrc',
     '~/.oh-my-zsh/custom'
     ]
+
 BASH = [
     '~/.bashrc',
     '~/.profile', # not loaded when bash_profile present
     '~/.bash_profile',
     ]
-software = ['~/.config/i3/',
+
+software = [
+        '~/.config/i3/',
         '~/.config/i3status/',
         '~/.config/kitty/',
         '~/.config/ranger/',
@@ -41,7 +48,9 @@ software = ['~/.config/i3/',
          # jetbrains
         '~/.ideavimrc',
         # feh & neofetch
-        '~/Pictures/'
+        '~/Pictures/',
+        # conda
+        '~/.condarc',
         ]
 
 directory = [scripts, X, ZSH, BASH, software]
