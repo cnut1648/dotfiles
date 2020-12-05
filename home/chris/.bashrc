@@ -161,4 +161,4 @@ unset __conda_setup
 export TERMINFO=/usr/share/terminfo
 
 # default env
-conda activate dl
+conda activate ds

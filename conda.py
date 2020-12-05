@@ -19,7 +19,7 @@ installs = [
         # both gpu & cpu, conda not support tf2
         'pip install tensorflow',
         # ml
-        'conda install scikit-learn pillow albumentations scikit-learn opencv tqdm',
+        'conda install scikit-learn pillow albumentations scikit-learn opencv tqdm xgboost bayesian-optimization',
         # nlp
         'conda install gensim nltk spacy',
         # others
