@@ -246,3 +246,6 @@ export PATH=$PATH:$CUDA_HOME/bin
 # android
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME
+
+# tomcat 8
+export TOMCAT_HOME=/usr/share/tomcat8
