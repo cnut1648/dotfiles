@@ -35,7 +35,7 @@ alias diff='kitty +kitten diff'
 alias img='kitty +kitten icat'
 
 alias -g L='| less'
-alias ipython="/home/chris/miniconda3/bin/ipython"
+alias ipython="/home/chris/miniconda3/envs/ds/bin/ipython"
 
 export LESS='--quit-if-one-screen --mouse --wheel-lines=3 --ignore-case --status-column --LONG-PROMPT --RAW-CONTROL-CHARS --HILITE-UNREAD --tabs=4 --no-init --window=-4'
 export LESS_TERMCAP_mb=$'\E[1;31m'     # begin bold
