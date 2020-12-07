@@ -19,12 +19,13 @@ installs = [
         # both gpu & cpu, conda not support tf2
         'pip install tensorflow',
         # ml
-        'conda install scikit-learn pillow albumentations scikit-learn opencv tqdm',
-        bayesian opt
+        'conda install scikit-learn pillow albumentations scikit-learn opencv tqdm xgboost bayesian-optimization',
         # nlp
         'conda install gensim nltk spacy',
         # others
         'conda install scrapy selenium beautifulsoup4 pymc3 networkx',
+        # jupyter lab
+        "jupyter labextension install '@aquirdturtle/collapsible_headings' '@jupyter-widgets/jupyterlab-manager' '@jupyterlab/shortcutui' '@jupyterlab/toc' '@krassowski/jupyterlab_go_to_definition' '@kiteco/jupyterlab-kite'"
         ]
 
 for cmd in conda_config + installs:
