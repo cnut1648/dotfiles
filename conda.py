@@ -25,7 +25,9 @@ installs = [
         # others
         'conda install scrapy selenium beautifulsoup4 pymc3 networkx',
         # jupyter lab
-        "jupyter labextension install '@aquirdturtle/collapsible_headings' '@jupyter-widgets/jupyterlab-manager' '@jupyterlab/shortcutui' '@jupyterlab/toc' '@krassowski/jupyterlab_go_to_definition' '@kiteco/jupyterlab-kite'"
+        "jupyter labextension install '@aquirdturtle/collapsible_headings' '@jupyter-widgets/jupyterlab-manager' '@jupyterlab/shortcutui' '@jupyterlab/toc' '@krassowski/jupyterlab_go_to_definition' '@kiteco/jupyterlab-kite'",
+        # pip
+        "pip install jupyter-kite"
         ]
 
 for cmd in conda_config + installs:
