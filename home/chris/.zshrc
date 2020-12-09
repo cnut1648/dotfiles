@@ -17,7 +17,7 @@ setopt extended_glob
 autoload zmv
 alias zcp='zmv -C' zln='zmv -L'
 
-alias joplin='joplin --profile ~/.config/joplin-desktop/'
+# alias joplin='joplin --profile ~/.config/joplin-desktop/'
 
 export GTK_IM_MODULE=ibus
 export XMODIFIERS=@im=ibus

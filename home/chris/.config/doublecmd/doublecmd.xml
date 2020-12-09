@@ -641,29 +641,16 @@
         </Tab>
         <Tab>
           <FileView Type="columns">
+            <Sortings>
+              <Sorting>
+                <Direction>1</Direction>
+                <Function>0</Function>
+              </Sorting>
+            </Sortings>
             <History>
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="language">/usr/lib/doublecmd/</Path>
-                  <Path Filename="..">/usr/lib/doublecmd/language/</Path>
-                  <Path Filename="plugins">/usr/lib/doublecmd/</Path>
-                  <Path Filename="wfx">/usr/lib/doublecmd/plugins/</Path>
-                  <Path Filename="..">/usr/lib/doublecmd/plugins/wfx/</Path>
-                  <Path Filename="C">/home/chris/data/untitled/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/C/</Path>
-                  <Path Filename="arduino">/home/chris/data/untitled/</Path>
-                  <Path Filename="untitled">/home/chris/data/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/</Path>
-                  <Path Filename="Cent">/home/chris/data/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/</Path>
-                  <Path Filename="..">/home/chris/data/</Path>
-                  <Path Filename="data">/home/chris/</Path>
-                  <Path Filename="..">/home/chris/application/</Path>
-                  <Path Filename="Cent">/home/chris/data/</Path>
-                  <Path Filename="Academic">/home/chris/data/Cent/</Path>
-                  <Path Filename="..">/home/chris/data/Cent/Academic/</Path>
-                  <Path Filename="books">/home/chris/data/Cent/</Path>
                   <Path Filename="cs">/home/chris/data/Cent/books/</Path>
                   <Path Filename="">/home/chris/data/Cent/books/cs/</Path>
                   <Path Filename="..">/home/chris/data/Cent/books/cs/web/</Path>
@@ -679,7 +666,41 @@
                   <Path Filename="data">/home/chris/data/untitled/python/</Path>
                   <Path Filename="Epidemiology">/home/chris/data/untitled/python/data/</Path>
                   <Path Filename="">/home/chris/data/untitled/python/data/Epidemiology/</Path>
-                  <Path Filename="">/home/chris/data/untitled/python/data/</Path>
+                  <Path Filename="..">/home/chris/data/untitled/python/data/</Path>
+                  <Path Filename="data">/home/chris/data/untitled/python/</Path>
+                  <Path Filename="data">/home/chris/</Path>
+                  <Path Filename="Cent">/home/chris/data/</Path>
+                  <Path Filename="books">/home/chris/data/Cent/</Path>
+                  <Path Filename="cs">/home/chris/data/Cent/books/</Path>
+                  <Path Filename="python">/home/chris/data/Cent/books/cs/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/cs/python/</Path>
+                  <Path Filename="ml">/home/chris/data/Cent/books/cs/</Path>
+                  <Path Filename="dl">/home/chris/data/Cent/books/cs/ml/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/cs/ml/dl/</Path>
+                  <Path Filename="pytorch">/home/chris/data/Cent/books/cs/ml/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/cs/ml/pytorch/</Path>
+                  <Path Filename="nlp">/home/chris/data/Cent/books/cs/ml/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/cs/ml/nlp/</Path>
+                  <Path Filename="ml">/home/chris/data/Cent/books/cs/ml/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/cs/ml/ml/</Path>
+                  <Path Filename="机器学习">/home/chris/data/Cent/books/cs/ml/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/cs/ml/机器学习/</Path>
+                  <Path Filename="unsupervised">/home/chris/data/Cent/books/cs/ml/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/cs/ml/unsupervised/</Path>
+                  <Path Filename="Reinforcement">/home/chris/data/Cent/books/cs/ml/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/cs/ml/Reinforcement/</Path>
+                  <Path Filename="cv">/home/chris/data/Cent/books/cs/ml/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/cs/ml/cv/</Path>
+                  <Path Filename="dl">/home/chris/data/Cent/books/cs/ml/</Path>
+                  <Path Filename="advanced">/home/chris/data/Cent/books/cs/ml/dl/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/cs/ml/dl/advanced/</Path>
+                  <Path Filename="advanced">/home/chris/data/Cent/books/cs/ml/dl/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/cs/ml/dl/advanced/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/cs/ml/dl/</Path>
+                  <Path Filename="nlp">/home/chris/data/Cent/books/cs/ml/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/cs/ml/nlp/</Path>
+                  <Path Filename="nlp">/home/chris/data/Cent/books/cs/ml/</Path>
+                  <Path Filename="Applied Text Analysis with Python_ Enabling Language-Aware Data Products with Machine Learning-O’Reilly Media (2018).pdf">/home/chris/data/Cent/books/cs/ml/nlp/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -741,6 +762,8 @@
                   <Path Filename="3. Dependency Injection with Spring">/home/chris/data/Cent/books/cs/web/spring/udemy/Spring Framework 5 Beginner to Guru 2020-5/</Path>
                   <Path Filename="14.1 Ending Source.html">/home/chris/data/Cent/books/cs/web/spring/udemy/Spring Framework 5 Beginner to Guru 2020-5/3. Dependency Injection with Spring/</Path>
                   <Path Filename="..">/home/chris/data/Cent/books/cs/web/spring/udemy/Spring Framework 5 Beginner to Guru 2020-5/</Path>
+                  <Path Filename="Spring &amp; Hibernate for Beginners (includes Spring Boot) 2020-10">/home/chris/data/Cent/books/cs/web/spring/udemy/</Path>
+                  <Path Filename="..">/home/chris/data/Cent/books/cs/web/spring/udemy/Spring &amp; Hibernate for Beginners (includes Spring Boot) 2020-10/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -751,7 +774,7 @@
         </Tab>
       </Left>
       <Right>
-        <ActiveTab>6</ActiveTab>
+        <ActiveTab>5</ActiveTab>
         <Tab>
           <FileView Type="columns">
             <History>
@@ -1099,64 +1122,7 @@
                   <Path Filename="Downloads">/home/chris/</Path>
                   <Path Filename="Lecture+33.pdf">/home/chris/Downloads/</Path>
                   <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="">/home/chris/Downloads/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>0</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="scripts">/usr/lib/doublecmd/</Path>
-                  <Path Filename="..">/usr/lib/doublecmd/scripts/</Path>
-                  <Path Filename="照片">/home/chris/data/</Path>
-                  <Path Filename="apps">/home/chris/application/</Path>
-                  <Path Filename="app">/home/chris/data/</Path>
-                  <Path Filename="..">/home/chris/data/app/</Path>
-                  <Path Filename="untitled">/home/chris/data/</Path>
-                  <Path Filename="">/home/chris/data/untitled/</Path>
-                  <Path Filename="try">/home/chris/data/untitled/sql/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/sql/try/</Path>
-                  <Path Filename="course">/home/chris/data/untitled/sql/</Path>
-                  <Path Filename="122A">/home/chris/data/untitled/sql/course/</Path>
-                  <Path Filename="">/home/chris/data/untitled/sql/course/122A/</Path>
-                  <Path Filename="..">/home/chris/data/untitled/</Path>
-                  <Path Filename="untitled">/home/chris/data/</Path>
-                  <Path Filename="Cpp">/home/chris/data/untitled/</Path>
-                  <Path Filename="ics46">/home/chris/data/untitled/Cpp/</Path>
-                  <Path Filename="wk5">/home/chris/data/untitled/Cpp/ics46/</Path>
-                  <Path Filename="problem2">/home/chris/data/untitled/Cpp/ics46/wk5/</Path>
-                  <Path Filename="wk6">/home/chris/data/untitled/Cpp/ics46/</Path>
-                  <Path Filename="problem4.odt">/home/chris/data/untitled/Cpp/ics46/wk6/</Path>
-                  <Path Filename="wk7">/home/chris/data/untitled/Cpp/ics46/</Path>
-                  <Path Filename="problem5.odt">/home/chris/data/untitled/Cpp/ics46/wk7/</Path>
-                  <Path Filename="wk9">/home/chris/data/untitled/Cpp/ics46/</Path>
-                  <Path Filename="problem1.odt">/home/chris/data/untitled/Cpp/ics46/wk9/</Path>
-                  <Path Filename="p5">/home/chris/data/untitled/Cpp/ics46/</Path>
-                  <Path Filename="project5.tar.gz">/home/chris/data/untitled/Cpp/ics46/p5/</Path>
-                  <Path Filename="Cpp">/home/chris/data/untitled/</Path>
-                  <Path Filename="p">/home/chris/data/</Path>
-                  <Path Filename="YGOPro">/home/chris/data/p/</Path>
-                  <Path Filename="..">/home/chris/data/p/YGOPro/</Path>
-                  <Path Filename="rpcs3-v0.0.10-10549-628cb1c7_win64">/home/chris/data/p/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/X/D/A/森沢かな/APNS066/</Path>
-                  <Path Filename="Seagate Backup Plus Drive">/run/media/chris/</Path>
-                  <Path Filename="chris">/run/media/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/X/D/A/森沢かな/APNS066/</Path>
-                  <Path Filename="Thunder Network">/run/media/chris/Seagate Backup Plus Drive/</Path>
+                  <Path Filename="..">/home/chris/Downloads/</Path>
                 </Paths>
               </Entry>
             </History>
