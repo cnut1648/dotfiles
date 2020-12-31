@@ -13,7 +13,7 @@ conda_config = [
 
 installs = [
         # computing
-        'conda install numpy scipy sympy matplotlib seaborn pandas jupyterlab ipywidgets nb_conda',
+        'conda install numpy scipy sympy matplotlib seaborn statsmodel pytest pandas jupyterlab ipywidgets nb_conda',
         # dl
         'conda install pytorch torchvision torchaudio cudatoolkit=11.0 -c pytorch',
         # both gpu & cpu, conda not support tf2
@@ -21,11 +21,15 @@ installs = [
         # ml
         'conda install scikit-learn pillow albumentations scikit-learn opencv tqdm xgboost bayesian-optimization',
         # nlp
-        'conda install gensim nltk spacy',
+        'conda install gensim nltk spacy textblob',
         # others
         'conda install scrapy selenium beautifulsoup4 pymc3 networkx',
         # jupyter lab
         "jupyter labextension install '@aquirdturtle/collapsible_headings' '@jupyter-widgets/jupyterlab-manager' '@jupyterlab/shortcutui' '@jupyterlab/toc' '@krassowski/jupyterlab_go_to_definition' '@kiteco/jupyterlab-kite'",
+        # other
+        "conda install cached-property",
+        # doc
+        'conda install sphinx sphinx_rtd_theme recommonmark sphinx-autobuild',
         # pip
         "pip install jupyter-kite"
         ]
