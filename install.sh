@@ -4,7 +4,7 @@ x='neovim neofetch xclip doublecmd-qt5 cmus redshift kitty kitty-terminfo plasma
     fd clementine boost racket python-virtualenv'
 
 # kite is installer, need ./kite-installer install
-y='qtpad-git clion webstorm intellij-idea-ultimate-edition pycharm-professional autokey cmatrix rstudio-desktop-bin autotiling geeqie mycli xcwd lazygit vmware-station calibre-python3 postman arduino arduino-avr-core python-i3-grid kite joplin jmeter zotero joplin-desktop'
+y='qtpad-git clion webstorm intellij-idea-ultimate-edition pycharm-professional autokey-qt cmatrix rstudio-desktop-bin autotiling geeqie mycli xcwd lazygit vmware-station calibre-python3 postman-bin arduino arduino-avr-core python-i3-grid kite joplin jmeter zotero joplin-desktop'
 
 
 sudo pacman -Syu;

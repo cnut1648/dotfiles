@@ -5,7 +5,7 @@
         3
     ],
     "usageCount": 10,
-    "showInTrayMenu": false,
+    "showInTrayMenu": true,
     "abbreviation": {
         "abbreviations": [],
         "backspace": true,
