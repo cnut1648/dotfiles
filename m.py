@@ -39,10 +39,10 @@ software = [
         '~/.config/neofetch',
         '~/.config/nvim/init.vim',
         '~/.config/doublecmd',
+        '~/.config/.ripgreprc',
         # Ipython
         '~/.ipython/profile_default/ipython_config.py',
         '~/.jupyter/jupyter_lab_config.py',
-        '',
         # firefox CSS
         "~/.mozilla/firefox/h1c7m981.default-release/ghacks-user.js/user.js",
         "~/.mozilla/firefox/h1c7m981.default-release/ghacks-user.js/user-overrides.js",

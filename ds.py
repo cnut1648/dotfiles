@@ -13,7 +13,7 @@ conda_config = [
 
 installs = [
         # computing
-        'conda install numpy scipy sympy matplotlib seaborn statsmodel pytest pandas jupyterlab ipywidgets nb_conda',
+        'conda install numpy scipy sympy matplotlib seaborn statsmodels pytest pandas jupyterlab ipywidgets nb_conda',
         # dl
         'conda install pytorch torchvision torchaudio cudatoolkit=11.0 -c pytorch',
         # both gpu & cpu, conda not support tf2
