@@ -8,7 +8,7 @@ conda_config = [
         # strict: when find pkg in one channel then won't look at lower-priority channel
         #   reduce time for SAT solver
         'conda config --set channel_priority strict',
-        'conda config --add channels conda-forge'
+        'conda config --add channels conda-forge',
         ]
 
 installs = [
@@ -22,17 +22,22 @@ installs = [
         'conda install scikit-learn pillow albumentations scikit-learn opencv tqdm xgboost bayesian-optimization',
         # nlp
         'conda install gensim nltk spacy textblob',
+        # RL
+        'conda install gym',
         # others
-        'conda install scrapy selenium beautifulsoup4 pymc3 networkx',
+        'conda install scrapy selenium beautifulsoup4 pymc3 networkx cached-property',
         # jupyter lab
         "jupyter labextension install '@aquirdturtle/collapsible_headings' '@jupyter-widgets/jupyterlab-manager' '@jupyterlab/shortcutui' '@jupyterlab/toc' '@krassowski/jupyterlab_go_to_definition' '@kiteco/jupyterlab-kite'",
-        # other
-        "conda install cached-property",
         # doc
         'conda install sphinx sphinx_rtd_theme recommonmark sphinx-autobuild',
         # pip
         "pip install jupyter-kite"
         ]
 
-for cmd in conda_config + installs:
+
+for cmd in conda_config:
     os.system(cmd)
+
+for cmd in installs:
+    os.system(
+        'source activate ds && ' + cmd )
