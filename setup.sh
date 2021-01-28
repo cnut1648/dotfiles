@@ -6,6 +6,7 @@ sudo pacman -R manjaro-kde-settings
 # github
 git config --global credential.helper store
 git config --global user.name "jiashu"
+git config --global user.email "jiashuxu@usc.edu"
 
 # oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
