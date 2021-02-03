@@ -11,6 +11,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
 set $mod Mod4
+set $alt Mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -68,6 +69,9 @@ floating_modifier $mod
 # use kitty instead of urxvtd
 bindsym $mod+Return exec kitty
 bindsym $mod+Shift+Return exec kitty -d `xcwd`
+
+# alt + c remove newlines in selected texts
+bindsym $alt+c exec --no-startup-id "remove_newline_when_select.sh"
 
 # kill focused window
 bindsym $mod+Shift+q kill
