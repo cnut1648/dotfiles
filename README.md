@@ -29,3 +29,10 @@
 
 `~/.config/plasmashellrc`
 
+
+
+# i3
+
+alt + c to remove newlines in selected highlight text (e.g. copy from pdf)
+
+
