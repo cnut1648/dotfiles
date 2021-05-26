@@ -5,7 +5,7 @@ x='neovim neofetch xclip doublecmd-qt5 cmus redshift kitty kitty-terminfo plasma
 # kite is installer, need ./kite-installer install
 # r2cutter: Qt for cutter, reverse engineering
 # r2ghidra: r2cutter's decompiler plugin
-y='qtpad-git typora clion webstorm intellij-idea-ultimate-edition datagrip pycharm-professional autokey-qt chromium cmatrix rstudio-desktop-bin autotiling geeqie mycli xcwd-git lazygit calibre postman-bin arduino arduino-avr-core python-i3-grid kite joplin jmeter zotero joplin-desktop ibus-qt visual-studio-code-bin wireshark-qt r2cutter r2ghidra gurobi spark'
+y='qtpad-git typora clion webstorm intellij-idea-ultimate-edition datagrip pycharm-professional autokey-qt chromium cmatrix rstudio-desktop-bin autotiling geeqie mycli xcwd-git lazygit calibre postman-bin arduino arduino-avr-core python-i3-grid kite joplin jmeter zotero joplin-desktop ibus-qt visual-studio-code-bin wireshark-qt r2cutter r2ghidra gurobi apache-spark downgrade qemu'
 
 
 sudo pacman -Syu;
