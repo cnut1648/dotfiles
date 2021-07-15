@@ -25,13 +25,13 @@ installs = [
         # RL
         'conda install gym',
         # others
-        'conda install scrapy selenium beautifulsoup4 pymc3 networkx cached-property',
+        'conda install scrapy selenium beautifulsoup4 pymc3 networkx cached-property hydra-core  wandb',
         # jupyter lab
         "jupyter labextension install '@aquirdturtle/collapsible_headings' '@jupyter-widgets/jupyterlab-manager' '@jupyterlab/shortcutui' '@jupyterlab/toc' '@krassowski/jupyterlab_go_to_definition' '@kiteco/jupyterlab-kite'",
         # doc
         'conda install sphinx sphinx_rtd_theme recommonmark sphinx-autobuild',
         # pip
-        "pip install jupyter-kite"
+        "pip install jupyter-kite learn2learn"
         ]
 
 
