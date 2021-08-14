@@ -35,6 +35,8 @@ x=(
     lsd
     # cat with syntax highlight
     bat
+    # git diff with hightlight
+    git-delta
 )
 
 # kite is

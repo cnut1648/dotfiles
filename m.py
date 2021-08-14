@@ -29,6 +29,7 @@ BASH = [
 software = [
         # gdb dashbaord
         '~/.gdbinit',
+        '~/.gitconfig',
         '~/.config/i3/',
         '~/.config/i3status/',
         '~/.config/kitty/',
