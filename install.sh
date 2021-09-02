@@ -16,6 +16,7 @@ x=(
     fd
     # music player
     clementine
+    pandoc
     boost
     # virtualenv -p /path/to/python venv
     python-virtualenv
@@ -104,6 +105,10 @@ optional=(
     ida-free
     # geographic support for postgresql
     postgresql postgis
+    # can't use aur matlab since it needs a license file
+    # have to search matlab USC to download zip & ./install
+    # manually
+    matlab
 )
 
 sudo pacman -Syu;
