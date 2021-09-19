@@ -54,6 +54,8 @@ y=(
     autotiling
     # image viewer
     geeqie
+    # only use free version, has most of features
+    masterpdfeditor-free
     # better mysql CLI
     mycli
     # change dir, need for ranger
@@ -95,6 +97,7 @@ optional=(
     r2cutter r2ghidra
     # simulator required for xv6
     qemu
+    # only need bin / latexextra
     texlive-most
     # IDE for racket: DrRacket
     racket
@@ -109,6 +112,8 @@ optional=(
     # have to search matlab USC to download zip & ./install
     # manually
     matlab
+    # latex pkg mgmr
+    tllocalmgr
 )
 
 sudo pacman -Syu;
