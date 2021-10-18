@@ -11,6 +11,8 @@ x=(
     python-jedi python-pynvim
     # replace grep
     ripgrep
+    # audio replace PulseAudio
+    manjaro-pipewire
     yarn emacs tomcat8 gradle maven
     # better find
     fd
@@ -44,7 +46,7 @@ x=(
 # gurobi: python linear programming
 # fava: UI for beancount
 y=(
-    qtpad-git typora
+    typora
     # Jetbrains
     clion webstorm intellij-idea-ultimate-edition datagrip pycharm-professional
     # OneQuick in Linux
