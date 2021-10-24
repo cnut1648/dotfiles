@@ -36,10 +36,16 @@ x=(
     # ls with icon
     # lsd --tree = tree with icon
     lsd
+    # ping with graph
+    gping
     # cat with syntax highlight
     bat
     # git diff with hightlight
     git-delta
+    # sys monitoring
+    # better than gtop (no binaries) / glances (not good looking)
+    # `btm`
+    bottom
 )
 
 # kite is
