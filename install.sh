@@ -124,6 +124,11 @@ optional=(
     tllocalmgr
 )
 
+others=(
+    # go
+    adbtuifm
+)
+
 sudo pacman -Syu;
 # sudo pacman --needed -S ${x}
 sudo pacman --needed -Sy ${x}
