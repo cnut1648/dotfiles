@@ -46,6 +46,7 @@ x=(
     # better than gtop (no binaries) / glances (not good looking)
     # `btm`
     bottom
+    redis
 )
 
 # kite is

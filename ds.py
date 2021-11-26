@@ -31,7 +31,7 @@ installs = [
         # doc
         'conda install sphinx sphinx_rtd_theme recommonmark sphinx-autobuild',
         # pip
-        "pip install jupyter-kite learn2learn umap"
+        "pip install jupyter-kite learn2learn umap numba"
         ]
 
 
