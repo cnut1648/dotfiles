@@ -1,12 +1,149 @@
-https://www.technologyreview.com/2015/09/17/166211/king-man-woman-queen-the-marvelous-mathematics-of-computational-linguistics/ | King – Man + Woman = Queen: The Marvelous Mathematics of Computational Linguistics | MIT Technology Review
+https://arxiv.org/pdf/2007.06600.pdf | Closed-Form Factorization of Latent Semantics in GANs | PDF
+https://github.com/genforce/sefa/blob/master/sefa.py | sefa/sefa.py at master · genforce/sefa
+https://github.com/genforce/sefa/blob/master/sefa.py | sefa/sefa.py at master · genforce/sefa
+https://github.com/genforce/sefa | genforce/sefa: [CVPR 2021] Closed-Form Factorization of Latent Semantics in GANs
+https://arxiv.org/pdf/2101.05278.pdf#:~:text=Abstract%E2%80%94GAN%20inversion%20aims%20to,inverted%20code%20by%20the%20generator.&text=We%20cover%20important%20techniques%20of,image%20restoration%20and%20image%20manipulation. | 2101.05278.pdf
+https://arxiv.org/pdf/2110.09848.pdf | Self-Supervised Object Detection via Generative Image Synthesis | PDF
+https://harkiratbehl.github.io/autosimulate/autosimulate_eccv2020_slides.pdf | autosimulate_eccv2020_big
+https://openaccess.thecvf.com/content/ICCV2021/papers/Mustikovela_Self-Supervised_Object_Detection_via_Generative_Image_Synthesis_ICCV_2021_paper.pdf | Self-Supervised Object Detection via Generative Image Synthesis - ICCV-2021_16181288
+https://github.com/hyenal/relate | hyenal/relate: Official PyTorch implementation of 'RELATE: Physically Plausible Multi-Object SceneSynthesis Using Structured Latent Spaces'.
+https://arxiv.org/pdf/2007.01272.pdf | RELATE: Physically Plausible Multi-Object Scene Synthesis Using Structured Latent Spaces | PDF
+https://github.com/hyenal/relate/blob/main/main.py | relate/main.py at main · hyenal/relate
+https://github.com/hyenal/relate/blob/main/models/__init__.py | relate/__init__.py at main · hyenal/relate
+https://github.com/hyenal/relate/blob/main/configs/clevr-train.json | relate/clevr-train.json at main · hyenal/relate
+http://vibhavvineet.info/papers/2020/eccv20/main_eccv20.pdf | main_eccv20.pdf
+http://vibhavvineet.info/papers/2020/eccv20/supp_eccv20.pdf | supp_eccv20.pdf
+https://www.google.com/search?q=biggan+github&oq=biggan+github&aqs=chrome..69i57j69i60l2.4286j0j1&sourceid=chrome&ie=UTF-8 | biggan github - Google Search
+https://github.com/ajbrock/BigGAN-PyTorch | ajbrock/BigGAN-PyTorch: The author's officially unofficial PyTorch BigGAN implementation.
+https://github.com/cvlab-columbia/GenInt/blob/master/BigGAN/README.md | GenInt/README.md at master · cvlab-columbia/GenInt
+
+https://genforce.github.io/ghfeat/ | GHFeat
+https://www.99csw.com/book/10305/371569.htm | 呼吸 : 焦虑是自由引起的眩晕_特德·姜_在线阅读_九九藏书网
+https://book.douban.com/review/13890377/ | 分节感想，严重剧透（呼吸）书评
+https://book.douban.com/review/12245641/ | 焦虑是自由引起的眩晕（呼吸）书评
+https://arxiv.org/pdf/2003.08934.pdf | NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis | PDF
+https://mercurixito.github.io/ | Hako
+https://www.zhihu.com/question/68730628 | Batch normalization和Instance normalization的对比？ - 知乎
+https://www.zhihu.com/people/ai-yu-16-30/posts | Liewschild - 知乎
+https://zhuanlan.zhihu.com/p/263554045 | StyleGAN 和 StyleGAN2 的深度理解 - 知乎
+https://www.zhihu.com/people/kong-gu-91/posts | 圆圆要学习 - 知乎
+https://movie.douban.com/subject/3821067/ | 一代宗师 (豆瓣)
+
+https://kexue.fm/tag/%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/3/ | 标签 生成模型 下的文章 - 科学空间|Scientific Spaces
+https://kexue.fm/archives/6549 | 从DCGAN到SELF-MOD：GAN的模型架构发展一览 - 科学空间|Scientific Spaces
+https://kexue.fm/archives/8757 | WGAN新方案：通过梯度归一化来实现L约束 - 科学空间|Scientific Spaces
+https://kexue.fm/archives/8244 | WGAN的成功，可能跟Wasserstein距离没啥关系 - 科学空间|Scientific Spaces
+https://kexue.fm/archives/7466 | 泛化性乱弹：从随机噪声、梯度惩罚到虚拟对抗训练 - 科学空间|Scientific Spaces
+https://kexue.fm/archives/7234 | 对抗训练浅谈：意义、方法和思考（附Keras实现） - 科学空间|Scientific Spaces
+https://kexue.fm/archives/7105 | 级联抑制：提升GAN表现的一种简单有效的方法 - 科学空间|Scientific Spaces
+https://kexue.fm/archives/6139 | WGAN-div：一个默默无闻的WGAN填坑者 - 科学空间|Scientific Spaces
+https://kexue.fm/archives/7210 | Designing GANs：又一个GAN生产车间 - 科学空间|Scientific Spaces
+https://kexue.fm/archives/4439 | 互怼的艺术：从零直达WGAN-GP - 科学空间|Scientific Spaces
+https://kexue.fm/archives/5716 | 用变分推断统一理解生成模型（VAE、GAN、AAE、ALI） - 科学空间|Scientific Spaces
+https://kexue.fm/archives/6016 | f-GAN简介：GAN模型的生产车间 - 科学空间|Scientific Spaces
+https://kexue.fm/archives/6214 | BiGAN-QP：简单清晰的编码&生成模型 - 科学空间|Scientific Spaces
+https://kexue.fm/archives/6110 | RSGAN：对抗模型中的“图灵测试”思想 - 科学空间|Scientific Spaces
+https://github.com/jiawei-ren/BalancedMetaSoftmax | jiawei-ren/BalancedMetaSoftmax: [NeurIPS 2020] Code for the paper "Balanced Meta-Softmax for Long-Tailed Visual Recognition"
+https://github.com/huggingface/knockknock | huggingface/knockknock: 🚪✊Knock Knock: Get notified when your training ends with only two additional lines of code
+https://docs.google.com/spreadsheets/d/17_DDSB92XaxXA15My0qSJlyTBJD1lzspW68gTPdqPZI/edit#gid=793466373 | Results - Google 表格
+
+https://docs.google.com/document/d/1VrGHUHYUcFu64iJfktPy8knRdJx_hOGyvC7IkyLGDR8/edit | NeRF + GAN for ECCV - Google Docs
+
+https://github.com/vsitzmann/phd-master-application-docs/blob/main/15_Stanford_Master_SoP.pdf | phd-master-application-docs/15_Stanford_Master_SoP.pdf at main · vsitzmann/phd-master-application-docs
+https://zhuanlan.zhihu.com/p/350439006 | 2021 Fall 申请回忆录 (北美 CS PhD) - 知乎
+https://github.com/vsitzmann/phd-master-application-docs | vsitzmann/phd-master-application-docs: A collection of the application documents I used to apply to universities in the US.
+https://www.google.com/search?q=nerf+github+pytorch&newwindow=1&sxsrf=AOaemvKM9VdNoLRCHdIO1oM6YBuduCnoWQ%3A1639681787899&ei=-467YeGVNtrOtQaQ-pHYDQ&oq=nerf+github+&gs_lcp=Cgdnd3Mtd2l6EAMYADIFCAAQgAQyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB46BwgAEEcQsAM6BwgAELADEENKBAhBGABKBAhGGABQqgFYrAdg4wxoAnACeACAAYUBiAHxAZIBAzAuMpgBAKABAcgBCsABAQ&sclient=gws-wiz | nerf github pytorch - Google Search
+https://github.com/yenchenlin/nerf-pytorch | yenchenlin/nerf-pytorch: A PyTorch implementation of NeRF (Neural Radiance Fields) that reproduces the results.
+https://zhuanlan.zhihu.com/p/360365941 | 【NeRF论文笔记】用于视图合成的神经辐射场技术 - 知乎
+https://zhuanlan.zhihu.com/p/384521486 | 从NeRF -> GRAF -> GIRAFFE，2021 CVPR Best Paper诞生记 - 知乎
+https://zhuanlan.zhihu.com/p/390848839 | NeRF：用深度学习完成3D渲染任务的蹿红 - 知乎
+
+https://www.google.com/search?q=groundless+%E6%BC%AB%E7%94%BB&newwindow=1&sxsrf=AOaemvJNGhoKukY3BOXa_fmXi4Ya7WqnBA%3A1639469245113&ei=vVC4YdSfBuuxqtsPmPOSqAk&ved=0ahUKEwiU8uXv6uL0AhXrmGoFHZi5BJUQ4dUDCA4&uact=5&oq=groundless+%E6%BC%AB%E7%94%BB&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6BwgAELADEEM6CAgAEOQCELADOgoILhDIAxCwAxBDOhAILhDHARDRAxDIAxCwAxBDOgoIABCABBBGEPkBOgUIABCABDoECAAQQzoFCCEQoAE6BQgAEM0COgQIABAeSgQIQRgASgQIRhgBUKcGWO8ZYL0aaANwAngAgAGoAYgBoAiSAQMzLjaYAQCgAQHIARHAAQE&sclient=gws-wiz | groundless 漫画 - Google Search
+https://www.google.com/search?q=%E5%B7%B4%E7%AA%81%E5%85%8B%E6%88%98%E8%88%9E&sourceid=chrome&ie=UTF-8 | 巴突克战舞 - Google Search
+https://www.wikiwand.com/zh-hans/%E6%88%B0%E9%AC%A5%E5%8F%B8%E6%9B%B8%E7%B3%BB%E5%88%97 | 战斗司书系列 - Wikiwand
+https://www.zhihu.com/search?q=%0A%E8%87%B4%E5%91%BD%E6%AD%A6%E5%8A%9B%E4%B9%8B%E6%96%B0%E4%B8%96%E7%95%8C&type=content | 致命武力之新世界 - 搜索结果 - 知乎
+https://www.zhihu.com/search?q=%E5%9C%B0%E7%8D%84%E5%85%AC%E5%AF%93&type=content | 地獄公寓 - 搜索结果 - 知乎
+http://web.cs.ucla.edu/~yzsun/papers/2019_ACL_OOV.pdf | 2019_ACL_OOV.pdf
+http://www.columbia.edu/~md3405/Constrained_Optimization.pdf | Constrained_Optimization.pdf
+http://et.engr.iupui.edu//~skoskie/ECE580/ECE580_PS5soln_f15.pdf | ECE580_PS5soln_f15.pdf
+
+https://gyhandy.github.io/ | Yunhao (Andy) Ge
+https://www.zhihu.com/search?type=content&q=%E5%8A%A0%E5%AF%86%E8%B4%A7%E5%B8%81%E7%BD%91%E8%AF%BE | 加密货币网课 - 搜索结果 - 知乎
+https://zhuanlan.zhihu.com/p/337146531 | 加密货币终极学习指南，超全面的总结都在这！ - 知乎
+https://www.zhihu.com/question/265178092 | 有哪些值得推荐的区块链公开课？ - 知乎
+https://bitcoinbook.cs.princeton.edu/ | Bitcoin and Cryptocurrency Technologies
+https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals | Blockchain Fundamentals Professional Certificate | edX
+https://www.zhihu.com/question/300491194 | 如何获取与区块链有关的优秀免费的在线课程？ - 知乎
+https://www.coursera.org/learn/cryptocurrency/lecture/gFEJL/cryptographic-hash-functions | Cryptographic Hash Functions | Coursera
+https://www.reddit.com/r/CryptoCurrency/comments/n9vxu8/looking_for_high_level_education_on/ | Looking for high level education on cryptocurrencies and blockchain? Here’s a list of the top free online courses offered by some of the leading universities : CryptoCurrency
+
+https://www.bilibili.com/video/BV1ry4y1E7sA/?spm_id_from=333.788.recommend_more_video.-1 | 【那些令人难忘的BOSS战】第三十六集·阿修罗之怒篇02_哔哩哔哩_bilibili
+https://github.com/vsitzmann/phd-master-application-docs/blob/main/15_Stanford_Master_SoP.pdf | phd-master-application-docs/15_Stanford_Master_SoP.pdf at main · vsitzmann/phd-master-application-docs
+https://www.google.com/search?q=Junxian+He&sourceid=chrome&ie=UTF-8 | Junxian He - Google Search
+https://arxiv.org/pdf/2011.03863.pdf | Knowledge-driven Data Construction for Zero-shot Evaluation in Commonsense Question Answering | PDF
+https://jxhe.github.io/ | Junxian He
+
+https://arxiv.org/pdf/2002.12327.pdf | A Primer in BERTology: What we know about how BERT works | PDF
+https://arxiv.org/pdf/2010.12309.pdf | A Survey on Recent Approaches for Natural Language Processing in Low-Resource Scenarios | PDF
+https://towardsdatascience.com/a-visual-guide-to-low-resource-nlp-d7b4c7b1a4bc | A Visual Guide to Low-Resource NLP | by Michael A. Hedderich | Towards Data Science
+https://inklab.usc.edu/research.html | INK Research Lab - USC Computer Science
+https://arxiv.org/pdf/1707.00166.pdf | Heterogeneous Supervision for Relation Extraction: A Representation Learning Approach | PDF
+https://openreview.net/attachment?id=rJlUt0EYwS&name=original_pdf | attachment
+https://arxiv.org/pdf/1910.04289.pdf | Learning to Contextually Aggregate Multi-Source Supervision for Sequence Labeling | PDF
+https://arxiv.org/pdf/1908.10383.pdf | Facet-Aware Evaluation for Extractive Summarization | PDF
+https://arxiv.org/pdf/2004.07493.pdf | TriggerNER: Learning with Entity Triggers as Explanations for Named Entity Recognition | PDF
+https://www.zhihu.com/search?q=Snorkel&type=content | Snorkel - 搜索结果 - 知乎
+https://docs.google.com/presentation/d/1q2MC1HwER_1Uolx8KGksaET02q8KWb5QfMZvz-t_jwg/edit#slide=id.g105d3e93ad6_0_0 | Fall 2021 - Group meeting slides deck - Google 幻灯片
+
+https://github.com/Accenture/AmpliGraph | Accenture/AmpliGraph: Python library for Representation Learning on Knowledge Graphs https://docs.ampligraph.org
+https://github.com/thunlp/OpenKE | thunlp/OpenKE: An Open-Source Package for Knowledge Embedding (KE)
+https://zhuanlan.zhihu.com/p/147542008 | 知识图谱嵌入的Translate模型汇总（TransE，TransH，TransR，TransD） - 知乎
+https://zhuanlan.zhihu.com/p/359925162 | TransE、TransH、TransR和TransD - 知乎
+https://zhuanlan.zhihu.com/p/32993044 | 【读论文】Trans系列知识表示学习方法梳理 - 知乎
+https://zhuanlan.zhihu.com/p/156937012 | 论文笔记（三）：TransH的详解与实现 - 知乎
+
+https://github.com/lucidrains/local-attention/blob/master/local_attention/rotary.py | local-attention/rotary.py at master · lucidrains/local-attention
+https://medium.com/@acupofjose/wondering-how-to-get-elasticsearch-and-firebases-firestore-to-play-nice-1d84553aa280 | Wondering how to get Elasticsearch and Firebase’s Firestore to play nice? | by Joseph Schultz | Medium
+https://github.com/acupofjose/elasticstore | acupofjose/elasticstore: A pluggable union between Firebase CloudFirestore + ElasticSearch
+https://github.com/NVIDIA/Megatron-LM | NVIDIA/Megatron-LM: Ongoing research training transformer language models at scale, including: BERT & GPT-2
+https://pythonnumericalmethods.berkeley.edu/notebooks/Index.html | Python Programming And Numerical Methods: A Guide For Engineers And Scientists — Python Numerical Methods
+https://github.com/lucidrains/reformer-pytorch | lucidrains/reformer-pytorch: Reformer, the efficient Transformer, in Pytorch
+https://github.com/lucidrains/rotary-embedding-torch | lucidrains/rotary-embedding-torch: Implementation of Rotary Embeddings, from the Roformer paper, in Pytorch
+https://github.com/lucidrains/linear-attention-transformer | lucidrains/linear-attention-transformer: Transformer based on a variant of attention that is linear complexity in respect to sequence length
+https://github.com/lucidrains/axial-attention | lucidrains/axial-attention: Implementation of Axial attention - attending to multi-dimensional data efficiently
+https://github.com/lucidrains/TimeSformer-pytorch | lucidrains/TimeSformer-pytorch: Implementation of TimeSformer from Facebook AI, a pure attention-based solution for video classification
+https://github.com/lucidrains/local-attention | lucidrains/local-attention: An implementation of local windowed attention for language modeling
+https://github.com/lucidrains/axial-positional-embedding/blob/master/setup.py | axial-positional-embedding/setup.py at master · lucidrains/axial-positional-embedding
+https://zhuanlan.zhihu.com/p/357628257 | Reformer: 一个在训练阶段存储极致压缩的Transformer模型 - 知乎
+
+https://arxiv.xixiaoyao.cn/trend | 卖萌屋学术站
+https://github.com/xmu-xiaoma666/External-Attention-pytorch#re-parameter-series | xmu-xiaoma666/External-Attention-pytorch: 🍀 Pytorch implementation of various Attention Mechanisms, MLP, Re-parameter, Convolution, which is helpful to further understand papers.⭐⭐⭐
+https://github.com/xmu-xiaoma666/FightingCV-Paper-Reading | xmu-xiaoma666/FightingCV-Paper-Reading: ⭐⭐⭐FightingCV Paper Reading, which helps you understand the most advanced research work in an easier way 🍀 🍀 🍀
+https://openreview.net/pdf?id=rkgNKkHtvB | pdf
+https://www.jiqizhixin.com/articles/2021-03-14 | 谷歌自锤Attention is all you need：纯注意力并没那么有用，Transformer组件很重要 | 机器之心
+https://github.com/lucidrains/reformer-pytorch | lucidrains/reformer-pytorch: Reformer, the efficient Transformer, in Pytorch
+https://new.qq.com/omn/20210521/20210521A08ZXF00.html | 认识人和鱼的AI，能识别美人鱼吗？阿里CVPR论文试用因果推理方法解答_腾讯新闻
+https://zhuanlan.zhihu.com/p/378708146 | “新卷王”X-volution | 将卷积与自注意力进行高效集成，上交与华为海思提出了X-volution - 知乎
+https://www.google.com/search?q=transformer%E4%B8%AD%E5%B9%B4%E5%8D%B1%E6%9C%BA&oq=transformer%E4%B8%AD%E5%B9%B4%E5%8D%B1%E6%9C%BA&aqs=chrome..69i57.6277j0j1&sourceid=chrome&ie=UTF-8 | transformer中年危机 - Google Search
+https://zhuanlan.zhihu.com/p/371887608 | Transformer的中年危机 - 知乎
+https://cloud.tencent.com/developer/article/1832029 | 2021年机器学习什么风向？谷歌大神Quoc Le：把注意力放在MLP上 - 云+社区 - 腾讯云
+https://www.sohu.com/a/470949858_129720 | 上海交大、华为海思提出X-volution，发力网络核心基础架构创新_算子
+https://posts.careerengine.us/p/60c2ebb480e090697baeb2a3 | Transformer模型有多少种变体？复旦邱锡鹏教授团队做了全面综述
+https://arxiv.org/pdf/2106.04554.pdf | A Survey of Transformers | PDF
+https://posts.careerengine.us/p/60e0a80c368d796dafd4ac44?nav=post_&p=6027bcdc5f39293935fc729d | 你刷我，我刷你，霸榜CLUE甜蜜蜜
+https://readpaper.com/ | 首页-论文阅读(BETA)-专业的学术讨论社区-粤港澳大湾区数字经济研究院（福田）
+https://arxiv.org/abs/2111.07624 | Attention Mechanisms in Computer Vision: A Survey - Arxiv-2111.pdf
+https://arxiv.org/pdf/2001.04451.pdf | Reformer: The Efficient Transformer | PDF
+
+https://posts.careerengine.us/author/5f4c50ffd1f9823b82ea2eb8/posts/1 | 雨石记资讯
+https://posts.careerengine.us/p/5f617cac7e0d0f6ce1ae534e?from=latest-posts-panel&type=title | Transformer之自适应宽度注意力
+https://posts.careerengine.us/p/5f4c50ffd1f9823b82ea2eb9?from=latest-posts-panel&type=title | Bert与模型蒸馏：PKD和DistillBert
+https://www.google.com/search?q=DistillBert&newwindow=1&sxsrf=AOaemvLlbzQipuZdtsn8kq0BpZUcACffxw%3A1637961998727&ei=DlGhYaveK4Kh0PEPr5S_2AY&ved=0ahUKEwirndv4-7b0AhWCEDQIHS_KD2sQ4dUDCA4&uact=5&oq=DistillBert&gs_lcp=Cgdnd3Mtd2l6EAMyBwgjELECECcyBwgjELECECcyBAgAEAoyBAgAEAoyBAgAEAoyBAgAEAoyBAgAEAoyBAgAEAoyBAgAEAoyBAgAEAo6BwgAEEcQsANKBAhBGABQggdYmwhgzwpoA3ABeAGAAdoBiAH_A5IBBTEuMC4ymAEAoAEByAEIwAEB&sclient=gws-wiz | DistillBert - Google Search
+https://huggingface.co/transformers/model_doc/distilbert.html | DistilBERT — transformers 4.12.5 documentation
+https://pytorch.org/tutorials/intermediate/pruning_tutorial.html | Pruning Tutorial — PyTorch Tutorials 1.10.0+cu102 documentation
+https://pytorch.org/tutorials/intermediate/parametrizations.html | Parametrizations Tutorial — PyTorch Tutorials 1.10.0+cu102 documentation
+
 https://arxiv.org/pdf/1607.06520.pdf | Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings | PDF
-https://docs.google.com/document/d/1THg2oWm5X5xYuTUJC9TVbAG72u_Pg6ENrU2zpBFXn-Q/edit | Statement of Purpose - Google 文档
-https://arxiv.org/pdf/1804.07461.pdf | GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding | PDF
-https://zhuanlan.zhihu.com/p/135283598 | GLUE基准数据集介绍及下载 - 知乎
-https://zhuanlan.zhihu.com/p/139238409 | 从GLUE到SuperGLUE和XTREME，NLP主流基准任务综述 - 知乎
-https://zhuanlan.zhihu.com/p/151818251 | 【HugBert04】GLUE：BERT类模型的通用评估基准 - 知乎
-https://zhuanlan.zhihu.com/p/64114978 | BERT之后，GLUE基准升级为SuperGLUE：难度更大 - 知乎
-https://www.iyingdi.com/ | 旅法师营地-有温度的玩家社区-旅法师营地
 https://zhuanlan.zhihu.com/p/395115779 | 近代自然语言处理技术发展的“第四范式” - 知乎
 https://link.zhihu.com/?target=https%3A//arxiv.org/pdf/2107.13586.pdf | 知乎 - 安全中心
 https://zhuanlan.zhihu.com/p/419215591 | NLP的“第四范式”之prompt learning总结 - 知乎
@@ -19,61 +156,20 @@ https://arxiv.org/abs/2004.11362 | Supervised Contrastive Learning | Abstract
 https://www.wikiwand.com/en/Hungarian_algorithm | Hungarian algorithm - Wikiwand
 https://github.com/sheqi/GAN_Review | sheqi/GAN_Review: A Survey and Taxonomy of the Recent GANs Development，computer vision & time series
 https://github.com/xuqiantong/GAN-Metrics | xuqiantong/GAN-Metrics: An empirical study on evaluation metrics of generative adversarial networks.
-https://www.google.com/search?q=an+empicial+study+on+evaluation&oq=an+empicial+study+on+evaluation&aqs=chrome..69i57j33i10i22i29i30l9.4863j0j1&sourceid=chrome&ie=UTF-8 | an empicial study on evaluation - Google Search
 https://arxiv.org/abs/1806.07755 | An empirical study on evaluation metrics of generative adversarial networks - Arxiv-1806.pdf
 https://www.zhihu.com/people/marisa.moe | 圆角骑士魔理沙 - 知乎
-https://www.google.com/search?q=my+graduate+school+application+experience+%E6%B2%A1%E6%8B%BF%E5%88%B0return+offer&newwindow=1&sxsrf=AOaemvIlpOoC1yD90c_bCs9lJHxBGQFLLQ%3A1637915544105&ei=mJugYaDwBd-u0PEP6c2ekAM&ved=0ahUKEwignLbxzrX0AhVfFzQIHemmBzIQ4dUDCA4&uact=5&oq=my+graduate+school+application+experience+%E6%B2%A1%E6%8B%BF%E5%88%B0return+offer&gs_lcp=Cgdnd3Mtd2l6EAMyBQghEKABOgcIABBHELADOgkIIRAKEKABECo6BwghEAoQoAFKBAhBGABQ1gFYqAJgxQNoAXACeACAAZcBiAGHApIBAzAuMpgBAKABAcgBCsABAQ&sclient=gws-wiz | my graduate school application experience 没拿到return offer - Google Search
-https://swanson.ucsd.edu/category/cs-phd-information-sessions/ | CS PhD Information Sessions – Dr. Steven Swanson
-https://www.google.com/searh?q=torch+gradual+warmup&newwindow=1&sxsrf=AOaemvLYZ7oq3lUxCN0TpM76R4GL8c4kkw%3A1637915563206&ei=q5ugYa79C9Pa9APJ7KHgAw&ved=0ahUKEwju_sP6zrX0AhVTLX0KHUl2CDwQ4dUDCA4&uact=5&oq=torch+gradual+warmup&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEM0COgcIABBHELADOgQIIxAnOgUIABCRAjoFCAAQgAQ6DQgAEIAEEIcCELEDEBQ6BwgAEIAEEAo6BAgAEAo6CggAEIAEEIcCEBQ6BggAEBYQHjoFCCEQqwI6BQghEKABOgcIIRAKEKABSgQIQRgAUO4LWIUdYPceaAJwAngAgAF7iAGaDJIBBDEuMTOYAQCgAQHIAQjAAQE&sclient=gws-wiz | torch gradual warmup - Google Search
+https://www.google.com/search?q=torch+gradual+warmup&newwindow=1&sxsrf=AOaemvLYZ7oq3lUxCN0TpM76R4GL8c4kkw%3A1637915563206&ei=q5ugYa79C9Pa9APJ7KHgAw&ved=0ahUKEwju_sP6zrX0AhVTLX0KHUl2CDwQ4dUDCA4&uact=5&oq=torch+gradual+warmup&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEM0COgcIABBHELADOgQIIxAnOgUIABCRAjoFCAAQgAQ6DQgAEIAEEIcCELEDEBQ6BwgAEIAEEAo6BAgAEAo6CggAEIAEEIcCEBQ6BggAEBYQHjoFCCEQqwI6BQghEKABOgcIIRAKEKABSgQIQRgAUO4LWIUdYPceaAJwAngAgAF7iAGaDJIBBDEuMTOYAQCgAQHIAQjAAQE&sclient=gws-wiz | torch gradual warmup - Google Search
 https://github.com/kakaobrain/torchlars | kakaobrain/torchlars: A LARS implementation in PyTorch
 https://github.com/NVIDIA/apex/blob/master/apex/parallel/LARC.py | apex/LARC.py at master · NVIDIA/apex
 https://github.com/noahgolmant/pytorch-lars/blob/master/lars.py | pytorch-lars/lars.py at master · noahgolmant/pytorch-lars
 https://github.com/ildoonet/pytorch-gradual-warmup-lr | ildoonet/pytorch-gradual-warmup-lr: Gradually-Warmup Learning Rate Scheduler for PyTorch
 https://github.com/learnables/learn2learn/blob/master/learn2learn/nn/kroneckers.py | learn2learn/kroneckers.py at master · learnables/learn2learn
-https://paperswithcode.com/method/transe#:~:text=TransE%20is%20an%20energy%2Dbased,dimensional%20embeddings%20of%20the%20entities. | TransE Explained | Papers With Code
-https://www.google.com/search?q=2021+fall+%E7%94%B3%E8%AF%B7%E5%9B%9E%E5%BF%86%E5%BD%95&oq=2021+fall+%E7%94%B3%E8%AF%B7%E5%9B%9E%E5%BF%86%E5%BD%95&aqs=chrome..69i57.5774j0j1&sourceid=chrome&ie=UTF-8 | 2021 fall 申请回忆录 - Google Search
-https://zhuanlan.zhihu.com/p/350439006 | 2021 Fall 申请回忆录 (北美 CS PhD) - 知乎
-https://chhzh123.github.io/blogs/2021-05-22-phd-application/ | 2021 Fall CS PhD 申请回顾 · Hongzheng Chen
 https://github.com/KevinMusgrave/pytorch-metric-learning | KevinMusgrave/pytorch-metric-learning: The easiest way to use deep metric learning in your application. Modular, flexible, and extensible. Written in PyTorch.
 https://kevinmusgrave.github.io/pytorch-metric-learning/losses/ | Losses - PyTorch Metric Learning
-https://pytorch.org/tutorials/intermediate/parametrizations.html | Parametrizations Tutorial — PyTorch Tutorials 1.10.0+cu102 documentation
-https://pytorch.org/tutorials/intermediate/pruning_tutorial.html | Pruning Tutorial — PyTorch Tutorials 1.10.0+cu102 documentation
-https://github.com/thunlp/KB2E | thunlp/KB2E: Knowledge Graph Embeddings including TransE, TransH, TransR and PTransE
 https://github.com/pyg-team/pytorch_geometric/issues/1365 | What is the relationship between DGL and PyG? · Issue #1365 · pyg-team/pytorch_geometric
 https://joeddav.github.io/blog/2020/05/29/ZSL.html | Zero-Shot Learning in Modern NLP | Joe Davison Blog
 
-https://www.seas.harvard.edu/faculty?research[251]=251&research[256]=256&research[1146]=1146&sort_by=field_last_name&page=%2C0 | Faculty & Research | Harvard John A. Paulson School of Engineering and Applied Sciences
-https://www.seas.harvard.edu/person/cengiz-pehlevan | Cengiz Pehlevan | Harvard John A. Paulson School of Engineering and Applied Sciences
-https://docs.google.com/document/d/1-3uZ6Ijgsb27enDlgp-6-F4zqw8rE5xB_TMfH9AVZIE/edit | EssayRequirements - Google 文档
-https://www.seas.harvard.edu/person/stuart-shieber | Stuart M. Shieber | Harvard John A. Paulson School of Engineering and Applied Sciences
-https://iacs.seas.harvard.edu/people/chris-tanner | Chris Tanner | Institute for Applied Computational Science
-http://people.seas.harvard.edu/~valiant/ | people.seas.harvard.edu/~valiant/
-http://www.bewitched.com/research.html | Martin Wattenberg: Research
-https://himalakkaraju.github.io/ | Hima Lakkaraju
-http://www.eecs.harvard.edu/~zickler/Main/Publications | Todd Zickler : Main - Publications
-https://robotics.harvard.edu/ | Robotics at Harvard
-https://vcg.seas.harvard.edu/ | VCG Harvard | Home
-https://2021.emnlp.org/papers | Accepted papers | EMNLP 2021
-https://2021.aclweb.org/program/overview/ | ACL-IJCNLP 2021
-https://www.seas.harvard.edu/computer-science/undergraduate-program/research-opportunities | Research Opportunities | Harvard John A. Paulson School of Engineering and Applied Sciences
-https://uraf.harvard.edu/find-opportunities/browse-uraf-opps/research | Research Opportunities | Office of Undergraduate Research and Fellowships
 https://arxiv.org/pdf/1809.09337.pdf | A Survey of Learning Causality with Data: Problems and Methods | PDF
-https://posts.careerengine.us/author/5f4c50ffd1f9823b82ea2eb8/posts/1 | 雨石记资讯
-https://tylergu.com/summary.html | Summary of Grad App
-https://www.1point3acres.com/bbs/thread-550377-1-1.html | 【求米】分享一个斯坦福推荐的申请MIT cs的SOP(PS)，还有别的几个sample也在里面|一亩三分地申请文书版
-https://www.1point3acres.com/bbs/thread-564958-1-1.html | 分享一些大牛Ph.D的 SOP或CS教授申请Ph.D时的SOP,求加米|一亩三分地申请文书版
-https://www.1point3acres.com/bbs/thread-447534-1-1.html | SoP 写作 guideline 汇总|一亩三分地申请文书版
-https://www.1point3acres.com/bbs/thread-453317-1-1.html | 申请笔记-怎样写PS/SOP (Statement Of Purpose)|一亩三分地申请文书版
-https://www.1point3acres.com/bbs/thread-683591-1-1.html | [经验] 怎么写SOP (藤校STEM博士毕业了)|一亩三分地申请文书版
-https://posts.careerengine.us/p/5c9ef3806abce5192360febd | 【申请总结】转专业混申DS+MIS万字长文
-https://www.lihengpan.com/blog/2021-fall-ms-ds-is-im-application | [應屆申請+轉領域] 🇺🇸 2021 Fall MS DS/IS/IM申請總結 — Li-Heng Pan
-https://www.zhihu.com/question/40607652/answer/1892909272 | statement of purpose应该怎么写？ - 知乎
-https://zhuanlan.zhihu.com/p/336015292 | Statement of Purpose格式与写作流程的知识 - 知乎
-https://www.zhihu.com/question/347852024 | Statement of purpose 和 Personal statement 有什么区别？ - 知乎
-https://zhuanlan.zhihu.com/p/84224248 | personal statement和statement of purpose的异同之处是什么？ - 知乎
-https://www.zhihu.com/question/351518867 | 个人陈述 Statement of Purpose; Personal Statement要个性化吗？ - 知乎
-https://arxiv.org/pdf/2004.13590.pdf | MAVEN: A Massive General Domain Event Detection Dataset | PDF
-https://www.google.com/search?q=which+*bert&oq=which+*bert&aqs=chrome..69i57j0i22i30l7j0i22i30i457j0i10i22i30.1704j0j1&sourceid=chrome&ie=UTF-8 | which *bert - Google Search
 https://huggingface.co/transformers/model_doc/electra.html | ELECTRA — transformers 4.12.5 documentation
 https://www.zhihu.com/search?q=UniLMv2%3A%20Pseudo-Masked%20Language%20Models%20for%20Unified%20Language%20Model%20Pre-Training&type=content | UniLMv2: Pseudo-Masked Language Models for Unified Language Model Pre-Training - 搜索结果 - 知乎
 https://www.zhihu.com/search?q=MPNet%3A%20Masked%20and%20permuted%20pretraining%20for%20language%20understanding&type=content | MPNet: Masked and permuted pretraining for language understanding - 搜索结果 - 知乎
@@ -86,19 +182,9 @@ https://www.zhihu.com/question/355125622/answer/1145553671 | NLP领域，你推�
 https://www.zhihu.com/search?q=Fastbert%3A%20a%20self-%0Adistilling%20bert%20with%20adaptive%20inference%20time.&type=content | Fastbert: a self- distilling bert with adaptive inference time. - 搜索结果 - 知乎
 https://www.zhihu.com/search?q=Bert-of-theseus&type=content | Bert-of-theseus - 搜索结果 - 知乎
 https://arxiv.org/pdf/2002.12327.pdf | A Primer in BERTology: What we know about how BERT works | PDF
-https://github.com/kamalkraj/BERT-NER | kamalkraj/BERT-NER: Pytorch-Named-Entity-Recognition-with-BERT
-https://pub.towardsai.net/a-lite-bert-for-reducing-inference-time-bed8d990daac | A Lite BERT for Reducing Inference Time | by Edward Ma | Towards AI
 https://shagunsodhani.com/papers-I-read/ | Papers I Read · Notes and Summaries
-https://github.com/snorkel-team/snorkel | snorkel-team/snorkel: A system for quickly generating training data with weak supervision
-https://arxiv.org/abs/2002.12327 | A Primer in BERTology: What we know about how BERT works - Arxiv-2002.pdf
-https://spaces.ac.cn/archives/8739 | bert4keras在手，baseline我有：CLUE基准代码 - 科学空间|Scientific Spaces
-https://www.cluebenchmarks.com/introduce.html | https://www.cluebenchmarks.com/introduce.html
-https://gluebenchmark.com/leaderboard | GLUE Benchmark
-https://www.zhihu.com/search?q=Snorkel&type=content | Snorkel - 搜索结果 - 知乎
 
-https://movie.douban.com/subject/35180907/ | 谁是凶手 (豆瓣)
 https://movie.douban.com/subject/35235299/ | 淘金 (豆瓣)
-https://movie.douban.com/subject/26986843/ | 十日游戏 (豆瓣)
 https://movie.douban.com/subject/35231975/ | 再见那一天 (豆瓣)
 
 https://arxiv.org/pdf/1705.02953.pdf | Temporal Segment Networks for Action Recognition in Videos | PDF
@@ -115,10 +201,6 @@ https://zhuanlan.zhihu.com/p/379951287 | 视频分类 | 论文 2017 [I3D] Quo Va
 https://zhuanlan.zhihu.com/p/27554487 | Quo Vadis, Action Recognition? A New Model and the Kinetics - 知乎
 https://arxiv.org/pdf/1707.00600.pdf | Zero-Shot Learning -- A Comprehensive Evaluation of the Good, the Bad and the Ugly | PDF
 https://posts.careerengine.us/p/6196f6ecae2a98248ad5e6c0 | 图神经网络框架-PyTorch Geometric（PyG）的使用及踩坑
-https://posts.careerengine.us/author/5f4c50ffd1f9823b82ea2eb8/posts/2 | 雨石记资讯
-https://posts.careerengine.us/p/5f4c52348c60147d4b9f37bd?from=latest-posts-panel&type=title | Transformer：Attention的集大成者
-https://arxiv.org/pdf/2004.13590.pdf | MAVEN: A Massive General Domain Event Detection Dataset | PDF
-https://github.com/THU-KEG/MAVEN-dataset | THU-KEG/MAVEN-dataset: Source code and dataset for EMNLP 2020 paper "MAVEN: A Massive General Domain Event Detection Dataset".
 https://www.wikiwand.com/en/Transformer_(machine_learning_model) | Transformer (machine learning model) - Wikiwand
 http://jalammar.github.io/illustrated-bert/ | The Illustrated BERT, ELMo, and co. (How NLP Cracked Transfer Learning) – Jay Alammar – Visualizing machine learning one concept at a time.
 http://mlg.eng.cam.ac.uk/zoubin/papers/CMU-CALD-02-107.pdf | propagate.dvi
@@ -141,7 +223,6 @@ https://github.com/wowchemy/wowchemy-hugo-themes | wowchemy/wowchemy-hugo-themes
 https://www.bilibili.com/video/BV1ht4y1i7eo?from=search&seid=4026104278984910270 | 细读经典 105: 社会主义东德在79平米的房间里延续《再见列宁》_哔哩哔哩_bilibili
 https://github.com/QData/TextAttack | QData/TextAttack: TextAttack 🐙 is a Python framework for adversarial attacks, data augmentation, and model training in NLP https://textattack.readthedocs.io/en/master/
 
-https://piazza.com/class/kqmtrwhe7xk6za?cid=464 | CSCI 310 (5 unread)
 https://www.spaces.ac.cn/archives/7708/comment-page-1 | 再谈类别不平衡问题：调节权重与魔改Loss的对比联系 - 科学空间|Scientific Spaces
 https://www.spaces.ac.cn/archives/6620 | 函数光滑化杂谈：不可导函数的可导逼近 - 科学空间|Scientific Spaces
 https://arxiv.org/pdf/2103.15395.pdf | No frame left behind: Full Video Action Recognition | PDF
@@ -153,7 +234,6 @@ https://pgmpy.org/examples/Monty%20Hall%20Problem.html | 2. Monty Hall Problem �
 https://www.youtube.com/playlist?list=PLoazKTcS0Rzb6bb9L508cyJ1z-U9iWkA0 | Causal Inference Course Lectures - YouTube
 https://www.bradyneal.com/causal-inference-course | Introduction to Causal Inference
 https://www.bradyneal.com/Introduction_to_Causal_Inference-Dec17_2020-Neal.pdf | Introduction to Causal Inference
-https://www.google.com/search?q=%E5%99%AC%E8%B0%8E%E8%80%85&sourceid=chrome&ie=UTF-8 | 噬谎者 - Google Search
 https://arxiv.org/pdf/1908.02983.pdf | Pseudo-Labeling and Confirmation Bias in Deep Semi-Supervised Learning | PDF
 https://github.com/yoshitomo-matsubara/torchdistill | yoshitomo-matsubara/torchdistill: A coding-free framework built on PyTorch for reproducible deep learning studies. 🏆20 knowledge distillation methods presented at CVPR, ICLR, ECCV, NeurIPS, ICCV, etc are implemented so far. 🎁 Trained models, training logs and configurations are available for ensuring the reproducibiliy and benchmark.
 https://github.com/yoshitomo-matsubara/torchdistill/blob/main/demo/extract_intermediate_representations.ipynb | torchdistill/extract_intermediate_representations.ipynb at main · yoshitomo-matsubara/torchdistill
@@ -183,10 +263,6 @@ https://github.com/Sha-Lab/kfo | Sha-Lab/kfo: Code release for "When MAML Can Ad
 http://seba1511.net/posters/ | Posters
 https://www.google.com/search?q=maml+%2B%2B&oq=maml+%2B%2B&aqs=chrome..69i57j69i65j69i61.1197j0j1&sourceid=chrome&ie=UTF-8 | maml ++ - Google Search
 https://arxiv.org/abs/1810.09502 | How to train your MAML | Abstract
-https://www.wikiwand.com/en/A*_search_algorithm | A* search algorithm - Wikiwand
-https://www.wikiwand.com/en/Iterative_deepening_A* | Iterative deepening A* - Wikiwand
-https://www.wikiwand.com/en/Iterative_deepening_depth-first_search | Iterative deepening depth-first search - Wikiwand
-https://www.wikiwand.com/en/Consistent_heuristic | Consistent heuristic - Wikiwand
 
 https://xingyuzhou.org/blog/notes/strong-convexity#mjx-eqn-eqdef | Strong convexity · Xingyu Zhou's blog
 https://www.zhihu.com/question/22426561 | 如何理解Bregman divergence？ - 知乎
@@ -204,7 +280,6 @@ https://www.google.com/search?q=compact+domain+is+Lipschitz+continuous&oq=compac
 https://math.stackexchange.com/questions/2338799/c1-function-on-compact-set-is-lipschitz | real analysis - $C^1$ function on compact set is Lipschitz - Mathematics Stack Exchange
 https://math.stackexchange.com/questions/1681802/convex-and-continuous-function-on-compact-set-implies-lipschitz | real analysis - Convex and continuous function on compact set implies Lipschitz - Mathematics Stack Exchange
 
-https://aclanthology.org/2020.emnlp-main.129.pdf | MAVEN: A Massive General Domain Event Detection Dataset
 https://arxiv.org/pdf/1410.8516.pdf | NICE: Non-linear Independent Components Estimation | PDF
 https://github.com/bojone/flow/blob/master/nice.py | flow/nice.py at master · bojone/flow
 https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650745032&idx=1&sn=a889433dd4c4d9f62bfab347909d9d28&chksm=871aecb6b06d65a02625abdf4b21a2116251e311a49508db587b76ae8f76d7a9e03d4a6ab80a&scene=27#wechat_redirect | 下一个GAN？OpenAI提出可逆生成模型Glow
@@ -239,7 +314,6 @@ https://spaces.ac.cn/archives/8069 | 你可能不需要BERT-flow：一个线性�
 https://spaces.ac.cn/archives/7681 | L2正则没有想象那么好？可能是“权重尺度偏移”惹的祸 - 科学空间|Scientific Spaces
 https://spaces.ac.cn/category/Mathematics/2/ | 分类 数学研究 下的文章 - 科学空间|Scientific Spaces
 https://spaces.ac.cn/archives/8444 | 我们可以无损放大一个Transformer模型吗（一） - 科学空间|Scientific Spaces
-https://spaces.ac.cn/archives/8728/comment-page-1#comment-17734 | CAN：借助先验分布提升分类性能的简单后处理技巧 - 科学空间|Scientific Spaces
 https://www.google.com/search?q=Don%E2%80%99t+Stop+Pretraining%3A+Adapt+Language+Models+to+Domains+and+Tasks&oq=Don%E2%80%99t+Stop+Pretraining%3A+Adapt+Language+Models+to+Domains+and+Tasks&aqs=chrome..69i57&sourceid=chrome&ie=UTF-8 | Don’t Stop Pretraining: Adapt Language Models to Domains and Tasks - Google Search
 https://movie.douban.com/subject/25773932/ | 爆裂鼓手 (豆瓣)
 https://github.com/MaartenGr/BERTopic | MaartenGr/BERTopic: Leveraging BERT and c-TF-IDF to create easily interpretable topics.
@@ -263,26 +337,8 @@ https://arxiv.org/pdf/1409.7612.pdf | Semi-supervised Classification for Natural
 https://arxiv.org/pdf/1804.09530.pdf | Strong Baselines for Neural Semi-supervised Learning under Domain Shift | PDF
 https://github.com/ShannonAI/Neural-Semi-Supervised-Learning-for-Text-Classification | ShannonAI/Neural-Semi-Supervised-Learning-for-Text-Classification: Semi-supervised Learning for Sentiment Analysis
 https://arxiv.org/pdf/2104.09500.pdf | Transductive Learning for Abstractive News Summarization | PDF
-https://huggingface.co/docs/datasets/use_dataset.html?highlight=datacollatorwithpadding | Train with 🤗 Datasets — datasets 1.15.1 documentation
-https://github.com/huggingface/datasets/issues/708 | Datasets performance slow? - 6.4x slower than in memory dataset · Issue #708 · huggingface/datasets
 
 https://arxiv.org/pdf/2108.03427.pdf | Learning Facial Representations from the Cycle-consistency of Face | PDF
-https://cseweb.ucsd.edu/~haosu/index.html#_ri | Welcome to Hao Su's homepage
-https://cseweb.ucsd.edu/~haosu/application/application_form.html | application_form
-https://www.google.com/search?q=uw+nlp&oq=uw+nlp&aqs=chrome..69i57j0i512j0i22i30l2.1864j0j1&sourceid=chrome&ie=UTF-8 | uw nlp - Google Search
-https://www.cs.washington.edu/people/outgoingphdsandpostdocs | Outgoing Ph.D.s & Postdocs 2021-2022 | Paul G. Allen School of Computer Science & Engineering
-https://personalrobotics.cs.washington.edu/people/ | People · Personal Robotics Lab
-https://homes.cs.washington.edu/~jrb/ | Jennifer Brennan
-https://mathisonian.com/ | Matthew Conlen (mathisonian)
-https://maxwellforbes.com/ | Home - Maxwell Forbes
-https://nlp.washington.edu/ | Welcome | Natural Language Processing
-https://www.cs.washington.edu/research/nlp/people | Natural Language Processing | Paul G. Allen School of Computer Science & Engineering
-http://www.timalthoff.com/ | Tim Althoff - Assistant Professor in Computer Science at the University of Washington
-https://zhuanlan.zhihu.com/p/26916289 | 【PhD】第一封发给教授的套磁信怎么写？ - 知乎
-https://www.zhihu.com/question/25380930 | 申请国外 PhD 的时候如何与教授套磁？ - 知乎
-https://www.zhihu.com/question/290670460 | 2019 Fall 你都申请了哪些学校的 MS/PhD，录取结果如何？ - 知乎
-http://tensorlab.cms.caltech.edu/users/anima/index.html#contact | Animashree Anandkumar
-
 https://www.isi.edu/~jonmay/ | Jonathan May's Web space
 https://www.sbert.net/docs/package_reference/losses.html#multiplenegativesrankingloss | Losses — Sentence-Transformers documentation
 https://github.com/UKPLab/sentence-transformers/blob/master/sentence_transformers/losses/MultipleNegativesRankingLoss.py | sentence-transformers/MultipleNegativesRankingLoss.py at master · UKPLab/sentence-transformers
@@ -291,7 +347,6 @@ https://berkeleytime.com/catalog | Berkeleytime
 https://edusalsa.com/ | Edusalsa - Discover Your Stanford
 
 https://www.99csw.com/book/1166/33767.htm | 窄门 : 第二章_安德烈·纪德_在线阅读_九九藏书网
-https://www.zhihu.com/people/yuhang-liu-34/answers?page=2 | Yuhang Liu - 知乎
 https://www2.math.upenn.edu/~kirillov/MATH361-F06/MATH361-F06.html | MATH361
 https://github.com/JonathanCrabbe/Dynamask | JonathanCrabbe/Dynamask: This repository contains the implementation of Dynamask, a method to identify the features that are salient for a model to issue its prediction when the data is represented in terms of time series. For more details on the theoretical side, please read our ICML 2021 paper: 'Explaining Time Series Predictions with Dynamic Masks'.
 https://pytorch.org/vision/stable/ops.html | torchvision.ops — Torchvision 0.11.0 documentation
@@ -306,7 +361,6 @@ https://www.dropbox.com/sh/tpr75yu0i1xypt8/AADCeRejLmpr3ACZDT8mY134a?dl=0 | EE 5
 https://www.google.com/search?q=mirror+descent&oq=mirror+descent&aqs=chrome..69i57j0i512l9.3560j0j1&sourceid=chrome&ie=UTF-8 | mirror descent - Google Search
 https://amaarora.github.io/2020/08/02/densenets.html | DenseNet Architecture Explained with PyTorch Implementation from TorchVision | Committed towards better future
 https://www.google.com/search?q=center+net&oq=center+net&aqs=chrome..69i57j46i512j0i512j0i10i512j0i512j0i10i512l2j0i512l3.1179j0j1&sourceid=chrome&ie=UTF-8 | center net - Google Search
-https://app.yinxiang.com/Home.action#n=2fee60db-c5a7-4114-a0fb-c9347fa95bef&s=s70&ses=4&sh=2&sds=5& | Image Classification | 印象笔记网页版
 https://www.google.com/search?q=shufflenet+pytorch&oq=shufflenet+pytorch&aqs=chrome..69i57j0i512j0i22i30l4.3576j0j1&sourceid=chrome&ie=UTF-8 | shufflenet pytorch - Google Search
 http://einops.rocks/pytorch-examples.html | Writing better code with pytorch+einops
 https://github.com/arogozhnikov/einops/tree/master/docs | einops/docs at master · arogozhnikov/einops
@@ -339,7 +393,6 @@ https://github.com/seba-1511/lstms.pth | seba-1511/lstms.pth: PyTorch implementa
 https://zhuanlan.zhihu.com/p/74460341 | 光流估计——从传统方法到深度学习 - 知乎
 https://zhuanlan.zhihu.com/p/384651830 | 光流法（optical flow methods） - 知乎
 https://theaisummer.com/einsum-attention/ | Understanding einsum for Deep learning: implement a transformer with multi-head self-attention from scratch | AI Summer
-https://www.zhihu.com/people/yulongwang12/posts | Yulong - 知乎
 https://www.google.com/search?q=channel+shuffing&oq=channel+shuffing&aqs=chrome..69i57j0i13l9.4852j0j1&sourceid=chrome&ie=UTF-8 | channel shuffing - Google Search
 https://www.google.com/search?q=CUNET+super+resolution&newwindow=1&sxsrf=AOaemvIaaN8h-q0ZErwvQ3G-PupVqlPVTQ%3A1635020599266&ei=N290YYnUD5q70PEPgoWbyAI&ved=0ahUKEwjJy5OwruHzAhWaHTQIHYLCBikQ4dUDCA4&uact=5&oq=CUNET+super+resolution&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6BwgAELADEEM6EwguEMcBENEDEMgDELADEEMQkwI6EAguEMcBENEDEMgDELADEEM6BQgAEIAEOgcIABCABBAKOgcILhCABBAKOgQIABAKOgUIABCxAzoHCAAQsQMQCjoKCC4QxwEQrwEQCjoNCC4QsQMQxwEQ0QMQCjoGCAAQFhAeOggIABAWEAoQHjoFCCEQoAE6BQghEKsCOgcIIRAKEKABSgUIOBIBMUoECEEYAFDbDFijOmD7O2gBcAJ4AIABogGIAekPkgEEMC4xN5gBAKABAcgBDMABAQ&sclient=gws-wiz | CUNET super resolution - Google Search
 https://www.google.com/search?q=Label+Propagation+for+Deep+Semi-supervised+Learning&newwindow=1&sxsrf=AOaemvJDP0t-h2mcQaziT0riv438Ksmkrg%3A1635020674068&ei=gm90YfHaA9Lj9AO3i5GwDg&ved=0ahUKEwjxo-nTruHzAhXSMX0KHbdFBOYQ4dUDCA4&uact=5&oq=Label+Propagation+for+Deep+Semi-supervised+Learning&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEIAEMgUIABCABDoICAAQgAQQsANKBAhBGAFQ9yFY9yFg6SVoA3AAeACAAV6IAV6SAQExmAEAoAECoAEByAEBwAEB&sclient=gws-wiz | Label Propagation for Deep Semi-supervised Learning - Google Search
@@ -378,7 +431,6 @@ https://github.com/eriklindernoren/PyTorch-GAN | eriklindernoren/PyTorch-GAN: Py
 https://spaces.ac.cn/archives/6280/comment-page-1#mjx-eqn-eq%3Astrong-dual | 从Wasserstein距离、对偶理论到WGAN - 科学空间|Scientific Spaces
 https://vincentherrmann.github.io/blog/wasserstein/ | Wasserstein GAN and the Kantorovich-Rubinstein Duality - Vincent Herrmann
 https://spaces.ac.cn/archives/6051 | 深度学习中的Lipschitz约束：泛化与生成模型 - 科学空间|Scientific Spaces
-https://www.zhihu.com/column/c_103370134 | SongBird - 知乎
 https://github.com/eriklindernoren/PyTorch-GAN#wasserstein-gan-gp | eriklindernoren/PyTorch-GAN: PyTorch implementations of Generative Adversarial Networks.
 https://github.com/wkentaro/gshell | wkentaro/gshell: Navigate in Google Drive as you do on shell (gshell = Google Drive + Shell).
 https://book.douban.com/subject/1146267/ | 深渊上的火 (豆瓣)
@@ -430,7 +482,6 @@ https://www.google.com/search?q=%E6%99%BA%E5%86%A0%E7%9A%84%E3%80%8A%E5%A4%A9%E9
 https://www.google.com/search?q=%E5%A4%A9%E4%B8%8B%E9%9C%B8%E5%9B%BE&oq=%E5%A4%A9%E4%B8%8B%E9%9C%B8%E5%9B%BE&aqs=chrome..69i57&sourceid=chrome&ie=UTF-8 | 天下霸图 - Google Search
 https://www.google.com/search?q=%E6%AD%A6%E6%9E%97%E7%BE%A4%E4%BE%A0%E4%BC%A0%E5%90%A7&newwindow=1&sxsrf=AOaemvL1DTdYI49It8FVxfVwdC6WpleWew%3A1634282125655&ei=jSppYce9J5Pr9AP5z424DA&oq=%E6%AD%A6%E6%9E%97%E7%BE%A4%E4%BE%A0%E4%BC%A0%E5%90%A7&gs_lcp=Cgdnd3Mtd2l6EAMYADIHCAAQgAQQDDIHCAAQgAQQDDIHCAAQgAQQDDIHCAAQgAQQDDIHCAAQgAQQDDIHCAAQgAQQDDoHCAAQRxCwA0oECEEYAFDz2gJY8dsCYJHkAmgBcAJ4AIABZYgBxgGSAQMxLjGYAQCgAQHIAQjAAQE&sclient=gws-wiz | 武林群侠传吧 - Google Search
 https://tieba.baidu.com/p/6765610179 | 【图片】金庸群侠传5爱与死，玩了半个多月，终于通关啦，纪念贴_金庸群侠传吧_百度贴吧
-https://tieba.baidu.com/p/6621798829 | 求助，金庸群侠传什么v19.v110，还有爱与死有什么不同吗，新人感觉一脸懵逼_金庸群侠传吧_百度贴吧
 https://zhuanlan.zhihu.com/p/313125900 | 经典游戏《金庸群侠传》让人崩溃的隐藏点，真佩服那时玩家的毅力 - 知乎
 https://www.zhihu.com/question/34632801 | 《三国群侠传》口碑远不及《金庸群侠传》和《武林群侠传》的原因有哪些？ - 知乎
 https://www.google.com/search?q=%E5%B9%BB%E6%83%B3%E6%B0%B4%E6%B5%92%E4%BC%A0&oq=%E5%B9%BB%E6%83%B3%E6%B0%B4%E6%B5%92%E4%BC%A0&aqs=chrome..69i57&sourceid=chrome&ie=UTF-8 | 幻想水浒传 - Google Search
@@ -490,7 +541,6 @@ https://github.com/harvardnlp/pytorch-struct | harvardnlp/pytorch-struct: Fast, 
 https://arxiv.org/pdf/1909.06312.pdf | Neural Oblivious Decision Ensembles for Deep Learning on Tabular Data | PDF
 https://arxiv.org/pdf/1602.02068.pdf | From Softmax to Sparsemax: A Sparse Model of Attention and Multi-Label Classification | PDF
 https://arxiv.org/pdf/2005.00771.pdf | ProtoQA: A Question Answering Dataset for Prototypical Common-Sense Reasoning | PDF
-https://www.google.com/search?q=ball+compact&newwindow=1&sxsrf=AOaemvI_yTDkdibRC9TmmdFZUD6e7FIAxw%3A1633384587138&ei=i3hbYbnpB5P2-gS2vpSgBA&ved=0ahUKEwj52uPg37HzAhUTu54KHTYfBUQQ4dUDCA4&uact=5&oq=ball+compact&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjoHCAAQRxCwAzoECCMQJzoECAAQQzoFCAAQkQI6CgguEMcBENEDEEM6EQguEIAEELEDEIMBEMcBEKMCOgUIABCABDoOCC4QgAQQsQMQxwEQowI6CAguELEDEIMBOg0ILhCABBCHAhCxAxAUOgoIABCABBCHAhAUOgsILhCABBCxAxCDAToICAAQgAQQsQM6CwguEIAEEMcBEK8BOggIABCxAxCDAToICC4QgAQQsQM6CwgAEIAEELEDEIMBOhEILhCABBCxAxDHARCjAhCTAjoFCC4QgAQ6CAgAEIAEEMkDSgQIQRgAUMTAAVi5ywFgkMwBaAFwAngBgAGIAYgBiAmSAQMyLjmYAQCgAQHIAQjAAQE&sclient=gws-wiz | ball compact - Google Search
 https://github.com/JonathanCrabbe/Dynamask | JonathanCrabbe/Dynamask: This repository contains the implementation of Dynamask, a method to identify the features that are salient for a model to issue its prediction when the data is represented in terms of time series. For more details on the theoretical side, please read our ICML 2021 paper: 'Explaining Time Series Predictions with Dynamic Masks'.
 https://github.com/JonathanCrabbe/Dynamask/blob/main/attribution/perturbation.py | Dynamask/perturbation.py at main · JonathanCrabbe/Dynamask
 
@@ -541,7 +591,6 @@ https://www.reddit.com/r/MachineLearning/comments/ncygcg/d_highlights_of_pytorch
 https://github.com/princeton-nlp/metric-wsd | princeton-nlp/metric-wsd: NAACL'2021: Non-Parametric Few-Shot Learning for Word Sense Disambiguation
 https://adnmb3.com/t/42374914?page=30 | No.42374914 - A岛匿名版
 https://aclanthology.org/2021.acl-long.409.pdf | Meta-Learning with Variational Semantic Memory for Word Sense Disambiguation
-
 https://vaclavkosar.com/ml/Feed-Forward-Self-Attendion-Key-Value-Memory | Feed-Forward, Self-Attention & Key-Value | Vaclav Kosar’s Blog
 
 https://www.zhihu.com/question/269117292 | 如何评价 steam 游戏《星际拓荒（Outer Wilds）》? - 知乎
@@ -559,7 +608,6 @@ https://arxiv.org/pdf/1705.07215.pdf | On Convergence and Stability of GANs | PD
 https://arxiv.org/pdf/2001.06937.pdf | A Review on Generative Adversarial Networks: Algorithms, Theory, and Applications | PDF
 
 https://www.bilibili.com/video/BV1F54y197GW?p=2 | 【今 敏】妄想代理人到底讲了什么 | 个人解析 | 合集_哔哩哔哩_bilibili
-https://www.google.com/search?q=tablefact&oq=tablefact&aqs=chrome..69i57j0i512l2j0i5i30l3j5i10i44.1577j0j1&sourceid=chrome&ie=UTF-8 | tablefact - Google Search
 https://arxiv.org/abs/2004.14373 | ToTTo: A Controlled Table-To-Text Generation Dataset | Abstract
 https://tabfact.github.io/ | TabFact
 
@@ -571,7 +619,6 @@ https://github.com/pytorch/captum/issues/520 | All green/all red word importance
 https://github.com/pytorch/captum/issues/282 | how would it be possible to calculate the Integrated gradients for model which has embedding · Issue #282 · pytorch/captum
 https://github.com/pytorch/captum/issues/275 | Integrated gradients using with pack_padded_sequence returns error · Issue #275 · pytorch/captum
 https://github.com/pytorch/captum/issues/249 | Captum for Bert Sentence Classification · Issue #249 · pytorch/captum
-https://www.google.com/search?q=%E5%9C%B0%E9%9B%B7%E9%9C%87&oq=%E5%9C%B0%E9%9B%B7%E9%9C%87&aqs=chrome..69i57&sourceid=chrome&ie=UTF-8 | 地雷震 - Google Search
 https://arxiv.org/pdf/1503.03832.pdf | FaceNet: A Unified Embedding for Face Recognition and Clustering | PDF
 https://github.com/timesler/facenet-pytorch/blob/master/examples/face_tracking.ipynb | facenet-pytorch/face_tracking.ipynb at master · timesler/facenet-pytorch
 https://github.com/timesler/facenet-pytorch | timesler/facenet-pytorch: Pretrained Pytorch face detection (MTCNN) and facial recognition (InceptionResnet) models
@@ -658,8 +705,6 @@ https://zhuanlan.zhihu.com/p/150358540 | 自监督黑马SimCLRv2来了！提出�
 https://www.google.com/search?q=BYOL&oq=BYOL&aqs=chrome..69i57j69i61&sourceid=chrome&ie=UTF-8 | BYOL - Google Search
 https://www.zhihu.com/column/nlpcab | NLPCAB - 知乎
 https://zhuanlan.zhihu.com/p/355523266 | 最简单的self-supervised方法 - 知乎
-https://github.com/openai/CLIP | openai/CLIP: Contrastive Language-Image Pretraining
-https://www.zhihu.com/search?type=content&q=clip | clip - 搜索结果 - 知乎
 https://zhuanlan.zhihu.com/p/261412153 | 求道之人，不问寒暑（六） - 知乎
 https://ai.googleblog.com/2021/06/extending-contrastive-learning-to.html | Google AI Blog: Extending Contrastive Learning to the Supervised Setting
 
@@ -762,7 +807,6 @@ https://pytorch.org/tutorials/recipes/recipes/dynamic_quantization.html | Dynami
 https://pytorch.org/docs/stable/quantization.html#torch.quantization.quantize_dynamic | Quantization — PyTorch 1.9.0 documentation
 https://pytorch.org/tutorials/intermediate/dynamic_quantization_bert_tutorial.html | (beta) Dynamic Quantization on BERT — PyTorch Tutorials 1.9.0+cu102 documentation
 https://pytorch.org/blog/introduction-to-quantization-on-pytorch/ | Introduction to Quantization on PyTorch | PyTorch
-https://zhuanlan.zhihu.com/p/166632315 | PyTorch 32.Gumbel-Softmax Trick - 知乎
 https://github.com/GEM-benchmark/NL-Augmenter/blob/main/docs/doc.md#Three-most-creative-Implementations | NL-Augmenter/doc.md at main · GEM-benchmark/NL-Augmenter
 https://pytorch.org/docs/stable/generated/torch.nn.SyncBatchNorm.html | SyncBatchNorm — PyTorch 1.9.0 documentation
 https://www.zhihu.com/search?q=differential%20privacy&type=content | differential privacy - 搜索结果 - 知乎
@@ -872,7 +916,6 @@ https://github.com/valayDave/arxiv-miner | valayDave/arxiv-miner: arxiv_miner is
 https://stackoverflow.com/questions/68000140/scala-slower-than-python-in-constructing-a-set | scala slower than python in constructing a set - Stack Overflow
 
 https://randorithms.com/2019/09/19/Visual-LSH.html | 4 Pictures that Explain LSH - Locality Sensitive Hashing Tutorial - Randorithms
-https://www.google.com/search?q=cat+vs+scalaz&oq=cat+vs+scalaz&aqs=chrome..69i57j33i160.2080j0j1&sourceid=chrome&ie=UTF-8 | cat vs scalaz - Google Search
 https://github.com/fosskers/scalaz-and-cats | fosskers/scalaz-and-cats: Usage examples and benchmarks between Scalaz and Cats (w/ Haskell ground-truth).
 
 https://www.reddit.com/r/reinforcementlearning/comments/a4qwva/metalearning_learning_to_learn_fast_lilian_weng/ | "Meta-Learning: Learning to Learn Fast", Lilian Weng [metric learning, MANN & meta networks, MAML/REPTILE] : reinforcementlearning
@@ -999,7 +1042,6 @@ https://towardsdatascience.com/persistent-homology-with-examples-1974d4b9c3d0 | 
 https://github.com/JasonKessler/scattertext | JasonKessler/scattertext: Beautiful visualizations of how language differs among document types.
 
 https://zhuanlan.zhihu.com/p/110955275 | 李航统计学习方法（第四章） - 知乎
-https://www.zhihu.com/search?q=Gurobi&type=content | Gurobi - 搜索结果 - 知乎
 
 https://arxiv.org/pdf/2009.06732.pdf | 2009.06732.pdf
 https://arxiv.org/pdf/2012.04808.pdf | 2012.04808.pdf
@@ -1021,7 +1063,6 @@ https://www.google.com/search?q=linear+mixed+effects+model&oq=linear+mixed+effec
 
 https://www.wikiwand.com/en/Martingale_(probability_theory) | Martingale (probability theory) - Wikiwand
 https://medium.com/tinyso/how-to-create-a-timeline-component-with-reactjs-779520c81209 | How to create a Timeline Component with ReactJS | by Thi Tran | tinyso | Medium
-https://www.zhihu.com/search?q=%E6%AD%A6%E6%9E%97%E7%BE%A4%E4%BE%A0%E4%BC%A0&type=content | 武林群侠传 - 搜索结果 - 知乎
 https://www.zhihu.com/search?q=%E4%BE%A0%E5%AE%A2%E9%A3%8E%E4%BA%91%E4%BC%A0&type=content | 侠客风云传 - 搜索结果 - 知乎
 
 https://www.zhihu.com/question/54504471 | 如何理解 Graph Convolutional Network（GCN）？ - 知乎
@@ -1077,11 +1118,8 @@ https://www.zhihu.com/question/398672104/answer/1257459039 | bert+crf可以做NE
 https://zhuanlan.zhihu.com/p/166496466 | 流水的NLP铁打的NER：命名实体识别实践与探索 - 知乎
 
 http://www.tkskwork.org/students/ | Students – Prof. Satish Kumar Thittamaranahalli (T. K. Satish Kumar)
-https://haowenlin.github.io/files/haowenlin.pdf | haowenlin.pdf
-https://yaoyichi.github.io/ | https://yaoyichi.github.io
 https://spatial.usc.edu/ | Spatial Sciences Institute | USC Dornsife
 https://spatial-computing.github.io/#people | spatial-computing.github.io by USC Spatial Computing
-https://weiweiduan.github.io/ | Weiwei Duan | 段伟玮
 https://www.zhihu.com/people/superbrother-58/posts | superbrother - 知乎
 
 https://www.ini.usc.edu/people | INI | People
@@ -1110,3 +1148,4 @@ https://arxiv.org/pdf/2005.00691.pdf | 2005.00691.pdf
 https://arxiv.org/pdf/1911.03705.pdf | 1911.03705.pdf
 https://arxiv.org/pdf/1908.10383.pdf | 1908.10383.pdf
 https://shangjingbo1226.github.io/AutoNER/paper/AutoNER.pdf | AutoNER.pdf
+
