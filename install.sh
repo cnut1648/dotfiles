@@ -97,6 +97,10 @@ y=(
     # eval "$(mcfly init zsh)"
     # then Ctrl-R auto use mcfly
     mcfly
+    # node version manager
+    # only activate after source /usr/share/nvm/init-nvm.sh
+    # if not use system one
+    nvm
 )
 
 optional=(
