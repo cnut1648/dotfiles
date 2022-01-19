@@ -54,6 +54,9 @@ x=(
 # fava: UI for beancount
 y=(
     typora
+    # better du
+    dust
+    drawio-desktop-bin
     # Jetbrains
     clion webstorm intellij-idea-ultimate-edition datagrip pycharm-professional
     # OneQuick in Linux
