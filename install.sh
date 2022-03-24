@@ -3,6 +3,7 @@ x=(
     feh xorg-xev xorg-xrandr docker docker-compose fasd manjaro-i3-settings xdotool mariadb youtube-dl
     # disk usage in command line, replace du
     ncdu
+    qbittorrent
     xcape graphviz valgrind speedtest-cli timeshift cmake gdb
     # fast pdf reader
     zathura-pdf-mupdf zathura-djvu
@@ -107,7 +108,9 @@ y=(
 )
 
 optional=(
+    # android
     android-emulator
+    android-studio
     # r2cutter: Qt for cutter, reverse engineering
     # r2ghidra: r2cutter's decompiler plugin
     r2cutter r2ghidra
