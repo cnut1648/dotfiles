@@ -57,6 +57,7 @@ y=(
     typora
     # better du
     dust
+    tor-browser
     drawio-desktop-bin
     # Jetbrains
     clion webstorm intellij-idea-ultimate-edition datagrip pycharm-professional
