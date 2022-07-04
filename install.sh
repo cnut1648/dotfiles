@@ -54,6 +54,8 @@ x=(
 # gurobi: python linear programming
 # fava: UI for beancount
 y=(
+    # better ebook
+    foliate
     typora
     # better du
     dust
@@ -106,9 +108,12 @@ y=(
     # only activate after source /usr/share/nvm/init-nvm.sh
     # if not use system one
     nvm
+    # ts version of node
+    ts-node
 )
 
 optional=(
+    solana
     # android
     android-emulator
     android-studio
