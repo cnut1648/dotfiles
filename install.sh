@@ -30,8 +30,10 @@ x=(
     # global: nvim gtags needed
     # ctags: better gtags in nvim
     global ctags
+    # good scientific pdf reader
+    sioyek
     # amm, ipython for scala
-    scala sbt  ammonite
+    scala sbt ammonite
     # plain text tree
     tree
     # ls with icon
