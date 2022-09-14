@@ -1,6 +1,0 @@
-# index
-map [index] q abort
-set selection-clipboard clipboard
-set window-title-home-tilde true
-set statusbus-title-home-tilde true
-map H feedkeys ":exec zsh -c ~/.config/zathura/open_history.sh"
