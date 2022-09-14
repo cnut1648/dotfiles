@@ -1,0 +1,26 @@
+--max-columns=150
+--max-columns-preview
+
+# Don't let ripgrep vomit really long lines to my terminal, and show a preview.
+--max-columns=150
+--max-columns-preview
+
+# Add my 'web' type.
+--type-add
+web:*.{html,css,js}*
+
+# Using glob patterns to include/exclude files or folders
+--glob=!git/*
+--glob=!**/backup/**
+--glob=!**/application/**
+--glob=!**/app/**
+--glob=!**/miniconda3/**
+--glob=!**/照片/**
+--glob=!**/Private/**
+
+
+# Set the colors.
+--colors=line:none
+--colors=line:style:bold
+
+--smart-case

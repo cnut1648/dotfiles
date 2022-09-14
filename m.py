@@ -40,7 +40,6 @@ software = [
         '~/.config/zathura/',
         '~/.config/cmus/',
         '~/.config/neofetch',
-        '~/.config/nvim/init.vim',
         '~/.config/doublecmd',
         '~/.config/.ripgreprc',
         # Ipython
