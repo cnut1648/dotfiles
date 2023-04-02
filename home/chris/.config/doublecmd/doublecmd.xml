@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<doublecmd DCVersion="1.0.6 beta" ConfigVersion="12">
+<doublecmd DCVersion="1.0.8" ConfigVersion="12">
   <Toolbars>
     <MainToolbar>
       <Row>
@@ -153,10 +153,10 @@
   </Toolbars>
   <MainWindow>
     <Position Save="True">
-      <Left>1930</Left>
-      <Top>54</Top>
-      <Width>1882</Width>
-      <Height>1984</Height>
+      <Left>1958</Left>
+      <Top>139</Top>
+      <Width>3840</Width>
+      <Height>2032</Height>
       <PixelsPerInch>192</PixelsPerInch>
       <Maximized>False</Maximized>
       <Splitter>43.2040116125627</Splitter>
@@ -793,7 +793,7 @@
                   <Path Filename="..">/home/chris/Downloads/447/</Path>
                   <Path Filename="447">/home/chris/Downloads/</Path>
                   <Path Filename="">/home/chris/Downloads/447/</Path>
-                  <Path Filename="Lecture-notes-1.pdf">/home/chris/Downloads/</Path>
+                  <Path Filename="..">/home/chris/Downloads/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -1809,6 +1809,7 @@
     <FilenameStyle>0</FilenameStyle>
     <PathToBeRelativeTo>%COMMANDER_PATH%</PathToBeRelativeTo>
     <PathModifierElements>0</PathModifierElements>
+    <DefaultTextEncoding>none</DefaultTextEncoding>
   </Miscellaneous>
   <Thumbnails Save="True">
     <Width>128</Width>

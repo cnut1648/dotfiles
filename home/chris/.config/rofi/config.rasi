@@ -6,7 +6,7 @@ configuration {
     sidebar-mode: true;
     display-window: "Window";
     display-drun: "Drun";
-    kb-row-tab: "Tab";
+    /* kb-row-tab: "Tab"; */
     kb-mode-next: "Shift+space";
     run-shell-command: "{terminal} -e '{cmd}'";
 /*  modi: "window,run,ssh";  */

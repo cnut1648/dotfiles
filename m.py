@@ -3,8 +3,9 @@ import os
 # import shutil
 
 scripts = [
-        '/usr/bin/bri',
-        '/usr/bin/color_show'
+        # '/usr/bin/bri',
+        '/usr/bin/color_show',
+        '~/remove_newline_when_select.sh'
         ]
 
 X = [

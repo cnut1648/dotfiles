@@ -17,6 +17,8 @@ x=(
     yarn emacs tomcat8 gradle maven
     # better find
     fd
+    # better df
+    duf
     # music player
     clementine
     pandoc
@@ -58,6 +60,7 @@ x=(
 y=(
     # better ebook
     foliate
+    inkscape
     typora
     # better du
     dust
@@ -124,8 +127,10 @@ optional=(
     r2cutter r2ghidra
     # simulator required for xv6
     qemu
-    # only need bin / latexextra
-    texlive-most
+    # tex support + LSP
+    texlive-most texlive-langchinese texlab
+    # latex pkg mgmr
+    tllocalmgr
     # IDE for racket: DrRacket
     racket
     # arduino: IDE
@@ -139,8 +144,6 @@ optional=(
     # have to search matlab USC to download zip & ./install
     # manually
     matlab
-    # latex pkg mgmr
-    tllocalmgr
 )
 
 others=(

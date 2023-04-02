@@ -50,6 +50,7 @@ export LESS_TERMCAP_ue=$'\E[0m'        # reset underline
 
 # Path to your oh-my-zsh installation.
 export ZSH="${HOME}/.oh-my-zsh"
+export PATH="$PATH:/usr/local/texlive/2022/bin/x86_64-linux"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -166,9 +167,6 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-# kitty autocomplete
-kitty + complete setup zsh | source /dev/stdin
-
 # prevent neovim ctrl+j insert navigation
 bindkey -r "^J"
 
@@ -218,7 +216,7 @@ export FZF_TAB_OPTS=(
 
 # copy in zsh, since has !, zsh thinks its his expansion, setopt nobanghis to disable his expansion
 # --follow cause fzf read file with no permission, send error to null to ignore
-export RIPGREP_CONFIG_PATH='~/.config/.ripgreprc'
+export RIPGREP_CONFIG_PATH=$HOME/.config/.ripgreprc
 export FZF_DEFAULT_COMMAND='rg --files --hidden --follow 2> /dev/null'
 fancy-ctrl-z () {
   if [[ $#BUFFER -eq 0 ]]; then
