@@ -59,11 +59,13 @@ directory = [scripts, X, SHELLS, software]
 for d in directory:
     for f in d:
         if os.path.exists(f):
-            src = str(f)
-            dst = pwd / "backup" / src.replace(str(home), "home/USERNAME")
+            src = str(f).replace(str(home), "home/USERNAME")
+            if src.startswith("/"):
+                src = src[1:]
+            dst = pwd / "backup" / src
             Path(dst).parent.mkdir(parents=True, exist_ok=True)
             cmd = [
-                "cp", "-r", src, dst
+                "cp", "-r", f, dst
             ]
             print(f, cmd)
             subprocess.run(

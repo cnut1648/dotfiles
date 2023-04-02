@@ -5,6 +5,8 @@ My dotfiles for dual boot manjaro + Windows 11, and how to setup/migrate to new 
 
 Disable bitlocker & secure boot in Windows 11.
 
+In the old system, run `python backup.py` to create latest dotfile backup.
+
 ## Step 1.
 
 Burn the manjaro to usb and boot from usb (using open-source driver).
@@ -15,6 +17,7 @@ Current partition configuration
 8GB -- tag=linuxswap
 Rest -- ext4 filesystem, tag=root/home
 ```
+
 ## Step 2.
 
 Change `/etc/fstab` to mount windows files automatically
@@ -33,6 +36,8 @@ dev/nvme0n1p6                              /home/timeshift    ext4      defaults
 
 Run i3+plasma (match in heaven) by [this repo](https://github.com/heckelson/i3-and-kde-plasma). Using `Option 2: New XSession` regardless of plasma version so that can switch between plasma and i3 easily.
 
+If there are some issues, use pure `i3` login session to debug.
+
 ## Step 4.
 
 Install all required softwares.
@@ -40,10 +45,17 @@ Install all required softwares.
 1. install via `./install.sh`.
 
 2. Install anaconda and python libraries
+   
+   ```shell
+   wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh;
+   chmod u+x Miniconda*;
+   ./Miniconda*;
+   ```
+   After conda is installed, can install python libraries (examples are `ds.py` and `fun.py`)
 
 3. Install neovim's plugin and latex.
 
-First follow instructions from [lua plugins](https://github.com/cnut1648/nvim-lua.git) and setup [inkscape plugin](https://github.com/cnut1648/inkscape-figures).
+   Follow instructions from [lua plugins](https://github.com/cnut1648/nvim-lua.git) and setup [inkscape plugin](https://github.com/cnut1648/inkscape-figures).
 
 ## Step .
 
