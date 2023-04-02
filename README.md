@@ -33,15 +33,20 @@ dev/nvme0n1p6                              /home/timeshift    ext4      defaults
 
 Run i3+plasma (match in heaven) by [this repo](https://github.com/heckelson/i3-and-kde-plasma). Using `Option 2: New XSession` regardless of plasma version so that can switch between plasma and i3 easily.
 
-## Step .
+## Step 4.
 
-Install anaconda and python libraries
+Install all required softwares.
 
-## Step .
+1. install via `./install.sh`.
 
-Install neovim's plugin and latex.
+2. Install anaconda and python libraries
+
+3. Install neovim's plugin and latex.
 
 First follow instructions from [lua plugins](https://github.com/cnut1648/nvim-lua.git) and setup [inkscape plugin](https://github.com/cnut1648/inkscape-figures).
+
+## Step .
+
 
 # scripts
 

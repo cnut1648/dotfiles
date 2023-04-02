@@ -1,168 +1,147 @@
 x=(
-    neofetch xclip
-    # doublecmd-
-    cmus redshift kitty kitty-terminfo plasma-browser-integration ranger
-    feh
-    xorg-xev xorg-xrandr docker docker-compose fasd
-    # manjaro-i3-settings
-    xdotool mariadb youtube-dl
-    # disk usage in command line, replace du
-    ncdu
+    ########## cmd line tools
+    cmus clementine # music
+    neofetch feh
+    ranger
+    picom # compositor
+    xdotool xclip xcape
+    youtube-dl
+    fasd
+    pacui # analyze pacman
+    mlocate
+    unrar
+    ncdu # disk usage in command line, replace du
+    speedtest-cli
+    wmctrl
+    fd # better find
+    duf # better df
+    ripgrep # replace grep
+    tree # plain text tree
+    lsd # ls with icon, lsd --tree = tree with icon
+    gping # ping with graph
+    bat # cat with syntax highlight
+    git-delta # git diff with hightlight
+    bottom # sys monitoring, use `btm`, better than gtop (no binaries) / glances (not good looking)
+    fzf
+    jq
+
+    ######### system
+    plasma-browser-integration
+    xorg-xev xorg-xrandr
+    ibus ibus-libpinyin # ibus and chinese input method
+    manjaro-pipewire # audio replace PulseAudio
+
+    ######### application
     qbittorrent
-    xcape graphviz
-    # c debug
-    valgrind
-    speedtest-cli timeshift cmake gdb
-    # fast pdf reader
-    # zathura-pdf-mupdf zathura-djvu
-    wmctrl flameshot fzf nodejs npm jq
-    # python support for nvim
-    python-jedi python-pynvim
-    # replace grep
-    ripgrep
-    # audio replace PulseAudio
-    manjaro-pipewire
-    yarn emacs tomcat8 gradle maven
-    # better find
-    fd
-    # better df
-    duf
-    # music player
-    clementine
-    pandoc
-    boost
-    # virtualenv -p /path/to/python venv
-    python-virtualenv
-    # ibus and chinese input method
-    ibus ibus-libpinyin
-    make
-    # analyze pacman
-    pacui mlocate unrar
+    xournalpp # whiteboard
+    graphviz
+    rofi
+    valgrind # c debug and memory leakage
+    timeshift
+    kitty kitty-terminfo # console
+    python-jedi python-pynvim # nvim related
     # global: nvim gtags needed
     # ctags: better gtags in nvim
     global ctags
+    flameshot
+    pandoc
+
+    ######### programming
+    mariadb redis # db
+    docker docker-compose
+    cmake gdb make boost # c
+    nodejs npm yarn # js
+    tomcat8 gradle maven # java
+    # virtualenv -p /path/to/python venv
+    python-virtualenv
     # amm, ipython for scala
     scala sbt ammonite
-    # plain text tree
-    tree
-    # ls with icon
-    # lsd --tree = tree with icon
-    lsd
-    # ping with graph
-    gping
-    # cat with syntax highlight
-    bat
-    # git diff with hightlight
-    git-delta
-    # sys monitoring
-    # better than gtop (no binaries) / glances (not good looking)
-    # `btm`
-    bottom
-    redis
 )
 
-# kite is
 # gurobi: python linear programming
 # fava: UI for beancount
 y=(
-    # better ebook
-    foliate
-    inkscape
-    typora
-    # better du
-    dust
-    tor-browser
-    drawio-desktop-bin
-    # Jetbrains
-    clion webstorm intellij-idea-ultimate-edition datagrip pycharm-professional
-    # OneQuick in Linux
-    autokey-qt
-    chromium cmatrix
-    # rstudio-desktop-bin
-    # i3wm auto tile windows if having many windows at same time
-    autotiling
-    # image viewer
-    geeqie
-    # good scientific pdf reader
-    sioyek-git
-    # only use free version, has most of features
-    masterpdfeditor-free
-    # better mysql CLI
-    mycli
-    # change dir, need for ranger
-    xcwd-git
-    lazygit calibre postman-bin
-    # support i3 grid
-    python-i3-grid
-    # joplin joplin-desktop
-    # jmeter
-    # zotero
-    # support UI in Qt for ibus
-    ibus-qt
-    visual-studio-code-bin
-    # wireshark-qt gurobi
-    # spark-submit
-    # apache-spark
-    rslsync
-    # monitor screen for daily activity
-    # activitywatch-bin
-    # notes
-    logseq-desktop-git
-    # obsidian
-    # accounting
-    beancount fava
-    # firebase CLI
-    firebase-tools
+    ########## cmd line tools
+    dust # better du
+    cmatrix # hacker like
+    neovim-git
+    xcwd-git # change dir, need for ranger
     # better Ctrl-R
     # after install add in .zshrc
     # eval "$(mcfly init zsh)"
     # then Ctrl-R auto use mcfly
     mcfly
+
+    ########## system
+    # i3wm auto tile windows if having many windows at same time
+    autotiling
+    python-i3-grid # support i3 grid
+    ibus-qt # support UI in Qt for ibus
+
+    ########## applications
+    typora calibre foliate sioyek-git logseq-desktop-git # ebook & notes
+    google-chrome
+    # only use free version, has most of features
+    masterpdfeditor-free
+    inkscape drawio-desktop-bin # drawing
+    tor-browser
+    autokey-qt # OneQuick in Linux
+    chromium
+    geeqie # image viewer
+    rslsync # sync between devices
+    beancount fava # accounting
+
+    ########## programming
+    clion webstorm intellij-idea-ultimate-edition datagrip pycharm-professional # Jetbrains IDE
+    visual-studio-code-bin # vs code
+    mycli # better mysql CLI
+    lazygit # better git visualized
+    postman-bin
+    firebase-tools # firebase CLI
     # node version manager
     # only activate after source /usr/share/nvm/init-nvm.sh
     # if not use system one
     nvm
-    # ts version of node
-    ts-node
+    ts-node # ts version of node
 )
 
 optional=(
-    neovim-git
-    # solana
-    # android
-    android-emulator
-    android-studio
-    # r2cutter: Qt for cutter, reverse engineering
-    # r2ghidra: r2cutter's decompiler plugin
-    r2cutter r2ghidra
-    # simulator required for xv6
-    qemu
-    # tex support + LSP
-    texlive-most texlive-langchinese texlab
-    # latex pkg mgmr
-    tllocalmgr
-    # IDE for racket: DrRacket
-    racket
-    # arduino: IDE
-    # arduino-avr-core: for compile arduino code (can without arduino IDE)
-    arduino arduino-avr-core
-    # free version only, hard to hack
-    ida-free
-    # geographic support for postgresql
-    postgresql postgis
+    ########## cmd line tools
+    adbtuifm # go's adb fm
+
+    ########## application
+    obsidian joplin joplin-desktop zotero # note
+    activitywatch-bin # monitor screen for daily activity
+    wireshark-qt # net check
+    doublecmd # dual panel fm
+    zathura-pdf-mupdf zathura-djvu # fast pdf reader, use sioyek instead
+    emacs
+
+    ########## programming
+    jmeter # java request monitor
+    gurobi # optimization
     # can't use aur matlab since it needs a license file
     # have to search matlab USC to download zip & ./install
     # manually
     matlab
-)
-
-others=(
-    # go
-    adbtuifm
+    apache-spark # spark-submit
+    rstudio-desktop-bin # r
+    solana # web3
+    android-studio android-emulator # android
+    # r2cutter: Qt for cutter, reverse engineering
+    # r2ghidra: r2cutter's decompiler plugin
+    r2cutter r2ghidra
+    ida-free # free version only, hard to hack
+    qemu # simulator required for xv6
+    texlive-most texlive-langchinese texlab # tex support + LSP
+    # latex pkg mgmr
+    tllocalmgr
+    racket # IDE for racket: DrRacket
+    arduino arduino-avr-core # IDE & for compile arduino code (can without arduino IDE)
+    postgresql postgis # geographic support for postgresql
+    redshift # plasma has own night color
 )
 
 sudo pacman -Syu;
-# sudo pacman --needed -S ${x}
-# sudo pacman --needed -Sy ${x}
 sudo pacman -S ${x[@]};
 yay -Syu ${y[@]}

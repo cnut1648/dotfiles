@@ -1,1 +1,3 @@
 git_token
+**/__pycache__/*
+.idea
