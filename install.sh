@@ -35,13 +35,12 @@ x=(
     python-virtualenv
     # ibus and chinese input method
     ibus ibus-libpinyin
+    make
     # analyze pacman
-    pacui mlocate cmake unrar
+    pacui mlocate unrar
     # global: nvim gtags needed
     # ctags: better gtags in nvim
     global ctags
-    # good scientific pdf reader
-    sioyek
     # amm, ipython for scala
     scala sbt ammonite
     # plain text tree
@@ -84,6 +83,8 @@ y=(
     autotiling
     # image viewer
     geeqie
+    # good scientific pdf reader
+    sioyek-git
     # only use free version, has most of features
     masterpdfeditor-free
     # better mysql CLI
@@ -164,5 +165,6 @@ others=(
 
 sudo pacman -Syu;
 # sudo pacman --needed -S ${x}
-sudo pacman --needed -Sy ${x}
-yay -Syu ${y}
+# sudo pacman --needed -Sy ${x}
+sudo pacman -S ${x[@]};
+yay -Syu ${y[@]}
