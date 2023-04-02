@@ -94,11 +94,9 @@ y=(
     lazygit calibre postman-bin
     # support i3 grid
     python-i3-grid
-    # installer, need ./kite-installer install
-    kite
     # joplin joplin-desktop
     # jmeter
-    zotero
+    # zotero
     # support UI in Qt for ibus
     ibus-qt
     visual-studio-code-bin
@@ -109,7 +107,7 @@ y=(
     # monitor screen for daily activity
     # activitywatch-bin
     # notes
-    logseq-desktop
+    logseq-desktop-git
     # obsidian
     # accounting
     beancount fava

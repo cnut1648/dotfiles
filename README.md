@@ -1,5 +1,5 @@
 # dotfiles
-My dotfiles for dual boot manjaro + Windows 11, and how to setup/mitigate to new system.
+My dotfiles for dual boot manjaro + Windows 11, and how to setup/migrate to new system.
 
 ## Step 0.
 
@@ -31,7 +31,17 @@ dev/nvme0n1p6                              /home/timeshift    ext4      defaults
 
 ## Step 3.
 
-Run i3+plasma (match in heaven) by [this repo](https://github.com/heckelson/i3-and-kde-plasma)
+Run i3+plasma (match in heaven) by [this repo](https://github.com/heckelson/i3-and-kde-plasma). Using `Option 2: New XSession` regardless of plasma version so that can switch between plasma and i3 easily.
+
+## Step .
+
+Install anaconda and python libraries
+
+## Step .
+
+Install neovim's plugin and latex.
+
+First follow instructions from [lua plugins](https://github.com/cnut1648/nvim-lua.git) and setup [inkscape plugin](https://github.com/cnut1648/inkscape-figures).
 
 # scripts
 
