@@ -1,12 +1,20 @@
 x=(
-    neovim neofetch xclip doublecmd-qt5 cmus redshift kitty kitty-terminfo plasma-browser-integration ranger
-    feh xorg-xev xorg-xrandr docker docker-compose fasd manjaro-i3-settings xdotool mariadb youtube-dl
+    neofetch xclip
+    # doublecmd-
+    cmus redshift kitty kitty-terminfo plasma-browser-integration ranger
+    feh
+    xorg-xev xorg-xrandr docker docker-compose fasd
+    # manjaro-i3-settings
+    xdotool mariadb youtube-dl
     # disk usage in command line, replace du
     ncdu
     qbittorrent
-    xcape graphviz valgrind speedtest-cli timeshift cmake gdb
+    xcape graphviz
+    # c debug
+    valgrind
+    speedtest-cli timeshift cmake gdb
     # fast pdf reader
-    zathura-pdf-mupdf zathura-djvu
+    # zathura-pdf-mupdf zathura-djvu
     wmctrl flameshot fzf nodejs npm jq
     # python support for nvim
     python-jedi python-pynvim
@@ -70,7 +78,8 @@ y=(
     clion webstorm intellij-idea-ultimate-edition datagrip pycharm-professional
     # OneQuick in Linux
     autokey-qt
-    chromium cmatrix rstudio-desktop-bin
+    chromium cmatrix
+    # rstudio-desktop-bin
     # i3wm auto tile windows if having many windows at same time
     autotiling
     # image viewer
@@ -86,20 +95,21 @@ y=(
     python-i3-grid
     # installer, need ./kite-installer install
     kite
-    joplin joplin-desktop
-    jmeter
+    # joplin joplin-desktop
+    # jmeter
     zotero
     # support UI in Qt for ibus
     ibus-qt
     visual-studio-code-bin
-    wireshark-qt gurobi
+    # wireshark-qt gurobi
     # spark-submit
-    apache-spark
+    # apache-spark
     rslsync
     # monitor screen for daily activity
-    activitywatch-bin
+    # activitywatch-bin
     # notes
-    logseq-desktop obsidian
+    logseq-desktop
+    # obsidian
     # accounting
     beancount fava
     # firebase CLI
@@ -118,7 +128,8 @@ y=(
 )
 
 optional=(
-    solana
+    neovim-git
+    # solana
     # android
     android-emulator
     android-studio
