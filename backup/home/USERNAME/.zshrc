@@ -256,9 +256,6 @@ export PYSPARK_PYTHON=${HOME}'/miniconda3/envs/ds/bin/python'
 # install from https://github.com/darkhz/adbtuifm
 alias adbtui='/home/chris/go/bin/adbtuifm --remote=/sdcard/books --local=/home/chris/Downloads --mode ADB'
 alias rslsync='rslsync --log /home/chris/.config/rslsync/rlog --config /home/chris/.config/rslsync/rslsync.conf'
-# install from gem install bundler
-export PATH='/home/chris/.local/share/gem/ruby/3.0.0/bin':$PATH
-
 
 # init mcfly to overload Ctrl-R
 eval "$(mcfly init zsh)"

@@ -44,7 +44,39 @@ Install all required softwares.
 
 1. install via `./install.sh`.
 
-2. Install anaconda and python libraries
+2. config git
+   
+    ```shell
+    git config --global credential.helper store  
+    git config --global user.name "Jianxu Xu"
+    git config --global user.email "jxu1@g.harvard.edu"
+    ```
+
+3. config zsh and oh-my-zsh
+   
+   ```shell
+   # change default shell to zsh
+    chsh -s /bin/zsh
+   # install oh-my-zsh
+   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+   
+   # install powerlevel10k
+   git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+   # other custom plugins
+   git clone https://github.com/zdharma/fast-syntax-highlighting ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
+   git clone https://github.com/TamCore/autoupdate-oh-my-zsh-plugins.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/autoupdate
+   git clone https://github.com/allcatsarebeautiful/fasd ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fasd
+   git clone https://github.com/changyuheng/fz ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fz
+   git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fzf-tab
+   git clone https://github.com/supercrabtree/k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/k
+   git clone https://github.com/MichaelAquilina/zsh-you-should-use.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/you-should-use
+   git clone https://github.com/skywind3000/z.lua.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/z.lua
+   git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+   git clone https://github.com/zsh-users/zsh-completions.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-completions
+   git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
+   ```
+
+4. Install anaconda and python libraries
    
    ```shell
    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh;
@@ -53,42 +85,17 @@ Install all required softwares.
    ```
    After conda is installed, can install python libraries (examples are `ds.py` and `fun.py`)
 
-3. Install neovim's plugin and latex.
+5. Install neovim's plugin and latex.
 
    Follow instructions from [lua plugins](https://github.com/cnut1648/nvim-lua.git) and setup [inkscape plugin](https://github.com/cnut1648/inkscape-figures).
 
+6. Restore all dotfiles from backup.
+
+   ```shell
+   python restore.py
+   ```
+   
 ## Step .
-
-
-# scripts
-
-`/usr/bin/bri`
-
-# X
-
-`~/.Xresources`
-`~/.xprofile`
-`~/.xinitrc`
-`~/.Xclients`
-
-# ZSH
-`~/.zshrc`
-
-# BASH
-`~/.bashrc`
-`~/.profile`  not loaded when bash_profile present
-`~/.bash_profile`
-# I3
-`~/.config/i3`
-
-
-
-# Plasma
-
-`~/.config/plasma-org.kde.plasma.desktop-appletsrc`
-
-`~/.config/plasmashellrc`
-
 
 
 # i3

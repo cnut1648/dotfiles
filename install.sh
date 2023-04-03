@@ -108,6 +108,7 @@ y=(
 optional=(
     ########## cmd line tools
     adbtuifm # go's adb fm
+    tmux # also .tmux.conf repo
 
     ########## application
     obsidian joplin joplin-desktop zotero # note
