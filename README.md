@@ -50,21 +50,21 @@ Install all required softwares.
 1. install via `./install.sh`.
 
 2. config git
-   
+
     ```shell
-    git config --global credential.helper store  
+    git config --global credential.helper store
     git config --global user.name "Jianxu Xu"
     git config --global user.email "jxu1@g.harvard.edu"
     ```
 
 3. config zsh and oh-my-zsh
-   
+
    ```shell
    # change default shell to zsh
     chsh -s /bin/zsh
    # install oh-my-zsh
    sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-   
+
    # install powerlevel10k
    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
    p10k configure # configure 10k
@@ -80,12 +80,12 @@ Install all required softwares.
    ```
 
 4. Install anaconda and python libraries
-   
+
    ```shell
    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh;
    chmod u+x Miniconda*;
    ./Miniconda*;
-   
+
    # after install, zsh still can't use conda
    # but can init in bash
    ./miniconda/bin/conda init # init for bash
@@ -101,23 +101,28 @@ Install all required softwares.
    ```shell
    python restore.py
    ```
-   
+
 ## ZSH
 
-Some useful zsh plugins
- 
+### Config zsh
+
+Use `bindkey` to bind key map to function.
+Use `bindkey "^Q"` to see the current bindings for `<Ctrl-Q>`; `"^[f` for `<Alt-f>`
+
+### Some useful zsh plugins
+
 - `extract` to extract files: use `x <file>` to extract file
 - `fasd` to navigate: use `v` (file) and `o` (dir) to edit/open in file manager
 - `dirhistory` to navigate directory: `<Alt-Left>` and `<Alt-Right>` for prev/next; `<Alt-Up>` and `<Alt-Down>` for parent/child
 - `zoxide` to navigate: `z <dir>` to navigate to dir; `zoxide query <dir>` to search dir e.g. `echo $( zoxide query dot )`
-- `zmv` to smart rename 
+- `zmv` to smart rename
 - `Ctrl-k` to launch ranger
 - `rand-quote` to generate random quote: use `Ctrl-Q` to generate one
 - `mcfly` to view history: use `Ctrl-R` to search history
 - `fancy-ctrl-z`: `Ctrl-z` twice to bring back bg jobs; no `fg` needed anymore
 - `sudo`: press `<ESC>` twice to prepend sudo
 - `k`: use `k` to list files, replace `ls -l`
-- `fzf-dir-navigator` use `fzf` to cd to dir, `ctrl-f` to toggle
+- `fzf-dir-navigator` use `fzf` to cd to dir, `alt-f` to toggle
 
 ##  i3
 
