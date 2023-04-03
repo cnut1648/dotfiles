@@ -12,11 +12,10 @@ scripts = [
 ]
 # related to X11
 X = [
-    home / ".Xresources",
+    # home / ".Xresources",
     home / ".xprofile",
     home / ".xinitrc",
     home / ".Xclients",
-    '/etc/sddm.conf' # sddm window dpi support hidpi
 ]
 
 SHELLS = [
