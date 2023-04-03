@@ -27,6 +27,7 @@ SHELLS = [
     ]
 
 software = [
+    home / ".ssh/config", # ssh key and config
     home / ".gdbinit", # gdb dashbaord
     home / ".gitconfig",
     home / ".config/i3/",
