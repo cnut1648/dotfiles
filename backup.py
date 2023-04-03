@@ -37,7 +37,7 @@ software = [
     home / ".config/rofi",
     home / ".local/share/rofi", # themes
     home / ".emacs.d/init.el",
-    home / ".config/autokey/data/My",
+    home / ".config/autokey/data/My Phrases/one-quick",
     home / ".config/zathura/",
     home / ".config/cmus/",
     home / ".config/sioyek",
@@ -47,8 +47,6 @@ software = [
     # Ipython
     home / ".ipython/profile_default/ipython_config.py",
     home / ".jupyter/jupyter_lab_config.py",
-    # Plasma desktop widgets
-    home / ".config/plasmashellrc",
     # jetbrains
     home / ".ideavimrc",
     # conda

@@ -7,7 +7,7 @@
 # Parses currently selected text and removes
 # newlines that aren't preceded by a full stop
 
-SelectedText="$(xsel)"
+SelectedText="$( /usr/bin/xsel )"
 
 # ModifiedText="$(echo "$SelectedText" | \
 #     sed 's/\.$/.|/g' | sed 's/^\s*$/|/g' | tr '\n' ' ' | tr '|' '\n')"
@@ -21,4 +21,4 @@ ModifiedText="$(echo "$SelectedText" | \
 #     newlines
 # This is less than elegant but it works.
 
-echo "$ModifiedText" | xsel -bi
+echo "$ModifiedText" | /usr/bin/xsel -bi

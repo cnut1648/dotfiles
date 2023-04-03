@@ -236,7 +236,7 @@ bindsym $mod+Return exec GLFW_IM_MODULE=ibus kitty
 bindsym $mod+Shift+Return exec GLFW_IM_MODULE=ibus kitty -d `xcwd`
 
 # alt + c remove newlines in selected texts
-bindsym $alt+c exec --no-startup-id "/home/jxu/.config/i3/remove_newline_when_select.sh"
+bindsym $alt+c exec "DISPLAY=:1 /home/jxu/.config/i3/remove_newline_when_select.sh"
 
 # start dmenu (a program launcher)
 # use rofi
