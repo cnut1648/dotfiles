@@ -25,9 +25,9 @@ if ! [[ -z "$@" ]] then
 	fi
 else
 	echo "!!You are now in $A"
-	echo "-- screenshot"		
+	echo "-- screenshot"
 	echo "-- logout"
 	echo "-- lock"
-	echo "-- reboot"	
+	echo "-- reboot"
 	echo "-- poweroff"
 fi

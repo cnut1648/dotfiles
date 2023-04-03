@@ -51,11 +51,6 @@ bar {
 	}
 }
 
-# polybar
-# exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-# bindcode 133 exec --no-startup-id "polybar-msg cmd show"
-# bindcode --release 133 exec --no-startup-id "polybar-msg cmd hide"
-
 
 #  ╭────────────╮
 #  │ Auto Start │
@@ -79,7 +74,8 @@ exec_always --no-startup-id xcape -e 'Shift_R=Return'
 exec --no-startup-id i3-msg 'workspace 3; exec dolphin'
 
 # enable wallpaper
-exec --no-startup-id feh --bg-scale /home/chris/Pictures/wallpaper/vFhqP3g.jpg
+exec --no-startup-id feh --bg-scale https://i.redd.it/ehlj0i4l6bx91.jpg
+exec --no-startup-id autokey-qt
 
 # enable transparency
 # but disable fading effect
@@ -240,8 +236,7 @@ bindsym $mod+Return exec GLFW_IM_MODULE=ibus kitty
 bindsym $mod+Shift+Return exec GLFW_IM_MODULE=ibus kitty -d `xcwd`
 
 # alt + c remove newlines in selected texts
-# bindsym $alt+c exec --no-startup-id "remove_newline_when_select.sh"
-# bindsym $alt+c exec --no-startup-id "/home/chris/remove_newline_when_select.sh"
+bindsym $alt+c exec --no-startup-id "/home/jxu/.config/i3/remove_newline_when_select.sh"
 
 # start dmenu (a program launcher)
 # use rofi
@@ -378,7 +373,10 @@ for_window [class="(?i)*nextcloud*"] floating disable
 for_window [class="plasmashell" window_type="notification"] border none, move right 700px, move down 450px
 no_focus [class="plasmashell" window_type="notification"]
 
+# Killing the existing window that covers everything
+for_window [title="Desktop @ QRect.*"] kill; floating enable; border none
 for_window [title="Desktop — Plasma"] kill; floating enable; border none
+
 for_window [class="flameshot" instance="flameshot"] floating enable
 for_window [title="Options" class="Double Commander" instance="doublecmd"] floating enable
 for_window [title="Clementine Visualization" class="Clementine" instance="clementine"] floating enable

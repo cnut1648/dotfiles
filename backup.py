@@ -35,6 +35,7 @@ software = [
     home / ".config/kitty/",
     home / ".config/ranger/",
     home / ".config/rofi",
+    home / ".local/share/rofi", # themes
     home / ".emacs.d/init.el",
     home / ".config/autokey/data/My",
     home / ".config/zathura/",

@@ -7,8 +7,6 @@
 # Parses currently selected text and removes
 # newlines that aren't preceded by a full stop
 
-echo "hello"
-
 SelectedText="$(xsel)"
 
 # ModifiedText="$(echo "$SelectedText" | \

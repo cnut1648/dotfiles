@@ -6,8 +6,9 @@ x=(
     picom # compositor
     xdotool xclip xcape
     youtube-dl
-    fasd
+    fasd zoxide # faster jump
     pacui # analyze pacman
+    xsel
     mlocate
     unrar
     ncdu # disk usage in command line, replace du
@@ -28,7 +29,6 @@ x=(
     ######### system
     plasma-browser-integration
     xorg-xev xorg-xrandr
-    ibus ibus-libpinyin # ibus and chinese input method
     manjaro-pipewire # audio replace PulseAudio
 
     ######### application
@@ -65,7 +65,6 @@ y=(
     dust # better du
     cmatrix # hacker like
     neovim-git
-    xcwd-git # change dir, need for ranger
     # better Ctrl-R
     # after install add in .zshrc
     # eval "$(mcfly init zsh)"
@@ -76,7 +75,11 @@ y=(
     # i3wm auto tile windows if having many windows at same time
     autotiling
     python-i3-grid # support i3 grid
-    ibus-qt # support UI in Qt for ibus
+    fcitx5 fcitx5-gtk fcitx5-qtk # typing, install both qt and gtk st all programs can use fcitx
+    fcitx5-configtool # gui config
+    fcitx5-material-color # theme
+    fcitx5-chinese-addons fcitx5-pinyin-zhwiki # chinese
+    fcitx5-mozc-ut # japanese
 
     ########## applications
     typora calibre foliate sioyek-git logseq-desktop-git # ebook & notes

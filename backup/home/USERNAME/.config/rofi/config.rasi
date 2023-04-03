@@ -1,18 +1,18 @@
-configuration {
-    lines: 12;
-    font: "Source Sans Pro 25";
+configuration{
+    modi: "run,drun,window,swap:~/.config/rofi/swap.sh";
+    icon-theme: "Oranchelo";
     show-icons: true;
-    terminal: "kitty";
-    sidebar-mode: true;
-    display-window: "Window";
-    display-drun: "Drun";
-    /* kb-row-tab: "Tab"; */
+    terminal: "alacritty";
+    drun-display-format: "{icon} {name}";
+    location: 0;
     kb-mode-next: "Shift+space";
-    run-shell-command: "{terminal} -e '{cmd}'";
-/*  modi: "window,run,ssh";  */
-/*  there are no space between modes */
-/*  drun modes use Shift+Enter run shell cmd */
-    modi: "drun,window,swap:~/.config/rofi/swap.sh";
+    disable-history: false;
+    hide-scrollbar: true;
+    display-drun: "   Apps ";
+    display-run: "   Run ";
+    display-window: " 﩯  Window";
+    display-Network: " 󰤨  Network";
+    sidebar-mode: true;
 }
-//@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
-@theme "/usr/share/rofi/themes/fancy.rasi"
+
+@theme "catppuccin-mocha"

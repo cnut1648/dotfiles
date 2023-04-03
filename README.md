@@ -1,13 +1,14 @@
 # dotfiles
 My dotfiles for dual boot manjaro + Windows 11, and how to setup/migrate to new system.
 
-## Step 0.
+## Installation
+### Step 0.
 
 Disable bitlocker & secure boot in Windows 11.
 
 In the old system, run `python backup.py` to create latest dotfile backup.
 
-## Step 1.
+### Step 1.
 
 Burn the manjaro to usb and boot from usb (using open-source driver).
 
@@ -18,7 +19,7 @@ Current partition configuration
 Rest -- ext4 filesystem, tag=root/home
 ```
 
-## Step 2.
+### Step 2.
 
 Change `/etc/fstab` to mount windows files automatically
 
@@ -32,13 +33,17 @@ UUID=74680090680052F2                       /home/jxu/Data   ntfs-3g   rw,permis
 dev/nvme0n1p6                              /home/timeshift    ext4      defaults                             0 0
 ```
 
-## Step 3.
+### Step 3.
 
 Run i3+plasma (match in heaven) by [this repo](https://github.com/heckelson/i3-and-kde-plasma). Using `Option 2: New XSession` regardless of plasma version so that can switch between plasma and i3 easily.
 
 If there are some issues, use pure `i3` login session to debug.
 
-## Step 4.
+### Step 4.
+
+Install nvidia driver and cuda.
+
+### Step 5.
 
 Install all required softwares.
 
@@ -62,18 +67,16 @@ Install all required softwares.
    
    # install powerlevel10k
    git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+   p10k configure # configure 10k
    # other custom plugins
-   git clone https://github.com/zdharma/fast-syntax-highlighting ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
+   git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
    git clone https://github.com/TamCore/autoupdate-oh-my-zsh-plugins.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/autoupdate
-   git clone https://github.com/allcatsarebeautiful/fasd ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fasd
-   git clone https://github.com/changyuheng/fz ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fz
    git clone https://github.com/Aloxaf/fzf-tab ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fzf-tab
    git clone https://github.com/supercrabtree/k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/k
    git clone https://github.com/MichaelAquilina/zsh-you-should-use.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/you-should-use
-   git clone https://github.com/skywind3000/z.lua.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/z.lua
    git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
    git clone https://github.com/zsh-users/zsh-completions.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/zsh-completions
-   git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
+   git clone https://github.com/KulkarniKaustubh/fzf-dir-navigator.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fzf-dir-navigator
    ```
 
 4. Install anaconda and python libraries
@@ -82,6 +85,10 @@ Install all required softwares.
    wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh;
    chmod u+x Miniconda*;
    ./Miniconda*;
+   
+   # after install, zsh still can't use conda
+   # but can init in bash
+   ./miniconda/bin/conda init # init for bash
    ```
    After conda is installed, can install python libraries (examples are `ds.py` and `fun.py`)
 
@@ -95,11 +102,23 @@ Install all required softwares.
    python restore.py
    ```
    
-## Step .
+## ZSH
 
+Some useful zsh plugins
+ 
+- `extract` to extract files: use `x <file>` to extract file
+- `fasd` to navigate: use `v` (file) and `o` (dir) to edit/open in file manager
+- `dirhistory` to navigate directory: `<Alt-Left>` and `<Alt-Right>` for prev/next; `<Alt-Up>` and `<Alt-Down>` for parent/child
+- `zoxide` to navigate: `z <dir>` to navigate to dir; `zoxide query <dir>` to search dir e.g. `echo $( zoxide query dot )`
+- `zmv` to smart rename 
+- `Ctrl-k` to launch ranger
+- `rand-quote` to generate random quote: use `Ctrl-Q` to generate one
+- `mcfly` to view history: use `Ctrl-R` to search history
+- `fancy-ctrl-z`: `Ctrl-z` twice to bring back bg jobs; no `fg` needed anymore
+- `sudo`: press `<ESC>` twice to prepend sudo
+- `k`: use `k` to list files, replace `ls -l`
+- `fzf-dir-navigator` use `fzf` to cd to dir, `ctrl-f` to toggle
 
-# i3
+##  i3
 
 alt + c to remove newlines in selected highlight text (e.g. copy from pdf)
-
-
