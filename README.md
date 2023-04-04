@@ -126,4 +126,22 @@ Use `bindkey "^Q"` to see the current bindings for `<Ctrl-Q>`; `"^[f` for `<Alt-
 
 ##  i3
 
-alt + c to remove newlines in selected highlight text (e.g. copy from pdf)
+For autostart, see Auto Start section in `i3/config`.
+
+Other than basic movement (see config for details):
+
+- `mod+Tab` cycle through workspaces
+
+- `mod+o` back and forth workspaces, use `mod+shift+o` to move focused container to opposite workspace
+
+- `mod+a/z` focus on parent/child container
+
+- `mod+x` show scratchpad (floating window), `mod+shift+x` move focused to scratchpad; `mod+m` show all scratchpads; `mod+u` focus on desired scratchpad
+
+- `mod+mouse scroll` to resize scratchpad
+
+- currently `i3-grid` is broken
+
+- `alt + c` to remove newlines in selected highlight text (e.g. copy from pdf)
+
+- `mod+c` to one-quick mode; `mod+r` resize mode

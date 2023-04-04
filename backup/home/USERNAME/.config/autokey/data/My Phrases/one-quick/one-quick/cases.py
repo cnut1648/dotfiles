@@ -1,0 +1,1 @@
+keyboard.send_keys("\\begin{cases}\n\end{cases}")

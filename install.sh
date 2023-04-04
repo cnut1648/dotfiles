@@ -8,7 +8,8 @@ x=(
     youtube-dl
     fasd zoxide # faster jump
     pacui # analyze pacman
-    xsel
+    xsel # read & interact with clipboard
+    wmfocus # used in i3, dynamically jump to focus a window
     mlocate
     unrar
     ncdu # disk usage in command line, replace du
@@ -30,6 +31,7 @@ x=(
     plasma-browser-integration
     xorg-xev xorg-xrandr
     manjaro-pipewire # audio replace PulseAudio
+    i3-wm # i3 (i3-gaps is merged in i3)
 
     ######### application
     qbittorrent

@@ -130,7 +130,7 @@ plugins=(
 	you-should-use # remind of alias
 	zsh-autosuggestions # show suggestions based on history
 	zsh-completions # enhanced completion for `zsh` functions
-    fzf-dir-navigator # ctrl-f to fzf -> cd
+   fzf-dir-navigator # ctrl-f to fzf -> cd
 )
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=180'
 
@@ -178,6 +178,10 @@ source $ZSH/oh-my-zsh.sh
 
 # prevent neovim ctrl+j insert navigation
 bindkey -r "^J"
+
+# fzf-Dir-navigator overwrite <C-F>, use <Alt-F> instead
+bindkey "^F" forward-char
+bindkey "^[f" fzf-dir
 
 print_quote() {echo;echo $(quote); zle reset-prompt}
 # create new widget
