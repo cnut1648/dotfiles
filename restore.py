@@ -10,4 +10,5 @@ for file in backup.glob("**/*"):
     dest = str(file).replace("USERNAME", username).replace("backup", "")
     Path(dest).parent.mkdir(parents=True, exist_ok=True)
     print("src:", file, "dest:", dest)
-    subprocess.run(["cp", "-r", file, dest])
+    # subprocess.run(["cp", "-r", file, dest])
+    subprocess.run(["rm", "-r", dest])

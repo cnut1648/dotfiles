@@ -1,0 +1,1 @@
+keyboard.send_keys("import pandas as pd")
