@@ -75,6 +75,7 @@ exec --no-startup-id i3-msg 'workspace 3; exec dolphin'
 
 # enable wallpaper
 exec --no-startup-id feh --bg-scale https://i.redd.it/ehlj0i4l6bx91.jpg
+# autokey
 exec --no-startup-id autokey-qt
 
 # enable transparency
@@ -107,8 +108,6 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
-# bindsym $mod+Shift+e exec --no-startup-id qdbus org.kde.ksmserver /KSMServer org.kde.KSMServerInterface.logout -1 -1 -1
-# bindsym $mod+Shift+e exec --no-startup-id qdbus org.freedesktop.ScreenSaver /ScreenSaver Lock
 
 #                                  ╭──────────╮
 #                                  │ movement │
@@ -227,6 +226,15 @@ bindsym $mod+Shift+x move scratchpad
 bindsym $mod+x scratchpad show
 # multiple scratch together
 bindsym $mod+m [class=.*] scratchpad show
+
+bindsym $mod+u exec --no-startup-id "wmfocus"
+
+set $resize_step 20
+
+# mod + mouse scroll to enlarge/smaller window
+bindsym --whole-window $mod+button4 resize grow width $resize_step; resize grow height $resize_step; [floating] move left; [floating] move up
+bindsym --whole-window $mod+button5 resize shrink width $resize_step; resize shrink height $resize_step; [floating] move right; [floating] move down
+
 #                                ╭──────────────╮
 #                                │ applications │
 #                                ╰──────────────╯
@@ -236,7 +244,7 @@ bindsym $mod+Return exec GLFW_IM_MODULE=ibus kitty
 bindsym $mod+Shift+Return exec GLFW_IM_MODULE=ibus kitty -d `xcwd`
 
 # alt + c remove newlines in selected texts
-bindsym $alt+c exec "DISPLAY=:1 /home/jxu/.config/i3/remove_newline_when_select.sh"
+bindsym $alt+c exec --no-startup-id "DISPLAY=:0 kitty bash ~/.config/i3/remove_newline_when_select.sh &> /tmp/select.log"
 
 # start dmenu (a program launcher)
 # use rofi

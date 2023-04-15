@@ -43,6 +43,10 @@ If there are some issues, use pure `i3` login session to debug.
 
 Install nvidia driver and cuda.
 
+First use `sudo mhwd -a pci nonfree 0300` to install the latest driver (note if latest driver is not installed second monitor might not work).
+
+Then `sudo pacman -S cuda`
+
 ### Step 5.
 
 Install all required softwares.

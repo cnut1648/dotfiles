@@ -12,7 +12,8 @@ if ! [[ -z "$@" ]] then
 	elif [[ $1 =~ 'poweroff' ]] then
 		systemctl poweroff
 	elif [[ $1 =~ 'logout' ]] then
-		loginctl kill-session 1
+		session=`loginctl session-status | head -n 1 | awk '{print $1}'`
+		loginctl terminate-session $session
 	elif [[ $1 =~ 'reboot' ]] then
 		systemctl reboot
 	elif [[ $1 =~ 'lock' ]] then
