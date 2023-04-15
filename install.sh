@@ -34,7 +34,7 @@ x=(
     plasma-browser-integration
     xorg-xev xorg-xrandr
     manjaro-pipewire # audio replace PulseAudio
-    i3-wm # i3 (i3-gaps is merged in i3)
+    i3-wm i3status # i3 (i3-gaps is merged in i3) and statusbar
 
     ######### application
     qbittorrent
@@ -56,8 +56,6 @@ x=(
     tomcat8 gradle maven # java
     # virtualenv -p /path/to/python venv
     python-virtualenv
-    # amm, ipython for scala
-    scala sbt ammonite
 )
 
 # gurobi: python linear programming
@@ -146,6 +144,8 @@ optional=(
     arduino arduino-avr-core # IDE & for compile arduino code (can without arduino IDE)
     postgresql postgis # geographic support for postgresql
     redshift # plasma has own night color
+    # amm, ipython for scala
+    scala sbt ammonite
 )
 
 sudo pacman -Syu;
