@@ -1,0 +1,19 @@
+{
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "editor.inlineSuggest.enabled": true,
+    "files.autoSave": "afterDelay",
+    "vim.vimrc.enable": true,
+    "workbench.settings.openDefaultKeybindings": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false
+    },
+    "editor.rename.enablePreview": false,
+    "workbench.editor.enablePreview": false,
+    "editor.fontSize": 12,
+}

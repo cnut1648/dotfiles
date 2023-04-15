@@ -3,6 +3,7 @@ x=(
     cmus clementine # music
     neofetch feh
     ranger
+    pyright bash-language-server # lsp for python, bash; c is already in clang
     picom # compositor
     xdotool xclip xcape
     youtube-dl
@@ -11,9 +12,11 @@ x=(
     xsel # read & interact with clipboard
     wmfocus # used in i3, dynamically jump to focus a window
     mlocate
+    hdf5 # file format
     unrar
     ncdu # disk usage in command line, replace du
     speedtest-cli
+    intel-media-driver # for vlc (libva)
     wmctrl
     fd # better find
     duf # better df
@@ -42,9 +45,6 @@ x=(
     timeshift
     kitty kitty-terminfo # console
     python-jedi python-pynvim # nvim related
-    # global: nvim gtags needed
-    # ctags: better gtags in nvim
-    global ctags
     flameshot
     pandoc
 

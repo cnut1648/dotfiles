@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 
 # title: copy_without_linebreaks
 # author: Glutanimate (github.com/glutanimate)

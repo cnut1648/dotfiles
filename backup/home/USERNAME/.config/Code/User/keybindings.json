@@ -1,0 +1,25 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+c",
+    "command": "-vscode-neovim.escape",
+    "when": "editorTextFocus && neovim.ctrlKeysNormal && neovim.init && !dirtyDiffVisible && !findWidgetVisible && !inReferenceSearchEditor && !markersNavigationVisible && !notebookCellFocused && !notificationCenterVisible && !parameterHintsVisible && !referenceSearchVisible && neovim.mode == 'normal'"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "-vscode-neovim.escape",
+    "when": "editorTextFocus && neovim.ctrlKeysInsert && neovim.init && neovim.mode != 'normal'"
+  }
+  // {
+  //   "command": "vscode-neovim.compositeEscape2",
+  //   "key": "k",
+  //   "when": "neovim.mode == insert && editorTextFocus",
+  //   "args": "k"
+  // },
+  // {
+  //   "command": "vscode-neovim.compositeEscape1",
+  //   "key": "j",
+  //   "when": "neovim.mode == insert && editorTextFocus",
+  //   "args": "j"
+  // }
+]
