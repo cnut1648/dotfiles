@@ -21,7 +21,7 @@ Rest -- ext4 filesystem, tag=root/home
 
 ### Step 2.
 
-Change `/etc/fstab` to mount windows files automatically
+Change `/etc/fstab` to mount windows files automatically. To find the UUID, first `lsblk` to find the name of the disk to mount, then `sudo blkid <device name>` to find the UUID.
 
 ```
 # <file system>             <mount point>  <type>  <options>  <dump>  <pass>
