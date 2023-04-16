@@ -1,11 +1,8 @@
 {
-    "type": "phrase",
-    "description": "Second phrase",
+    "type": "folder",
+    "title": "Sample Scripts",
     "modes": [],
     "usageCount": 0,
-    "prompt": false,
-    "omitTrigger": false,
-    "matchCase": false,
     "showInTrayMenu": false,
     "abbreviation": {
         "abbreviations": [],
@@ -22,6 +19,5 @@
     "filter": {
         "regex": null,
         "isRecursive": false
-    },
-    "sendMode": "kb"
+    }
 }

@@ -1,9 +1,13 @@
 import os
 import subprocess
 from pathlib import Path
-# import shutil
+import shutil
+
 home = Path("~").expanduser()
 pwd = Path(__file__).parent
+# remove backup folder if exists
+if os.path.exists(pwd / "backup"):
+    shutil.rmtree(pwd / "backup")
 
 # custom scripts
 scripts = [
@@ -40,7 +44,7 @@ software = [
     home / ".config/rofi",
     home / ".local/share/rofi", # themes
     home / ".emacs.d/init.el",
-    home / ".config/autokey/data/My Phrases/one-quick",
+    home / ".config/autokey/data/",
     home / ".config/zathura/",
     home / ".config/cmus/",
     home / ".config/sioyek",
@@ -73,4 +77,3 @@ for d in directory:
             subprocess.run(
                 cmd,
             )
-        # os.system(f'cp -r --parent {f} .')

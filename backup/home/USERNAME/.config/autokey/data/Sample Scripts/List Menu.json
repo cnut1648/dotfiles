@@ -1,11 +1,11 @@
 {
-    "type": "phrase",
-    "description": "Third phrase",
+    "type": "script",
+    "description": "List Menu",
+    "store": {},
     "modes": [],
     "usageCount": 0,
     "prompt": false,
     "omitTrigger": false,
-    "matchCase": false,
     "showInTrayMenu": false,
     "abbreviation": {
         "abbreviations": [],
@@ -22,6 +22,5 @@
     "filter": {
         "regex": null,
         "isRecursive": false
-    },
-    "sendMode": "kb"
+    }
 }
