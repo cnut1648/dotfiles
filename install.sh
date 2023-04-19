@@ -18,6 +18,7 @@ x=(
     speedtest-cli
     intel-media-driver # for vlc (libva)
     wmctrl
+    patch # for some yay pacakges
     fd # better find
     duf # better df
     ripgrep # replace grep
@@ -74,7 +75,6 @@ y=(
     ########## system
     # i3wm auto tile windows if having many windows at same time
     autotiling
-    python-i3-grid # support i3 grid
     fcitx5 fcitx5-gtk fcitx5-qtk # typing, install both qt and gtk st all programs can use fcitx
     fcitx5-configtool # gui config
     fcitx5-material-color # theme
@@ -89,7 +89,6 @@ y=(
     inkscape drawio-desktop-bin # drawing
     tor-browser
     autokey-qt # OneQuick in Linux
-    chromium
     geeqie # image viewer
     rslsync # sync between devices
     beancount fava # accounting
@@ -97,10 +96,8 @@ y=(
     ########## programming
     clion webstorm intellij-idea-ultimate-edition datagrip pycharm-professional # Jetbrains IDE
     visual-studio-code-bin # vs code
-    mycli # better mysql CLI
     lazygit # better git visualized
     postman-bin
-    firebase-tools # firebase CLI
     # node version manager
     # only activate after source /usr/share/nvm/init-nvm.sh
     # if not use system one
@@ -112,6 +109,8 @@ optional=(
     ########## cmd line tools
     adbtuifm # go's adb fm
     tmux # also .tmux.conf repo
+    solana # web3
+    mycli # better mysql CLI
 
     ########## application
     obsidian joplin joplin-desktop zotero # note
@@ -120,6 +119,8 @@ optional=(
     doublecmd # dual panel fm
     zathura-pdf-mupdf zathura-djvu # fast pdf reader, use sioyek instead
     emacs
+    matlab mathematica # see logseq
+    redshift # plasma has own night color
 
     ########## programming
     jmeter # java request monitor
@@ -127,10 +128,10 @@ optional=(
     # can't use aur matlab since it needs a license file
     # have to search matlab USC to download zip & ./install
     # manually
-    matlab
+    python-i3-grid # support i3 grid
+    firebase-tools # firebase CLI
     apache-spark # spark-submit
     rstudio-desktop-bin # r
-    solana # web3
     android-studio android-emulator # android
     # r2cutter: Qt for cutter, reverse engineering
     # r2ghidra: r2cutter's decompiler plugin
@@ -143,7 +144,6 @@ optional=(
     racket # IDE for racket: DrRacket
     arduino arduino-avr-core # IDE & for compile arduino code (can without arduino IDE)
     postgresql postgis # geographic support for postgresql
-    redshift # plasma has own night color
     # amm, ipython for scala
     scala sbt ammonite
 )
