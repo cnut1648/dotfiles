@@ -74,7 +74,8 @@ exec_always --no-startup-id xcape -e 'Shift_R=Return'
 exec --no-startup-id i3-msg 'workspace 3; exec dolphin'
 
 # enable wallpaper
-exec --no-startup-id feh --bg-scale https://i.redd.it/ehlj0i4l6bx91.jpg
+# exec --no-startup-id feh --bg-scale https://i.redd.it/ehlj0i4l6bx91.jpg
+exec --no-startup-id feh --randomize --bg-fill ~/Pictures
 # autokey
 exec --no-startup-id autokey-qt
 

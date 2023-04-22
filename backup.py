@@ -58,6 +58,8 @@ software = [
     home / ".ideavimrc",
     # conda
     home / ".condarc",
+    # wallpaper
+    home / "Pictures"
 ]
 
 directory = [scripts, X, SHELLS, software]

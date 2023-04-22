@@ -33,6 +33,7 @@ x=(
 
     ######### system
     plasma-browser-integration
+    base-devel # used in many AUR packages
     xorg-xev xorg-xrandr
     manjaro-pipewire # audio replace PulseAudio
     i3-wm i3status # i3 (i3-gaps is merged in i3) and statusbar
