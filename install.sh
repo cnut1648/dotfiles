@@ -26,6 +26,7 @@ x=(
     lsd # ls with icon, lsd --tree = tree with icon
     gping # ping with graph
     bat # cat with syntax highlight
+    git-lfs
     git-delta # git diff with hightlight
     bottom # sys monitoring, use `btm`, better than gtop (no binaries) / glances (not good looking)
     fzf
@@ -72,6 +73,8 @@ y=(
     # eval "$(mcfly init zsh)"
     # then Ctrl-R auto use mcfly
     mcfly
+    fastmod # used to modify source code
+    nodejs-live-server # used for knap plugin in neovim & live-server cmd
 
     ########## system
     # i3wm auto tile windows if having many windows at same time
