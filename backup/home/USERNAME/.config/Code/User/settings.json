@@ -16,4 +16,8 @@
     "editor.rename.enablePreview": false,
     "workbench.editor.enablePreview": false,
     "editor.fontSize": 12,
+    "workbench.startupEditor": "none",
+    "vscode-neovim.mouseSelectionStartVisualMode": true,
+    "vscode-neovim.useCtrlKeysForNormalMode": false,
+    "vscode-neovim.useCtrlKeysForInsertMode": false,
 }

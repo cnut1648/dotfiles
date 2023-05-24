@@ -1,7 +1,0 @@
-channel_priority: strict
-channels:
-  - http://conda.anaconda.org/gurobi
-  - conda-forge
-  - defaults
-restore_free_channel: true
-allow_conda_downgrades: false
