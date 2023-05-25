@@ -20,4 +20,7 @@
     "vscode-neovim.mouseSelectionStartVisualMode": true,
     "vscode-neovim.useCtrlKeysForNormalMode": false,
     "vscode-neovim.useCtrlKeysForInsertMode": false,
+    "terminal.integrated.commandsToSkipShell": [
+      "-workbench.action.terminal.focusFind"
+    ]
 }
