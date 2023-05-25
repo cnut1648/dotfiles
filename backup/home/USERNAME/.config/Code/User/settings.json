@@ -21,6 +21,8 @@
     "vscode-neovim.useCtrlKeysForNormalMode": false,
     "vscode-neovim.useCtrlKeysForInsertMode": false,
     "terminal.integrated.commandsToSkipShell": [
-      "-workbench.action.terminal.focusFind"
-    ]
+        "-workbench.action.terminal.focusFind",
+        "~workbench.action.terminal.focusHover"
+    ],
+    "terminal.integrated.allowChords": false,
 }
