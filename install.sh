@@ -23,7 +23,7 @@ x=(
     duf # better df
     ripgrep # replace grep
     tree # plain text tree
-    lsd # ls with icon, lsd --tree = tree with icon
+    eza
     gping # ping with graph
     bat # cat with syntax highlight
     git-lfs

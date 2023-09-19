@@ -113,6 +113,10 @@ Install all required softwares.
 Use `bindkey` to bind key map to function.
 Use `bindkey "^Q"` to see the current bindings for `<Ctrl-Q>`; `"^[f` for `<Alt-f>`
 
+### Useful keymaps
+
+- `alt+.` will paste last argument of previous command, useful to change the script name with the same argument.
+
 ### Some useful zsh plugins
 
 - `extract` to extract files: use `x <file>` to extract file
