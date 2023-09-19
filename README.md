@@ -113,6 +113,21 @@ Install all required softwares.
 Use `bindkey` to bind key map to function.
 Use `bindkey "^Q"` to see the current bindings for `<Ctrl-Q>`; `"^[f` for `<Alt-f>`
 
+### Useful CLI
+
+`ls` replaced by [`eza`](https://github.com/eza-community/eza#options). Notably,
+- `ls -T -L <level>` is similar to `tree` w/ max level
+
+- `ls -R` list all files including subdir
+
+- `ls --hyperlink` gives hyperlink for all files
+
+`cat` replaced by [`bat`](https://github.com/sharkdp/bat)
+
+`diff` replaced by [`delta`](https://github.com/dandavison/delta)
+
+[`duf`](https://github.com/muesli/duf) for better `df`
+
 ### Useful keymaps
 
 - `alt+.` will paste last argument of previous command, useful to change the script name with the same argument.
