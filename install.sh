@@ -28,6 +28,7 @@ x=(
     bat # cat with syntax highlight
     git-lfs
     git-delta # git diff with hightlight
+    nethogs # check speed for specific app, eg docker push
     bottom # sys monitoring, use `btm`, better than gtop (no binaries) / glances (not good looking)
     fzf
     jq
