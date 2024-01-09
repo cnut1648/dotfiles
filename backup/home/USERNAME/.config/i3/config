@@ -58,25 +58,21 @@ bar {
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
 
-# xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
-# screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
-
 # keymap
 exec_always --no-startup-id setxkbmap -option 'ctrl: nocaps'
 exec_always --no-startup-id xcape -e 'Control_L=Escape'
 exec_always --no-startup-id xcape -e 'Shift_R=Return'
 # disable ctrl
 # exec_always --no-startup-id xmodmap -e "keycode 37="
+#
+# # autoset-up workspace
+# # exec --no-startup-id i3-msg 'workspace 1; exec /usr/bin/firefox'
+# exec --no-startup-id i3-msg 'workspace 3; exec dolphin'
 
-# autoset-up workspace
-# exec --no-startup-id i3-msg 'workspace 1; exec /usr/bin/firefox'
-exec --no-startup-id i3-msg 'workspace 3; exec dolphin'
-
-# enable wallpaper
-# exec --no-startup-id feh --bg-scale https://i.redd.it/ehlj0i4l6bx91.jpg
+# # enable wallpaper
+# # exec --no-startup-id feh --bg-scale https://i.redd.it/ehlj0i4l6bx91.jpg
 exec --no-startup-id feh --randomize --bg-fill ~/Pictures
-# autokey
+# # autokey
 exec --no-startup-id autokey-qt
 
 # enable transparency
@@ -93,7 +89,9 @@ bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle && $refresh_i3status
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
-bindsym --release Print exec --no-startup-id flameshot gui
+# use QT_SCREEN_SCALE_FACTORS="" flameshot gui to fix multi-monitor gui shift
+# https://github.com/flameshot-org/flameshot/issues/1386
+bindsym --release Print exec --no-startup-id QT_SCREEN_SCALE_FACTORS="" flameshot gui
 
 exec_always --no-startup-id killall plasmashell && kstart5 plasmashell
 
@@ -246,6 +244,7 @@ bindsym $mod+Shift+Return exec GLFW_IM_MODULE=ibus kitty -d `xcwd`
 
 # alt + c remove newlines in selected texts
 bindsym $alt+c exec --no-startup-id "DISPLAY=:0 kitty bash ~/.config/i3/remove_newline_when_select.sh &> /tmp/select.log"
+bindsym $alt+Shift+c exec --no-startup-id "DISPLAY=:0 kitty bash ~/.config/i3/remove_newline_when_select_for_chinese.sh &> /tmp/select.log"
 
 # start dmenu (a program launcher)
 # use rofi

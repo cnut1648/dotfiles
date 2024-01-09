@@ -132,7 +132,7 @@ plugins=(
 	you-should-use # remind of alias
 	zsh-autosuggestions # show suggestions based on history
 	zsh-completions # enhanced completion for `zsh` functions
-   fzf-dir-navigator # ctrl-f to fzf -> cd
+    fzf-dir-navigator # ctrl-f to fzf -> cd
 )
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=180'
 
@@ -183,7 +183,12 @@ bindkey -r "^J"
 
 # fzf-Dir-navigator overwrite <C-F>, use <Alt-F> instead
 bindkey "^F" forward-char
-bindkey "^[f" fzf-dir
+bindkey "^[f" fzf-dir-navigator
+
+# bind <C-P> to recall last command w/o argument
+# e.g. last command = `locate ABC CEF`
+# <C-P> gives `locate `
+bindkey -s '^P' '\e0\e_ '
 
 print_quote() {echo;echo $(quote); zle reset-prompt}
 # create new widget
@@ -247,7 +252,10 @@ alias adbtui='/home/chris/go/bin/adbtuifm --remote=/sdcard/books --local=/home/c
 # init mcfly to overload Ctrl-R
 eval "$(mcfly init zsh)"
 
-alias ls="lsd"
+alias ls="eza --icons=always "
+alias cat="bat"
+
+export BUNDLE_PATH=~/.gems
 
 # not let zsh store failed commands
 zshaddhistory() { whence ${${(z)1}[1]} >| /dev/null || return 1 }

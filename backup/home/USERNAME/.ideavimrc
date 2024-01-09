@@ -30,3 +30,5 @@ inoremap <M-f> <Esc>lwi
 inoremap <M-b> <Esc>bi
 inoremap <M-S-f> <Esc>lWi
 inoremap <M-S-b> <Esc>Bi
+
+set clipboard+=unnamed

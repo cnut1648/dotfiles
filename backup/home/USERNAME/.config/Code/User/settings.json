@@ -8,10 +8,10 @@
     "workbench.settings.openDefaultKeybindings": true,
     "github.copilot.enable": {
         "*": true,
-        "yaml": true,
         "plaintext": true,
         "markdown": true,
-        "scminput": false
+        "scminput": false,
+        "yaml": true
     },
     "editor.rename.enablePreview": false,
     "workbench.editor.enablePreview": false,
@@ -20,9 +20,14 @@
     "vscode-neovim.mouseSelectionStartVisualMode": true,
     "vscode-neovim.useCtrlKeysForNormalMode": false,
     "vscode-neovim.useCtrlKeysForInsertMode": false,
+    "terminal.integrated.defaultProfile.linux": "bash",
     "terminal.integrated.commandsToSkipShell": [
-        "-workbench.action.terminal.focusFind",
-        "~workbench.action.terminal.focusHover"
+        "~workbench.action.terminal.focusFind",
+        "~workbench.action.terminal.focusHover",
     ],
     "terminal.integrated.allowChords": false,
+    "terminal.integrated.scrollback": 100000,
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    }
 }

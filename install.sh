@@ -143,7 +143,7 @@ optional=(
     r2cutter r2ghidra
     ida-free # free version only, hard to hack
     qemu # simulator required for xv6
-    texlive-most texlive-langchinese texlab # tex support + LSP
+    texlive-most texlive-langchinese texlive-xelax texlab # tex support + LSP
     # latex pkg mgmr
     tllocalmgr
     racket # IDE for racket: DrRacket
@@ -151,6 +151,8 @@ optional=(
     postgresql postgis # geographic support for postgresql
     # amm, ipython for scala
     scala sbt ammonite
+    # for latex note font
+    noto-fonts ttf-fira-code adobe-source-han-sans
 )
 
 sudo pacman -Syu;

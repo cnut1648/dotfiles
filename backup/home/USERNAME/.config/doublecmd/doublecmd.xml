@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<doublecmd DCVersion="1.0.8" ConfigVersion="12">
+<doublecmd DCVersion="1.0.11" ConfigVersion="13">
   <Toolbars>
     <MainToolbar>
       <Row>
@@ -153,11 +153,11 @@
   </Toolbars>
   <MainWindow>
     <Position Save="True">
-      <Left>1958</Left>
-      <Top>139</Top>
-      <Width>3840</Width>
-      <Height>2032</Height>
-      <PixelsPerInch>192</PixelsPerInch>
+      <Left>4487</Left>
+      <Top>15</Top>
+      <Width>1892</Width>
+      <Height>1000</Height>
+      <PixelsPerInch>144</PixelsPerInch>
       <Maximized>False</Maximized>
       <Splitter>43.2040116125627</Splitter>
     </Position>
@@ -178,7 +178,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="$Recycle.Bin">/run/media/chris/Windows/</Path>
                   <Path Filename="..">/run/media/chris/Windows/$Recycle.Bin/</Path>
                   <Path Filename="..">/run/media/chris/Windows/</Path>
                   <Path Filename="home">/home/chris/Documents/dotfiles/</Path>
@@ -228,6 +227,7 @@
                   <Path Filename="..">/home/chris/Data/Cent/books/cs/java/scala/</Path>
                   <Path Filename="">/home/chris/Data/Cent/books/cs/java/</Path>
                   <Path Filename="">/home/chris/Data/</Path>
+                  <Path Filename="">/home/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -248,9 +248,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="..">/home/chris/</Path>
-                  <Path Filename="$Recycle.Bin">/run/media/chris/Windows/</Path>
-                  <Path Filename="..">/run/media/chris/Windows/$Recycle.Bin/</Path>
                   <Path Filename="..">/run/media/chris/Windows/</Path>
                   <Path Filename="home">/home/chris/Documents/dotfiles/</Path>
                   <Path Filename="..">/home/chris/Documents/dotfiles/home/</Path>
@@ -298,6 +295,9 @@
                   <Path Filename="books">/home/chris/Data/cent/</Path>
                   <Path Filename="read">/home/chris/Data/cent/books/</Path>
                   <Path Filename="AMST 250">/home/chris/Data/cent/books/read/</Path>
+                  <Path Filename="">/home/</Path>
+                  <Path Filename="">/home/chris/Data/cent/books/read/</Path>
+                  <Path Filename="">/home/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -321,9 +321,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="os">/home/chris/Data/Cent/books/cs/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/cs/os/</Path>
-                  <Path Filename="Cent">/home/chris/Data/</Path>
                   <Path Filename="Documents">/home/chris/</Path>
                   <Path Filename="my_python">/home/chris/Documents/</Path>
                   <Path Filename="..">/home/chris/Documents/my_python/</Path>
@@ -371,6 +368,9 @@
                   <Path Filename="O">/home/chris/Data/cent/books/</Path>
                   <Path Filename="中国哲学">/home/chris/Data/cent/books/O/</Path>
                   <Path Filename="..">/home/chris/Data/cent/books/O/中国哲学/</Path>
+                  <Path Filename="">/home/</Path>
+                  <Path Filename="">/home/chris/Data/cent/books/O/中国哲学/</Path>
+                  <Path Filename="">/home/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -383,7 +383,7 @@
           <Title>中国哲学</Title>
         </Tab>
         <Tab>
-          <FileView Type="thumbnails">
+          <FileView Type="brief">
             <Sortings>
               <Sorting>
                 <Direction>1</Direction>
@@ -394,13 +394,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/Camera/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/</Path>
-                  <Path Filename="chris">/home/</Path>
                   <Path Filename="Downloads">/home/chris/</Path>
                   <Path Filename="585">/home/chris/Downloads/</Path>
                   <Path Filename="slide">/home/chris/Downloads/585/</Path>
@@ -444,6 +437,13 @@
                   <Path Filename="aeroplane_mask">/home/chris/test/paste-segment/data/voc2012/entity_mask/</Path>
                   <Path Filename="..">/home/chris/test/paste-segment/data/voc2012/entity_mask/aeroplane_mask/</Path>
                   <Path Filename="..">/home/chris/test/</Path>
+                  <Path Filename="..">/home/</Path>
+                  <Path Filename="X">/run/media/jxu/Seagate Backup Plus Drive/</Path>
+                  <Path Filename="D">/run/media/jxu/Seagate Backup Plus Drive/X/</Path>
+                  <Path Filename="A">/run/media/jxu/Seagate Backup Plus Drive/X/D/</Path>
+                  <Path Filename="0日本">/run/media/jxu/Seagate Backup Plus Drive/X/D/A/</Path>
+                  <Path Filename="..">/run/media/jxu/Seagate Backup Plus Drive/X/D/A/0日本/</Path>
+                  <Path Filename="..">/run/media/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -461,7 +461,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="Reinforcement">/run/media/chris/Seagate Backup Plus Drive/Cent/books/cs/ml/</Path>
                   <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/Cent/books/cs/ml/Reinforcement/</Path>
                   <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/Cent/books/cs/ml/</Path>
                   <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/Cent/books/cs/</Path>
@@ -511,6 +510,7 @@
                   <Path Filename="ml">/home/chris/Data/Cent/books/cs/ml/</Path>
                   <Path Filename="">/home/chris/Data/Cent/books/cs/ml/ml/</Path>
                   <Path Filename="">/home/chris/Data/</Path>
+                  <Path Filename="">/home/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -531,7 +531,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="$Recycle.Bin">/run/media/chris/Windows/</Path>
                   <Path Filename="..">/run/media/chris/Windows/$Recycle.Bin/</Path>
                   <Path Filename="..">/run/media/chris/Windows/</Path>
                   <Path Filename="home">/home/chris/Documents/dotfiles/</Path>
@@ -581,6 +580,7 @@
                   <Path Filename="read">/home/chris/Data/cent/books/</Path>
                   <Path Filename="Time Series Sol Ch1-2.pdf">/home/chris/Data/cent/books/read/</Path>
                   <Path Filename="..">/home/chris/Data/cent/books/read/AMST 250/</Path>
+                  <Path Filename="">/home/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -604,7 +604,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="..">/home/chris/Data/Cent/books/</Path>
                   <Path Filename="books">/home/chris/Data/Cent/</Path>
                   <Path Filename="..">/home/chris/Data/Cent/books/</Path>
                   <Path Filename="..">/home/chris/Data/Cent/</Path>
@@ -654,6 +653,7 @@
                   <Path Filename="..">/home/chris/Data/Cent/books/cs/ml/ml/stat/</Path>
                   <Path Filename="">/home/chris/Data/Cent/books/cs/ml/ml/</Path>
                   <Path Filename="">/home/chris/Data/</Path>
+                  <Path Filename="">/home/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -674,7 +674,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
                   <Path Filename="2019">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
                   <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2019/</Path>
                   <Path Filename="2021">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
@@ -724,6 +723,7 @@
                   <Path Filename="econ">/home/chris/Data/Cent/books/math/</Path>
                   <Path Filename="">/home/chris/Data/Cent/books/math/econ/</Path>
                   <Path Filename="">/home/chris/Data/</Path>
+                  <Path Filename="">/home/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -744,9 +744,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/ml/ml/</Path>
-                  <Path Filename="照片">/run/media/chris/Seagate Backup Plus Drive/</Path>
-                  <Path Filename="2021">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
                   <Path Filename="0207-0211 LA">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
                   <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/0207-0211 LA/</Path>
                   <Path Filename="1106-0207 poway mate20">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
@@ -794,6 +791,9 @@
                   <Path Filename="447">/home/chris/Downloads/</Path>
                   <Path Filename="">/home/chris/Downloads/447/</Path>
                   <Path Filename="..">/home/chris/Downloads/</Path>
+                  <Path Filename="jxu">/home/</Path>
+                  <Path Filename="Downloads">/home/jxu/</Path>
+                  <Path Filename="..">/home/jxu/Downloads/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -814,7 +814,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="hw3-spatial-SQL">/home/chris/Downloads/585/</Path>
                   <Path Filename="165">/home/chris/Downloads/</Path>
                   <Path Filename="ppt">/home/chris/Downloads/165/</Path>
                   <Path Filename="..">/home/chris/Downloads/165/ppt/</Path>
@@ -864,6 +863,7 @@
                   <Path Filename="..">/home/chris/Documents/my/my_Scala/mycourse/git/DSCI_553/all_quiz_part1/un_coverd/</Path>
                   <Path Filename="clustering">/home/chris/Documents/my/my_Scala/mycourse/git/DSCI_553/all_quiz_part1/</Path>
                   <Path Filename="">/home/chris/Documents/my/my_Scala/mycourse/git/DSCI_553/all_quiz_part1/clustering/</Path>
+                  <Path Filename="">/home/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -884,7 +884,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
                   <Path Filename="..">/run/media/</Path>
                   <Path Filename="chris">/home/</Path>
                   <Path Filename="Downloads">/home/chris/</Path>
@@ -934,6 +933,7 @@
                   <Path Filename="d">/home/chris/Downloads/</Path>
                   <Path Filename="..">/home/chris/Downloads/d/</Path>
                   <Path Filename="">/home/chris/Downloads/</Path>
+                  <Path Filename="">/home/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -954,7 +954,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="..">/run/media/chris/Windows/</Path>
                   <Path Filename="home">/home/chris/Documents/dotfiles/</Path>
                   <Path Filename="..">/home/chris/Documents/dotfiles/home/</Path>
                   <Path Filename="home">/home/chris/Documents/dotfiles/</Path>
@@ -1004,6 +1003,7 @@
                   <Path Filename="numerical">/home/chris/Data/Cent/books/math/</Path>
                   <Path Filename="">/home/chris/Data/Cent/books/math/numerical/</Path>
                   <Path Filename="">/home/chris/Data/</Path>
+                  <Path Filename="">/home/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -1024,7 +1024,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename=".config">/home/chris/Documents/dotfiles/home/chris/</Path>
                   <Path Filename="..">/home/chris/Documents/dotfiles/home/chris/.config/</Path>
                   <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/timeshift/2020-11-23_22-00-01/localhost/home/chris/.config/</Path>
                   <Path Filename="照片">/run/media/chris/Seagate Backup Plus Drive/</Path>
@@ -1074,6 +1073,7 @@
                   <Path Filename="CSCI310">/home/chris/Data/Cent/books/courses/usc/</Path>
                   <Path Filename="">/home/chris/Data/Cent/books/courses/usc/CSCI310/</Path>
                   <Path Filename="">/home/chris/Data/</Path>
+                  <Path Filename="">/home/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -1094,7 +1094,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/1226-0325 uci mate20/</Path>
                   <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
                   <Path Filename="一些可能重复的">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
                   <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/一些可能重复的/</Path>
@@ -1144,6 +1143,7 @@
                   <Path Filename="447">/home/chris/Downloads/</Path>
                   <Path Filename="">/home/chris/Downloads/447/</Path>
                   <Path Filename="">/home/chris/Downloads/</Path>
+                  <Path Filename="">/home/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -1164,7 +1164,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="..">/run/media/chris/Windows/</Path>
                   <Path Filename="home">/home/chris/Documents/dotfiles/</Path>
                   <Path Filename="..">/home/chris/Documents/dotfiles/home/</Path>
                   <Path Filename="home">/home/chris/Documents/dotfiles/</Path>
@@ -1214,6 +1213,7 @@
                   <Path Filename="numerical">/home/chris/Data/Cent/books/math/</Path>
                   <Path Filename="">/home/chris/Data/Cent/books/math/numerical/</Path>
                   <Path Filename="">/home/chris/Data/</Path>
+                  <Path Filename="">/home/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -1234,7 +1234,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="..">/run/media/</Path>
                   <Path Filename="chris">/home/</Path>
                   <Path Filename="Downloads">/home/chris/</Path>
                   <Path Filename="585">/home/chris/Downloads/</Path>
@@ -1284,6 +1283,7 @@
                   <Path Filename="..">/home/chris/Downloads/d/</Path>
                   <Path Filename="test1.pdf">/home/chris/Downloads/</Path>
                   <Path Filename=".cache">/home/chris/</Path>
+                  <Path Filename="">/home/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -1304,7 +1304,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="..">/run/media/</Path>
                   <Path Filename="chris">/home/</Path>
                   <Path Filename="Downloads">/home/chris/</Path>
                   <Path Filename="585">/home/chris/Downloads/</Path>
@@ -1354,6 +1353,7 @@
                   <Path Filename="..">/home/chris/Downloads/d/</Path>
                   <Path Filename="test1.pdf">/home/chris/Downloads/</Path>
                   <Path Filename=".cache">/home/chris/</Path>
+                  <Path Filename="">/home/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -1437,7 +1437,6 @@
     <ActionOnDoubleClick>2</ActionOnDoubleClick>
   </Tabs>
   <Configuration Save="True" SortOrder="1" TreeType="0">
-    <UseConfigInProgramDir>False</UseConfigInProgramDir>
     <FolderTabs Save="True"/>
   </Configuration>
   <Language>
@@ -1836,7 +1835,7 @@
     <Exclude>False</Exclude>
     <ExcludeDirs/>
     <CustomIcons>0</CustomIcons>
-    <PixelsPerInch>192</PixelsPerInch>
+    <PixelsPerInch>144</PixelsPerInch>
     <ShowInMenus Enabled="False">
       <Size>16</Size>
     </ShowInMenus>
@@ -1893,6 +1892,7 @@
     <PaintBackground>True</PaintBackground>
     <LineDifferences>False</LineDifferences>
     <IgnoreWhiteSpace>False</IgnoreWhiteSpace>
+    <AutoCompare>True</AutoCompare>
   </Differ>
   <SyncDirs>
     <Subdirs>False</Subdirs>
@@ -2017,7 +2017,7 @@
       <Name>Default</Name>
       <CustomView>False</CustomView>
       <FileSystem>&lt;General&gt;</FileSystem>
-      <PixelsPerInch>192</PixelsPerInch>
+      <PixelsPerInch>144</PixelsPerInch>
       <CursorBorder Enabled="False">
         <Color>0</Color>
       </CursorBorder>
@@ -2025,7 +2025,7 @@
         <Column>
           <Title>Name</Title>
           <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
-          <Width>1350</Width>
+          <Width>1013</Width>
           <Align>0</Align>
           <Font>
             <Name>default</Name>
@@ -2048,7 +2048,7 @@
         <Column>
           <Title>Ext</Title>
           <FuncString>[DC().GETFILEEXT{}]</FuncString>
-          <Width>100</Width>
+          <Width>75</Width>
           <Align>0</Align>
           <Font>
             <Name>default</Name>
@@ -2071,7 +2071,7 @@
         <Column>
           <Title>Size</Title>
           <FuncString>[DC().GETFILESIZE{}]</FuncString>
-          <Width>140</Width>
+          <Width>105</Width>
           <Align>1</Align>
           <Font>
             <Name>default</Name>
@@ -2094,7 +2094,7 @@
         <Column>
           <Title>Date</Title>
           <FuncString>[DC().GETFILETIME{}]</FuncString>
-          <Width>280</Width>
+          <Width>210</Width>
           <Align>1</Align>
           <Font>
             <Name>default</Name>
@@ -2117,7 +2117,7 @@
         <Column>
           <Title>Attr</Title>
           <FuncString>[DC().GETFILEATTR{}]</FuncString>
-          <Width>200</Width>
+          <Width>150</Width>
           <Align>0</Align>
           <Font>
             <Name>default</Name>
