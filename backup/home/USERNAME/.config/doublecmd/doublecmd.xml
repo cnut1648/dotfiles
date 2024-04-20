@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<doublecmd DCVersion="1.0.11" ConfigVersion="13">
+<doublecmd DCVersion="1.1.10 beta" ConfigVersion="15">
   <Toolbars>
     <MainToolbar>
       <Row>
@@ -153,1284 +153,16 @@
   </Toolbars>
   <MainWindow>
     <Position Save="True">
-      <Left>4487</Left>
-      <Top>15</Top>
-      <Width>1892</Width>
-      <Height>1000</Height>
-      <PixelsPerInch>144</PixelsPerInch>
+      <Left>3765</Left>
+      <Top>605</Top>
+      <Width>974</Width>
+      <Height>536</Height>
+      <PixelsPerInch>96</PixelsPerInch>
       <Maximized>False</Maximized>
       <Splitter>43.2040116125627</Splitter>
     </Position>
   </MainWindow>
   <Tabs>
-    <OpenedTabs>
-      <Left>
-        <ActiveTab>3</ActiveTab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="..">/run/media/chris/Windows/$Recycle.Bin/</Path>
-                  <Path Filename="..">/run/media/chris/Windows/</Path>
-                  <Path Filename="home">/home/chris/Documents/dotfiles/</Path>
-                  <Path Filename="..">/home/chris/Documents/dotfiles/home/</Path>
-                  <Path Filename="home">/home/chris/Documents/dotfiles/</Path>
-                  <Path Filename="chris">/home/chris/Documents/dotfiles/home/</Path>
-                  <Path Filename=".config">/home/chris/Documents/dotfiles/home/chris/</Path>
-                  <Path Filename="..">/home/chris/Documents/dotfiles/home/chris/.config/</Path>
-                  <Path Filename="..">/home/chris/Documents/dotfiles/home/chris/</Path>
-                  <Path Filename="chris">/home/chris/Documents/dotfiles/home/</Path>
-                  <Path Filename=".config">/home/chris/Documents/dotfiles/home/chris/</Path>
-                  <Path Filename="..">/home/chris/Documents/dotfiles/home/chris/.config/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/timeshift/2020-11-23_22-00-01/localhost/home/chris/.config/</Path>
-                  <Path Filename="照片">/run/media/chris/Seagate Backup Plus Drive/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="2021">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="..">/home/chris/Documents/dotfiles/home/chris/.config/</Path>
-                  <Path Filename="..">/home/chris/Documents/</Path>
-                  <Path Filename="Data">/home/chris/</Path>
-                  <Path Filename="Cent">/home/chris/Data/</Path>
-                  <Path Filename="books">/home/chris/Data/Cent/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="cpp">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/cpp/</Path>
-                  <Path Filename="DB">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/DB/</Path>
-                  <Path Filename="LINUX">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/LINUX/</Path>
-                  <Path Filename="web">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/web/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="os">/home/chris/Data/Cent/books/cs/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/cs/os/</Path>
-                  <Path Filename="assemble">/home/chris/Data/Cent/books/cs/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/cs/assemble/</Path>
-                  <Path Filename="complex sys">/home/chris/Data/Cent/books/cs/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/cs/complex sys/</Path>
-                  <Path Filename="csci 599 programming lang">/home/chris/Data/Cent/books/cs/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/cs/csci 599 programming lang/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/cs/</Path>
-                  <Path Filename="ml">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/ml/</Path>
-                  <Path Filename="java">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="scala">/home/chris/Data/Cent/books/cs/java/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/java/scala/</Path>
-                  <Path Filename="">/home/chris/Data/Cent/books/cs/java/</Path>
-                  <Path Filename="">/home/chris/Data/</Path>
-                  <Path Filename="">/home/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="..">/run/media/chris/Windows/</Path>
-                  <Path Filename="home">/home/chris/Documents/dotfiles/</Path>
-                  <Path Filename="..">/home/chris/Documents/dotfiles/home/</Path>
-                  <Path Filename="home">/home/chris/Documents/dotfiles/</Path>
-                  <Path Filename="chris">/home/chris/Documents/dotfiles/home/</Path>
-                  <Path Filename=".config">/home/chris/Documents/dotfiles/home/chris/</Path>
-                  <Path Filename="..">/home/chris/Documents/dotfiles/home/chris/.config/</Path>
-                  <Path Filename="..">/home/chris/Documents/dotfiles/home/chris/</Path>
-                  <Path Filename="chris">/home/chris/Documents/dotfiles/home/</Path>
-                  <Path Filename=".config">/home/chris/Documents/dotfiles/home/chris/</Path>
-                  <Path Filename="..">/home/chris/Documents/dotfiles/home/chris/.config/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/timeshift/2020-11-23_22-00-01/localhost/home/chris/.config/</Path>
-                  <Path Filename="照片">/run/media/chris/Seagate Backup Plus Drive/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="2021">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="1226-0325 uci mate20">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/1226-0325 uci mate20/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="一些可能重复的">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/一些可能重复的/</Path>
-                  <Path Filename="2021">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="Camera">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/Camera/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/</Path>
-                  <Path Filename="chris">/home/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="585">/home/chris/Downloads/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/585/</Path>
-                  <Path Filename="..">/home/chris/Downloads/585/slide/</Path>
-                  <Path Filename="Data">/home/chris/</Path>
-                  <Path Filename="Cent">/home/chris/Data/</Path>
-                  <Path Filename="books">/home/chris/Data/Cent/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="os">/home/chris/Data/Cent/books/cs/cs/</Path>
-                  <Path Filename="">/home/chris/Data/Cent/books/cs/cs/os/</Path>
-                  <Path Filename="cent">/home/chris/Data/</Path>
-                  <Path Filename="books">/home/chris/Data/cent/</Path>
-                  <Path Filename="read">/home/chris/Data/cent/books/</Path>
-                  <Path Filename="AMST 250">/home/chris/Data/cent/books/read/</Path>
-                  <Path Filename="">/home/</Path>
-                  <Path Filename="">/home/chris/Data/cent/books/read/</Path>
-                  <Path Filename="">/home/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-          <Options>1</Options>
-          <LockPath>/home/chris/Data/cent/books/read/</LockPath>
-          <Title>read</Title>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="Documents">/home/chris/</Path>
-                  <Path Filename="my_python">/home/chris/Documents/</Path>
-                  <Path Filename="..">/home/chris/Documents/my_python/</Path>
-                  <Path Filename="uncanny_valley">/home/chris/Documents/</Path>
-                  <Path Filename="..">/home/chris/Documents/uncanny_valley/</Path>
-                  <Path Filename="..">/home/chris/Documents/</Path>
-                  <Path Filename="Data">/home/chris/</Path>
-                  <Path Filename="Cent">/home/chris/Data/</Path>
-                  <Path Filename="books">/home/chris/Data/Cent/</Path>
-                  <Path Filename="math">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/math/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="excels">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/excels/</Path>
-                  <Path Filename="..">/home/chris/Downloads/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="excels">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/excels/</Path>
-                  <Path Filename="00000_excel files">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/00000_excel files/</Path>
-                  <Path Filename="00000_excel files">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/00000_excel files/</Path>
-                  <Path Filename="sponge">/home/chris/Downloads/</Path>
-                  <Path Filename="pre-covid bsp1">/home/chris/Downloads/sponge/</Path>
-                  <Path Filename="00011000">/home/chris/Downloads/sponge/pre-covid bsp1/</Path>
-                  <Path Filename="._3_tube_1_2020-03-06 08-50-55.mp4">/home/chris/Downloads/sponge/pre-covid bsp1/00011000/</Path>
-                  <Path Filename="pre-covid bsp1">/home/chris/Downloads/sponge/</Path>
-                  <Path Filename="syedhass@usc.edu_919588_t908779_470533_Sep_19_2021_12-23-04am_PDT">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/syedhass@usc.edu_919588_t908779_470533_Sep_19_2021_12-23-04am_PDT/</Path>
-                  <Path Filename="d">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/d/</Path>
-                  <Path Filename="..">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/</Path>
-                  <Path Filename="chris">/home/</Path>
-                  <Path Filename="Data">/home/chris/</Path>
-                  <Path Filename="cent">/home/chris/Data/</Path>
-                  <Path Filename="books">/home/chris/Data/cent/</Path>
-                  <Path Filename="read">/home/chris/Data/cent/books/</Path>
-                  <Path Filename="..">/home/chris/Data/cent/books/read/</Path>
-                  <Path Filename="notes">/home/chris/Data/cent/books/</Path>
-                  <Path Filename="..">/home/chris/Data/cent/books/notes/</Path>
-                  <Path Filename="O">/home/chris/Data/cent/books/</Path>
-                  <Path Filename="中国哲学">/home/chris/Data/cent/books/O/</Path>
-                  <Path Filename="..">/home/chris/Data/cent/books/O/中国哲学/</Path>
-                  <Path Filename="">/home/</Path>
-                  <Path Filename="">/home/chris/Data/cent/books/O/中国哲学/</Path>
-                  <Path Filename="">/home/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-          <Options>1</Options>
-          <LockPath>/home/chris/Data/cent/books/O/中国哲学/</LockPath>
-          <Title>中国哲学</Title>
-        </Tab>
-        <Tab>
-          <FileView Type="brief">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="585">/home/chris/Downloads/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/585/</Path>
-                  <Path Filename="..">/home/chris/Downloads/585/slide/</Path>
-                  <Path Filename="Data">/home/chris/</Path>
-                  <Path Filename="Cent">/home/chris/Data/</Path>
-                  <Path Filename="books">/home/chris/Data/Cent/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="os">/home/chris/Data/Cent/books/cs/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/cs/os/</Path>
-                  <Path Filename="Cent">/home/chris/Data/</Path>
-                  <Path Filename="Documents">/home/chris/</Path>
-                  <Path Filename="my_python">/home/chris/Documents/</Path>
-                  <Path Filename="..">/home/chris/Documents/my_python/</Path>
-                  <Path Filename="uncanny_valley">/home/chris/Documents/</Path>
-                  <Path Filename="..">/home/chris/Documents/uncanny_valley/</Path>
-                  <Path Filename="..">/home/chris/Documents/</Path>
-                  <Path Filename="Data">/home/chris/</Path>
-                  <Path Filename="Cent">/home/chris/Data/</Path>
-                  <Path Filename="books">/home/chris/Data/Cent/</Path>
-                  <Path Filename="math">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="3a">/home/chris/Data/Cent/books/math/</Path>
-                  <Path Filename="">/home/chris/Data/Cent/books/math/3a/</Path>
-                  <Path Filename="cent">/home/chris/Data/</Path>
-                  <Path Filename="..">/home/chris/Data/cent/</Path>
-                  <Path Filename="cent">/home/chris/Data/</Path>
-                  <Path Filename="..">/home/chris/Data/cent/</Path>
-                  <Path Filename="..">/home/chris/Data/</Path>
-                  <Path Filename="test">/home/chris/</Path>
-                  <Path Filename="paste-segment">/home/chris/test/</Path>
-                  <Path Filename="artifact">/home/chris/test/paste-segment/</Path>
-                  <Path Filename="..">/home/chris/test/paste-segment/artifact/</Path>
-                  <Path Filename="data">/home/chris/test/paste-segment/</Path>
-                  <Path Filename="..">/home/chris/test/paste-segment/data/</Path>
-                  <Path Filename="data">/home/chris/test/paste-segment/</Path>
-                  <Path Filename="voc2012">/home/chris/test/paste-segment/data/</Path>
-                  <Path Filename="VOC2012">/home/chris/test/paste-segment/data/voc2012/</Path>
-                  <Path Filename="..">/home/chris/test/paste-segment/data/voc2012/VOC2012/</Path>
-                  <Path Filename="entity_mask">/home/chris/test/paste-segment/data/voc2012/</Path>
-                  <Path Filename="aeroplane_mask">/home/chris/test/paste-segment/data/voc2012/entity_mask/</Path>
-                  <Path Filename="..">/home/chris/test/paste-segment/data/voc2012/entity_mask/aeroplane_mask/</Path>
-                  <Path Filename="..">/home/chris/test/</Path>
-                  <Path Filename="..">/home/</Path>
-                  <Path Filename="X">/run/media/jxu/Seagate Backup Plus Drive/</Path>
-                  <Path Filename="D">/run/media/jxu/Seagate Backup Plus Drive/X/</Path>
-                  <Path Filename="A">/run/media/jxu/Seagate Backup Plus Drive/X/D/</Path>
-                  <Path Filename="0日本">/run/media/jxu/Seagate Backup Plus Drive/X/D/A/</Path>
-                  <Path Filename="..">/run/media/jxu/Seagate Backup Plus Drive/X/D/A/0日本/</Path>
-                  <Path Filename="..">/run/media/</Path>
-                </Paths>
-              </Entry>
-            </History>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/Cent/books/cs/ml/Reinforcement/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/Cent/books/cs/ml/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/Cent/books/cs/</Path>
-                  <Path Filename="cs">/run/media/chris/Seagate Backup Plus Drive/Cent/books/</Path>
-                  <Path Filename="6b">/run/media/chris/Seagate Backup Plus Drive/Cent/books/cs/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/Cent/books/cs/6b/</Path>
-                  <Path Filename="cs">/run/media/chris/Seagate Backup Plus Drive/Cent/books/cs/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/Cent/books/cs/cs/</Path>
-                  <Path Filename="web">/run/media/chris/Seagate Backup Plus Drive/Cent/books/cs/</Path>
-                  <Path Filename="Cent">/run/media/chris/Seagate Backup Plus Drive/</Path>
-                  <Path Filename="Seagate Backup Plus Drive">/run/media/chris/</Path>
-                  <Path Filename="chris">/home/</Path>
-                  <Path Filename="..">/home/chris/</Path>
-                  <Path Filename="books">/home/chris/Data/Cent/</Path>
-                  <Path Filename="notes">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/notes/</Path>
-                  <Path Filename="O">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="skill">/home/chris/Data/Cent/books/O/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/O/skill/</Path>
-                  <Path Filename="History">/home/chris/Data/Cent/books/O/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/O/History/</Path>
-                  <Path Filename="Art">/home/chris/Data/Cent/books/O/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/O/Art/</Path>
-                  <Path Filename="Literature Criticism">/home/chris/Data/Cent/books/O/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/O/Literature Criticism/</Path>
-                  <Path Filename="Literature">/home/chris/Data/Cent/books/O/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/O/Literature/</Path>
-                  <Path Filename="Philosophy">/home/chris/Data/Cent/books/O/</Path>
-                  <Path Filename="思想潮流">/home/chris/Data/Cent/books/O/Philosophy/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/O/Philosophy/思想潮流/</Path>
-                  <Path Filename="Aurelius - Meditations">/home/chris/Data/Cent/books/O/Philosophy/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/O/Philosophy/Aurelius - Meditations/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/O/Philosophy/</Path>
-                  <Path Filename="pol">/home/chris/Data/Cent/books/O/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/O/pol/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/O/</Path>
-                  <Path Filename="math">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/math/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="web">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/web/</Path>
-                  <Path Filename="ml">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="Reinforcement">/home/chris/Data/Cent/books/cs/ml/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/ml/Reinforcement/</Path>
-                  <Path Filename="ml">/home/chris/Data/Cent/books/cs/ml/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/ml/ml/</Path>
-                  <Path Filename="ml">/home/chris/Data/Cent/books/cs/ml/</Path>
-                  <Path Filename="">/home/chris/Data/Cent/books/cs/ml/ml/</Path>
-                  <Path Filename="">/home/chris/Data/</Path>
-                  <Path Filename="">/home/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="..">/run/media/chris/Windows/$Recycle.Bin/</Path>
-                  <Path Filename="..">/run/media/chris/Windows/</Path>
-                  <Path Filename="home">/home/chris/Documents/dotfiles/</Path>
-                  <Path Filename="..">/home/chris/Documents/dotfiles/home/</Path>
-                  <Path Filename="home">/home/chris/Documents/dotfiles/</Path>
-                  <Path Filename="chris">/home/chris/Documents/dotfiles/home/</Path>
-                  <Path Filename=".config">/home/chris/Documents/dotfiles/home/chris/</Path>
-                  <Path Filename="..">/home/chris/Documents/dotfiles/home/chris/.config/</Path>
-                  <Path Filename="..">/home/chris/Documents/dotfiles/home/chris/</Path>
-                  <Path Filename="chris">/home/chris/Documents/dotfiles/home/</Path>
-                  <Path Filename=".config">/home/chris/Documents/dotfiles/home/chris/</Path>
-                  <Path Filename="..">/home/chris/Documents/dotfiles/home/chris/.config/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/timeshift/2020-11-23_22-00-01/localhost/home/chris/.config/</Path>
-                  <Path Filename="照片">/run/media/chris/Seagate Backup Plus Drive/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="2021">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="1226-0325 uci mate20">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/1226-0325 uci mate20/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="一些可能重复的">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/一些可能重复的/</Path>
-                  <Path Filename="2021">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="Camera">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/Camera/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/</Path>
-                  <Path Filename="chris">/home/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="585">/home/chris/Downloads/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/585/</Path>
-                  <Path Filename="..">/home/chris/Downloads/585/slide/</Path>
-                  <Path Filename="Data">/home/chris/</Path>
-                  <Path Filename="Cent">/home/chris/Data/</Path>
-                  <Path Filename="books">/home/chris/Data/Cent/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="os">/home/chris/Data/Cent/books/cs/cs/</Path>
-                  <Path Filename="">/home/chris/Data/Cent/books/cs/cs/os/</Path>
-                  <Path Filename="cent">/home/chris/Data/</Path>
-                  <Path Filename="books">/home/chris/Data/cent/</Path>
-                  <Path Filename="read">/home/chris/Data/cent/books/</Path>
-                  <Path Filename="Time Series Sol Ch1-2.pdf">/home/chris/Data/cent/books/read/</Path>
-                  <Path Filename="..">/home/chris/Data/cent/books/read/AMST 250/</Path>
-                  <Path Filename="">/home/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-      </Left>
-      <Right>
-        <ActiveTab>2</ActiveTab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="books">/home/chris/Data/Cent/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/</Path>
-                  <Path Filename="..">/home/chris/Data/</Path>
-                  <Path Filename="Documents">/home/chris/</Path>
-                  <Path Filename="..">/home/chris/Documents/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="567">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/567/</Path>
-                  <Path Filename="165">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/165/</Path>
-                  <Path Filename="585">/home/chris/Downloads/</Path>
-                  <Path Filename="hw1-dental-practice">/home/chris/Downloads/585/</Path>
-                  <Path Filename="..">/home/chris/Downloads/585/hw1-dental-practice/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/585/</Path>
-                  <Path Filename="..">/home/chris/Downloads/585/slide/</Path>
-                  <Path Filename="github">/home/chris/Downloads/585/</Path>
-                  <Path Filename="CS585-DBMS">/home/chris/Downloads/585/github/</Path>
-                  <Path Filename="HW2">/home/chris/Downloads/585/github/CS585-DBMS/</Path>
-                  <Path Filename="..">/home/chris/Downloads/585/github/CS585-DBMS/HW2/</Path>
-                  <Path Filename="HW1">/home/chris/Downloads/585/github/CS585-DBMS/</Path>
-                  <Path Filename="..">/home/chris/Downloads/585/github/CS585-DBMS/HW1/</Path>
-                  <Path Filename="HW1">/home/chris/Downloads/585/github/CS585-DBMS/</Path>
-                  <Path Filename="..">/home/chris/Downloads/585/github/CS585-DBMS/HW1/</Path>
-                  <Path Filename="HW2">/home/chris/Downloads/585/github/CS585-DBMS/</Path>
-                  <Path Filename="Q5_v3.sql">/home/chris/Downloads/585/github/CS585-DBMS/HW2/</Path>
-                  <Path Filename="CS585-DBMS">/home/chris/Downloads/585/github/</Path>
-                  <Path Filename="hw3-spatial-SQL">/home/chris/Downloads/585/</Path>
-                  <Path Filename=".idea">/home/chris/Downloads/585/hw3-spatial-SQL/</Path>
-                  <Path Filename="hw3-spatial-SQL">/home/chris/Downloads/585/</Path>
-                  <Path Filename="165">/home/chris/Downloads/</Path>
-                  <Path Filename="ppt">/home/chris/Downloads/165/</Path>
-                  <Path Filename="..">/home/chris/Downloads/165/ppt/</Path>
-                  <Path Filename="ppt">/home/chris/Downloads/165/</Path>
-                  <Path Filename="..">/home/chris/Downloads/165/ppt/</Path>
-                  <Path Filename="ppt">/home/chris/Downloads/165/</Path>
-                  <Path Filename="..">/home/chris/Downloads/165/ppt/</Path>
-                  <Path Filename="ppt">/home/chris/Downloads/165/</Path>
-                  <Path Filename="..">/home/chris/Downloads/165/ppt/</Path>
-                  <Path Filename="..">/home/chris/Downloads/165/</Path>
-                  <Path Filename="..">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/ml/ml/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/ml/</Path>
-                  <Path Filename="ml">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="ml">/home/chris/Data/Cent/books/cs/ml/</Path>
-                  <Path Filename="stat">/home/chris/Data/Cent/books/cs/ml/ml/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/ml/ml/stat/</Path>
-                  <Path Filename="">/home/chris/Data/Cent/books/cs/ml/ml/</Path>
-                  <Path Filename="">/home/chris/Data/</Path>
-                  <Path Filename="">/home/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>2</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="2019">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2019/</Path>
-                  <Path Filename="2021">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="1106-0522 poway mate20">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="IMG_20210418_144614.jpg">/run/media/chris/Seagate Backup Plus Drive/照片/2021/1106-0522 poway mate20/</Path>
-                  <Path Filename="..">/run/media/</Path>
-                  <Path Filename="..">/home/chris/Data/</Path>
-                  <Path Filename="..">/home/chris/</Path>
-                  <Path Filename="chris">/home/</Path>
-                  <Path Filename="Documents">/home/chris/</Path>
-                  <Path Filename="..">/home/chris/Documents/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="DS553">/home/chris/Downloads/</Path>
-                  <Path Filename="hw">/home/chris/Downloads/DS553/</Path>
-                  <Path Filename="..">/home/chris/Downloads/DS553/hw/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/DS553/</Path>
-                  <Path Filename="..">/home/chris/Downloads/DS553/slide/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/DS553/</Path>
-                  <Path Filename="..">/home/chris/Downloads/DS553/slide/</Path>
-                  <Path Filename="..">/home/chris/Downloads/DS553/</Path>
-                  <Path Filename="DS553">/home/chris/Downloads/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/DS553/</Path>
-                  <Path Filename="week6-Clustering-Part2.pdf">/home/chris/Downloads/DS553/slide/</Path>
-                  <Path Filename="DS553">/home/chris/Downloads/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/DS553/</Path>
-                  <Path Filename="..">/home/chris/Downloads/DS553/slide/</Path>
-                  <Path Filename="">/home/chris/Downloads/DS553/</Path>
-                  <Path Filename="..">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/ml/ml/</Path>
-                  <Path Filename="math">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="numerical">/home/chris/Data/Cent/books/math/</Path>
-                  <Path Filename="optim">/home/chris/Data/Cent/books/math/numerical/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/math/numerical/optim/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/math/numerical/</Path>
-                  <Path Filename="econ">/home/chris/Data/Cent/books/math/</Path>
-                  <Path Filename="fincance">/home/chris/Data/Cent/books/math/econ/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/math/econ/fincance/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/math/econ/</Path>
-                  <Path Filename="pde">/home/chris/Data/Cent/books/math/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/math/pde/</Path>
-                  <Path Filename="prob">/home/chris/Data/Cent/books/math/</Path>
-                  <Path Filename="stat">/home/chris/Data/Cent/books/math/prob/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/math/prob/stat/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/math/prob/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/math/</Path>
-                  <Path Filename="math">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="econ">/home/chris/Data/Cent/books/math/</Path>
-                  <Path Filename="">/home/chris/Data/Cent/books/math/econ/</Path>
-                  <Path Filename="">/home/chris/Data/</Path>
-                  <Path Filename="">/home/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="0207-0211 LA">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/0207-0211 LA/</Path>
-                  <Path Filename="1106-0207 poway mate20">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/1106-0207 poway mate20/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="2019">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2019/</Path>
-                  <Path Filename="2021">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="1106-0522 poway mate20">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="IMG_20210418_144614.jpg">/run/media/chris/Seagate Backup Plus Drive/照片/2021/1106-0522 poway mate20/</Path>
-                  <Path Filename="..">/run/media/</Path>
-                  <Path Filename="..">/home/chris/Data/</Path>
-                  <Path Filename="..">/home/chris/</Path>
-                  <Path Filename="chris">/home/</Path>
-                  <Path Filename="Documents">/home/chris/</Path>
-                  <Path Filename="..">/home/chris/Documents/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="DS553">/home/chris/Downloads/</Path>
-                  <Path Filename="hw">/home/chris/Downloads/DS553/</Path>
-                  <Path Filename="..">/home/chris/Downloads/DS553/hw/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/DS553/</Path>
-                  <Path Filename="..">/home/chris/Downloads/DS553/slide/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/DS553/</Path>
-                  <Path Filename="350">/home/chris/Downloads/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/350/</Path>
-                  <Path Filename="..">/home/chris/Downloads/350/slide/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/350/</Path>
-                  <Path Filename="..">/home/chris/Downloads/350/slide/</Path>
-                  <Path Filename="hw">/home/chris/Downloads/350/</Path>
-                  <Path Filename="..">/home/chris/Downloads/350/hw/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/350/</Path>
-                  <Path Filename="..">/home/chris/Downloads/350/slide/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/350/</Path>
-                  <Path Filename="..">/home/chris/Downloads/350/slide/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/350/</Path>
-                  <Path Filename="..">/home/chris/Downloads/350/slide/</Path>
-                  <Path Filename="Numerical+Analysis+Instructor+Manual">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/Numerical+Analysis+Instructor+Manual/</Path>
-                  <Path Filename="447">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/447/</Path>
-                  <Path Filename="447">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/447/</Path>
-                  <Path Filename="447">/home/chris/Downloads/</Path>
-                  <Path Filename="">/home/chris/Downloads/447/</Path>
-                  <Path Filename="..">/home/chris/Downloads/</Path>
-                  <Path Filename="jxu">/home/</Path>
-                  <Path Filename="Downloads">/home/jxu/</Path>
-                  <Path Filename="..">/home/jxu/Downloads/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>2</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="165">/home/chris/Downloads/</Path>
-                  <Path Filename="ppt">/home/chris/Downloads/165/</Path>
-                  <Path Filename="..">/home/chris/Downloads/165/ppt/</Path>
-                  <Path Filename="ppt">/home/chris/Downloads/165/</Path>
-                  <Path Filename="..">/home/chris/Downloads/165/ppt/</Path>
-                  <Path Filename="ppt">/home/chris/Downloads/165/</Path>
-                  <Path Filename="..">/home/chris/Downloads/165/ppt/</Path>
-                  <Path Filename="ppt">/home/chris/Downloads/165/</Path>
-                  <Path Filename="..">/home/chris/Downloads/165/ppt/</Path>
-                  <Path Filename="..">/home/chris/Downloads/165/</Path>
-                  <Path Filename="..">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/ml/ml/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/ml/</Path>
-                  <Path Filename="ml">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="books">/home/chris/Data/Cent/</Path>
-                  <Path Filename="Cent">/home/chris/Data/</Path>
-                  <Path Filename="Documents">/home/chris/</Path>
-                  <Path Filename="my">/home/chris/Documents/</Path>
-                  <Path Filename="my_Scala">/home/chris/Documents/my/</Path>
-                  <Path Filename="mycourse">/home/chris/Documents/my/my_Scala/</Path>
-                  <Path Filename="..">/home/chris/Documents/my/my_Scala/mycourse/</Path>
-                  <Path Filename="mycourse">/home/chris/Documents/my/my_Scala/</Path>
-                  <Path Filename="git">/home/chris/Documents/my/my_Scala/mycourse/</Path>
-                  <Path Filename="DSCI553_Project-master">/home/chris/Documents/my/my_Scala/mycourse/git/</Path>
-                  <Path Filename="..">/home/chris/Documents/my/my_Scala/mycourse/git/DSCI553_Project-master/</Path>
-                  <Path Filename="Data-Mining-main">/home/chris/Documents/my/my_Scala/mycourse/git/</Path>
-                  <Path Filename="..">/home/chris/Documents/my/my_Scala/mycourse/git/Data-Mining-main/</Path>
-                  <Path Filename="Data-Mining-main">/home/chris/Documents/my/my_Scala/mycourse/git/</Path>
-                  <Path Filename="Data-Mining-main">/home/chris/Documents/my/my_Scala/mycourse/git/Data-Mining-main/</Path>
-                  <Path Filename="..">/home/chris/Documents/my/my_Scala/mycourse/git/Data-Mining-main/Data-Mining-main/</Path>
-                  <Path Filename="..">/home/chris/Documents/my/my_Scala/mycourse/git/Data-Mining-main/</Path>
-                  <Path Filename="DSCI_553">/home/chris/Documents/my/my_Scala/mycourse/git/</Path>
-                  <Path Filename="final">/home/chris/Documents/my/my_Scala/mycourse/git/DSCI_553/</Path>
-                  <Path Filename="..">/home/chris/Documents/my/my_Scala/mycourse/git/DSCI_553/final/</Path>
-                  <Path Filename="hw_pdf">/home/chris/Documents/my/my_Scala/mycourse/git/DSCI_553/</Path>
-                  <Path Filename="..">/home/chris/Documents/my/my_Scala/mycourse/git/DSCI_553/hw_pdf/</Path>
-                  <Path Filename="slides">/home/chris/Documents/my/my_Scala/mycourse/git/DSCI_553/</Path>
-                  <Path Filename="recommendation_sys">/home/chris/Documents/my/my_Scala/mycourse/git/DSCI_553/slides/</Path>
-                  <Path Filename="..">/home/chris/Documents/my/my_Scala/mycourse/git/DSCI_553/slides/recommendation_sys/</Path>
-                  <Path Filename="..">/home/chris/Documents/my/my_Scala/mycourse/git/DSCI_553/slides/</Path>
-                  <Path Filename="all_quiz_part1">/home/chris/Documents/my/my_Scala/mycourse/git/DSCI_553/</Path>
-                  <Path Filename="..">/home/chris/Documents/my/my_Scala/mycourse/git/DSCI_553/all_quiz_part1/</Path>
-                  <Path Filename="all_quiz_part1">/home/chris/Documents/my/my_Scala/mycourse/git/DSCI_553/</Path>
-                  <Path Filename="..">/home/chris/Documents/my/my_Scala/mycourse/git/DSCI_553/all_quiz_part1/</Path>
-                  <Path Filename="all_quiz_part1">/home/chris/Documents/my/my_Scala/mycourse/git/DSCI_553/</Path>
-                  <Path Filename="un_coverd">/home/chris/Documents/my/my_Scala/mycourse/git/DSCI_553/all_quiz_part1/</Path>
-                  <Path Filename="..">/home/chris/Documents/my/my_Scala/mycourse/git/DSCI_553/all_quiz_part1/un_coverd/</Path>
-                  <Path Filename="clustering">/home/chris/Documents/my/my_Scala/mycourse/git/DSCI_553/all_quiz_part1/</Path>
-                  <Path Filename="">/home/chris/Documents/my/my_Scala/mycourse/git/DSCI_553/all_quiz_part1/clustering/</Path>
-                  <Path Filename="">/home/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="..">/run/media/</Path>
-                  <Path Filename="chris">/home/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="585">/home/chris/Downloads/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/585/</Path>
-                  <Path Filename="..">/home/chris/Downloads/585/slide/</Path>
-                  <Path Filename="Data">/home/chris/</Path>
-                  <Path Filename="Cent">/home/chris/Data/</Path>
-                  <Path Filename="books">/home/chris/Data/Cent/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="os">/home/chris/Data/Cent/books/cs/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/cs/os/</Path>
-                  <Path Filename="Cent">/home/chris/Data/</Path>
-                  <Path Filename="Documents">/home/chris/</Path>
-                  <Path Filename="my_python">/home/chris/Documents/</Path>
-                  <Path Filename="..">/home/chris/Documents/my_python/</Path>
-                  <Path Filename="uncanny_valley">/home/chris/Documents/</Path>
-                  <Path Filename="..">/home/chris/Documents/uncanny_valley/</Path>
-                  <Path Filename="..">/home/chris/Documents/</Path>
-                  <Path Filename="Data">/home/chris/</Path>
-                  <Path Filename="Cent">/home/chris/Data/</Path>
-                  <Path Filename="books">/home/chris/Data/Cent/</Path>
-                  <Path Filename="math">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/math/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="excels">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/excels/</Path>
-                  <Path Filename="..">/home/chris/Downloads/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="excels">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/excels/</Path>
-                  <Path Filename="00000_excel files">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/00000_excel files/</Path>
-                  <Path Filename="00000_excel files">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/00000_excel files/</Path>
-                  <Path Filename="sponge">/home/chris/Downloads/</Path>
-                  <Path Filename="pre-covid bsp1">/home/chris/Downloads/sponge/</Path>
-                  <Path Filename="00011000">/home/chris/Downloads/sponge/pre-covid bsp1/</Path>
-                  <Path Filename="._3_tube_1_2020-03-06 08-50-55.mp4">/home/chris/Downloads/sponge/pre-covid bsp1/00011000/</Path>
-                  <Path Filename="pre-covid bsp1">/home/chris/Downloads/sponge/</Path>
-                  <Path Filename="syedhass@usc.edu_919588_t908779_470533_Sep_19_2021_12-23-04am_PDT">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/syedhass@usc.edu_919588_t908779_470533_Sep_19_2021_12-23-04am_PDT/</Path>
-                  <Path Filename="d">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/d/</Path>
-                  <Path Filename="">/home/chris/Downloads/</Path>
-                  <Path Filename="">/home/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="home">/home/chris/Documents/dotfiles/</Path>
-                  <Path Filename="..">/home/chris/Documents/dotfiles/home/</Path>
-                  <Path Filename="home">/home/chris/Documents/dotfiles/</Path>
-                  <Path Filename="chris">/home/chris/Documents/dotfiles/home/</Path>
-                  <Path Filename=".config">/home/chris/Documents/dotfiles/home/chris/</Path>
-                  <Path Filename="..">/home/chris/Documents/dotfiles/home/chris/.config/</Path>
-                  <Path Filename="..">/home/chris/Documents/dotfiles/home/chris/</Path>
-                  <Path Filename="chris">/home/chris/Documents/dotfiles/home/</Path>
-                  <Path Filename=".config">/home/chris/Documents/dotfiles/home/chris/</Path>
-                  <Path Filename="..">/home/chris/Documents/dotfiles/home/chris/.config/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/timeshift/2020-11-23_22-00-01/localhost/home/chris/.config/</Path>
-                  <Path Filename="照片">/run/media/chris/Seagate Backup Plus Drive/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="2021">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="1226-0325 uci mate20">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/1226-0325 uci mate20/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="一些可能重复的">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/一些可能重复的/</Path>
-                  <Path Filename="2021">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="Camera">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/Camera/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/</Path>
-                  <Path Filename="chris">/home/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="585">/home/chris/Downloads/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/585/</Path>
-                  <Path Filename="..">/home/chris/Downloads/585/slide/</Path>
-                  <Path Filename="Data">/home/chris/</Path>
-                  <Path Filename="Cent">/home/chris/Data/</Path>
-                  <Path Filename="books">/home/chris/Data/Cent/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="os">/home/chris/Data/Cent/books/cs/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/cs/os/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="math">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="numerical">/home/chris/Data/Cent/books/math/</Path>
-                  <Path Filename="">/home/chris/Data/Cent/books/math/numerical/</Path>
-                  <Path Filename="">/home/chris/Data/</Path>
-                  <Path Filename="">/home/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="..">/home/chris/Documents/dotfiles/home/chris/.config/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/timeshift/2020-11-23_22-00-01/localhost/home/chris/.config/</Path>
-                  <Path Filename="照片">/run/media/chris/Seagate Backup Plus Drive/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="2021">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="1226-0325 uci mate20">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/1226-0325 uci mate20/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="一些可能重复的">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/一些可能重复的/</Path>
-                  <Path Filename="2021">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="Camera">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/Camera/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/</Path>
-                  <Path Filename="chris">/home/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="585">/home/chris/Downloads/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/585/</Path>
-                  <Path Filename="..">/home/chris/Downloads/585/slide/</Path>
-                  <Path Filename="Data">/home/chris/</Path>
-                  <Path Filename="Cent">/home/chris/Data/</Path>
-                  <Path Filename="books">/home/chris/Data/Cent/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="os">/home/chris/Data/Cent/books/cs/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/cs/os/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="math">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="numerical">/home/chris/Data/Cent/books/math/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/math/numerical/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/math/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/</Path>
-                  <Path Filename="Cent">/home/chris/Data/</Path>
-                  <Path Filename="books">/home/chris/Data/Cent/</Path>
-                  <Path Filename="courses">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="usc">/home/chris/Data/Cent/books/courses/</Path>
-                  <Path Filename="CSCI310">/home/chris/Data/Cent/books/courses/usc/</Path>
-                  <Path Filename="">/home/chris/Data/Cent/books/courses/usc/CSCI310/</Path>
-                  <Path Filename="">/home/chris/Data/</Path>
-                  <Path Filename="">/home/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="一些可能重复的">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/一些可能重复的/</Path>
-                  <Path Filename="2021">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="Camera">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/Camera/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/</Path>
-                  <Path Filename="chris">/home/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="585">/home/chris/Downloads/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/585/</Path>
-                  <Path Filename="..">/home/chris/Downloads/585/slide/</Path>
-                  <Path Filename="Data">/home/chris/</Path>
-                  <Path Filename="Cent">/home/chris/Data/</Path>
-                  <Path Filename="books">/home/chris/Data/Cent/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="os">/home/chris/Data/Cent/books/cs/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/cs/os/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="math">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="numerical">/home/chris/Data/Cent/books/math/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/math/numerical/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/math/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/</Path>
-                  <Path Filename="Cent">/home/chris/Data/</Path>
-                  <Path Filename="books">/home/chris/Data/Cent/</Path>
-                  <Path Filename="courses">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="usc">/home/chris/Data/Cent/books/courses/</Path>
-                  <Path Filename="CSCI310">/home/chris/Data/Cent/books/courses/usc/</Path>
-                  <Path Filename="L7-Black-Box_Testing.pdf">/home/chris/Data/Cent/books/courses/usc/CSCI310/</Path>
-                  <Path Filename="courses">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="books">/home/chris/Data/Cent/</Path>
-                  <Path Filename="Cent">/home/chris/Data/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="attn_occl">/home/chris/Downloads/</Path>
-                  <Path Filename="k=2">/home/chris/Downloads/attn_occl/</Path>
-                  <Path Filename="..">/home/chris/Downloads/attn_occl/k=2/</Path>
-                  <Path Filename="..">/home/chris/Downloads/attn_occl/</Path>
-                  <Path Filename="447">/home/chris/Downloads/</Path>
-                  <Path Filename="">/home/chris/Downloads/447/</Path>
-                  <Path Filename="">/home/chris/Downloads/</Path>
-                  <Path Filename="">/home/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="home">/home/chris/Documents/dotfiles/</Path>
-                  <Path Filename="..">/home/chris/Documents/dotfiles/home/</Path>
-                  <Path Filename="home">/home/chris/Documents/dotfiles/</Path>
-                  <Path Filename="chris">/home/chris/Documents/dotfiles/home/</Path>
-                  <Path Filename=".config">/home/chris/Documents/dotfiles/home/chris/</Path>
-                  <Path Filename="..">/home/chris/Documents/dotfiles/home/chris/.config/</Path>
-                  <Path Filename="..">/home/chris/Documents/dotfiles/home/chris/</Path>
-                  <Path Filename="chris">/home/chris/Documents/dotfiles/home/</Path>
-                  <Path Filename=".config">/home/chris/Documents/dotfiles/home/chris/</Path>
-                  <Path Filename="..">/home/chris/Documents/dotfiles/home/chris/.config/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/timeshift/2020-11-23_22-00-01/localhost/home/chris/.config/</Path>
-                  <Path Filename="照片">/run/media/chris/Seagate Backup Plus Drive/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="2021">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="1226-0325 uci mate20">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/1226-0325 uci mate20/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="一些可能重复的">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/一些可能重复的/</Path>
-                  <Path Filename="2021">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="Camera">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/Camera/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/</Path>
-                  <Path Filename="chris">/home/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="585">/home/chris/Downloads/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/585/</Path>
-                  <Path Filename="..">/home/chris/Downloads/585/slide/</Path>
-                  <Path Filename="Data">/home/chris/</Path>
-                  <Path Filename="Cent">/home/chris/Data/</Path>
-                  <Path Filename="books">/home/chris/Data/Cent/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="os">/home/chris/Data/Cent/books/cs/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/cs/os/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="math">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="numerical">/home/chris/Data/Cent/books/math/</Path>
-                  <Path Filename="">/home/chris/Data/Cent/books/math/numerical/</Path>
-                  <Path Filename="">/home/chris/Data/</Path>
-                  <Path Filename="">/home/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="chris">/home/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="585">/home/chris/Downloads/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/585/</Path>
-                  <Path Filename="..">/home/chris/Downloads/585/slide/</Path>
-                  <Path Filename="Data">/home/chris/</Path>
-                  <Path Filename="Cent">/home/chris/Data/</Path>
-                  <Path Filename="books">/home/chris/Data/Cent/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="os">/home/chris/Data/Cent/books/cs/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/cs/os/</Path>
-                  <Path Filename="Cent">/home/chris/Data/</Path>
-                  <Path Filename="Documents">/home/chris/</Path>
-                  <Path Filename="my_python">/home/chris/Documents/</Path>
-                  <Path Filename="..">/home/chris/Documents/my_python/</Path>
-                  <Path Filename="uncanny_valley">/home/chris/Documents/</Path>
-                  <Path Filename="..">/home/chris/Documents/uncanny_valley/</Path>
-                  <Path Filename="..">/home/chris/Documents/</Path>
-                  <Path Filename="Data">/home/chris/</Path>
-                  <Path Filename="Cent">/home/chris/Data/</Path>
-                  <Path Filename="books">/home/chris/Data/Cent/</Path>
-                  <Path Filename="math">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/math/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="excels">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/excels/</Path>
-                  <Path Filename="..">/home/chris/Downloads/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="excels">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/excels/</Path>
-                  <Path Filename="00000_excel files">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/00000_excel files/</Path>
-                  <Path Filename="00000_excel files">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/00000_excel files/</Path>
-                  <Path Filename="sponge">/home/chris/Downloads/</Path>
-                  <Path Filename="pre-covid bsp1">/home/chris/Downloads/sponge/</Path>
-                  <Path Filename="00011000">/home/chris/Downloads/sponge/pre-covid bsp1/</Path>
-                  <Path Filename="._3_tube_1_2020-03-06 08-50-55.mp4">/home/chris/Downloads/sponge/pre-covid bsp1/00011000/</Path>
-                  <Path Filename="pre-covid bsp1">/home/chris/Downloads/sponge/</Path>
-                  <Path Filename="syedhass@usc.edu_919588_t908779_470533_Sep_19_2021_12-23-04am_PDT">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/syedhass@usc.edu_919588_t908779_470533_Sep_19_2021_12-23-04am_PDT/</Path>
-                  <Path Filename="d">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/d/</Path>
-                  <Path Filename="test1.pdf">/home/chris/Downloads/</Path>
-                  <Path Filename=".cache">/home/chris/</Path>
-                  <Path Filename="">/home/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="columns">
-            <Sortings>
-              <Sorting>
-                <Direction>1</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="chris">/home/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="585">/home/chris/Downloads/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/585/</Path>
-                  <Path Filename="..">/home/chris/Downloads/585/slide/</Path>
-                  <Path Filename="Data">/home/chris/</Path>
-                  <Path Filename="Cent">/home/chris/Data/</Path>
-                  <Path Filename="books">/home/chris/Data/Cent/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="os">/home/chris/Data/Cent/books/cs/cs/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/cs/os/</Path>
-                  <Path Filename="Cent">/home/chris/Data/</Path>
-                  <Path Filename="Documents">/home/chris/</Path>
-                  <Path Filename="my_python">/home/chris/Documents/</Path>
-                  <Path Filename="..">/home/chris/Documents/my_python/</Path>
-                  <Path Filename="uncanny_valley">/home/chris/Documents/</Path>
-                  <Path Filename="..">/home/chris/Documents/uncanny_valley/</Path>
-                  <Path Filename="..">/home/chris/Documents/</Path>
-                  <Path Filename="Data">/home/chris/</Path>
-                  <Path Filename="Cent">/home/chris/Data/</Path>
-                  <Path Filename="books">/home/chris/Data/Cent/</Path>
-                  <Path Filename="math">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/math/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="..">/home/chris/Data/Cent/books/cs/</Path>
-                  <Path Filename="cs">/home/chris/Data/Cent/books/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="excels">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/excels/</Path>
-                  <Path Filename="..">/home/chris/Downloads/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="excels">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/excels/</Path>
-                  <Path Filename="00000_excel files">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/00000_excel files/</Path>
-                  <Path Filename="00000_excel files">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/00000_excel files/</Path>
-                  <Path Filename="sponge">/home/chris/Downloads/</Path>
-                  <Path Filename="pre-covid bsp1">/home/chris/Downloads/sponge/</Path>
-                  <Path Filename="00011000">/home/chris/Downloads/sponge/pre-covid bsp1/</Path>
-                  <Path Filename="._3_tube_1_2020-03-06 08-50-55.mp4">/home/chris/Downloads/sponge/pre-covid bsp1/00011000/</Path>
-                  <Path Filename="pre-covid bsp1">/home/chris/Downloads/sponge/</Path>
-                  <Path Filename="syedhass@usc.edu_919588_t908779_470533_Sep_19_2021_12-23-04am_PDT">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/syedhass@usc.edu_919588_t908779_470533_Sep_19_2021_12-23-04am_PDT/</Path>
-                  <Path Filename="d">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/d/</Path>
-                  <Path Filename="test1.pdf">/home/chris/Downloads/</Path>
-                  <Path Filename=".cache">/home/chris/</Path>
-                  <Path Filename="">/home/</Path>
-                </Paths>
-              </Entry>
-            </History>
-            <ColumnsView>
-              <ColumnsSet>Default</ColumnsSet>
-            </ColumnsView>
-          </FileView>
-        </Tab>
-        <Tab>
-          <FileView Type="thumbnails">
-            <Sortings>
-              <Sorting>
-                <Direction>2</Direction>
-                <Function>12</Function>
-              </Sorting>
-            </Sortings>
-            <History>
-              <Entry Active="True">
-                <FileSource Type="FileSystem"/>
-                <Paths>
-                  <Path Filename="照片">/run/media/chris/Seagate Backup Plus Drive/</Path>
-                  <Path Filename="2021">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="0207-0211 LA">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/0207-0211 LA/</Path>
-                  <Path Filename="1106-0207 poway mate20">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/1106-0207 poway mate20/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="2020">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2020/</Path>
-                  <Path Filename="2019">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="..">/run/media/chris/Seagate Backup Plus Drive/照片/2019/</Path>
-                  <Path Filename="2021">/run/media/chris/Seagate Backup Plus Drive/照片/</Path>
-                  <Path Filename="1106-0522 poway mate20">/run/media/chris/Seagate Backup Plus Drive/照片/2021/</Path>
-                  <Path Filename="IMG_20210418_144614.jpg">/run/media/chris/Seagate Backup Plus Drive/照片/2021/1106-0522 poway mate20/</Path>
-                  <Path Filename="..">/run/media/</Path>
-                  <Path Filename="..">/home/chris/Data/</Path>
-                  <Path Filename="..">/home/chris/</Path>
-                  <Path Filename="chris">/home/</Path>
-                  <Path Filename="Documents">/home/chris/</Path>
-                  <Path Filename="..">/home/chris/Documents/</Path>
-                  <Path Filename="Downloads">/home/chris/</Path>
-                  <Path Filename="DS553">/home/chris/Downloads/</Path>
-                  <Path Filename="hw">/home/chris/Downloads/DS553/</Path>
-                  <Path Filename="..">/home/chris/Downloads/DS553/hw/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/DS553/</Path>
-                  <Path Filename="..">/home/chris/Downloads/DS553/slide/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/DS553/</Path>
-                  <Path Filename="350">/home/chris/Downloads/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/350/</Path>
-                  <Path Filename="..">/home/chris/Downloads/350/slide/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/350/</Path>
-                  <Path Filename="..">/home/chris/Downloads/350/slide/</Path>
-                  <Path Filename="hw">/home/chris/Downloads/350/</Path>
-                  <Path Filename="..">/home/chris/Downloads/350/hw/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/350/</Path>
-                  <Path Filename="..">/home/chris/Downloads/350/slide/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/350/</Path>
-                  <Path Filename="..">/home/chris/Downloads/350/slide/</Path>
-                  <Path Filename="slide">/home/chris/Downloads/350/</Path>
-                  <Path Filename="..">/home/chris/Downloads/350/slide/</Path>
-                  <Path Filename="Numerical+Analysis+Instructor+Manual">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/Numerical+Analysis+Instructor+Manual/</Path>
-                  <Path Filename="447">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/447/</Path>
-                  <Path Filename="447">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/chris/Downloads/447/</Path>
-                  <Path Filename="447">/home/chris/Downloads/</Path>
-                  <Path Filename="">/home/chris/Downloads/447/</Path>
-                  <Path Filename="..">/home/chris/Downloads/</Path>
-                  <Path Filename="..">/home/</Path>
-                </Paths>
-              </Entry>
-            </History>
-          </FileView>
-        </Tab>
-      </Right>
-    </OpenedTabs>
     <Options>54033</Options>
     <CharacterLimit>32</CharacterLimit>
     <Position>0</Position>
@@ -1440,7 +172,7 @@
     <FolderTabs Save="True"/>
   </Configuration>
   <Language>
-    <POFileName>doublecmd.en.po</POFileName>
+    <POFileName>doublecmd.pot</POFileName>
   </Language>
   <Behaviours>
     <GoToRoot>False</GoToRoot>
@@ -1467,6 +199,7 @@
     <PersonalizedMega>MB</PersonalizedMega>
     <PersonalizedGiga>GB</PersonalizedGiga>
     <PersonalizedTera>TB</PersonalizedTera>
+    <ConfirmQuit>False</ConfirmQuit>
     <MinimizeToTray>False</MinimizeToTray>
     <AlwaysShowTrayIcon>False</AlwaysShowTrayIcon>
     <Mouse>
@@ -1483,6 +216,7 @@
     <CustomColumnsChangeAllColumns>False</CustomColumnsChangeAllColumns>
     <BriefViewFileExtAligned>False</BriefViewFileExtAligned>
     <DateTimeFormat>mm/dd/yyyy hh:nn:ss</DateTimeFormat>
+    <ColumnsTitleLikeValues>False</ColumnsTitleLikeValues>
     <CutTextToColumnWidth>True</CutTextToColumnWidth>
     <ExtendCellWidth>False</ExtendCellWidth>
     <ShowSystemFiles>True</ShowSystemFiles>
@@ -1587,6 +321,12 @@
       <Style>0</Style>
       <Quality>0</Quality>
     </TreeViewMenu>
+    <StatusBar>
+      <Name>default</Name>
+      <Size>0</Size>
+      <Style>0</Style>
+      <Quality>0</Quality>
+    </StatusBar>
   </Fonts>
   <Colors>
     <UseCursorBorder>False</UseCursorBorder>
@@ -1615,7 +355,6 @@
       <Error>255</Error>
       <Success>32768</Success>
     </LogWindow>
-    <FileFilters/>
     <PathLabel>
       <ActiveColor>-2147483635</ActiveColor>
       <ActiveFontColor>-2147483634</ActiveFontColor>
@@ -1687,6 +426,7 @@
     <ColumnsView>
       <AutoSaveWidth>True</AutoSaveWidth>
       <TitleStyle>1</TitleStyle>
+      <LongInStatus>False</LongInStatus>
     </ColumnsView>
     <BriefView>
       <FileExtAligned>False</FileExtAligned>
@@ -1780,6 +520,8 @@
     <DirHistory Save="True"/>
     <CmdLineHistory Save="True"/>
     <FileMaskHistory Save="True"/>
+    <VolumeSizeHistory Save="True"/>
+    <CreateDirectoriesHistory Save="True"/>
   </History>
   <QuickSearch>
     <MatchBeginning>True</MatchBeginning>
@@ -1809,6 +551,7 @@
     <PathToBeRelativeTo>%COMMANDER_PATH%</PathToBeRelativeTo>
     <PathModifierElements>0</PathModifierElements>
     <DefaultTextEncoding>none</DefaultTextEncoding>
+    <SystemItemProperties>False</SystemItemProperties>
   </Miscellaneous>
   <Thumbnails Save="True">
     <Width>128</Width>
@@ -1835,7 +578,7 @@
     <Exclude>False</Exclude>
     <ExcludeDirs/>
     <CustomIcons>0</CustomIcons>
-    <PixelsPerInch>144</PixelsPerInch>
+    <PixelsPerInch>96</PixelsPerInch>
     <ShowInMenus Enabled="False">
       <Size>16</Size>
     </ShowInMenus>
@@ -1871,12 +614,19 @@
     <ShowCaret>False</ShowCaret>
     <LeftMargin>4</LeftMargin>
     <ExtraLineSpan>0</ExtraLineSpan>
+    <ImageShowTransparency>False</ImageShowTransparency>
+    <WrapText>False</WrapText>
+    <AutoCopy>True</AutoCopy>
+    <SynEditMask>*</SynEditMask>
+    <JpegQuality>80</JpegQuality>
   </Viewer>
   <Editor>
     <EditWaitTime>2000</EditWaitTime>
     <SynEditOptions>856075</SynEditOptions>
     <SynEditTabWidth>8</SynEditTabWidth>
     <SynEditRightEdge>80</SynEditRightEdge>
+    <SynEditBlockIndent>2</SynEditBlockIndent>
+    <FindWordAtCursor>True</FindWordAtCursor>
   </Editor>
   <Differ>
     <Colors>
@@ -1905,12 +655,13 @@
     <FilterCopyLeft>True</FilterCopyLeft>
     <FilterDuplicates>True</FilterDuplicates>
     <FilterSingles>True</FilterSingles>
-    <FileMask>*</FileMask>
+    <FileMask Save="True">*</FileMask>
     <Colors>
       <Left>32768</Left>
       <Right>16711680</Right>
       <Unknown>255</Unknown>
     </Colors>
+    <DateTimeFormat>yyyy.mm.dd hh:nn:ss</DateTimeFormat>
   </SyncDirs>
   <InternalAssociations>
     <OfferToAddNewFileType>False</OfferToAddNewFileType>
@@ -1923,6 +674,7 @@
     <FilenameStyle>0</FilenameStyle>
     <PathToBeRelativeTo>%COMMANDER_PATH%</PathToBeRelativeTo>
     <PathModifierElements>0</PathModifierElements>
+    <DefaultContextActions>True</DefaultContextActions>
   </InternalAssociations>
   <TreeViewMenu>
     <UseTVMDirectoryHotlistFMC>False</UseTVMDirectoryHotlistFMC>
@@ -2015,17 +767,17 @@
   <ColumnsSets DefaultTitleHash="540805403">
     <ColumnsSet UseFrameCursor="False">
       <Name>Default</Name>
+      <Unique>8E23B55D-F11F-4116-86F4-334907C4F442</Unique>
       <CustomView>False</CustomView>
       <FileSystem>&lt;General&gt;</FileSystem>
-      <PixelsPerInch>144</PixelsPerInch>
-      <CursorBorder Enabled="False">
-        <Color>0</Color>
-      </CursorBorder>
+      <PixelsPerInch>96</PixelsPerInch>
+      <CursorBorder Enabled="False"/>
       <Columns>
         <Column>
           <Title>Name</Title>
+          <Unique>6DAFDD97-6A63-4C22-B043-1F3E8BD30067</Unique>
           <FuncString>[DC().GETFILENAMENOEXT{}]</FuncString>
-          <Width>1013</Width>
+          <Width>675</Width>
           <Align>0</Align>
           <Font>
             <Name>default</Name>
@@ -2033,22 +785,15 @@
             <Style>1</Style>
             <Quality>0</Quality>
           </Font>
-          <TextColor>-2147483640</TextColor>
-          <Background>-2147483643</Background>
-          <Background2>-2147483643</Background2>
-          <MarkColor>255</MarkColor>
-          <CursorColor>-2147483635</CursorColor>
-          <CursorText>-2147483634</CursorText>
-          <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>128</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
           <UseInactiveSelColor>False</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
         </Column>
         <Column>
           <Title>Ext</Title>
+          <Unique>281F7FFF-B719-42E6-9DB9-6ACDEF0169F9</Unique>
           <FuncString>[DC().GETFILEEXT{}]</FuncString>
-          <Width>75</Width>
+          <Width>50</Width>
           <Align>0</Align>
           <Font>
             <Name>default</Name>
@@ -2056,22 +801,15 @@
             <Style>1</Style>
             <Quality>0</Quality>
           </Font>
-          <TextColor>-2147483640</TextColor>
-          <Background>-2147483643</Background>
-          <Background2>-2147483643</Background2>
-          <MarkColor>255</MarkColor>
-          <CursorColor>-2147483635</CursorColor>
-          <CursorText>-2147483634</CursorText>
-          <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>128</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
           <UseInactiveSelColor>False</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
         </Column>
         <Column>
           <Title>Size</Title>
+          <Unique>6795D1BB-67BF-45C4-93BF-217BEB5EBFF6</Unique>
           <FuncString>[DC().GETFILESIZE{}]</FuncString>
-          <Width>105</Width>
+          <Width>70</Width>
           <Align>1</Align>
           <Font>
             <Name>default</Name>
@@ -2079,22 +817,15 @@
             <Style>1</Style>
             <Quality>0</Quality>
           </Font>
-          <TextColor>-2147483640</TextColor>
-          <Background>-2147483643</Background>
-          <Background2>-2147483643</Background2>
-          <MarkColor>255</MarkColor>
-          <CursorColor>-2147483635</CursorColor>
-          <CursorText>-2147483634</CursorText>
-          <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>128</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
           <UseInactiveSelColor>False</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
         </Column>
         <Column>
           <Title>Date</Title>
+          <Unique>42453D50-BD85-4CA3-86DC-528FB4D599A0</Unique>
           <FuncString>[DC().GETFILETIME{}]</FuncString>
-          <Width>210</Width>
+          <Width>140</Width>
           <Align>1</Align>
           <Font>
             <Name>default</Name>
@@ -2102,22 +833,15 @@
             <Style>1</Style>
             <Quality>0</Quality>
           </Font>
-          <TextColor>-2147483640</TextColor>
-          <Background>-2147483643</Background>
-          <Background2>-2147483643</Background2>
-          <MarkColor>255</MarkColor>
-          <CursorColor>-2147483635</CursorColor>
-          <CursorText>-2147483634</CursorText>
-          <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>128</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
           <UseInactiveSelColor>False</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
         </Column>
         <Column>
           <Title>Attr</Title>
+          <Unique>C376E235-02F5-44F4-80B0-2822EF5A21AB</Unique>
           <FuncString>[DC().GETFILEATTR{}]</FuncString>
-          <Width>150</Width>
+          <Width>100</Width>
           <Align>0</Align>
           <Font>
             <Name>default</Name>
@@ -2125,14 +849,6 @@
             <Style>1</Style>
             <Quality>0</Quality>
           </Font>
-          <TextColor>-2147483640</TextColor>
-          <Background>-2147483643</Background>
-          <Background2>-2147483643</Background2>
-          <MarkColor>255</MarkColor>
-          <CursorColor>-2147483635</CursorColor>
-          <CursorText>-2147483634</CursorText>
-          <InactiveCursorColor>-2147483645</InactiveCursorColor>
-          <InactiveMarkColor>128</InactiveMarkColor>
           <UseInvertedSelection>False</UseInvertedSelection>
           <UseInactiveSelColor>False</UseInactiveSelColor>
           <Overcolor>True</Overcolor>
@@ -2227,6 +943,16 @@
         <ArchiveExt>zst</ArchiveExt>
         <Path>%commander_path%/plugins/wcx/zip/zip.wcx</Path>
         <Flags>91</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>b64</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/base64/base64.wcx</Path>
+        <Flags>1</Flags>
+      </WcxPlugin>
+      <WcxPlugin Enabled="True">
+        <ArchiveExt>b64</ArchiveExt>
+        <Path>%commander_path%/plugins/wcx/base64/base64.wcx</Path>
+        <Flags>1</Flags>
       </WcxPlugin>
     </WcxPlugins>
     <WdxPlugins>

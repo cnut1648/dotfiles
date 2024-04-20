@@ -169,3 +169,5 @@ unset __conda_setup
 # default env
 conda activate ds
 
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/jxu/.mujoco/mujoco210/bin
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/nvidia

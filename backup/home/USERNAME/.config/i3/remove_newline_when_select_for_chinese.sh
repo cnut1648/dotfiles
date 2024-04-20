@@ -12,6 +12,6 @@
 SelectedText="$( /usr/bin/xsel )"
 
 ModifiedText="$(printf "%s" "$SelectedText" | \
-    awk '{ gsub(/[[:space:]]/, ""); gsub(/,/, "，"); gsub(/:/, "："); gsub(/\./, "。"); printf "%s", $0 } END{ print "" }')"
+    awk 'BEGIN { FS = OFS = "\0" } { gsub(/[[:space:]]/, ""); gsub(/,/, "，"); gsub(/:/, "："); gsub(/\./, "。"); printf "%s", $0 } END{ print "" }')"
 
 echo "$ModifiedText" | /usr/bin/xsel -bi
