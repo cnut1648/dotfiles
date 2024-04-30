@@ -18,16 +18,20 @@
     "editor.fontSize": 12,
     "workbench.startupEditor": "none",
     "vscode-neovim.mouseSelectionStartVisualMode": true,
-    "vscode-neovim.useCtrlKeysForNormalMode": false,
-    "vscode-neovim.useCtrlKeysForInsertMode": false,
     "terminal.integrated.defaultProfile.linux": "bash",
     "terminal.integrated.commandsToSkipShell": [
         "~workbench.action.terminal.focusFind",
         "~workbench.action.terminal.focusHover",
     ],
+    "vscode-neovim.compositeKeys": {
+        "jk": {
+            "command": "vscode-neovim.lua",
+            "args": ["vim.api.nvim_input('<ESC>')\nrequire('vscode-neovim').action('workbench.action.files.save')"]
+        }
+    },
     "terminal.integrated.allowChords": false,
     "terminal.integrated.scrollback": 100000,
     "extensions.experimental.affinity": {
         "asvetliakov.vscode-neovim": 1
-    }
+    },
 }
