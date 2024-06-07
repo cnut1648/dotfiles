@@ -25,8 +25,7 @@
     ],
     "vscode-neovim.compositeKeys": {
         "jk": {
-            "command": "vscode-neovim.lua",
-            "args": ["vim.api.nvim_input('<ESC>')\nrequire('vscode-neovim').action('workbench.action.files.save')"]
+            "command": "vscode-neovim.escape"
         }
     },
     "terminal.integrated.allowChords": false,
