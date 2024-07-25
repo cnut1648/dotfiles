@@ -1,12 +1,12 @@
 x=(
     ########## cmd line tools
-    cmus clementine # music
+    # cmus clementine # music
     neofetch feh
     ranger
     pyright bash-language-server # lsp for python, bash; c is already in clang
     picom # compositor
     xdotool xclip xcape
-    youtube-dl
+    # youtube-dl
     fasd zoxide # faster jump
     pacui # analyze pacman
     xsel # read & interact with clipboard
@@ -32,16 +32,17 @@ x=(
     bottom # sys monitoring, use `btm`, better than gtop (no binaries) / glances (not good looking)
     fzf
     jq
+    lua luarocks
 
     ######### system
     plasma-browser-integration
     base-devel # used in many AUR packages
     xorg-xev xorg-xrandr
-    manjaro-pipewire # audio replace PulseAudio
+    # manjaro-pipewire # audio replace PulseAudio
     i3-wm i3status # i3 (i3-gaps is merged in i3) and statusbar
 
     ######### application
-    qbittorrent
+    # qbittorrent
     xournalpp # whiteboard
     graphviz
     rofi
@@ -68,7 +69,7 @@ y=(
     ########## cmd line tools
     dust # better du
     cmatrix # hacker like
-    neovim-git
+    #neovim-git
     # better Ctrl-R
     # after install add in .zshrc
     # eval "$(mcfly init zsh)"
@@ -88,21 +89,22 @@ y=(
 
     ########## applications
     typora calibre foliate sioyek-git logseq-desktop-git # ebook & notes
-    google-chrome
+    #google-chrome
     # only use free version, has most of features
     masterpdfeditor-free
     inkscape drawio-desktop-bin # drawing
-    tor-browser
+    #tor-browser
     autokey-qt # OneQuick in Linux
     geeqie # image viewer
     rslsync # sync between devices
     beancount fava # accounting
 
     ########## programming
-    clion webstorm intellij-idea-ultimate-edition datagrip pycharm-professional # Jetbrains IDE
+    #clion webstorm intellij-idea-ultimate-edition datagrip
+    pycharm-professional # Jetbrains IDE
     visual-studio-code-bin # vs code
     lazygit # better git visualized
-    postman-bin
+    #postman-bin
     # node version manager
     # only activate after source /usr/share/nvm/init-nvm.sh
     # if not use system one
