@@ -86,8 +86,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="chris">/home/chris/Documents/dotfiles/home/</Path>
-                  <Path Filename=".config">/home/chris/Documents/dotfiles/home/chris/</Path>
                   <Path Filename="..">/home/chris/Documents/dotfiles/home/chris/.config/</Path>
                   <Path Filename="..">/home/chris/Documents/dotfiles/home/chris/</Path>
                   <Path Filename="chris">/home/chris/Documents/dotfiles/home/</Path>
@@ -136,6 +134,8 @@
                   <Path Filename="">/home/</Path>
                   <Path Filename="">/home/chris/Data/cent/books/read/</Path>
                   <Path Filename="">/home/</Path>
+                  <Path Filename="">/home/chris/Data/cent/books/read/</Path>
+                  <Path Filename="">/home/</Path>
                 </Paths>
               </Entry>
             </History>
@@ -159,8 +159,6 @@
               <Entry Active="True">
                 <FileSource Type="FileSystem"/>
                 <Paths>
-                  <Path Filename="..">/home/chris/Documents/uncanny_valley/</Path>
-                  <Path Filename="..">/home/chris/Documents/</Path>
                   <Path Filename="Data">/home/chris/</Path>
                   <Path Filename="Cent">/home/chris/Data/</Path>
                   <Path Filename="books">/home/chris/Data/Cent/</Path>
@@ -202,6 +200,8 @@
                   <Path Filename="O">/home/chris/Data/cent/books/</Path>
                   <Path Filename="中国哲学">/home/chris/Data/cent/books/O/</Path>
                   <Path Filename="..">/home/chris/Data/cent/books/O/中国哲学/</Path>
+                  <Path Filename="">/home/</Path>
+                  <Path Filename="">/home/chris/Data/cent/books/O/中国哲学/</Path>
                   <Path Filename="">/home/</Path>
                   <Path Filename="">/home/chris/Data/cent/books/O/中国哲学/</Path>
                   <Path Filename="">/home/</Path>

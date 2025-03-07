@@ -122,7 +122,7 @@ plugins=(
 	sudo # press <ESC> twice to prepend sudo
 	rand-quote # use `quote` to create random quote, below define <Ctrl-Q> to display
 	dirhistory # <Alt-arrow> to navigate through directory
-	ripgrep # completion for rg
+	# ripgrep # completion for rg
 	###### custom
 	# see README of https://github.com/cnut1648/dotfiles for url
 	fast-syntax-highlighting # add syntax highlight
@@ -145,7 +145,7 @@ alias o='a -e xdg-open'
 # for zoxide
 eval "$(zoxide init zsh)"
 # you-should-use hardcore mode
-export YSU_HARDCORE=0
+# export YSU_HARDCORE=0
 
 source $ZSH/oh-my-zsh.sh
 
@@ -256,6 +256,7 @@ alias ls="eza --icons=always "
 alias cat="bat"
 
 export BUNDLE_PATH=~/.gems
+export S3_ENDPOINT_URL=https://pbss.s8k.io
 
 # not let zsh store failed commands
 zshaddhistory() { whence ${${(z)1}[1]} >| /dev/null || return 1 }

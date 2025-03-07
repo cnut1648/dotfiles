@@ -171,3 +171,4 @@ conda activate ds
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/home/jxu/.mujoco/mujoco210/bin
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib/nvidia
+export CONDA_PREFIX=$CONDA_ROOT/envs/ds

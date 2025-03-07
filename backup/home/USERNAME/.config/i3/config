@@ -245,6 +245,7 @@ bindsym $mod+Shift+Return exec GLFW_IM_MODULE=ibus kitty -d `xcwd`
 # alt + c remove newlines in selected texts
 bindsym $alt+c exec --no-startup-id "DISPLAY=:0 kitty bash ~/.config/i3/remove_newline_when_select.sh &> /tmp/select.log"
 bindsym $alt+Shift+c exec --no-startup-id "DISPLAY=:0 kitty bash ~/.config/i3/remove_newline_when_select_for_chinese.sh &> /tmp/select.log"
+bindsym $alt+Shift+v exec --no-startup-id "DISPLAY=:0 kitty bash ~/.config/i3/remove_newline_when_select_foliate.sh &> /tmp/select.log"
 
 # start dmenu (a program launcher)
 # use rofi
