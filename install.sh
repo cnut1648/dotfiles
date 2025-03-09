@@ -1,12 +1,11 @@
 x=(
     ########## cmd line tools
-    cmus clementine # music
+    cmus # music
     neofetch feh
     ranger
     pyright bash-language-server # lsp for python, bash; c is already in clang
     picom # compositor
     xdotool xclip xcape
-    youtube-dl
     fasd zoxide # faster jump
     pacui # analyze pacman
     xsel # read & interact with clipboard
@@ -17,6 +16,7 @@ x=(
     ncdu # disk usage in command line, replace du
     speedtest-cli
     intel-media-driver # for vlc (libva)
+    mpv # better vlc
     wmctrl
     patch # for some yay pacakges
     fd # better find
@@ -60,6 +60,11 @@ x=(
     tomcat8 gradle maven # java
     # virtualenv -p /path/to/python venv
     python-virtualenv
+    # better Ctrl-R
+    # after install add in .zshrc
+    # eval "$(mcfly init zsh)"
+    # then Ctrl-R auto use mcfly
+    mcfly
 )
 
 # gurobi: python linear programming
@@ -69,11 +74,6 @@ y=(
     dust # better du
     cmatrix # hacker like
     neovim-git
-    # better Ctrl-R
-    # after install add in .zshrc
-    # eval "$(mcfly init zsh)"
-    # then Ctrl-R auto use mcfly
-    mcfly
     fastmod # used to modify source code
     nodejs-live-server # used for knap plugin in neovim & live-server cmd
 
@@ -95,8 +95,9 @@ y=(
     tor-browser
     autokey-qt # OneQuick in Linux
     geeqie # image viewer
-    rslsync # sync between devices
+    syncthing syncthingtray-qt6 # sync between devices
     beancount fava # accounting
+    clementine # music
 
     ########## programming
     clion webstorm intellij-idea-ultimate-edition datagrip pycharm-professional # Jetbrains IDE
@@ -156,5 +157,5 @@ optional=(
 )
 
 sudo pacman -Syu;
-sudo pacman -S ${x[@]};
+# sudo pacman -S ${x[@]};
 yay -Syu ${y[@]}

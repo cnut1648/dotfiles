@@ -41,6 +41,8 @@ software = [
     # vs code
     home / ".config/Code/User/settings.json",
     home / ".config/Code/User/keybindings.json",
+    home / ".config/Cursor/User/settings.json",
+    home / ".config/Cursor/User/keybindings.json",
     home / ".config/rofi",
     home / ".local/share/rofi", # themes
     home / ".emacs.d/init.el",
