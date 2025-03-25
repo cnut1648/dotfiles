@@ -144,7 +144,10 @@ optional=(
     r2cutter r2ghidra
     ida-free # free version only, hard to hack
     qemu # simulator required for xv6
-    texlive-most texlive-langchinese texlive-xelax texlab # tex support + LSP
+    texlive # entire group
+    texlive-langchinese
+    texlab # LSP support
+    ttf-fira-code # font used for tex
     # latex pkg mgmr
     tllocalmgr
     racket # IDE for racket: DrRacket

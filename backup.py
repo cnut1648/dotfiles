@@ -81,3 +81,5 @@ for d in directory:
             subprocess.run(
                 cmd,
             )
+
+print("Don't forget backup nvim configs, chrome tabs, !")
