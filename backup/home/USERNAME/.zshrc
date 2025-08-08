@@ -258,5 +258,7 @@ alias cat="bat"
 export BUNDLE_PATH=~/.gems
 export S3_ENDPOINT_URL=https://pbss.s8k.io
 
+alias md5=md5sum
+
 # not let zsh store failed commands
 zshaddhistory() { whence ${${(z)1}[1]} >| /dev/null || return 1 }

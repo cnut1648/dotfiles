@@ -1,0 +1,151 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "ctrl+c",
+  "command": "vscode-neovim.send",
+  "when": "editorTextFocus && neovim.mode == 'visual'",
+  "args": "<C-c>"
+  },
+  // {
+  //   "key": "ctrl+c",
+  //   "command": "-vscode-neovim.escape",
+  //   "when": "editorTextFocus && neovim.ctrlKeysNormal && neovim.init && !dirtyDiffVisible && !findWidgetVisible && !inReferenceSearchEditor && !markersNavigationVisible && !notebookCellFocused && !notificationCenterVisible && !parameterHintsVisible && !referenceSearchVisible && neovim.mode == 'normal'"
+  // },
+  {
+    "key": "ctrl+/",
+    "command": "vscode-neovim.send",
+    "when": "editorTextFocus && neovim.init",
+    "args": "<C-/>"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "-editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "-list.focusPageDown",
+    "when": "listFocus && !inputFocus"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "-vscode-neovim.send",
+    "when": "editorTextFocus && neovim.ctrlKeysInsert && neovim.mode == 'insert'"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "vscode-neovim.ctrl-d",
+    "when": "neovim.init && neovim.mode != 'insert'"
+  },
+  {
+    "key": "ctrl+d",
+    "command": "-vscode-neovim.ctrl-d",
+    "when": "editorTextFocus && neovim.ctrlKeysNormal && neovim.init && neovim.mode != 'insert'"
+  },
+  {
+    "key": "ctrl+u",
+    "command": "vscode-neovim.ctrl-u",
+    "when": "neovim.init && neovim.mode != 'insert'"
+  },
+  {
+    "key": "ctrl+u",
+    "command": "-vscode-neovim.ctrl-u",
+    "when": "editorTextFocus && neovim.ctrlKeysNormal && neovim.init && neovim.mode != 'insert'"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "-vscode-neovim.ctrl-f",
+    "when": "editorTextFocus && neovim.ctrlKeysNormal && neovim.init && neovim.mode != 'insert'"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "-workbench.action.terminal.focusFind",
+    "when": "terminalFindFocused && terminalHasBeenCreated || terminalFindFocused && terminalProcessSupported || terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
+  },
+  {
+    "key": "ctrl+k ctrl+i",
+    "command": "-workbench.action.terminal.focusHover",
+    "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalIsOpen || terminalFocus && terminalProcessSupported || terminalHasBeenCreated && terminalTabsFocus || terminalIsOpen && terminalTabsFocus || terminalProcessSupported && terminalTabsFocus"
+  },
+  {
+    "key": "ctrl+k ctrl+c",
+    "command": "-editor.action.addCommentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+k m",
+    "command": "-workbench.action.editor.changeLanguageMode",
+    "when": "!notebookEditorFocused"
+  },
+  {
+    "key": "ctrl+k ctrl+,",
+    "command": "-editor.createFoldingRangeFromSelection",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "ctrl+k ctrl+i",
+    "command": "-editor.debug.action.showDebugHover",
+    "when": "editorTextFocus && inDebugMode"
+  },
+  {
+    "key": "ctrl+k ctrl+k",
+    "command": "-editor.action.defineKeybinding",
+    "when": "resource == 'vscode-userdata:/home/jxu/.config/Code/User/keybindings.json'"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "-editor.action.deleteLines",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+k e",
+    "command": "-workbench.files.action.focusOpenEditorsView",
+    "when": "workbench.explorer.openEditorsView.active"
+  },
+  {
+    "key": "ctrl+k c",
+    "command": "-workbench.files.action.compareWithClipboard"
+  },
+  {
+    "key": "ctrl+k d",
+    "command": "-workbench.files.action.compareWithSaved"
+  },
+  {
+    "key": "ctrl+k ctrl+alt+c",
+    "command": "-copyFilePath",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+k ctrl+shift+alt+c",
+    "command": "-copyRelativeFilePath",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+k o",
+    "command": "-workbench.action.files.showOpenedFileInNewWindow",
+    "when": "emptyWorkspaceSupport"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "-vscode-neovim.escape",
+    "when": "editorTextFocus && neovim.ctrlKeysInsert.c && neovim.init && neovim.mode != 'normal' && editorLangId not in 'neovim.editorLangIdExclusions'"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "-vscode-neovim.escape",
+    "when": "editorTextFocus && neovim.ctrlKeysNormal.c && neovim.init && !dirtyDiffVisible && !findWidgetVisible && !inReferenceSearchEditor && !markersNavigationVisible && !notebookCellFocused && !notificationCenterVisible && !parameterHintsVisible && !referenceSearchVisible && neovim.mode == 'normal' && editorLangId not in 'neovim.editorLangIdExclusions'"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "-vscode-neovim.ctrl-f",
+    "when": "editorTextFocus && neovim.ctrlKeysNormal.f && neovim.init && neovim.mode != 'insert' && editorLangId not in 'neovim.editorLangIdExclusions'"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "composerMode.agent"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "composerMode.chat"
+  },
+]
