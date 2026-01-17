@@ -30,12 +30,9 @@
     },
     "terminal.integrated.allowChords": false,
     "terminal.integrated.scrollback": 100000,
-    "extensions.experimental.affinity": {
-        "asvetliakov.vscode-neovim": 1
-    },
     "editor.wordWrap": "on",
     "cursor.cpp.disabledLanguages": [
-        "markdown"
+        "scminput"
     ],
     "editor.rulers": [
         80
@@ -54,5 +51,55 @@
         "*.db3": "${capture}.${extname}-*",
         "*.sdb": "${capture}.${extname}-*",
         "*.s3db": "${capture}.${extname}-*"
-    }
+    },
+    "window.commandCenter": true,
+    "remote.SSH.remotePlatform": {
+        "aws-iad": "linux",
+        "work": "linux",
+        "pool0-0002": "linux",
+        "pool0-1046": "linux",
+        "pool0-0081": "linux",
+        "pool0-0707": "linux",
+        "pool0-0320": "linux",
+        "pool0-1096": "linux",
+        "pool0-0672": "linux",
+        "pool0-1151": "linux",
+        "pool0-1055": "linux",
+        "pool0-1017": "linux",
+        "pool0-1150": "linux",
+        "pool0-0998": "linux",
+        "pool0-0028": "linux",
+        "pool0-0009": "linux",
+        "pool0-1334": "linux",
+        "pool0-0100": "linux",
+        "pool0-0525": "linux",
+        "pool0-0936": "linux",
+        "pool0-0023": "linux",
+        "pool0-1495": "linux",
+        "pool0-1912": "linux",
+        "pool0-1759": "linux",
+        "pool0-1602": "linux",
+        "pool0-1213": "linux",
+        "pool0-0135": "linux",
+        "gcp": "linux",
+        "pool0-0630": "linux",
+        "nvl72D021-T02": "linux",
+        "pool0-1942": "linux",
+        "pool0-1401": "linux",
+        "pool0-1595": "linux",
+        "nvl72D064-T01": "linux",
+        "nvl72D143-T09": "linux",
+        "nvl72D098-T18": "linux",
+        "nvl72D013-T07": "linux",
+        "nvl72D003-T15": "linux",
+        "nvl72D016-T18": "linux",
+        "nvl72D015-T16": "linux",
+        "nvl72D070-T13": "linux"
+    },
+    "git.blame.editorDecoration.enabled": true,
+    "remote.autoForwardPortsSource": "hybrid",
+    "database-client.autoSync": true,
+    "claudeCode.selectedModel": "default",
+    "python.languageServer": "None",
+    "claudeCode.preferredLocation": "panel"
 }

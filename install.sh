@@ -1,7 +1,7 @@
 x=(
     ########## cmd line tools
     cmus # music
-    neofetch feh
+    feh
     ranger
     pyright bash-language-server # lsp for python, bash; c is already in clang
     picom # compositor
@@ -76,6 +76,7 @@ y=(
     neovim-git
     fastmod # used to modify source code
     nodejs-live-server # used for knap plugin in neovim & live-server cmd
+    neofetch
 
     ########## system
     # i3wm auto tile windows if having many windows at same time
@@ -85,6 +86,7 @@ y=(
     fcitx5-material-color # theme
     fcitx5-chinese-addons fcitx5-pinyin-zhwiki # chinese
     fcitx5-mozc-ut # japanese
+    raw-thumbnailer # for viewing raw images in dolphin
 
     ########## applications
     typora calibre foliate sioyek-git logseq-desktop-git # ebook & notes
@@ -159,6 +161,6 @@ optional=(
     noto-fonts ttf-fira-code adobe-source-han-sans
 )
 
-sudo pacman -Syu;
+# sudo pacman -Syu;
 # sudo pacman -S ${x[@]};
 yay -Syu ${y[@]}
